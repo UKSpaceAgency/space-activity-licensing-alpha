@@ -1,0 +1,13 @@
+.box {
+  padding: 15px;
+  background-color: $grey-4;
+
+  @include media(tablet) {
+    padding: 15px;
+  }
+
+  [class*='heading-'] {
+    margin-top: .2em;
+    margin-bottom: .15em;
+  }
+}

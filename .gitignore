@@ -1,0 +1,13 @@
+npm-debug.log
+dist
+static/ui/css/
+node_modules
+
+/.idea/
+
+config.dev.yaml
+
+.DS_Store
+
+*.bak
+/.aws

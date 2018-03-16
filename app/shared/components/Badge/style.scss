@@ -1,0 +1,11 @@
+.badge {
+  padding: 10px 14px 8px;
+
+  &.badge--large {
+    padding: 14px 20px 12px;
+  }
+
+  &.bg-pink {
+    background-color: $baby-pink;
+  }
+}

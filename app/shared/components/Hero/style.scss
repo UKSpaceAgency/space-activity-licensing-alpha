@@ -1,0 +1,58 @@
+.hero {
+
+  @include media(desktop) {
+    margin: 0 0 45px;
+    padding: 0 0 60px;
+  }
+
+  .hero-intro {
+    margin: 0 15px;
+
+    @include media(tablet) {
+      margin: 0 30px;
+
+      max-width: 960px;
+    }
+
+    @include media(1020px) {
+
+      margin: 0 auto;
+    }
+  }
+}
+
+// overrides for the hero area
+.bg--dark {
+
+  color: $white;
+
+  .button:link,
+  .button:visited,
+  .button:hover {
+    color: $govuk-blue;
+  }
+
+  a:link,
+  a:visited {
+    color: $white;
+  }
+
+  .heading-secondary {
+    color: $white;
+  }
+
+  .button {
+    box-shadow: 0 2px 0 darken($govuk-blue, 10%);
+    background: $white;
+    margin-right: 15px;
+    padding-right: 1.25em;
+  }
+
+  summary {
+    color: $white;
+  }
+}
+
+.bg--blue {
+  background-color: $govuk-blue;
+}

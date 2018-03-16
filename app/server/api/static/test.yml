@@ -1,0 +1,126 @@
+---
+contentType: page
+slug: test
+head:
+  contentType: head
+  title: Test page
+breadcrumb:
+- contentType: link
+  text: Home
+  url: "/"
+- contentType: link
+  text: Test
+  url: "/test/"
+content:
+- contentType: hero
+  title: Test page
+  subTitle: Kitchen sink. All the patterns
+- contentType: longform
+  intro: Intro section
+  text: "<p>I can see that this is a long form piece of content</p>"
+- contentType: longform
+  intro: Yeah this is the homepage - well done for reaching this
+  text: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit anim id est laborum</p><p>Lorem ipsum dolor
+    sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+    et dolore magna aliqua. Ut enim ad minim veniamesse cillum dolore eu fugiat nulla
+    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+    deserunt mollit anim id est laborum</p>"
+- contentType: form
+  legend: The examples below show the spacing between form labels, hint text and error
+    messages
+  text: "<p>I can see that this is a long form piece of content</p>"
+  formAction: "/test-page"
+  formItems:
+  - contentType: formGroup
+    label: This is the first item
+    supporting: This is a short section of guidance text
+    input: text
+    modifiers: form-group-error
+  - contentType: fieldSet
+    label: This is the first item
+    legend: This is the legend for this block
+    supporting: This is a short section of guidance text
+    items:
+    - contentType: boolean
+      name: first-radio-item
+      type: radio
+      label: This is the first item
+      supporting: This is a short section of guidance text
+      inputs:
+      - id: ieurhferf
+        value: Item one
+      - id: ieurhferf12
+        value: Item one two
+      - id: ieurhferf21
+        value: Item one two three
+    - contentType: boolean
+      name: second-radio-item
+      type: radio
+      label: This is the first item
+      supporting: This is a short section of guidance text
+      inputs:
+      - id: ieurhferf1
+        value: Item one
+      - id: ieurhferf121
+        value: Item one two
+      - id: ieurhferf211
+        value: Item one two three
+    - contentType: boolean
+      name: third-radio-item
+      type: checkbox
+      label: This is the first item
+      supporting: This is a short section of guidance text
+      inputs:
+      - id: ieurhferf12sdf
+        value: Item one checkbox
+      - id: ieurhferf1212
+        value: Item one two
+      - id: ieurhferf2112
+        value: Item one two three
+    - contentType: button
+      name: submit
+      type: submit
+      label: This is the first item
+  - contentType: fieldSet
+    label: This is the first item
+    legend: This is the legend for this block
+    supporting: This is a short section of guidance text
+    items:
+    - contentType: boolean
+      name: third-radio-item
+      type: checkbox
+      label: This is the first item
+      supporting: This is a short section of guidance text
+      inputs:
+      - id: ieurhferf12sdf
+        value: Item one checkbox
+      - id: ieurhferf1212
+        value: Item one two
+      - id: ieurhferf2112
+        value: Item one two three
+    - contentType: select
+      name: select-item
+      label: This is a select box with a description
+      supporting: This is a short section of guidance text
+      options:
+      - label: Option one
+        value: Item one
+      - label: Option two
+        value: Item one two
+        selected: true
+      - label: dfgh dfgh dfgh df
+        value: Item one two three
+    - contentType: button
+      name: submit
+      type: submit
+      label: This is the first item
+      modifiers: button-start
+  - contentType: heading
+    text: I can see that this is a long form piece of content
+    type: h2
+    modifiers: heading-medium

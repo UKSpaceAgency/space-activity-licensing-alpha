@@ -1,0 +1,14 @@
+.breadcrumbs {
+
+  &.breadcrumbs--inverse {
+    border-bottom: 1px $white solid;
+    border-bottom-color: rgba($white, .25);
+  }
+
+  &.breadcrumbs--inverse a:link,
+  &.breadcrumbs--inverse a:hover,
+  &.breadcrumbs--inverse a:active,
+  &.breadcrumbs--inverse a:visited {
+    color: $white;
+  }
+}

@@ -1,0 +1,26 @@
+// Path to assets for use with the file-url function
+// in the govuk frontend toolkit's url-helpers partial
+$path: '/ui/img';
+
+
+// exported css files as scss for speed as the kit is not complete
+// and a litle disparate if not imported using Gulp
+@charset 'UTF-8';
+@import 'font/fonts';
+@import 'govuk-template';
+@import 'sass/application';
+
+
+// need access to colour variables
+@import 'govuk_frontend_toolkit/stylesheets/_conditionals';
+@import 'govuk_frontend_toolkit/stylesheets/_colours';
+@import 'vertical-spacing';
+@import 'utilities';
+
+// Added components!! BAD
+@import '../../../app/shared/components/hero/style';
+@import '../../../app/shared/components/breadcrumb/style';
+@import '../../../app/shared/components/badge/style';
+@import '../../../app/shared/components/box/style';
+@import '../../../app/shared/components/button/style';
+@import '../../../app/shared/components/panel/style';
