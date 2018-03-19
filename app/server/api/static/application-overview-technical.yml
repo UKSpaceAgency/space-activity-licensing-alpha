@@ -46,7 +46,8 @@ hero:
     contentType: collapsible
     label: Submission overview
     collapsible: true
-    modifiers: border-none
+    panelModifiers: border-none
+    modifiers: spacing--tight
     content: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
       minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -80,7 +81,7 @@ content:
       type: h3
       modifiers: heading-small
     - contentType: button
-      url: '/application-overview/finance'
+      url: '/application-overview/technical/satellite-and-mission-overview'
       label: View
       modifiers: button--full-width
   - contentType: tile

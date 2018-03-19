@@ -4,7 +4,8 @@ import { fetchPage, receivePageError } from './actions'
 
 import NoMatchContainer from './containers/NoMatchContainer/component.jsx'
 import ServerError from './components/ServerError/component.jsx'
-import Page from './containers/Page/component'
+import PageContainer from './containers/PageContainer/component'
+import PageGranularContainer from './containers/PageGranularContainer/component'
 
 /*
  * Render 404 / 500 errors
@@ -45,14 +46,18 @@ let getRoutes = store => {
 
   return (
     <Route path='/'>
-      <IndexRoute component={withFallback(Page)} onEnter={getPage} slug='index'/>
+      <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='index'/>
+      <Route path='applications' component={withFallback(PageContainer)} onEnter={getPage} slug='application-homepage' />
       <Route path='application-overview'>
-        <IndexRoute component={withFallback(Page)} onEnter={getPage} slug='application-overview' />
-        <Route path='technical' component={withFallback(Page)} onEnter={getPage} slug='application-overview-technical' />
+        <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview' />
+        <Route path='technical'>
+          <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview-technical'/>
+          <Route path='satellite-and-mission-overview' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety' />
+        </Route>
       </Route>
-      <Route path='home' component={withFallback(Page)} onEnter={getPage} slug='homepage' />
-      <Route path='test' component={withFallback(Page)} onEnter={getPage} slug='test' />
-      <Route path='*' component={withFallback(Page)} onEnter={getPage} slug='no-match' />
+      <Route path='home' component={withFallback(PageContainer)} onEnter={getPage} slug='homepage' />
+      <Route path='test' component={withFallback(PageContainer)} onEnter={getPage} slug='test' />
+      <Route path='*' component={withFallback(PageContainer)} onEnter={getPage} slug='no-match' />
     </Route>
   )
 }

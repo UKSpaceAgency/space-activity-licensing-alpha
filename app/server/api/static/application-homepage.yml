@@ -1,0 +1,26 @@
+---
+contentType: page
+useComponent: true
+slug: application-homepage
+head:
+  contentType: head
+  title: Application overview listing
+hero:
+  breadcrumb:
+  - contentType: link
+    text: Applications
+    url: "/"
+  title:
+    contentType: title
+    title: Space license applications
+  infoGrid:
+  - contentType: heading
+    text: '<a href="#">1 new</a>, <a href="#">4 open</a>, <a href="#">5 pending</a>'
+    type: p
+    modifiers: lede
+  - contentType: heading
+    text: <a href="#">View completed applications</a>
+    type: p
+    modifiers: lede
+content:
+
