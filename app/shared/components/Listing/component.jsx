@@ -2,13 +2,9 @@ import React from 'react'
 import Grid from '../../components/Grid/component.jsx'
 import GridCol from '../../components/GridCol/component.jsx'
 import Tile from '../../components/Tile/component.jsx'
+import { mapper } from '../../utilities'
 const Listing = props => {
-  let mapper = {
-    1: 'full',
-    2: 'half',
-    3: 'third',
-    4: 'quarter'
-  }
+
   let cols = mapper[props.columns]
   let Grids = props.content.map((val, i) => {
     val.gridModifier = props.gridModifier || null
