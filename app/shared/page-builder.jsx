@@ -17,6 +17,10 @@ export function pageBuilder (pageData) {
   let contentItems = pageData.content
   let reactComponents = []
 
+  if ( !contentItems ) {
+    return null
+  }
+
   for (let i = 0; i < contentItems.length; i++) {
     let item = contentItems[i]
     let reactComponent
