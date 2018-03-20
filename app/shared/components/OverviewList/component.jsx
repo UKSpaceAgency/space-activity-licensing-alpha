@@ -12,7 +12,7 @@ const OverviewList = props => {
       <Grid>
         <GridCol className='column-half'>
           <div className='padding-medium'>
-            <a href={props.url}><h3 className='heading-medium spacing-top--flush'>{props.status && <span className='badge bg-black'>{props.status} </span>} {props.heading.text}</h3></a>
+            <a href={props.url}><h3 className='heading-medium spacing-top--flush'>{props.status && <span className='badge bg-dark-grey font-xsmall'>{props.status} </span>} {props.heading.text}</h3></a>
             <p><strong>{props.name}</strong>: {props.applicantName}</p>
           </div>
         </GridCol>
@@ -24,8 +24,8 @@ const OverviewList = props => {
         </GridCol>
         <GridCol className='column-quarter'>
           <div className='padding-medium'>
-            <p>Application status</p>
-            <strong>{props.appStatus}</strong>
+            <p>Application status <br/><strong>{props.appStatus}</strong></p>
+
           </div>
         </GridCol>
       </Grid>

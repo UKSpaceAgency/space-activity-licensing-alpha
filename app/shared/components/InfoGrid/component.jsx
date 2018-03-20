@@ -5,7 +5,6 @@ import Heading from '../../components/Heading/component.jsx'
 import { mapper } from '../../utilities'
 
 const InfoGrid = props => {
-
   let cols = mapper[props.grid.length]
   let Grids = props.grid.map((val, i) => {
     return <GridCol key={i} className={'column-' + cols}><Heading {...val} /></GridCol>
