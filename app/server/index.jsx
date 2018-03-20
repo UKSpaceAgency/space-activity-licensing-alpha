@@ -2,8 +2,7 @@
 
 import express from 'express'
 import bodyParser from 'body-parser'
-// import path from 'path'
-// import { IndexRoute, RouterContext, Router, Route, Link, match, createMemoryHistory } from 'react-router';
+import basicAuth from 'express-basic-auth'
 import { RouterContext, match } from 'react-router'
 import React from 'react'
 import { Provider } from 'react-redux'
@@ -24,16 +23,22 @@ import apiRoutes from './api/v1/api.js'
 /*
  * Project configuration
 */
-import config from 'config'
+import { config } from 'config'
+
 import packageInfo from '../../package.json'
 
 var store
 
 const app = express()
+
+app.use('/api/v1', apiRoutes)
+app.use(basicAuth({
+  users: config.users,
+  challenge: true
+}))
 app.use(cookieParser())
 app.use(bodyParser.json())
 app.use(express.static('../static'))
-app.use('/api/v1', apiRoutes)
 
 /*
  * Pass Express over to the App via the React Router

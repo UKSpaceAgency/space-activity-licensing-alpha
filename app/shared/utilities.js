@@ -1,5 +1,5 @@
 
-import config from 'config'
+import { config } from 'config'
 
 export function isInBrowser () {
   return typeof window !== 'undefined' && window.document
