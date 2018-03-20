@@ -16,7 +16,7 @@ hero:
     title: Space license applications
   infoGrid:
   - contentType: heading
-    text: '<a href="#">1 new</a>, <a href="#">5 pending</a>'
+    text: '<a href="#">1 new</a>, <a href="#">4 pending</a>'
     type: p
     modifiers: lede
   - contentType: heading
@@ -27,8 +27,8 @@ filters:
 - label: filter
   id: filter-by
   options:
-  - label: Please select
-    value: ""
+  - label: Launch Date
+    value: launch-date
   - label: One
     value: one
   - label: Two
@@ -38,8 +38,8 @@ filters:
 - label: sort
   id: sort-by
   options:
-  - label: Please select
-    value: ""
+  - label: Alphabetically A - Z
+    value: a-z
   - label: One
     value: one
   - label: Two
@@ -49,60 +49,84 @@ filters:
   - label: Four
     value: four
 listing:
-- status: New
-  heading:
-    text: Inmarsat
-    type: h3
-    modifiers: heading-medium spacing-top--flush
-  name: App name
-  applicantName: 11021345
-  appStatus: Awaiting Action
-  url: "/something"
-  reference: 62dsffg7238djuju4756
-  updated: 10th March 2018
-  updater: Rachel Jeffries
-  label:
-    tag: I-OL
-    class: bg-pink
 - heading:
-    text: Inmarsat
-    type: h3
-    modifiers: heading-medium spacing-top--flush
-  name: App name
-  applicantName: 11021345
-  appStatus: Awaiting Action
-  url: "/something"
-  reference: 62dsffg7238djuju4756
-  updated: 10th March 2018
-  updater: Rachel Jeffries
-  label:
-    tag: LS
-    class: bg-red
+    text: New
+    type: h2
+    modifiers: heading-large
+  list:
+  - heading:
+      text: Inmarsat
+      type: h3
+      modifiers: heading-medium spacing-top--flush
+    name: Applicant name
+    applicantName: Richard Branson
+    appStatus: Awaiting Action
+    url: "/something"
+    reference: 62dsffg7238djuju4756
+    updated: 10th March 2018
+    updater: Rachel Jeffries
+    label:
+      tag: I-OL
+      class: bg-pink
 - heading:
-    text: Inmarsat
-    type: h3
-    modifiers: heading-medium spacing-top--flush
-  name: App name
-  applicantName: 11021345
-  appStatus: Awaiting Action
-  url: "/something"
-  reference: 62dsffg7238djuju4756
-  updated: 10th March 2018
-  updater: Rachel Jeffries
-  label:
-    tag: I-OL
-    class: bg-pink
-- heading:
-    text: Lockheed Martin
-    type: h3
-    modifiers: heading-medium spacing-top--flush
-  name: App name
-  applicantName: sdfgsdfgsdfgsdfgdf
-  appStatus: Awaiting Action
-  url: "/something"
-  reference: 62dsffg7238djuju4756
-  updated: 10th March 2018
-  updater: Rachel Jeffries
-  label:
-    tag: LS
-    class: bg-red
+    text: Pending
+    type: h2
+    modifiers: heading-large
+  list:
+  - status: 3 updates
+    heading:
+      text: Inmarsat
+      type: h3
+      modifiers: heading-medium spacing-top--flush
+    name: Applicant name
+    applicantName: Richard Branson
+    appStatus: Awaiting Action
+    url: "/something"
+    reference: 62dsffg7238djuju4756
+    updated: 10th March 2018
+    updater: Rachel Jeffries
+    label:
+      tag: I-OL
+      class: bg-pink
+  - heading:
+      text: Inmarsat
+      type: h3
+      modifiers: heading-medium spacing-top--flush
+    name: Applicant name
+    applicantName: Richard Branson
+    appStatus: Awaiting Action
+    url: "/something"
+    reference: 62dsffg7238djuju4756
+    updated: 10th March 2018
+    updater: Rachel Jeffries
+    label:
+      tag: LS
+      class: bg-red
+  - heading:
+      text: Inmarsat
+      type: h3
+      modifiers: heading-medium spacing-top--flush
+    name: Applicant name
+    applicantName: Richard Branson
+    appStatus: Awaiting Action
+    url: "/something"
+    reference: 62dsffg7238djuju4756
+    updated: 10th March 2018
+    updater: Rachel Jeffries
+    label:
+      tag: I-OL
+      class: bg-pink
+  - heading:
+      text: Lockheed Martin
+      type: h3
+      modifiers: heading-medium spacing-top--flush
+    name: Applicant name
+    applicantName: Julie Adams
+    appStatus: Awaiting Action
+    url: "/something"
+    reference: 62dsffg7238djuju4756
+    updated: 10th March 2018
+    updater: Rachel Jeffries
+    label:
+      tag: LS
+      class: bg-red
