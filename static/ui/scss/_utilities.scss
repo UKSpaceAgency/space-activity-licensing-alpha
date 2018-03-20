@@ -3,7 +3,6 @@
   float: left;
 }
 
-
 .float-right {
   float: right;
 }
@@ -12,3 +11,48 @@
 .quiet {
   font-weight: normal;
 }
+
+.relative {
+  position: relative;
+}
+
+.bottom-border {
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+
+    @include media(tablet) {
+      width: 50%;
+    }
+  }
+
+  &.bottom-border-bg-pink {
+    &::after {
+      background-color: $baby-pink;
+    }
+  }
+
+  &.bottom-border-bg-green {
+    &::after {
+      background-color: $green;
+    }
+  }
+
+  &.bottom-border-bg-orange {
+    &::after {
+      background-color: $orange;
+    }
+  }
+
+  &.bottom-border-bg-red {
+    &::after {
+      background-color: $red;
+    }
+  }
+}
+

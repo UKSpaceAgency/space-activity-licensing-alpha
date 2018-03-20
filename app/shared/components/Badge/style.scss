@@ -9,4 +9,13 @@
     color: $black;
     background-color: $baby-pink;
   }
+
+  &.badge--fixed {
+
+    @include media(tablet) {
+      position: absolute;
+      bottom: 0;
+      right: 50%;
+    }
+  }
 }
