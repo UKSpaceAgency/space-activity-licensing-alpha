@@ -33,8 +33,8 @@ const app = express()
 
 app.use('/api/v1', apiRoutes)
 app.use(basicAuth({
-    users: { 'admin': 'supersecret' },
-    challenge: true
+  users: config.users,
+  challenge: true
 }))
 app.use(cookieParser())
 app.use(bodyParser.json())

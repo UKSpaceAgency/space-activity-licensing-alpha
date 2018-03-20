@@ -10,12 +10,11 @@ var env = process.env.BUILD_CONFIG || 'development'
 var baseConfig = {}
 var envConfig = {}
 
-function loadConfig(filename) {
+function loadConfig (filename) {
   try {
     var src = fs.readFileSync(process.cwd() + filename, 'utf8')
     const schema = yimp.getSchema(path.join(process.cwd(), '../'))
     return yaml.safeLoad(src, { schema: schema })
-
   } catch (err) {
     if (err.name === 'YAMLException') {
       throw err
@@ -23,8 +22,8 @@ function loadConfig(filename) {
   }
 }
 
-var baseConfig = loadConfig('/../config.yaml')
-var envConfig = loadConfig('/../config.' + env + '.yaml')
+baseConfig = loadConfig('/../config.yaml')
+envConfig = loadConfig('/../config.' + env + '.yaml')
 
 baseConfig.buildTimestamp = Date.now()
 
