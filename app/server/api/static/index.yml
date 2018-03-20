@@ -3,103 +3,31 @@ contentType: page
 slug: index
 head:
   contentType: head
-  title: Index for the Space Agency Uk prototype home page
-breadcrumb:
-- contentType: link
-  text: Index
-  url: "/"
+  title: Index page for the Space Agency Uk prototype home page
+hero:
+  modifiers: bg--dark bg-blue
+  breadcrumb:
+  - contentType: link
+    text: Space Agency UK index page
+    url: "/"
+  title:
+    contentType: title
+    title: Space Agency Uk
+    subTitle: alpha prototype for
+
 content:
-- contentType: hero
-  title: Index
-  subTitle: Journeys all arranged
-- contentType: longform
-  intro: Intro section
-  text: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-    culpa qui officia deserunt mollit anim id est laborum</p><p>Lorem ipsum dolor
-    sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-    et dolore magna aliqua. Sunt in culpa qui officia deserunt mollit anim id est
-    laborum</p>"
-- contentType: collapsible
-  label: I can see that this is another
-  content: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-    culpa qui officia deserunt mollit anim id est laborum</p><p>Lorem ipsum dolor
-    sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-    et dolore magna aliqua. Sunt in culpa qui officia deserunt mollit anim id est
-    laborum</p>"
-  modifiers: heading-large
 - contentType: heading
-  text: This is a heading but an H2 with a 'heading large' class
-  type: h2
-  modifiers: heading-large
-- contentType: collapsible
-  label: Open on load
-  open: true
-  content: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-    culpa qui officia deserunt mollit anim id est laborum</p><p>Lorem ipsum dolor
-    sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-    et dolore magna aliqua. Sunt in culpa qui officia deserunt mollit anim id est
-    laborum</p>"
-  modifiers: heading-large
-- contentType: list
-  modifiers: list-bullet
-  list:
-  - url: "#"
-    text: This is the first item in the list
-  - text: This is the first item in the list
-  - url: "#"
-    text: This is the first item in the list
-  - url: "#"
-    text: This is the first item in the list
-  - text: This is the first item in the list
-  - text: This is the first item in the list
-  - url: "#"
-    text: This is the first item in the list
-- contentType: heading
-  text: I can see that this is a long form piece of content
+  text: User stories - sprint 1
   type: h2
   modifiers: heading-medium
 - contentType: list
-  modifiers: list-number
+  modifiers: list-bullet
   list:
-  - url: "#"
-    text: This is the first item in the list
-  - text: This is the first item in the list
-  - text: This is the first item in the list
-  - url: "#"
-    text: This is the first item in the list
-  - url: "#"
-    text: This is the first item in the list
-  - modifiers: bold-xsmall
-    url: "#"
-    text: This is the first item in the list
-  - modifiers: bold
-    text: This is the first item in the list
-- contentType: panel
-  content: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-    culpa qui officia deserunt mollit anim id est laborum</p><p>Lorem ipsum dolor
-    sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-    et dolore magna aliqua. Sunt in culpa qui officia deserunt mollit anim id est
-    laborum</p>"
-  modifiers: panel-border-wide
-- contentType: notice
-  label: warning
-  modifiers: icon-important
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip
+  - url: "/application-overview"
+    text: "Overview: new app status (112)"
+  - url: "/application-overview/technical"
+    text: "Application pages: whole application + documentation (97)"
+  - url: "/applications"
+    text: "Application dashboard / homepage (95)"
+  - url: "/application-overview/technical/satellite-and-mission-overview"
+    text: "Notes and comments (77)"

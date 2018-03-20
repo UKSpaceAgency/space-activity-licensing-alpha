@@ -1,0 +1,108 @@
+---
+contentType: page
+useComponent: true
+slug: application-homepage
+head:
+  contentType: head
+  title: Application overview listing
+breadcrumb:
+- contentType: link
+  text: Applications
+  url: "/"
+hero:
+  modifiers: border
+  title:
+    contentType: title
+    title: Space license applications
+  infoGrid:
+  - contentType: heading
+    text: '<a href="#">1 new</a>, <a href="#">5 pending</a>'
+    type: p
+    modifiers: lede
+  - contentType: heading
+    text: <a href="#">View completed applications</a>
+    type: p
+    modifiers: lede
+filters:
+- label: filter
+  id: filter-by
+  options:
+  - label: Please select
+    value: ""
+  - label: One
+    value: one
+  - label: Two
+    value: two
+  - label: Three
+    value: three
+- label: sort
+  id: sort-by
+  options:
+  - label: Please select
+    value: ""
+  - label: One
+    value: one
+  - label: Two
+    value: two
+  - label: Three
+    value: three
+  - label: Four
+    value: four
+listing:
+- status: New
+  heading:
+    text: Inmarsat
+    type: h3
+    modifiers: heading-medium spacing-top--flush
+  name: App name
+  applicantName: 11021345
+  appStatus: Awaiting Action
+  url: "/something"
+  reference: 62dsffg7238djuju4756
+  updated: 10th March 2018
+  updater: Rachel Jeffries
+  label:
+    tag: I-OL
+    class: bg-pink
+- heading:
+    text: Inmarsat
+    type: h3
+    modifiers: heading-medium spacing-top--flush
+  name: App name
+  applicantName: 11021345
+  appStatus: Awaiting Action
+  url: "/something"
+  reference: 62dsffg7238djuju4756
+  updated: 10th March 2018
+  updater: Rachel Jeffries
+  label:
+    tag: LS
+    class: bg-red
+- heading:
+    text: Inmarsat
+    type: h3
+    modifiers: heading-medium spacing-top--flush
+  name: App name
+  applicantName: 11021345
+  appStatus: Awaiting Action
+  url: "/something"
+  reference: 62dsffg7238djuju4756
+  updated: 10th March 2018
+  updater: Rachel Jeffries
+  label:
+    tag: I-OL
+    class: bg-pink
+- heading:
+    text: Lockheed Martin
+    type: h3
+    modifiers: heading-medium spacing-top--flush
+  name: App name
+  applicantName: sdfgsdfgsdfgsdfgdf
+  appStatus: Awaiting Action
+  url: "/something"
+  reference: 62dsffg7238djuju4756
+  updated: 10th March 2018
+  updater: Rachel Jeffries
+  label:
+    tag: LS
+    class: bg-red

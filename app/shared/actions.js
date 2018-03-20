@@ -33,10 +33,8 @@ export function fetchPage (slug, type = 'pages') {
   return dispatch => {
     dispatch(requestPage())
     let lookupUrl = apiHost + '/api/v1/' + type + '/' + slug
-
     return axios.get(lookupUrl)
       .then(res => {
-        // console.log(res.data, 'fetching the page')
         dispatch(receivePage(res.data))
       })
       .catch(err => {

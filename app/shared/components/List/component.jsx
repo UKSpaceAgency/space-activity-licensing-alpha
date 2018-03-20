@@ -1,34 +1,35 @@
 import React from 'react'
 import classNames from 'classnames'
 
-export default class List extends React.Component {
-  render () {
-    let classes = classNames('list', this.props.className, this.props.modifiers)
+const List = props => {
+  let classes = classNames('list', props.className, props.modifiers)
 
-    const list = this.props.list.map((item, index) => {
-      let listItem
-      let itemClasses = classNames(item.modifiers)
+  const list = props.list.map((item, index) => {
+    let listItem
+    let itemClasses = classNames(item.modifiers)
+    let supporting = item.supporting ? item.supporting : null
 
-      if (item.url) {
-        listItem = (<li key={index} className={itemClasses}>
-          <a href={item.url}>
-            {item.text}
-          </a>
-        </li>
-        )
-      } else {
-        listItem = (
-          <li key={index} className={itemClasses}>{item.text}</li>
-        )
-      }
+    if (item.url) {
+      listItem = (<li key={index} className={itemClasses}>
+        <a href={item.url}>
+          {item.text} {supporting}
+        </a>
+      </li>
+      )
+    } else {
+      listItem = (
+        <li key={index} className={itemClasses}>{item.text} {supporting}</li>
+      )
+    }
 
-      return listItem
-    })
+    return listItem
+  })
 
-    return (
-      <ul className={classes}>
-        {list}
-      </ul>
-    )
-  }
+  return (
+    <ul className={classes}>
+      {list}
+    </ul>
+  )
 }
+
+export default List

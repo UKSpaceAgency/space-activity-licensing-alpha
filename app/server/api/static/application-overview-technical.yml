@@ -6,7 +6,7 @@ head:
   contentType: head
   title: Test page
 hero:
-  modifiers: bg--dark bg--blue
+  modifiers: bg--dark bg-blue
   breadcrumb:
   - contentType: link
     text: Space Agency UK
@@ -46,7 +46,8 @@ hero:
     contentType: collapsible
     label: Submission overview
     collapsible: true
-    modifiers: border-none
+    panelModifiers: border-none
+    modifiers: spacing--tight
     content: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
       minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -55,7 +56,7 @@ content:
 - contentType: heading
   text: Technical
   type: h2
-  modifiers: heading-large
+  modifiers: heading-large spacing-top--flush
 - contentType: listing
   columns: 1
   gridModifier: column-third
@@ -65,7 +66,7 @@ content:
       contentType: heading
       text: Satellite and mission overview
       type: h3
-      modifiers: heading-large
+      modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
@@ -80,7 +81,7 @@ content:
       type: h3
       modifiers: heading-small
     - contentType: button
-      url: '/application-overview/finance'
+      url: '/application-overview/technical/satellite-and-mission-overview'
       label: View
       modifiers: button--full-width
   - contentType: tile
@@ -88,7 +89,7 @@ content:
       contentType: heading
       text: Safety and damage considerations
       type: h3
-      modifiers: heading-large
+      modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
@@ -111,7 +112,7 @@ content:
       contentType: heading
       text: Launch information
       type: h3
-      modifiers: heading-large
+      modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"

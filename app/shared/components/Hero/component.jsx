@@ -7,9 +7,11 @@ import Longform from '../../components/Longform/component.jsx'
 import Collapsible from '../../components/Collapsible/component.jsx'
 import Grid from '../../components/Grid/component.jsx'
 import GridCol from '../../components/GridCol/component.jsx'
+import Heading from '../../components/Heading/component.jsx'
 
 const Hero = props => {
   let classes = classNames('hero', props.className, props.modifiers)
+
   return (
     <div className={classes}>
       <div className='hero-intro' id='intro'>
@@ -20,6 +22,7 @@ const Hero = props => {
           {props.infoGrid && <GridCol className='column-full'><InfoGrid grid={props.infoGrid}/></GridCol>}
           {props.synopsis && <GridCol className='column-three-quarters'><Longform {...props.synopsis}/></GridCol>}
           {props.synopsisCollapsible && <GridCol className='column-three-quarters'><Collapsible {...props.synopsisCollapsible}/></GridCol>}
+          {props.heading && <GridCol className='column-three-quarters'><Heading {...props.heading}/></GridCol>}
         </Grid>
       </div>
     </div>
