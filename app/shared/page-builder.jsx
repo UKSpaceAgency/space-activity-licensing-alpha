@@ -1,4 +1,3 @@
-
 import React from 'react'
 import Blockquote from './components/Blockquote/component'
 import Longform from './components/Longform/component'
@@ -17,7 +16,7 @@ export function pageBuilder (pageData) {
   let contentItems = pageData.content
   let reactComponents = []
 
-  if ( !contentItems ) {
+  if (!contentItems) {
     return null
   }
 
