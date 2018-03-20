@@ -13,19 +13,19 @@ const OverviewList = props => {
         <GridCol className='column-half'>
           <div className='padding-medium'>
             <a href={props.url}><h3 className='heading-medium spacing-top--flush'>{props.status && <span className='badge bg-black'>{props.status} </span>} {props.heading.text}</h3></a>
-            <p><b>{props.name}</b>: {props.applicantName}</p>
+            <p><strong>{props.name}</strong>: {props.applicantName}</p>
           </div>
         </GridCol>
         <GridCol className='column-quarter'>
           <div className='padding-medium'>
-            <p>Last updated<br/><b>{props.updated}</b></p>
-            <p>By: <b>{props.updater}</b></p>
+            <p>Last updated<br/><strong>{props.updated}</strong></p>
+            <p>By: <strong>{props.updater}</strong></p>
           </div>
         </GridCol>
         <GridCol className='column-quarter'>
           <div className='padding-medium'>
             <p>Application status</p>
-            <b>{props.appStatus}</b>
+            <strong>{props.appStatus}</strong>
           </div>
         </GridCol>
       </Grid>

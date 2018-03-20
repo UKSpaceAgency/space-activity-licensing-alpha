@@ -1,0 +1,33 @@
+Searching 77 files for "isArray"
+
+/Users/joel/Desktop/react-projects/spaceuk-alpha/space-activity-licensing-alpha/app/shared/components/FormBuilder/component.jsx:
+    9: import { isArray } from '../../utilities'
+   14:   formItems = isArray(formItems) ? formItems : [formItems]
+
+/Users/joel/Desktop/react-projects/spaceuk-alpha/space-activity-licensing-alpha/app/shared/containers/FilterBlock/component.jsx:
+    6: import { isArray } from '../../components/Select/component.jsx'
+   15:   // let flattened = isArray(props.content) ? props.content : Object.values(props.content)
+
+/Users/joel/Desktop/react-projects/spaceuk-alpha/space-activity-licensing-alpha/app/shared/containers/SidenavContainer/component.jsx:
+    4: import { isArray } from '../../utilities'
+    8:   let flattened = isArray(props.content) ? props.content : Object.values(props.content)
+
+/Users/joel/Desktop/react-projects/spaceuk-alpha/space-activity-licensing-alpha/app/shared/utilities.js:
+   18: export function isArray (obj) {
+   23:   if (isArray(needles)) {
+
+8 matches across 4 files
+
+
+Searching 77 files for "bg--blue"
+
+/Users/joel/Desktop/react-projects/spaceuk-alpha/space-activity-licensing-alpha/app/server/api/static/application-overview-technical.yml:
+    9:   modifiers: bg--dark bg--blue
+
+/Users/joel/Desktop/react-projects/spaceuk-alpha/space-activity-licensing-alpha/app/server/api/static/application-overview.yml:
+    9:   modifiers: bg--dark bg--blue
+
+/Users/joel/Desktop/react-projects/spaceuk-alpha/space-activity-licensing-alpha/app/server/api/static/technical-safety.yml:
+   21:   modifiers: bg--dark bg-blue padded
+
+3 matches across 3 files

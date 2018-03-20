@@ -34,40 +34,43 @@
       padding: 0 30px 15px;
     }
   }
+
+  &.border {
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+  }
+
+  // overrides for the hero area
+  &.bg--dark {
+
+    color: $white;
+
+    .button:link,
+    .button:visited,
+    .button:hover {
+      color: $govuk-blue;
+    }
+
+    a:link,
+    a:visited {
+      color: $white;
+    }
+
+    .heading-secondary {
+      color: $white;
+    }
+
+    .button {
+      box-shadow: 0 2px 0 darken($govuk-blue, 10%);
+      background: $white;
+      margin-right: 15px;
+      padding-right: 1.25em;
+    }
+
+    summary {
+      color: $white;
+    }
+  }
 }
 
-// overrides for the hero area
-.bg--dark {
 
-  color: $white;
-
-  .button:link,
-  .button:visited,
-  .button:hover {
-    color: $govuk-blue;
-  }
-
-  a:link,
-  a:visited {
-    color: $white;
-  }
-
-  .heading-secondary {
-    color: $white;
-  }
-
-  .button {
-    box-shadow: 0 2px 0 darken($govuk-blue, 10%);
-    background: $white;
-    margin-right: 15px;
-    padding-right: 1.25em;
-  }
-
-  summary {
-    color: $white;
-  }
-}
-
-.bg--blue {
-  background-color: $govuk-blue;
-}
