@@ -1,4 +1,3 @@
-
 import React from 'react'
 import Blockquote from './components/Blockquote/component'
 import Longform from './components/Longform/component'
@@ -21,6 +20,10 @@ export function pageBuilder (pageData) {
   }
 
   let reactComponents = []
+
+  if (!contentItems) {
+    return null
+  }
 
   for (let i = 0; i < contentItems.length; i++) {
     let item = contentItems[i]
