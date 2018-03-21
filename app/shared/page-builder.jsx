@@ -44,7 +44,6 @@ export function pageBuilder (pageData) {
         reactComponent = <Panel {...item} key={i} />
         break
       case 'infoGrid':
-      console.log(item)
         reactComponent = <InfoGrid {...item} key={i} />
         break
       case 'list':

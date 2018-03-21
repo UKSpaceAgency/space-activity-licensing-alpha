@@ -12,7 +12,7 @@ const Tile = props => {
   })
 
   let Grids = props.grid.map((val, i) => {
-    let mod = (val.gridModifier +' '+ classes) || classes
+    let mod = (val.gridModifier + ' ' + classes) || classes
     let component
 
     switch (val.contentType) {
