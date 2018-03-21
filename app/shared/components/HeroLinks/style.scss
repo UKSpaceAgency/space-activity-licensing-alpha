@@ -1,0 +1,17 @@
+.hero-links {
+  background-color: $black;
+  padding: 15px;
+  position: relative;
+  bottom: -30px;
+
+  @include media(tablet) {
+    position: absolute;
+    bottom: -45px; // this is to match / offset the bottom padding of the hero
+    right: 15px;
+    width: 22%;
+  }
+
+  .badge {
+    margin-right: 0;
+  }
+}

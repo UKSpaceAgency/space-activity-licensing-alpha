@@ -18,7 +18,7 @@ hero:
     text: Application 11021411
   licenceType:
   - contentType: heading
-    text: Orbital licence
+    text: In-orbit licence
     type: p
     modifiers: heading-medium badge badge--large bg-pink
   - contentType: heading
@@ -28,7 +28,7 @@ hero:
   title:
     contentType: title
     title: Inmarsat Application
-    subTitle: this is a smaller bit of content to support the main title
+    # subTitle: this is a smaller bit of content to support the main title
   infoGrid:
   - contentType: heading
     text: "<span class='quiet'>Satellite number: </span> Gh341211b"
@@ -42,14 +42,54 @@ hero:
     text: "<span class='quiet'>Status: </span> Partially Complete"
     type: h3
     modifiers: heading-small
-  synopsis:
-    contentType: longform
-    intro: Submission overview
-    modifiers: heading-medium
-    text: "<p class='lede'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.</p>"
+  licenceTypeGrid:
+  - contentType: heading
+    text: "<span class='quiet'>Satellite number: </span> Gh341211b"
+    type: h3
+    modifiers: heading-small
+  - contentType: heading
+    text: "<span class='quiet'>Submitted: </span>4 June 2017"
+    type: h3
+    modifiers: heading-small
+  - contentType: heading
+    text: "<span class='quiet'>Status: </span> Partially Complete"
+    type: h3
+    modifiers: heading-small
+
+  heroLinks:
+    links:
+      modifiers: list-arrow list-arrow--dark
+      list:
+      - url: "#"
+        text: Finance
+      - url: "#"
+        text: Frequency
+      - url: "#"
+        text: Frequency
+      - url: "#"
+        text: Frequency
+      - url: "#"
+        text: Frequency
+      - url: "#"
+        text: Frequency
+    notice:
+      contentType: heading
+      text: "<span class='quiet'>Launch Date</span> <br/>4 June 2018"
+      type: h2
+      modifiers: badge bg-pink heading-small
+    heading:
+      contentType: heading
+      text: License overview
+      type: h2
+      modifiers: heading-small spacing-top--tight
+  # synopsis:
+  #   contentType: longform
+  #   intro: Submission overview
+  #   modifiers: heading-medium
+  #   text: "<p class='lede'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+  #     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+  #     minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+  #     commodo consequat.</p>"
 content:
 - contentType: heading
   text: Applications sections

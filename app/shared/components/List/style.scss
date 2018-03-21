@@ -1,0 +1,36 @@
+$icon-dims: 13px;
+
+.list {
+
+  &.list-arrow {
+    display: block;
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -($icon-dims / 2);
+        width: $icon-dims;
+        height: $icon-dims;
+        background-image: url(../img/icons/chevron-right.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  &.list-arrow--dark {
+    li {
+
+      &:after {
+        background-image: url(../img/icons/chevron-right-white.svg);
+      }
+    }
+  }
+}
