@@ -47,7 +47,7 @@ hero:
     heading:
       text: Licence type
       type: h3
-      modifiers: heading-small border-bottom spacing-bottom--single bottom-border-bg-white
+      modifiers: heading-small spacing-bottom--single border bottom-border
     items:
     - contentType: boolean
       name: license-type

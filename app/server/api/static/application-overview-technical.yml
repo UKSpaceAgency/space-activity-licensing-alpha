@@ -28,7 +28,7 @@ hero:
   title:
     contentType: title
     title: Inmarsat Application
-    modifiers: heading-medium
+    modifiers: heading-xlarge spacing-bottom--tight
   infoGrid:
   - contentType: heading
     text: "<span class='quiet'>Satellite name: </span> Gh341211b"
@@ -65,71 +65,86 @@ content:
     heading:
       contentType: heading
       text: Satellite and mission overview
-      type: h3
+      type: p
       modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: h3
+      type: p
       modifiers: heading-small
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
-      type: h3
+      type: p
       modifiers: heading-small
     - contentType: button
       url: '/application-overview/technical/satellite-and-mission-overview'
       label: View
       modifiers: button--full-width
+    - contentType: divider
+      modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
+      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      type: p
       modifiers: heading-small
-
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      type: p
+      modifiers: heading-small
   - contentType: tile
     heading:
       contentType: heading
       text: Safety and damage considerations
-      type: h3
+      type: p
       modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: h3
+      type: p
       modifiers: heading-small
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
-      type: h3
+      type: p
       modifiers: heading-small
     - contentType: button
       url: '/application-overview/frequency'
       label: View
       modifiers: button--full-width
+    - contentType: divider
+      modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
+      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      type: p
       modifiers: heading-small
-
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      type: p
+      modifiers: heading-small
   - contentType: tile
     heading:
       contentType: heading
       text: Launch information
-      type: h3
+      type: p
       modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: h3
+      type: p
       modifiers: heading-small
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
-      type: h3
+      type: p
       modifiers: heading-small
     - contentType: button
       url: '/application-overview/insurance'
       label: View
       modifiers: button--full-width
+    - contentType: divider
+      modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
+      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      type: p
       modifiers: heading-small
-
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      type: p
+      modifiers: heading-small
