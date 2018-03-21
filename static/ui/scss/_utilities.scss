@@ -42,6 +42,12 @@
     }
   }
 
+  &.bottom-border-bg-white {
+    &::after {
+      background-color: $white;
+    }
+  }
+
   &.bottom-border-bg-orange {
     &::after {
       background-color: $orange;

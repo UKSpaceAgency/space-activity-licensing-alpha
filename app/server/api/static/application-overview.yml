@@ -43,19 +43,25 @@ hero:
     type: h3
     modifiers: heading-small
   licenceTypeGrid:
-  - contentType: heading
-    text: "<span class='quiet'>Satellite number: </span> Gh341211b"
-    type: h3
-    modifiers: heading-small
-  - contentType: heading
-    text: "<span class='quiet'>Submitted: </span>4 June 2017"
-    type: h3
-    modifiers: heading-small
-  - contentType: heading
-    text: "<span class='quiet'>Status: </span> Partially Complete"
-    type: h3
-    modifiers: heading-small
-
+    heading:
+      text: Licence type
+      type: h3
+      modifiers: heading-small border-bottom spacing-bottom--single bottom-border-bg-white
+    items:
+    - contentType: boolean
+      name: license-type
+      type: checkbox
+      modifiers: multiple-choice--inline
+      inputs:
+      - id: ieurhferf
+        value: Launch & commissioning
+      - id: ieurhferf12
+        value: commissioning
+      - id: ieurhferf21
+        checked: true
+        value: Operational
+      - id: ieurhferfsfdg21
+        value: Emergency
   heroLinks:
     links:
       modifiers: list-arrow list-arrow--dark
@@ -113,14 +119,19 @@ content:
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
       type: h3
       modifiers: heading-small
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
-      modifiers: heading-small
     - contentType: button
       url: '/application-overview/finance'
       label: View
       modifiers: button--full-width
+      gridModifier: column-full
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: h3
+      modifiers: heading-small
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: h3
+      modifiers: heading-small
   - contentType: tile
     heading:
       contentType: heading
@@ -136,14 +147,20 @@ content:
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
       type: h3
       modifiers: heading-small
+    - contentType: button
+      fullWidth: true
+      url: '/application-overview/frequency'
+      label: View
+      modifiers: button--full-width
+      gridModifier: column-full
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
       type: h3
       modifiers: heading-small
-    - contentType: button
-      url: '/application-overview/frequency'
-      label: View
-      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: h3
+      modifiers: heading-small
   - contentType: tile
     heading:
       contentType: heading
@@ -159,14 +176,19 @@ content:
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
       type: h3
       modifiers: heading-small
+    - contentType: button
+      url: '/application-overview/insurance'
+      label: View
+      gridModifier: column-full
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
       type: h3
       modifiers: heading-small
-    - contentType: button
-      url: '/application-overview/insurance'
-      label: View
-      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: h3
+      modifiers: heading-small
   - contentType: tile
     heading:
       contentType: heading
@@ -182,11 +204,121 @@ content:
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
       type: h3
       modifiers: heading-small
+    - contentType: button
+      url: '/application-overview/technical'
+      label: View
+      modifiers: button--full-width
+      gridModifier: column-full
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: h3
+      modifiers: heading-small
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: h3
+      modifiers: heading-small
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Legal
+      type: h3
+      modifiers: heading-large
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: h3
+      modifiers: heading-small
+    - contentType: heading
+      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
+      type: h3
+      modifiers: heading-small
+    - contentType: button
+      fullWidth: true
+      url: '/application-overview/frequency'
+      label: View
+      modifiers: button--full-width
+      gridModifier: column-full
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: h3
+      modifiers: heading-small
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: h3
+      modifiers: heading-small
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Political
+      icon: tick
+      type: h3
+      modifiers: heading-large
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: h3
+      modifiers: heading-small
+    - contentType: heading
+      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
+      type: h3
+      modifiers: heading-small
+    - contentType: button
+      url: '/application-overview/insurance'
+      label: View
+      gridModifier: column-full
+      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: h3
+      modifiers: heading-small
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: h3
+      modifiers: heading-small
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: MOD
+      type: h3
+      modifiers: heading-large
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: h3
+      modifiers: heading-small
+    - contentType: heading
+      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
       type: h3
       modifiers: heading-small
     - contentType: button
       url: '/application-overview/technical'
       label: View
       modifiers: button--full-width
+      gridModifier: column-full
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: h3
+      modifiers: heading-small
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: h3
+      modifiers: heading-small
+- contentType: heading
+  text: Operator Contact
+  type: h2
+  modifiers: heading-medium
+- contentType: heading
+  text: James Smart
+  type: p
+  modifiers: heading-small border-bottom border-bottom-bg-dark-grey
+- contentType: infoGrid
+  grid:
+  - contentType: heading
+    text: "<a href='mailto:james@inmarsat.com'>email: james@inmarsat.com</a>"
+    type: p
+  - contentType: heading
+    text: "phone: 0117 801735"
+    type: p
+  - contentType: heading
+    text: "mobile: +44 7882281628"
+    type: p

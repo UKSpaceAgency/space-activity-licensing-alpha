@@ -9,6 +9,7 @@ import Grid from '../../components/Grid/component.jsx'
 import GridCol from '../../components/GridCol/component.jsx'
 import Heading from '../../components/Heading/component.jsx'
 import HeroLinks from '../../components/HeroLinks/component.jsx'
+import CheckboxGridContainer from '../../containers/CheckboxGridContainer/component.jsx'
 
 const Hero = props => {
   let classes = classNames('hero', props.className, props.modifiers)
@@ -24,6 +25,7 @@ const Hero = props => {
           {props.synopsis && <GridCol className='column-three-quarters'><Longform {...props.synopsis}/></GridCol>}
           {props.synopsisCollapsible && <GridCol className='column-three-quarters'><Collapsible {...props.synopsisCollapsible}/></GridCol>}
           {props.heading && <GridCol className='column-three-quarters'><Heading {...props.heading}/></GridCol>}
+          {props.licenceTypeGrid && <GridCol className='column-three-quarters'><CheckboxGridContainer {...props.licenceTypeGrid}/></GridCol>}
           {props.heroLinks && <HeroLinks {...props.heroLinks}/>}
         </Grid>
       </div>

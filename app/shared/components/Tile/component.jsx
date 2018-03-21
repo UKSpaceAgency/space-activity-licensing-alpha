@@ -11,8 +11,9 @@ const Tile = props => {
   })
 
   let Grids = props.grid.map((val, i) => {
+    let mod = (val.gridModifier +' '+ classes) || classes
     let block = val.contentType === 'heading' ? <Heading {...val} /> : <Button {...val} />
-    return <GridCol className={classes} key={i}>{block}</GridCol>
+    return <GridCol className={mod} key={i}>{block}</GridCol>
   })
 
   return (
