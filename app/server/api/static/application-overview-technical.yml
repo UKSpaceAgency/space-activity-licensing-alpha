@@ -32,16 +32,20 @@ hero:
   infoGrid:
   - contentType: heading
     text: "<span class='quiet'>Satellite name: </span> Gh341211b"
-    type: h3
+    type: p
     modifiers: heading-small
   - contentType: heading
     text: "<span class='quiet'>Submitted: </span>4 June 2017"
-    type: h3
+    type: p
     modifiers: heading-small
   - contentType: heading
     text: "<span class='quiet'>Status: </span> Partially Complete"
-    type: h3
+    type: p
     modifiers: heading-small
+  - contentType: heading
+    text: "<span class='quiet'>Launch Date</span><br/>4 June 2018"
+    type: p
+    modifiers: badge bg-pink heading-small spacing-top--flush
   synopsisCollapsible:
     contentType: collapsible
     label: Read more about mission

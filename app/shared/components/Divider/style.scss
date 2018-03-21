@@ -1,4 +1,9 @@
 .divider {
-    clear: both;
-    display: block;
+  clear: both;
+  display: block;
+
+  .grid-row & {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 }

@@ -33,20 +33,20 @@ hero:
   infoGrid:
   - contentType: heading
     text: "<span class='quiet'>Satellite number: </span> Gh341211b"
-    type: h3
+    type: p
     modifiers: heading-small
   - contentType: heading
     text: "<span class='quiet'>Submitted: </span>4 June 2017"
-    type: h3
+    type: p
     modifiers: heading-small
   - contentType: heading
     text: "<span class='quiet'>Status: </span> Partially Complete"
-    type: h3
+    type: p
     modifiers: heading-small
   licenceTypeGrid:
     heading:
       text: Licence type
-      type: h3
+      type: p
       modifiers: heading-small spacing-bottom--single border bottom-border
     items:
     - contentType: boolean
@@ -109,201 +109,215 @@ content:
     heading:
       contentType: heading
       text: Finance
-      type: h3
+      type: p
       modifiers: heading-large
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: button
       url: '/application-overview/finance'
       label: View
       modifiers: button--half-width
       gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
   - contentType: tile
     heading:
       contentType: heading
       text: Frequency
-      type: h3
+      type: p
       modifiers: heading-large
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: button
       fullWidth: true
       url: '/application-overview/frequency'
       label: View
       modifiers: button--half-width
       gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
   - contentType: tile
     heading:
       contentType: heading
       text: Insurance
-      type: h3
+      type: p
       modifiers: heading-large
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: button
       url: '/application-overview/insurance'
       label: View
       gridModifier: column-full
       modifiers: button--half-width
+    - contentType: divider
+      modifiers: border border-bottom
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
   - contentType: tile
     heading:
       contentType: heading
       text: Technical
-      type: h3
+      type: p
       modifiers: heading-large
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: button
       url: '/application-overview/technical'
       label: View
       modifiers: button--half-width
       gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
   - contentType: tile
     heading:
       contentType: heading
       text: Legal
-      type: h3
+      type: p
       modifiers: heading-large
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: button
       fullWidth: true
       url: '/application-overview/frequency'
       label: View
       modifiers: button--half-width
       gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
   - contentType: tile
     heading:
       contentType: heading
       text: Political
       icon: tick
-      type: h3
+      type: p
       modifiers: heading-large
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: button
       url: '/application-overview/insurance'
       label: View
       gridModifier: column-full
       modifiers: button--half-width
+    - contentType: divider
+      modifiers: border border-bottom
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
   - contentType: tile
     heading:
       contentType: heading
       text: MOD
-      type: h3
+      type: p
       modifiers: heading-large
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: button
       url: '/application-overview/technical'
       label: View
       modifiers: button--half-width
       gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
     - contentType: heading
       text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: h3
-      modifiers: heading-small
+      type: p
+      modifiers: heading-medium
 - contentType: heading
   text: Operator Contact
   type: h2

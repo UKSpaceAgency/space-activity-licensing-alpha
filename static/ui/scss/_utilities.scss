@@ -9,6 +9,14 @@
 
 .quiet {
   font-weight: normal;
+
+  [class*='heading-'] & {
+    font-size: 19px;
+  }
+}
+
+sup {
+  font-size: 60%;
 }
 
 .relative {
