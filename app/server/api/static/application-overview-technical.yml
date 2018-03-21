@@ -76,14 +76,15 @@ content:
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
       type: h3
       modifiers: heading-small
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
-      modifiers: heading-small
     - contentType: button
       url: '/application-overview/technical/satellite-and-mission-overview'
       label: View
       modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: h3
+      modifiers: heading-small
+
   - contentType: tile
     heading:
       contentType: heading
@@ -99,14 +100,15 @@ content:
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
       type: h3
       modifiers: heading-small
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
-      modifiers: heading-small
     - contentType: button
       url: '/application-overview/frequency'
       label: View
       modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: h3
+      modifiers: heading-small
+
   - contentType: tile
     heading:
       contentType: heading
@@ -122,11 +124,12 @@ content:
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
       type: h3
       modifiers: heading-small
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: h3
-      modifiers: heading-small
     - contentType: button
       url: '/application-overview/insurance'
       label: View
       modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: h3
+      modifiers: heading-small
+

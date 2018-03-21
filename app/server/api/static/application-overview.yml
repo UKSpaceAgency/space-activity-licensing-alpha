@@ -28,6 +28,7 @@ hero:
   title:
     contentType: title
     title: Inmarsat Application
+    modifiers: spacing-bottom--tight
     # subTitle: this is a smaller bit of content to support the main title
   infoGrid:
   - contentType: heading
