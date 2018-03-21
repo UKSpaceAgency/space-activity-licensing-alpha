@@ -31,7 +31,7 @@ hero:
     modifiers: heading-medium
   infoGrid:
   - contentType: heading
-    text: "<span class='quiet'>Satellite number: </span> Gh341211b"
+    text: "<span class='quiet'>Satellite name: </span> Gh341211b"
     type: h3
     modifiers: heading-small
   - contentType: heading
@@ -44,7 +44,7 @@ hero:
     modifiers: heading-small
   synopsisCollapsible:
     contentType: collapsible
-    label: Submission overview
+    label: Read more about mission
     collapsible: true
     panelModifiers: border-none
     modifiers: spacing--tight
