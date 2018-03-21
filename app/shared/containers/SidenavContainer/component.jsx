@@ -16,7 +16,7 @@ const SidenavContainer = props => {
   return (
     <div className={props.modifiers || ''}>
       {props.sideNavHeading && <Heading {...props.sideNavHeading}/>}
-      <List list={list} className='quiet font-xsmall'/>
+      <List list={list} className='spacing-top--single font-xsmall'/>
     </div>
   )
 }

@@ -24,7 +24,7 @@ hero:
   - contentType: heading
     text: "<span class='quiet'>Ref: </span> 11021411"
     type: p
-    modifiers: heading-small float-right
+    modifiers: heading-small spacing-top--single
   title:
     contentType: title
     title: Inmarsat Application
@@ -58,9 +58,9 @@ hero:
       commodo consequat.</p>"
 content:
 - contentType: heading
-  text: Technical
+  text: 'Technical <a class="float-right quiet heading-small" href="#">Share link with assessor</a>'
   type: h2
-  modifiers: heading-large spacing-top--flush
+  modifiers: heading-xlarge spacing-top--flush
 - contentType: listing
   columns: 1
   gridModifier: column-third
@@ -75,11 +75,11 @@ content:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
       type: p
-      modifiers: heading-small
+      modifiers: heading-medium
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
       type: p
-      modifiers: heading-small
+      modifiers: heading-medium
     - contentType: button
       url: '/application-overview/technical/satellite-and-mission-overview'
       label: View
@@ -89,11 +89,11 @@ content:
     - contentType: heading
       text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
       type: p
-      modifiers: heading-small
+      modifiers: heading-medium
     - contentType: heading
       text: "<span class='quiet'>By</span><br/>Rachel Griffin"
       type: p
-      modifiers: heading-small
+      modifiers: heading-medium
   - contentType: tile
     heading:
       contentType: heading
@@ -104,11 +104,11 @@ content:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
       type: p
-      modifiers: heading-small
+      modifiers: heading-medium
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
       type: p
-      modifiers: heading-small
+      modifiers: heading-medium
     - contentType: button
       url: '/application-overview/frequency'
       label: View
@@ -118,11 +118,11 @@ content:
     - contentType: heading
       text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
       type: p
-      modifiers: heading-small
+      modifiers: heading-medium
     - contentType: heading
       text: "<span class='quiet'>By</span><br/>Rachel Griffin"
       type: p
-      modifiers: heading-small
+      modifiers: heading-medium
   - contentType: tile
     heading:
       contentType: heading
@@ -133,11 +133,11 @@ content:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
       type: p
-      modifiers: heading-small
+      modifiers: heading-medium
     - contentType: heading
       text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
       type: p
-      modifiers: heading-small
+      modifiers: heading-medium
     - contentType: button
       url: '/application-overview/insurance'
       label: View
@@ -147,8 +147,8 @@ content:
     - contentType: heading
       text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
       type: p
-      modifiers: heading-small
+      modifiers: heading-medium
     - contentType: heading
       text: "<span class='quiet'>By</span><br/>Rachel Griffin"
       type: p
-      modifiers: heading-small
+      modifiers: heading-medium
