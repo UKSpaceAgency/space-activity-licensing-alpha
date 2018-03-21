@@ -20,4 +20,12 @@
       right: 50%;
     }
   }
+
+  &.badge--flush {
+    margin-left: -10px;
+
+    @include media(tablet) {
+      margin-left: -20px;
+    }
+  }
 }
