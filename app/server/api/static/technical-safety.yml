@@ -18,7 +18,7 @@ breadcrumb:
 - contentType: link
   text: Safety and damage considerations
 hero:
-  modifiers: bg--dark bg-blue padded
+  modifiers: bg-dark bg-blue padded
   title:
     contentType: title
     subTitle: Technical

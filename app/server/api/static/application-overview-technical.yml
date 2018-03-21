@@ -6,7 +6,7 @@ head:
   contentType: head
   title: Test page
 hero:
-  modifiers: bg--dark bg-blue
+  modifiers: bg-dark bg-blue
   breadcrumb:
   - contentType: link
     text: Space Agency UK
