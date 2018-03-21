@@ -2,7 +2,7 @@
 contentType: page
 slug: index
 hero:
-  modifiers: bg--dark bg--blue
+  modifiers: bg-dark bg-blue
   breadcrumb:
   - contentType: link
     text: Index

@@ -13,7 +13,7 @@ const Page = props => {
       <div className='site-wrapper'>
         <main id='content' role='main'>
           {props.breadcrumb && <Breadcrumb breadcrumb={props.breadcrumb} />}
-          {props.components}
+          {props.components}{props.children}
         </main>
         <Footer />
       </div>

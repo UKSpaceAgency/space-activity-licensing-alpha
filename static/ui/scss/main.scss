@@ -18,9 +18,12 @@ $path: '/ui/img';
 @import 'utilities';
 
 // Added components!! BAD
+@import '../../../app/shared/components/Typography/style';
+@import '../../../app/shared/components/Padding/style';
 @import '../../../app/shared/components/Hero/style';
 @import '../../../app/shared/components/Breadcrumb/style';
 @import '../../../app/shared/components/Badge/style';
 @import '../../../app/shared/components/Box/style';
 @import '../../../app/shared/components/Button/style';
 @import '../../../app/shared/components/Panel/style';
+@import '../../../app/shared/components/Backgrounds/style';

@@ -69,3 +69,11 @@ export function exists (obj, key) {
     return true
   })
 }
+
+// a silly little map to gauge class names for grid columns
+export const mapper = {
+  1: 'full',
+  2: 'half',
+  3: 'third',
+  4: 'quarter'
+}

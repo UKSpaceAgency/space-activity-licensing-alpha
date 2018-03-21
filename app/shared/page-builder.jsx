@@ -14,6 +14,11 @@ import Listing from './components/Listing/component.jsx'
 
 export function pageBuilder (pageData) {
   let contentItems = pageData.content
+
+  if (!contentItems || contentItems.length === 0) {
+    return
+  }
+
   let reactComponents = []
 
   if (!contentItems) {
