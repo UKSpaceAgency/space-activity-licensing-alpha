@@ -122,7 +122,7 @@ content:
     - contentType: button
       url: '/application-overview/finance'
       label: View
-      modifiers: button--full-width
+      modifiers: button--half-width
       gridModifier: column-full
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
@@ -151,7 +151,7 @@ content:
       fullWidth: true
       url: '/application-overview/frequency'
       label: View
-      modifiers: button--full-width
+      modifiers: button--half-width
       gridModifier: column-full
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
@@ -180,7 +180,7 @@ content:
       url: '/application-overview/insurance'
       label: View
       gridModifier: column-full
-      modifiers: button--full-width
+      modifiers: button--half-width
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
       type: h3
@@ -207,7 +207,7 @@ content:
     - contentType: button
       url: '/application-overview/technical'
       label: View
-      modifiers: button--full-width
+      modifiers: button--half-width
       gridModifier: column-full
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
@@ -236,7 +236,7 @@ content:
       fullWidth: true
       url: '/application-overview/frequency'
       label: View
-      modifiers: button--full-width
+      modifiers: button--half-width
       gridModifier: column-full
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
@@ -266,7 +266,7 @@ content:
       url: '/application-overview/insurance'
       label: View
       gridModifier: column-full
-      modifiers: button--full-width
+      modifiers: button--half-width
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
       type: h3
@@ -293,7 +293,7 @@ content:
     - contentType: button
       url: '/application-overview/technical'
       label: View
-      modifiers: button--full-width
+      modifiers: button--half-width
       gridModifier: column-full
     - contentType: heading
       text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
