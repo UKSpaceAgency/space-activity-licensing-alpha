@@ -141,6 +141,10 @@ content:
       text: Frequency
       type: p
       modifiers: heading-large
+    updates:
+      url: "/updates"
+      text: 4 updates
+      modifiers: bg-dark-grey badge--fixed badge--top
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
@@ -172,6 +176,10 @@ content:
       text: Insurance
       type: p
       modifiers: heading-large
+    updates:
+      url: "/updates"
+      text: 2 updates
+      modifiers: bg-dark-grey badge--fixed badge--top
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"

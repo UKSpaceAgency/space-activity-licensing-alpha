@@ -100,6 +100,10 @@ content:
       text: Safety and damage considerations
       type: p
       modifiers: heading-large spacing-top--flush
+    updates:
+      url: "/updates"
+      text: 2 updates
+      modifiers: bg-dark-grey badge--fixed badge--top
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"

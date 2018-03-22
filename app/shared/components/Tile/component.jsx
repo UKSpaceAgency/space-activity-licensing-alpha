@@ -5,10 +5,15 @@ import Button from '../../components/Button/component.jsx'
 import Grid from '../../components/Grid/component.jsx'
 import Divider from '../../components/Divider/component.jsx'
 import GridCol from '../../components/GridCol/component.jsx'
+import Badge from '../../components/Badge/component.jsx'
 
 const Tile = props => {
   let classes = classNames(props.gridModifier, 'spacing-bottom--single', {
     'column-half': !props.gridModifier
+  })
+
+  let boxClasses = classNames('box spacing-bottom--large', {
+    'relative': props.updates
   })
 
   let Grids = props.grid.map((val, i) => {
@@ -30,7 +35,8 @@ const Tile = props => {
   })
 
   return (
-    <div className='box spacing-bottom--single'>
+    <div className={boxClasses}>
+      {props.updates && <Badge {...props.updates}/>}
       <Heading {...props.heading}/>
       <Grid>
         {Grids}
