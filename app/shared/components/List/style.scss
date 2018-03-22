@@ -7,10 +7,10 @@ $icon-dims: 13px;
     list-style-type: none;
     padding-left: 0;
 
-    li {
+    > li {
       position: relative;
 
-      &:after {
+      &::after {
         content: '';
         position: absolute;
         right: 0;
@@ -27,8 +27,7 @@ $icon-dims: 13px;
 
   &.list-arrow--dark {
     li {
-
-      &:after {
+      &::after {
         background-image: url(../img/icons/chevron-right-white.svg);
       }
     }
