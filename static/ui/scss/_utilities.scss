@@ -9,6 +9,14 @@
 
 .quiet {
   font-weight: normal;
+
+  [class*='heading-'] & {
+    font-size: 19px;
+  }
+}
+
+sup {
+  font-size: 60%;
 }
 
 .relative {
@@ -39,6 +47,12 @@
   &.bottom-border-bg-green {
     &::after {
       background-color: $green;
+    }
+  }
+
+  &.bottom-border-bg-white {
+    &::after {
+      background-color: $white;
     }
   }
 

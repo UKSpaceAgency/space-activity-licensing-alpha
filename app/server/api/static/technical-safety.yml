@@ -29,9 +29,9 @@ hero:
     text: Updated 26th February 2018
     type: p
 sideNavHeading:
-  text: Contents
-  type: h3
-  modifiers: heading-small
+  text: 'Contents <span class="badge bg-dark-grey float-right">2 Updates</span>'
+  type: p
+  modifiers: font-xsmall
 content:
 - title:
     text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
@@ -57,7 +57,7 @@ content:
     type: .pdf
     supporting: (12mb)
 - title:
-    text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
+    text: Q2. Will the space-object dock or rendezvous?
     type: h3
     modifiers: heading-medium
   permalink: question-2
@@ -80,7 +80,7 @@ content:
     type: .pdf
     supporting: (12mb)
 - title:
-    text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
+    text: Q3. Is it planned that any solid or ionizing or gaseous materials should be released from the object other than as part of a normal propulsion system?
     type: h3
     modifiers: heading-medium
   permalink: question-3
@@ -103,7 +103,7 @@ content:
     type: .pdf
     supporting: (12mb)
 - title:
-    text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
+    text: Q4. Will the space object carry any radioactive or nuclear material?
     type: h3
     modifiers: heading-medium
   permalink: question-4
@@ -126,7 +126,7 @@ content:
     type: .pdf
     supporting: (12mb)
 - title:
-    text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
+    text: Q5. Will the space object carry any form of animal life?
     type: h3
     modifiers: heading-medium
   permalink: question-5
@@ -149,7 +149,7 @@ content:
     type: .pdf
     supporting: (12mb)
 - title:
-    text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
+    text: Q6. At what radio frequencies and at what powers will the space object transmit during its planned mission? Are there additional frequencies or transmit powers which can be invoked?
     type: h3
     modifiers: heading-medium
   permalink: question-6

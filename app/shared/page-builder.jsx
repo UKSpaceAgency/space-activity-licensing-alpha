@@ -10,6 +10,7 @@ import Collapsible from './components/Collapsible/component.jsx'
 import Panel from './components/Panel/component.jsx'
 import Notice from './components/Notice/component.jsx'
 import Listing from './components/Listing/component.jsx'
+import InfoGrid from './components/InfoGrid/component.jsx'
 // import { stringContains } from './utilities'
 
 export function pageBuilder (pageData) {
@@ -41,6 +42,9 @@ export function pageBuilder (pageData) {
         break
       case 'panel':
         reactComponent = <Panel {...item} key={i} />
+        break
+      case 'infoGrid':
+        reactComponent = <InfoGrid {...item} key={i} />
         break
       case 'list':
         reactComponent = <List {...item} key={i} />
