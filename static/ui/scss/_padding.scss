@@ -1,0 +1,61 @@
+
+$vertical-padding: 30px;
+
+/**
+ * padding mixin
+ */
+@mixin padding($prefix: '') {
+  @each $direction in '-top', '-bottom', ''  {
+    .#{$prefix}padding#{$direction}--flush {
+      padding#{$direction}: 0 !important;
+    }
+
+    .#{$prefix}padding#{$direction}--tight {
+      @if ($direction != '') {
+        padding#{$direction}: ($vertical-padding/2) !important;
+      }
+      @else {
+        padding-top: ($vertical-padding/2) !important;
+        padding-bottom: ($vertical-padding/2) !important;
+      }
+    }
+
+    .#{$prefix}padding#{$direction}--single {
+      @if ($direction != '') {
+        padding#{$direction}: $vertical-padding !important;
+      }
+      @else {
+        padding-top: $vertical-padding !important;
+        padding-bottom: $vertical-padding !important;
+      }
+    }
+
+    .#{$prefix}padding#{$direction}--large {
+      @if ($direction != '') {
+        padding#{$direction}: ($vertical-padding * 2) !important;
+      }
+      @else {
+        padding-top: ($vertical-padding * 2) !important;
+        padding-bottom: ($vertical-padding * 2) !important;
+      }
+    }
+  }
+}
+
+/**
+ * Apply vertical paddings to the site's breakpoints
+ */
+@include padding();
+
+
+@include media(tablet) {
+  @include padding('sm-');
+}
+
+@include media(desktop) {
+  @include padding('md-');
+}
+
+@include media(1020px) {
+  @include padding('lg-');
+}

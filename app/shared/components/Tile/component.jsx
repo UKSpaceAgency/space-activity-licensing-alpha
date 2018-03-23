@@ -11,7 +11,7 @@ const Tile = props => {
   let classes = classNames(props.gridModifier, 'spacing-bottom--single', {
     'column-half': !props.gridModifier
   })
-
+  let id = props.id ? {'id': props.id} : null
   let boxClasses = classNames('box spacing-bottom--large', {
     'relative': props.updates
   })
@@ -35,7 +35,7 @@ const Tile = props => {
   })
 
   return (
-    <div className={boxClasses}>
+    <div className={boxClasses} {...id}>
       {props.updates && <Badge {...props.updates}/>}
       <Heading {...props.heading}/>
       <Grid>

@@ -23,6 +23,15 @@ sup {
   position: relative;
 }
 
+.block {
+  display: block;
+  width: 100%;
+}
+
+.underline {
+  border-bottom: 1px solid $grey-1;
+}
+
 .bottom-border {
 
   &::after {
@@ -46,7 +55,7 @@ sup {
 
   &.bottom-border-bg-green {
     &::after {
-      background-color: $green;
+      background-color: $turquoise;
     }
   }
 
@@ -62,9 +71,9 @@ sup {
     }
   }
 
-  &.bottom-border-bg-red {
+  &.bottom-border-bg-brown {
     &::after {
-      background-color: $red;
+      background-color: $brown;
     }
   }
 }

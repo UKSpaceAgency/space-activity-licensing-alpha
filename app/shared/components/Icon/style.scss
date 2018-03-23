@@ -1,0 +1,20 @@
+
+$icon-dims: 16px;
+
+[class*='icon-'],
+.icon {
+  width: $icon-dims;
+  height: $icon-dims;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.icon-tick {
+  background-image: url(../img/icons/checkmark.svg);
+}
+
+.icon-tick-white {
+  background-image: url(../img/icons/checkmark-white.svg);
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
+import Icon from '../Icon/component.jsx'
 
 const List = props => {
   let classes = classNames('list', props.className, props.modifiers)
@@ -12,13 +13,14 @@ const List = props => {
     if (item.url) {
       listItem = (<li key={index} className={itemClasses}>
         <a href={item.url}>
+          {item.icon && <Icon {...item.icon}/>}
           {item.text} {supporting}
         </a>
       </li>
       )
     } else {
       listItem = (
-        <li key={index} className={itemClasses}>{item.text} {supporting}</li>
+        <li key={index} className={itemClasses}>{item.icon && <Icon {...item.icon}/>} {item.text} {supporting}</li>
       )
     }
 

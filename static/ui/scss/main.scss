@@ -15,6 +15,7 @@ $path: '/ui/img';
 @import 'govuk_frontend_toolkit/stylesheets/_conditionals';
 @import 'govuk_frontend_toolkit/stylesheets/_colours';
 @import 'vertical-spacing';
+@import 'padding';
 @import 'utilities';
 
 // Added components!! BAD
@@ -32,3 +33,4 @@ $path: '/ui/img';
 @import '../../../app/shared/components/RadioCheck/style';
 @import '../../../app/shared/components/Borders/style';
 @import '../../../app/shared/components/Divider/style';
+@import '../../../app/shared/components/Icon/style';
