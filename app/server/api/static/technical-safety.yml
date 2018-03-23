@@ -29,9 +29,9 @@ hero:
     text: Updated 26th February 2018
     type: p
 sideNavHeading:
-  text: 'Contents <span class="badge bg-dark-grey float-right">2 Updates</span>'
+  text: 'Contents <span class="badge bg-dark-grey float-right mr-0">2 Updates</span>'
   type: p
-  modifiers: font-xsmall
+  modifiers: font-xsmall underline float-left block
 content:
 - title:
     text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?

@@ -7,36 +7,36 @@ $vertical-spacing: 30px;
 @mixin spacing($prefix: '') {
   @each $direction in '-top', '-bottom', ''  {
     .#{$prefix}spacing#{$direction}--flush {
-      margin#{$direction}: 0!important;
+      margin#{$direction}: 0 !important;
     }
 
     .#{$prefix}spacing#{$direction}--tight {
       @if ($direction != '') {
-        margin#{$direction}: ($vertical-spacing/2)!important;
+        margin#{$direction}: ($vertical-spacing/2) !important;
       }
       @else {
-        margin-top: ($vertical-spacing/2)!important;
-        margin-bottom: ($vertical-spacing/2)!important;
+        margin-top: ($vertical-spacing/2) !important;
+        margin-bottom: ($vertical-spacing/2) !important;
       }
     }
 
     .#{$prefix}spacing#{$direction}--single {
       @if ($direction != '') {
-        margin#{$direction}: $vertical-spacing!important;
+        margin#{$direction}: $vertical-spacing !important;
       }
       @else {
-        margin-top: $vertical-spacing!important;
-        margin-bottom: $vertical-spacing!important;
+        margin-top: $vertical-spacing !important;
+        margin-bottom: $vertical-spacing !important;
       }
     }
 
     .#{$prefix}spacing#{$direction}--large {
       @if ($direction != '') {
-        margin#{$direction}: ($vertical-spacing * 2)!important;
+        margin#{$direction}: ($vertical-spacing * 2) !important;
       }
       @else {
-        margin-top: ($vertical-spacing * 2)!important;
-        margin-bottom: ($vertical-spacing * 2)!important;
+        margin-top: ($vertical-spacing * 2) !important;
+        margin-bottom: ($vertical-spacing * 2) !important;
       }
     }
   }
@@ -60,3 +60,10 @@ $vertical-spacing: 30px;
   @include spacing('lg-');
 }
 
+.mr-0 {
+  margin-right: 0 !important;;
+}
+
+.mr-5 {
+  margin-right: 30px !important;;
+}
