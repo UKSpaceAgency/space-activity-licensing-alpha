@@ -12,7 +12,7 @@ const OverviewList = props => {
       <Grid>
         <GridCol className='column-half'>
           <div className='padding-medium'>
-            <a href={props.url}><h3 className='heading-medium spacing-top--flush'>{props.status && <span className='badge bg-dark-grey font-xsmall badge--flush'>{props.status} </span>} {props.heading.text}</h3></a>
+            <a href={props.url} className='no-underline'><h3 className='heading-medium spacing-top--flush'>{props.status && <span className='badge bg-dark-grey font-xsmall badge--flush'>{props.status} </span>} {props.heading.text}</h3></a>
             <p><strong>{props.name}</strong>: {props.applicantName}</p>
           </div>
         </GridCol>

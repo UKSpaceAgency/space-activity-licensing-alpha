@@ -28,6 +28,13 @@ sup {
   width: 100%;
 }
 
+.no-underline {
+  span {
+    text-decoration:none;
+    display: inline-block;
+  }
+}
+
 .underline {
   border-bottom: 1px solid $grey-1;
 }
