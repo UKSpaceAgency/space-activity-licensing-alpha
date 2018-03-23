@@ -1,0 +1,70 @@
+---
+contentType: page
+useComponent: true
+slug: test
+head:
+  contentType: head
+  title: Test page
+hero:
+  modifiers: bg-dark bg-blue
+  breadcrumb:
+  - contentType: link
+    text: Space Agency UK
+    url: "/"
+  - contentType: link
+    text: Applications
+    url: "/application-overview/"
+  - contentType: link
+    text: Application 11021411
+  licenceType:
+  - contentType: heading
+    text: Orbital licence
+    type: p
+    modifiers: heading-small badge bg-pink
+  - contentType: heading
+    text: "<span class='quiet'>Ref: </span> 11021411"
+    type: p
+    modifiers: heading-small spacing-top--single
+  title:
+    contentType: title
+    title: Inmarsat Application
+    modifiers: heading-xlarge spacing-bottom--tight
+  infoGrid:
+  - contentType: heading
+    text: "<span class='quiet'>Satellite name: </span> Gh341211b"
+    type: p
+    modifiers: heading-small
+  - contentType: heading
+    text: "<span class='quiet'>Submitted: </span>4 June 2017"
+    type: p
+    modifiers: heading-small
+  - contentType: heading
+    text: "<span class='quiet'>Status: </span> Partially Complete"
+    type: p
+    modifiers: heading-small
+  - contentType: heading
+    text: "<span class='quiet'>Launch Date</span><br/>4 June 2018"
+    type: p
+    modifiers: badge bg-pink heading-small spacing-top--flush
+  synopsisCollapsible:
+    contentType: collapsible
+    label: Read more about mission
+    collapsible: true
+    panelModifiers: border-none
+    modifiers: spacing--tight
+    content: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</p>"
+content:
+- title:
+    text: Q1. Has the orbital slot and frequency been approved by the ITU?
+    type: h3
+    modifiers: heading-medium
+  permalink: question-1
+  text: "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
+  commentBlock:
+
+    comments:
+    - name: Rachel Griffith
+
