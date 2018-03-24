@@ -18,7 +18,7 @@ hero:
     text: Application 11021411
   licenceType:
   - contentType: heading
-    text: In-orbit licence
+    text: IN-ORBIT LICENCE
     type: p
     modifiers: heading-medium badge badge--large bg-pink
   - contentType: heading
@@ -47,7 +47,7 @@ hero:
     heading:
       text: Licence type
       type: p
-      modifiers: heading-small spacing-bottom--single border bottom-border
+      modifiers: heading-small padding-bottom--tight spacing-bottom--single border bottom-border mr-5
     items:
     - contentType: boolean
       name: license-type
@@ -67,18 +67,23 @@ hero:
     links:
       modifiers: list-arrow list-arrow--dark
       list:
-      - url: "#"
+      - url: "#finance"
         text: Finance
-      - url: "#"
+      - url: "#frequency"
         text: Frequency
-      - url: "#"
-        text: Frequency
-      - url: "#"
-        text: Frequency
-      - url: "#"
-        text: Frequency
-      - url: "#"
-        text: Frequency
+      - url: "#insurance"
+        text: Insurance
+      - url: "#technical"
+        text: Technical
+      - url: "#legal"
+        text: Legal
+      - url: "#political"
+        text: Political
+        icon:
+          label: tick
+          modifiers: icon-tick-white
+      - url: "#mod"
+        text: MOD
     notice:
       contentType: heading
       text: "<span class='quiet'>Launch Date</span> <br/>4 June 2018"
@@ -106,6 +111,7 @@ content:
   columns: 2
   content:
   - contentType: tile
+    id: finance
     heading:
       contentType: heading
       text: Finance
@@ -136,15 +142,12 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
+    id: frequency
     heading:
       contentType: heading
       text: Frequency
       type: p
       modifiers: heading-large
-    updates:
-      url: "/updates"
-      text: 4 updates
-      modifiers: bg-dark-grey badge--fixed badge--top
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
@@ -176,10 +179,7 @@ content:
       text: Insurance
       type: p
       modifiers: heading-large
-    updates:
-      url: "/updates"
-      text: 2 updates
-      modifiers: bg-dark-grey badge--fixed badge--top
+    id: insurance
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
@@ -210,6 +210,11 @@ content:
       text: Technical
       type: p
       modifiers: heading-large
+    id: technical
+    updates:
+      url: "/updates"
+      text: 2 updates
+      modifiers: bg-dark-grey badge--fixed badge--top
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
@@ -240,6 +245,7 @@ content:
       text: Legal
       type: p
       modifiers: heading-large
+    id: legal
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
@@ -272,6 +278,7 @@ content:
       icon: tick
       type: p
       modifiers: heading-large
+    id: political
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
@@ -302,6 +309,7 @@ content:
       text: MOD
       type: p
       modifiers: heading-large
+    id: mod
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
@@ -333,7 +341,7 @@ content:
 - contentType: heading
   text: James Smart
   type: p
-  modifiers: heading-small border-bottom border-bottom-bg-dark-grey
+  modifiers: heading-small border bottom-border padding-bottom--tight
 - contentType: infoGrid
   grid:
   - contentType: heading
