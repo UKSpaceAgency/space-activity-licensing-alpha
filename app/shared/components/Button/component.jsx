@@ -22,6 +22,8 @@ export default class Button extends React.Component {
       'loading': this.props.disabled
     })
 
+    // let data = this.props.data ? this.props.data : null
+
     let disabled = !!this.props.disabled
 
     if (url || type === 'a') {

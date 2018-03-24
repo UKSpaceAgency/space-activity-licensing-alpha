@@ -5,12 +5,12 @@ import Heading from '../Heading/component.jsx'
 import List from '../List/component.jsx'
 
 const Comment = props => {
-  let classes = classNames('comment__item', props.className, props.modifiers)
+  let classes = classNames('comments', props.className, props.modifiers)
 
   return (
     <article className={classes} id={props.id}>
-      <Heading {...props.title}/>
-      <Longform {...props.text}/>
+      <Heading {...props}/>
+      <Longform {...props}/>
       {props.documents && <div className='comment-attachments'><Heading {...props.title}/><List list={props.documents} className='list-inline'/></div>}
     </article>
   )
