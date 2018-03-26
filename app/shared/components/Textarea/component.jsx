@@ -9,7 +9,7 @@ const Textarea = props => {
         {props.supporting && <span className='form-hint'>
           {props.supporting}
         </span>}</label>
-      <textarea {...data} className='form-control form-control-3-4' id={props.id} name={props.name} rows={props.rows || 5}>{props.value}</textarea>
+      <textarea {...data} className='form-control form-control-full' id={props.id} name={props.name} rows={props.rows || 5}>{props.value}</textarea>
     </div>
   )
 }

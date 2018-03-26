@@ -16,48 +16,66 @@ function Comment(element, config) {
     addComment: '[data-comment-add-comment]',
     addCommentBlock: '[data-comment-add]',
     buttonSubmit: '[data-comment-add-submit]',
+    buttonDiscard: '[data-comment-add-discard]',
     commentBlock: '[data-comment-block]',
-    textarea: '[data-textarea]'
+    input: '[data-file-input]',
+    textarea: '[data-textarea]',
+    byline: '',
+    template: ''
   }
 
   $.extend(options, config)
 
   // Private variables
-  var open = false
-  var el = $(element)
-  var total = el.find(options.totalComments)
-  var addButton = el.find(options.addComment)
-  var addCommentBlock = el.find(options.addCommentBlock)
-  var submitButton = el.find(options.buttonSubmit)
-  var comments = el.find(options.commentBlock)
-  var textarea = el.find(options.textarea)
+  var open = false;
+  var el = $(element);
+  var total = el.find(options.totalComments);
+  var addButton = el.find(options.addComment);
+  var addCommentBlock = el.find(options.addCommentBlock);
+  var submitButton = el.find(options.buttonSubmit);
+  var discardButton = el.find(options.buttonDiscard);
+  var comments = el.find(options.commentBlock);
+  var textarea = el.find(options.textarea);
 
   // base setup
   function init() {
-    calculateComments()
+    calculateComments();
 
     addButton.on('click', function() {
       if (!open) {
-        this.classList.add(options.buttonHideClass)
-        el.addClass(options.activeClass)
-        open = !!open
+        this.classList.add(options.buttonHideClass);
+        el.addClass(options.activeClass);
+        open = !!open;
       }
     })
 
     submitButton.on('click', function(event) {
-      event.target.classList.add('loading')
+      event.target.classList.add('loading');
     })
 
+    discardButton.on('click', function(event) {
+      var input = el.find(options.input);
+      textarea.val('');
+      addButton.removeClass(options.buttonHideClass);
+      el.removeClass(options.activeClass);
+      input.replaceWith(input.val('').clone(true));
+      $('[data-file-text]', el).val('');
+      open = false;
+    })
   }
 
   function calculateComments() {
     if (comments.length > 0) {
-      total.text(comments.length)
+      total.text(comments.length);
     }
   }
 
   function comment() {
-    // if not open then abort
+    var commentObject = {};
+
+    if (textarea.val() !== '' || textarea.val().length > 0) {
+      commentObject['text'] = textarea.val();
+    }
 
   }
 
@@ -74,8 +92,8 @@ function Comment(element, config) {
     init: init,
     comment: comment,
     upload: upload
-  }
+  };
 
-  return self
+  return self;
 
 }
