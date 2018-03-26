@@ -18,7 +18,6 @@ export default class Head extends React.Component {
       default:
         title = (this.props.head && this.props.head.title) || this.props.title
         description = (this.props.head && this.props.head.description) || null
-
         break
     }
 
@@ -30,6 +29,7 @@ export default class Head extends React.Component {
         <meta content='on' httpEquiv='cleartype' />
         <meta name='format-detection' content='telephone=no' />
         <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
+        <script dangerouslySetInnerHTML={{__html: 'document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js")'}}/>
         <link rel='stylesheet' href='/ui/css/main.css' />
       </head>
     )

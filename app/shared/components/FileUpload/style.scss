@@ -1,0 +1,15 @@
+
+.form-group-file {
+  position: relative;
+  cursor: pointer;
+
+  input[type='file'] {
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+

@@ -22,7 +22,7 @@ export default class Button extends React.Component {
       'loading': this.props.disabled
     })
 
-    // let data = this.props.data ? this.props.data : null
+    let data = this.props.data ? {[this.props.data]: true} : null
 
     let disabled = !!this.props.disabled
 
@@ -31,6 +31,7 @@ export default class Button extends React.Component {
         <a href={url}
           className={classes}
           role='button'
+          {...data}
           onClick={event => this.onClick(event)}>
           {children}{label}</a>
       )
@@ -38,6 +39,7 @@ export default class Button extends React.Component {
       component = (
         <button
           disabled={disabled}
+          {...data}
           onClick={event => this.onClick(event)}
           className={classes} type={type}>
           {children}{label}

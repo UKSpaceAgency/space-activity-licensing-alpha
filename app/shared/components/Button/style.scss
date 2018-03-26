@@ -9,5 +9,13 @@
     width: 50%;
     text-align: center;
   }
+
+  &.button--link {
+    background-color: transparent;
+    text-decoration: underline;
+    color: inherit;
+    border-color: transparent;
+    box-shadow: none;
+  }
 }
 

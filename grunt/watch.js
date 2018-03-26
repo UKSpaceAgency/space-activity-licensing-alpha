@@ -8,6 +8,12 @@ module.exports = {
     ],
     tasks: ['build']
   },
+  jsStatic: {
+    files: [
+      './static/**/*.{js}'
+    ],
+    tasks: ['copy:static']
+  },
   sass: {
     files: [
       './static/ui/scss/**/*.scss',
