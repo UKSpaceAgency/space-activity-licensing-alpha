@@ -55,14 +55,14 @@ hero:
       modifiers: multiple-choice--inline
       inputs:
       - id: ieurhferf
-        value: Launch & commissioning
+        checked: true
+        value: Operations
       - id: ieurhferf12
-        value: commissioning
+        checked: true
+        value: Emergency operations
       - id: ieurhferf21
         checked: true
-        value: Operational
-      - id: ieurhferfsfdg21
-        value: Emergency
+        value: Temporary operations
   heroLinks:
     links:
       modifiers: list-arrow list-arrow--dark
@@ -123,7 +123,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
+      text: "3<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
     - contentType: button
@@ -154,7 +154,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
+      text: "2<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
     - contentType: button
@@ -186,7 +186,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
+      text: "2<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
     - contentType: button
@@ -214,14 +214,14 @@ content:
     updates:
       url: "/updates"
       text: 2 updates
-      modifiers: bg-dark-grey badge--fixed badge--top
+      modifiers: bg-blue badge--fixed badge--top
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
+      text: "1<br/><span class='quiet'>Attachment</span>"
       type: p
       modifiers: heading-medium
     - contentType: button
@@ -252,7 +252,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
+      text: "8<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
     - contentType: button
@@ -275,7 +275,9 @@ content:
     heading:
       contentType: heading
       text: Political
-      icon: tick
+      icon:
+        label: tick
+        modifiers: icon-tick-green icon--large
       type: p
       modifiers: heading-large
     id: political
@@ -285,7 +287,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
+      text: "6<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
     - contentType: button
@@ -316,7 +318,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
+      text: "0<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
     - contentType: button
@@ -353,3 +355,8 @@ content:
   - contentType: heading
     text: "mobile: +44 7882281628"
     type: p
+- contentType: infoGrid
+  grid:
+  - text: "address: 80 Gloucester Road, London, WC2 2BA"
+    type: p
+    gridModifier: column-full

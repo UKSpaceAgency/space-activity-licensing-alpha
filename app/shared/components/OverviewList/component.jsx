@@ -13,7 +13,7 @@ const OverviewList = props => {
         <GridCol className='column-half'>
           <div className='padding-medium'>
             <a href={props.url} className='no-underline'><h3 className='heading-medium spacing-top--flush'>{props.status && <span className='badge bg-dark-grey font-xsmall badge--flush'>{props.status} </span>} {props.heading.text}</h3></a>
-            <p><strong>{props.name}</strong>: {props.applicantName}</p>
+            {props.items && props.items.map((v, i) => <p key={i}><strong>{v.text}</strong>: {v.value}</p>)}
           </div>
         </GridCol>
         <GridCol className='column-quarter'>
