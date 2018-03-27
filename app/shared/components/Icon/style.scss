@@ -28,11 +28,11 @@ $icon-dims: 16px;
 .icon-account {
   width: $icon-dims * 2;
   height: $icon-dims * 2;
-  background-color: $grey-3;
+  background-color: $grey-1;
   border-radius: 100%;
   background-image: url('../img/icons/user.svg');
 }
 
 .icon-account-admin {
-  background-color: $light-blue;
+  background-color: $govuk-blue;
 }
