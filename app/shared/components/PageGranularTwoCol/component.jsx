@@ -23,7 +23,6 @@ const PageGranularTwoCol = props => {
             </GridCol>
             <GridCol className='column-two-thirds'>
               <ContentRepeaterContainer {...props}/>
-
               <Button>Complete</Button>
             </GridCol>
           </Grid>
