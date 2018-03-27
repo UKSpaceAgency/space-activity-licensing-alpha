@@ -58,7 +58,7 @@ hero:
       commodo consequat.</p>"
 content:
 - contentType: heading
-  text: 'Technical <a class="float-right quiet heading-small" href="#">Share link with assessor</a>'
+  text: 'Technical <a class="float-right quiet heading-small" href="#">Share section with assessor</a>'
   type: h2
   modifiers: heading-xlarge spacing-top--flush
 - contentType: listing
@@ -77,7 +77,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
+      text: "1<br/><span class='quiet'>Attachment</span>"
       type: p
       modifiers: heading-medium
     - contentType: button
@@ -110,7 +110,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
+      text: "3<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
     - contentType: button
@@ -139,7 +139,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 3<br/><span class='quiet'>Attachments reviewed</span>"
+      text: "5<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
     - contentType: button

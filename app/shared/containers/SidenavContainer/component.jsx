@@ -9,14 +9,15 @@ const SidenavContainer = props => {
   let list = flattened.map((v, i) => {
     return {
       'text': v.title.text,
-      'url': '#' + v.permalink
+      'url': '#' + v.permalink,
+      'modifiers': v.title.update ? 'update' : null
     }
   })
 
   return (
     <div className={props.modifiers || ''}>
       {props.sideNavHeading && <Heading {...props.sideNavHeading}/>}
-      <List list={list} className='spacing-top--single font-xsmall'/>
+      <List list={list} className='spacing-top--single font-xsmall spaced'/>
     </div>
   )
 }

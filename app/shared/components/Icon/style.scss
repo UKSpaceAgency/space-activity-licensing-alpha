@@ -14,6 +14,11 @@ $icon-dims: 16px;
     position: absolute;
     left: -45px;
   }
+
+  &.icon--large {
+    width: $icon-dims * 2;
+    height: $icon-dims * 2;
+  }
 }
 
 .icon-tick {
@@ -24,6 +29,7 @@ $icon-dims: 16px;
   background-image: url('../img/icons/checkmark-white.svg');
 }
 
+<<<<<<< HEAD
 .icon-account-admin,
 .icon-account {
   width: $icon-dims * 2;
@@ -35,4 +41,8 @@ $icon-dims: 16px;
 
 .icon-account-admin {
   background-color: $govuk-blue;
+=======
+.icon-tick-green {
+  background-image: url('../img/icons/checkmark-green.svg');
+>>>>>>> develop
 }
