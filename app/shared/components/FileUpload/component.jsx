@@ -7,7 +7,6 @@ const FileUpload = props => {
         {props.label}
       </label>
       <input type='file' id={'file-' + props.id} data-file-input/>
-      <span className='' data-file-text></span>
     </div>
   )
 }

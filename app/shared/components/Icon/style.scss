@@ -9,6 +9,11 @@ $icon-dims: 16px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 6px;
+
+  &.icon--byline {
+    position: absolute;
+    left: -45px;
+  }
 }
 
 .icon-tick {
@@ -17,4 +22,17 @@ $icon-dims: 16px;
 
 .icon-tick-white {
   background-image: url('../img/icons/checkmark-white.svg');
+}
+
+.icon-account-admin,
+.icon-account {
+  width: $icon-dims * 2;
+  height: $icon-dims * 2;
+  background-color: $grey-3;
+  border-radius: 100%;
+  background-image: url('../img/icons/user.svg');
+}
+
+.icon-account-admin {
+  background-color: $light-blue;
 }

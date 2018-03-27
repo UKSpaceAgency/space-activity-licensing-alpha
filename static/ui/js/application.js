@@ -3,22 +3,24 @@
 
 $(document).ready(function () {
 
-  var commentTarget = $('[data-comment]')
-  var fileUpload = $('[data-file]')
+  var commentTarget = $('[data-comment]');
+  // var fileUpload = $('[data-file]');
 
   // shim file upload
-  fileUpload.each(function(i, target) {
-    var file = new Fileupload(target)
-    file.init()
-  })
+  // *** removed for now ***
+  // fileUpload.each(function(i, target) {
+  //   var file = new Fileupload(target);
+  //   file.init();
+  // })
 
   if (commentTarget) {
-    var activeCommentBlocks = []
+    var activeCommentBlocks = [];
 
     // loop through target items and apply the plugin function
     commentTarget.each(function(i, target) {
-      var comment = new Comment(target)
-      comment.init()
+      var comment = new Comment(target);
+      activeCommentBlocks.push(comment);
+      comment.init();
     })
   }
 

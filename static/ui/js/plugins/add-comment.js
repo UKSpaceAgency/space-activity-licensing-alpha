@@ -1,6 +1,7 @@
 'use strict'
 
 var $ = window.$
+var mustache = window.Mustache;
 
 /**
  * Helper function to reveal commenting system and mock
@@ -20,8 +21,7 @@ function Comment(element, config) {
     commentBlock: '[data-comment-block]',
     input: '[data-file-input]',
     textarea: '[data-textarea]',
-    byline: '',
-    template: ''
+    template: '<article class="box box--padded has-byline comment-admin" data-comment-block="true"><div class="byline spacing-bottom--single"><i class="icon icon--byline icon-account-admin"><span class="visually-hidden">account</span></i><h3 class="heading-small">Rachel Griffith</h3><time class="time" datetime="2018-03-26T19:34:15+00:00">{{date}}</time></div><article><div class="long-form">{{text}}</div></article><div class="comment-attachments">{{#file}}<p><strong>Comment attachments</strong></p><ul class="list list-inline"><li class=""><a href="/pdfs/disposal-discovery.pdf">{{file}}</a></li></ul>{{/file}}</div></article>'
   }
 
   $.extend(options, config)
@@ -36,6 +36,7 @@ function Comment(element, config) {
   var discardButton = el.find(options.buttonDiscard);
   var comments = el.find(options.commentBlock);
   var textarea = el.find(options.textarea);
+  var input = el.find(options.input);
 
   // base setup
   function init() {
@@ -50,18 +51,20 @@ function Comment(element, config) {
     })
 
     submitButton.on('click', function(event) {
-      event.target.classList.add('loading');
+      comment();
     })
 
     discardButton.on('click', function(event) {
-      var input = el.find(options.input);
-      textarea.val('');
-      addButton.removeClass(options.buttonHideClass);
-      el.removeClass(options.activeClass);
-      input.replaceWith(input.val('').clone(true));
-      $('[data-file-text]', el).val('');
-      open = false;
+      discard();
     })
+  }
+
+  function discard() {
+    textarea.val('');
+    addButton.removeClass(options.buttonHideClass);
+    el.removeClass(options.activeClass);
+    input.replaceWith(input.clone(true));
+    open = false;
   }
 
   function calculateComments() {
@@ -71,17 +74,25 @@ function Comment(element, config) {
   }
 
   function comment() {
-    var commentObject = {};
-
     if (textarea.val() !== '' || textarea.val().length > 0) {
-      commentObject['text'] = textarea.val();
+      submitButton.addClass('spinner spinner--active');
+      post();
     }
-
   }
 
-  function upload() {
+  function post() {
+    var commentObject = {
+      text: textarea.val(),
+      file: input.val(),
+      date: new Date(Date.now()).toLocaleString()
+    };
 
-
+    var post = $(Mustache.render(options.template, commentObject));
+    setTimeout(function () {
+      submitButton.removeClass('spinner spinner--active');
+      addCommentBlock.after(post);
+      discard();
+    }, 1000);
 
   }
 
@@ -89,9 +100,7 @@ function Comment(element, config) {
    * Expose public methods
    */
   var self = {
-    init: init,
-    comment: comment,
-    upload: upload
+    init: init
   };
 
   return self;

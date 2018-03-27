@@ -18,6 +18,7 @@ const CommentModule = props => {
       <div className='comments-header'>
         <strong>Comments (<span data-comment-total>0</span>)</strong>
         <Button data='data-comment-add-comment' className='float-right'>Add comment</Button>
+        <p>Only post comments that are relevant to the application - do not include personal opinions or information. <a href='#'>Read more in our privacy guidelines</a>.</p>
       </div>
       <div className='comment-add' data-comment-add>
         <Textarea data='data-textarea' className='form-control-full'/>

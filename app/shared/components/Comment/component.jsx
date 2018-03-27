@@ -5,7 +5,7 @@ import List from '../List/component.jsx'
 import Byline from '../Byline/component.jsx'
 
 const Comment = props => {
-  let classes = classNames('box box--padded', props.className, props.modifiers)
+  let classes = classNames('box box--padded has-byline', props.className, props.modifiers)
 
   return (
     <article className={classes} id={props.id} data-comment-block>
