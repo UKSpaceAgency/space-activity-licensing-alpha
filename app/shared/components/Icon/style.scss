@@ -9,6 +9,11 @@ $icon-dims: 16px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 6px;
+
+  &.icon--large {
+    width: $icon-dims * 2;
+    height: $icon-dims * 2;
+  }
 }
 
 .icon-tick {
@@ -17,4 +22,8 @@ $icon-dims: 16px;
 
 .icon-tick-white {
   background-image: url('../img/icons/checkmark-white.svg');
+}
+
+.icon-tick-green {
+  background-image: url('../img/icons/checkmark-green.svg');
 }

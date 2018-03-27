@@ -61,8 +61,9 @@ listing:
       text: Inmarsat
       type: h3
       modifiers: heading-medium spacing-top--flush
-    name: Applicant name
-    applicantName: Richard Branson
+    items:
+    - text: Applicant name
+      value: Richard Branson
     appStatus: Awaiting Action
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
@@ -81,8 +82,11 @@ listing:
       text: Inmarsat
       type: h3
       modifiers: heading-medium spacing-top--flush
-    name: Applicant name
-    applicantName: Richard Branson
+    items:
+    - text: Applicant name
+      value: Richard Branson
+    - text: Launch Name
+      value: LM1256
     appStatus: Awaiting Action
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
@@ -95,8 +99,11 @@ listing:
       text: Inmarsat
       type: h3
       modifiers: heading-medium spacing-top--flush
-    name: Applicant name
-    applicantName: Richard Branson
+    items:
+    - text: Applicant name
+      value: Richard Branson
+    - text: Launch Name
+      value: LM1256
     appStatus: Awaiting Action
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
@@ -109,8 +116,9 @@ listing:
       text: Inmarsat
       type: h3
       modifiers: heading-medium spacing-top--flush
-    name: Applicant name
-    applicantName: Richard Branson
+    items:
+    - text: Applicant name
+      value: Richard Branson
     appStatus: Awaiting Action
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
@@ -123,8 +131,9 @@ listing:
       text: Lockheed Martin
       type: h3
       modifiers: heading-medium spacing-top--flush
-    name: Applicant name
-    applicantName: Julie Adams
+    items:
+    - text: Applicant name
+      value: Richard Branson
     appStatus: Awaiting Action
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
@@ -137,8 +146,9 @@ listing:
       text: Lockheed Martin
       type: h3
       modifiers: heading-medium spacing-top--flush
-    name: Applicant name
-    applicantName: Julie Adams
+    items:
+    - text: Applicant name
+      value: Richard Branson
     appStatus: Awaiting Action
     url: "/application-overview"
     reference: 62dsffg7238djuju4756

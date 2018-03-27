@@ -2,6 +2,7 @@
   padding: 8px 14px 6px;
   margin-right: 15px;
   font-weight: bold;
+  text-transform: uppercase;
 
   a {
     color: $white;
@@ -15,6 +16,10 @@
   &.bg-pink {
     color: $black;
     background-color: $baby-pink;
+  }
+
+  &.bg-blue {
+    background-color: $govuk-blue;
   }
 
   &.badge--fixed {

@@ -19,7 +19,7 @@ const Hero = props => {
       <div className='hero-intro' id='intro'>
         {props.breadcrumb && <Breadcrumb breadcrumb={props.breadcrumb} className='breadcrumbs--inverse'/>}
         <Grid className='relative'>
-          {props.licenceType && <GridCol className={props.heroLinks ? 'column-half' : 'column-full'}><InfoGrid grid={props.licenceType}/></GridCol>}
+          {props.licenceType && <GridCol className={props.heroLinks ? 'column-two-thirds' : 'column-full'}><InfoGrid grid={props.licenceType}/></GridCol>}
           {props.title && <GridCol className='column-three-quarters'><Title {...props.title}/></GridCol>}
           {props.infoGrid && <GridCol className={props.heroLinks ? 'column-three-quarters' : 'column-full'}><InfoGrid grid={props.infoGrid}/></GridCol>}
           {props.synopsis && <GridCol className='column-three-quarters'><Longform {...props.synopsis}/></GridCol>}
