@@ -30,9 +30,9 @@ filters:
 - label: Filter
   id: filter-by
   options:
-  - label: Launch Date - soonest
+  - label: Lorem ipsum
     value: launch-date
-  - label: Launch Date - furthest
+  - label: Lorem ipsum
     value: launch-date
 - label: Sort
   id: sort-by
