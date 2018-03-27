@@ -17,14 +17,14 @@ const CommentModule = props => {
     <section className={classes} id={props.id} data-comment={props.id}>
       <div className='comments-header'>
         <strong>Comments (<span data-comment-total>0</span>)</strong>
-        <Button data='data-comment-add-comment' className='float-right'>Add comment</Button>
-        <p>Only post comments that are relevant to the application - do not include personal opinions or information. <a href='#'>Read more in our privacy guidelines</a>.</p>
+        <Button data='data-comment-add-comment' className='float-right button--secondary'>Add comment</Button>
       </div>
+      <p className='font-xsmall d-block'>Only post comments that are relevant to the application - do not include personal opinions or information. <a href='#'>Read more in our privacy guidelines</a>.</p>
       <div className='comment-add' data-comment-add>
         <Textarea data='data-textarea' className='form-control-full'/>
         <Button data='data-comment-add-submit'>Post comment</Button>
-        <Button data='data-comment-add-discard' className='float-right button--link'>Discard</Button>
-        <FileUpload {...props.fileupload} />
+        <Button data='data-comment-add-discard' className='button--link'>Discard</Button>
+        <FileUpload {...props.fileupload} className='spacing--single'/>
       </div>
       {comments}
     </section>

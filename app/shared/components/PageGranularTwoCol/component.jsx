@@ -2,6 +2,8 @@ import React from 'react'
 import Masthead from '../Masthead/component.jsx'
 import Footer from '../../components/Footer/component.jsx'
 import Breadcrumb from '../../components/Breadcrumb/component.jsx'
+import Divider from '../../components/Divider/component.jsx'
+import Button from '../../components/Button/component.jsx'
 import Hero from '../../components/Hero/component.jsx'
 import Grid from '../Grid/component.jsx'
 import GridCol from '../GridCol/component.jsx'
@@ -21,6 +23,8 @@ const PageGranularTwoCol = props => {
             </GridCol>
             <GridCol className='column-two-thirds'>
               <ContentRepeaterContainer {...props}/>
+
+              <Button>Complete</Button>
             </GridCol>
           </Grid>
         </main>

@@ -61,9 +61,10 @@ function Comment(element, config) {
 
   function discard() {
     textarea.val('');
+    var newInput = input.clone(true);
     addButton.removeClass(options.buttonHideClass);
     el.removeClass(options.activeClass);
-    input.replaceWith(input.clone(true));
+    input.replaceWith(newInput);
     open = false;
   }
 

@@ -17,5 +17,9 @@
     border-color: transparent;
     box-shadow: none;
   }
+
+  &.button--secondary {
+    background-color: $govuk-blue;
+  }
 }
 
