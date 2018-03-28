@@ -56,6 +56,10 @@ hero:
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
       minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat.</p>"
+sideNavHeading:
+  text: Contents
+  type: p
+  modifiers: font-xsmall underline float-left block
 content:
 - title:
     text: Q1. Has the orbital slot and frequency been approved by the ITU?
