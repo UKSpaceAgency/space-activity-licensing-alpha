@@ -5,6 +5,7 @@ import Textarea from '../Textarea/component.jsx'
 import Heading from '../Heading/component.jsx'
 import Button from '../Button/component.jsx'
 import FileUpload from '../FileUpload/component.jsx'
+import DateInputContainer from '../../containers/DateInputContainer/component.jsx'
 
 const CommentModule = props => {
   let classes = classNames('comments', props.className, props.modifiers)
@@ -22,7 +23,8 @@ const CommentModule = props => {
       <p className='font-xsmall d-block'>Only post comments that are relevant to the application - do not include personal opinions or information. <a href='#'>Read more in our privacy guidelines</a>.</p>
       <div className='comment-add' data-comment-add>
         <Textarea data='data-textarea' className='form-control-full'/>
-        <Button data='data-comment-add-submit'>Post comment</Button>
+        {props.deadline && <DateInputContainer {...props.deadline}/>}
+        <Button data='data-comment-add-submit' className='button--secondary'>Post comment</Button>
         <Button data='data-comment-add-discard' className='button--link'>Discard</Button>
         <FileUpload {...props.fileupload} className='spacing--single'/>
       </div>
