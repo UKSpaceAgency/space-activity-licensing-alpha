@@ -11,31 +11,56 @@ function Fileupload(element, config) {
   var options = {
     file: '[data-file-input]',
     text: '[data-file-text]',
-    class: 'form-control-file'
-  }
+    class: 'form-control-file',
+    textClass: 'form-control__text--full'
+  };
 
   $.extend(options, config)
 
   // Private variables
-  var input = $(options.file, element)
-  var text = $(options.text, element)
+  var el = $(element);
+  var input = el.find(options.file);
+  var text = el.find(options.text);
 
   // base setup
   function init() {
 
     input.on('change',function(){
-      text.html(input.val())
+      update(input.val())
     })
-    .addClass()
+    .addClass(options.class);
   }
 
+  function update(val) {
+    text.html(input.val());
+    if (text.text().length) {
+      text.addClass(options.textClass);
+    }
+  }
+
+  function getValue() {
+    return input.val();
+  }
+
+  function clearText() {
+    console.log('removing')
+    text.text('').removeClass(options.textClass);
+  }
+
+  function destroy() {
+    input.off('change');
+  }
   /**
    * Expose public methods
    */
   var self = {
-    init: init
-  }
+    init: init,
+    update: update,
+    getValue: getValue,
+    clearText: clearText,
+    destroy: destroy
+  };
 
-  return self
+  return self;
 
 }

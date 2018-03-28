@@ -4,14 +4,6 @@
 $(document).ready(function () {
 
   var commentTarget = $('[data-comment]');
-  var fileUpload = $('[data-file]');
-
-  // shim file upload
-  // *** removed for now ***
-  fileUpload.each(function(i, target) {
-    var file = new Fileupload(target);
-    file.init();
-  })
 
   if (commentTarget) {
     var activeCommentBlocks = [];

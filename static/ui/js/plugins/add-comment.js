@@ -19,7 +19,7 @@ function Comment(element, config) {
     buttonSubmit: '[data-comment-add-submit]',
     buttonDiscard: '[data-comment-add-discard]',
     commentBlock: '[data-comment-block]',
-    input: '[data-file-input]',
+    file: '[data-file]',
     textarea: '[data-textarea]',
     template: '<article class="box box--padded has-byline comment-admin" data-comment-block="true"><div class="byline spacing-bottom--single"><i class="icon icon--byline icon-account-admin"><span class="visually-hidden">account</span></i><h3 class="heading-small">Rachel Griffith</h3><time class="time" datetime="2018-03-26T19:34:15+00:00">{{date}}</time></div><article><div class="long-form">{{text}}</div></article><div class="comment-attachments">{{#file}}<p><strong>Comment attachments</strong></p><p><a href="/pdfs/disposal-discovery.pdf">{{file}}</a></p>{{/file}}</div></article>'
   }
@@ -29,14 +29,15 @@ function Comment(element, config) {
   // Private variables
   var open = false;
   var el = $(element);
+  var file = el.find(options.file);
   var total = el.find(options.totalComments);
   var addButton = el.find(options.addComment);
-  var addCommentBlock = el.find(options.addCommentBlock);
   var submitButton = el.find(options.buttonSubmit);
-  var discardButton = el.find(options.buttonDiscard);
   var comments = el.find(options.commentBlock);
   var textarea = el.find(options.textarea);
-  var input = el.find(options.input);
+
+  var fileUpload = new Fileupload(file);
+  fileUpload.init();
 
   // base setup
   function init() {
@@ -54,18 +55,22 @@ function Comment(element, config) {
       comment();
     })
 
-    discardButton.on('click', function(event) {
+    el.find(options.buttonDiscard).on('click', function(event) {
       discard();
     })
   }
 
   function discard() {
+    fileUpload.clearText();
     textarea.val('');
-    var newInput = input.clone(true);
+    var newInput = file.clone(true);
     addButton.removeClass(options.buttonHideClass);
-    el.removeClass(options.activeClass);
-    input.replaceWith(newInput);
+    file.replaceWith(newInput).val('');
+    fileUpload = new Fileupload(file);
+    fileUpload.init();
+
     open = false;
+    el.removeClass(options.activeClass);
   }
 
   function calculateComments() {
@@ -75,7 +80,7 @@ function Comment(element, config) {
   }
 
   function comment() {
-    if (textarea.val() !== '' || textarea.val().length > 0) {
+    if (textarea.val() !== '') {
       submitButton.addClass('spinner spinner--active');
       post();
     }
@@ -84,15 +89,14 @@ function Comment(element, config) {
   function post() {
     var commentObject = {
       text: textarea.val(),
-      file: input.val(),
+      file: fileUpload.getValue(),
       date: new Date(Date.now()).toLocaleString()
     };
-    console.log(input.val())
 
     var post = $(Mustache.render(options.template, commentObject));
     setTimeout(function () {
       submitButton.removeClass('spinner spinner--active');
-      addCommentBlock.after(post);
+      el.find(options.addCommentBlock).after(post);
       discard();
     }, 1000);
 
