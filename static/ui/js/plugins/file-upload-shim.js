@@ -33,7 +33,7 @@ function Fileupload(element, config) {
 
   function update(val) {
     text.html(input.val());
-    if (text.text().length) {
+    if (text.text() !== '') {
       text.addClass(options.textClass);
     }
   }
@@ -43,8 +43,9 @@ function Fileupload(element, config) {
   }
 
   function clearText() {
-    console.log('removing')
-    text.text('').removeClass(options.textClass);
+    text
+      .text('')
+      .removeClass(options.textClass);
   }
 
   function destroy() {
