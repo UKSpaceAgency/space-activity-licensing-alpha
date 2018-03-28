@@ -33,7 +33,6 @@ function Comment(element, config) {
   var total = el.find(options.totalComments);
   var addButton = el.find(options.addComment);
   var submitButton = el.find(options.buttonSubmit);
-  var comments = el.find(options.commentBlock);
   var textarea = el.find(options.textarea);
 
   var fileUpload = new Fileupload(file);
@@ -74,9 +73,8 @@ function Comment(element, config) {
   }
 
   function calculateComments() {
-    if (comments.length > 0) {
-      total.text(comments.length);
-    }
+    var comments = el.find(options.commentBlock);
+    total.text(comments.length);
   }
 
   function comment() {
@@ -93,10 +91,14 @@ function Comment(element, config) {
       date: new Date(Date.now()).toLocaleString()
     };
 
+    // populate the template in the absence of using React client side...
     var post = $(Mustache.render(options.template, commentObject));
+
+    // fake a 1 second loading period
     setTimeout(function () {
       submitButton.removeClass('spinner spinner--active');
       el.find(options.addCommentBlock).after(post);
+      calculateComments();
       discard();
     }, 1000);
 

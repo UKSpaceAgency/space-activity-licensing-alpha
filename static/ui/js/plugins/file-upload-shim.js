@@ -1,5 +1,4 @@
 'use strict'
-
 var $ = window.$
 
 /**
@@ -24,7 +23,6 @@ function Fileupload(element, config) {
 
   // base setup
   function init() {
-
     input.on('change',function(){
       update(input.val())
     })
