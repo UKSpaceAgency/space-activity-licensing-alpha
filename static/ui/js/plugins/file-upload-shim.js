@@ -10,7 +10,8 @@ function Fileupload(element, config) {
   // Default options
   var options = {
     file: '[data-file-input]',
-    text: '[data-file-text]'
+    text: '[data-file-text]',
+    class: 'form-control-file'
   }
 
   $.extend(options, config)
@@ -21,9 +22,11 @@ function Fileupload(element, config) {
 
   // base setup
   function init() {
+
     input.on('change',function(){
       text.html(input.val())
     })
+    .addClass()
   }
 
   /**
