@@ -13,7 +13,7 @@ const DateInputContainer = props => {
     <div className='form-group'>
       <fieldset>
         <Legend legend={props.legend}/>
-        <div className='form-date'>
+        <div className='form-date' data-date-input>
           {props.items.map((v, i) => {
             return <FormGroup {...v} key={i}/>
           })}
