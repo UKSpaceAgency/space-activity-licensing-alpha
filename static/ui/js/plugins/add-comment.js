@@ -47,6 +47,7 @@ function Comment(element, config) {
         this.classList.add(options.buttonHideClass);
         el.addClass(options.activeClass);
         open = !!open;
+        textarea.focus();
       }
     })
 

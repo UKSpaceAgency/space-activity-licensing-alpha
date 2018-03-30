@@ -4,6 +4,7 @@ import classNames from 'classnames'
 const FormGroup = props => {
   let classes = classNames('form-group', props.className, props.modifiers)
   let attrs = {}
+  // @todo - extend this to accept an array / object of attributes - perhaps...
   if (props.attr) {
     attrs[props.attr.key] = props.attr.value
   }
