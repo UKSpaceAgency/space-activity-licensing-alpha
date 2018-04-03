@@ -152,6 +152,30 @@ content:
   text: "<p>Ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
   commentBlock:
     limit: 3
+    assignees:
+      label: Assign to comment
+      supporting: Select multiple by pressing shift and clicking
+      id: assignees-question-2
+      multiple: true
+      data: data-assign
+      options:
+      - label: Joel Mitchell
+        value: sfkhwer87hkj34h
+        selected: true
+      - label: Luke Hobbs
+        value: sfkhwesdtjsdfhgqw
+      - label: Jon Brace
+        value: adwty5nnkv08b
+      - label: Dave Stringer
+        value: jfmfuue67tg3f
+      - label: Aimee Smith
+        value: lvm08jjetffs
+        selected: true
+      - label: Alex Wotten
+        value: kfj789dbv
+      - label: Tom Foster
+        value: 15rdcsb
+        selected: true
     deadline:
       legend: Set deadline
       calendar: true
