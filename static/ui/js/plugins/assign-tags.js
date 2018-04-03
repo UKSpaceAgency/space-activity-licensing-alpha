@@ -21,17 +21,18 @@ function Tag(element, config) {
   var el = $(element);
   var select = el.find('select');
   var html;
-  var initArray; // keep a clean version for reference
+  // var initArray; // keep a clean version for reference - possibly not needed
 
   // base setup
   function init() {
-    initArray = updateArray();
+    // initArray = updateArray();
     renderTags();
 
     select.on('change', function() {
       renderTags();
     });
 
+    // delegate the tag close click to the container
     el.on('click', '[data-tag]', function(event) {
       event.preventDefault();
       remove(event.target);
@@ -54,6 +55,7 @@ function Tag(element, config) {
     return arr;
   }
 
+  //
   function renderTags() {
     if (html) {
       html.remove();
@@ -74,16 +76,11 @@ function Tag(element, config) {
     element.parentNode.parentNode.removeChild(element.parentNode);
   }
 
-  function getValues() {
-    return initArray;
-  }
-
   /**
    * Expose public methods
    */
   var self = {
-    init: init,
-    remove: remove
+    init: init
   };
 
   return self;
