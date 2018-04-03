@@ -6,7 +6,7 @@ var mustache = window.Mustache;
 // Default options
 var options = {
   activated: 'data-assign-active',
-  template: '<div class="tags"><ul class="tags__items">{{#items}}<li data-index="{{index}}" data-tag="{{value}}"><a href="#" class="tag">{{label}}<span class="tag-remove">&times;</span></a></li>{{/items}}</ul></div>'
+  template: '<div class="tags"><ul class="tags__items">{{#items}}<li class="tag"><span class="tag__text">{{label}}</span><a class="close" href="#" data-index="{{index}}" data-tag="{{value}}">&times;</a></li>{{/items}}</ul></div>'
 }
 
 /**
@@ -33,9 +33,8 @@ function Tag(element, config) {
     });
 
     el.on('click', '[data-tag]', function(event) {
-      console.log(event.target)
       event.preventDefault();
-      remove(event.target.value);
+      remove(event.target);
     });
   }
 
@@ -64,27 +63,19 @@ function Tag(element, config) {
       return v.selected;
     });
     html = $(mustache.render(options.template, {items: items}));
-    el.after(html);
+    select.after(html);
   }
 
-  function add(item) {
-
-  }
-
-  function remove(item) {
-
+  // accepts element and toggles the index of the option
+  // element to de-select. Removes tag
+  function remove(element) {
+    var index = element.getAttribute('data-index');
+    select[0].options[index].selected = false;
+    element.parentNode.parentNode.removeChild(element.parentNode);
   }
 
   function getValues() {
     return initArray;
-  }
-
-  function removeAll() {
-
-  }
-
-  function destroy() {
-
   }
 
   /**
@@ -92,9 +83,7 @@ function Tag(element, config) {
    */
   var self = {
     init: init,
-    add: add,
-    remove: remove,
-    removeAll: removeAll
+    remove: remove
   };
 
   return self;
