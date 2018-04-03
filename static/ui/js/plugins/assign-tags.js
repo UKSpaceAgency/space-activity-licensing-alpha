@@ -21,11 +21,9 @@ function Tag(element, config) {
   var el = $(element);
   var select = el.find('select');
   var html;
-  // var initArray; // keep a clean version for reference - possibly not needed
 
   // base setup
   function init() {
-    // initArray = updateArray();
     renderTags();
 
     select.on('change', function() {
