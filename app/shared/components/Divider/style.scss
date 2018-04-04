@@ -6,4 +6,29 @@
     margin-right: 15px;
     margin-left: 15px;
   }
+
+  &.divider--thick {
+    height: 4px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  &.divider--green {
+    background-color: $green;
+  }
+
+  .progress__item & {
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    @include media(tablet) {
+      position: static;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
 }
