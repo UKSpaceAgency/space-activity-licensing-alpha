@@ -4,6 +4,7 @@ import Fieldset from '../../components/Fieldset/component.jsx'
 import FormGroup from '../../components/FormGroup/component.jsx'
 import RadioCheck from '../../components/RadioCheck/component.jsx'
 import Button from '../../components/Button/component.jsx'
+import ButtonGroup from '../../components/ButtonGroup/component.jsx'
 import Select from '../../components/Select/component.jsx'
 import Textarea from '../../components/Textarea/component.jsx'
 import { isArray } from '../../utilities'
@@ -38,6 +39,9 @@ const formBuilder = (formItems) => {
         break
       case 'button':
         component = <Button {...item} key={i} />
+        break
+      case 'buttongroup':
+        component = <ButtonGroup {...item} key={i} />
         break
       default:
         console.error('Could not match ' + item.contentType)

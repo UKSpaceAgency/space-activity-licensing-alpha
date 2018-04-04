@@ -31,3 +31,11 @@ content:
     text: Technical applications - internal page
   - url: "/application-overview/frequency"
     text: Notes and comments on application page (frequency)
+- contentType: heading
+  text: Journeys 88 - share with an assessor
+  type: p
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - url: "/application-overview/technical/share"
+    text: Share technical aspects of an application with an assessor
