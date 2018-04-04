@@ -58,7 +58,7 @@ hero:
       commodo consequat.</p>"
 content:
 - contentType: heading
-  text: 'Technical <a class="float-right quiet heading-small" href="#">Share section with assessor</a>'
+  text: 'Technical <a class="float-right quiet heading-small" href="/application-overview/technical/share">Share section with assessor</a>'
   type: h2
   modifiers: heading-xlarge spacing-top--flush
 - contentType: listing
