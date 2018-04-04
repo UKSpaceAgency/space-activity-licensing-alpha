@@ -2,6 +2,7 @@
 .progress__item {
   text-align: center;
   position: relative;
+  padding-top: 15px;
   padding-bottom: 30px;
 
   @include media(tablet) {
