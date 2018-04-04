@@ -53,11 +53,11 @@ content:
         value: James Brown
     - contentType: buttongroup
       buttons:
-      - url: "/application-overview/technical/satellite-and-mission-overview"
+      - url: "/application-overview/technical/"
         label: Share
         type: a
         modifiers:
-      - url: "/application-overview/technical/satellite-and-mission-overview"
+      - url: "/application-overview/technical/"
         label: Cancel
         type: a
         modifiers: button--link
