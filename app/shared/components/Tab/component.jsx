@@ -4,7 +4,7 @@ const Tab = props => {
 
   return (
     <li role='presentation'>
-      <a id={props.id + '-tab'} href={'#' + props.id} role='tab' aria-controls={props.id}>{props.label}</a>
+      <a id={props.id + '-tab'} href={'#' + props.id} role='tab' aria-controls={props.id}>{props.children}{props.label}</a>
     </li>
   )
 }
