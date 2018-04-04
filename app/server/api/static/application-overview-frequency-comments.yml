@@ -207,3 +207,25 @@ content:
         url: "/pdfs/disposal-discovery.pdf"
         type: .pdf
         supporting: (12mb)
+progress:
+- state: complete
+  title:
+    text: 1. Reviewed
+    type: p
+    modifiers: heading-small
+  icon:
+    label: tick
+    modifiers: icon-tick-green icon--large
+- state: active
+  modifiers: progress--current
+  title:
+    text: 2. Assessed
+    type: p
+    modifiers: heading-small
+  button:
+    label: Complete
+- state: incomplete
+  title:
+    text: 3. Approve
+    type: p
+    modifiers: heading-small
