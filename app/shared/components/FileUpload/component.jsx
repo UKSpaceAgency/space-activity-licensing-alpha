@@ -3,6 +3,7 @@ import classNames from 'classnames'
 
 const FileUpload = props => {
   let classes = classNames('form-group form-group-file', props.className, props.modifiers)
+
   return (
     <div className={classes} data-file>
       {props.shimmed && <span className='form-control__text' data-file-text></span>}
