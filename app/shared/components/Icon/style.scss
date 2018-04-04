@@ -10,6 +10,11 @@ $icon-dims: 16px;
   vertical-align: middle;
   margin-right: 6px;
 
+  &.icon--byline {
+    position: absolute;
+    left: -45px;
+  }
+
   &.icon--large {
     width: $icon-dims * 2;
     height: $icon-dims * 2;
@@ -24,6 +29,23 @@ $icon-dims: 16px;
   background-image: url('../img/icons/checkmark-white.svg');
 }
 
+.icon-account-admin,
+.icon-account {
+  width: $icon-dims * 2;
+  height: $icon-dims * 2;
+  background-color: $grey-1;
+  border-radius: 100%;
+  background-image: url('../img/icons/user.svg');
+}
+
+.icon-account-admin {
+  background-color: $govuk-blue;
+}
+
 .icon-tick-green {
   background-image: url('../img/icons/checkmark-green.svg');
+}
+
+.icon-calendar {
+  background-image: url('../img/icons/calendar.svg');
 }

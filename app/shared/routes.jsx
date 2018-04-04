@@ -7,6 +7,7 @@ import ServerError from './components/ServerError/component.jsx'
 import PageContainer from './containers/PageContainer/component'
 import PageGranularContainer from './containers/PageGranularContainer/component'
 import PageTwoColContainer from './containers/PageTwoColContainer/component'
+import PageGranularTwoColContainer from './containers/PageGranularTwoColContainer/component'
 
 /*
  * Render 404 / 500 errors
@@ -54,6 +55,9 @@ let getRoutes = store => {
         <Route path='technical'>
           <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview-technical'/>
           <Route path='satellite-and-mission-overview' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety' />
+        </Route>
+        <Route path='frequency'>
+          <IndexRoute component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='application-overview-frequency-comments'/>
         </Route>
       </Route>
       <Route path='home' component={withFallback(PageContainer)} onEnter={getPage} slug='homepage' />

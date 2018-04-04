@@ -14,6 +14,7 @@ import { exists } from '../shared/utilities'
 import { generateStore } from '../shared/store'
 
 import Head from '../shared/components/Head/component.jsx'
+import Scripts from '../shared/components/Scripts/component.jsx'
 
 /*
  * Express routes
@@ -95,15 +96,15 @@ app.get('*', function (req, res) {
     let status = state.error ? state.error : 200
 
     let componentHead = ReactDOMServer.renderToStaticMarkup(<Head {...state.app.pageData} error={state.app.error} />)
-
-    let renderedHtml = renderFullPageHtml(componentHtml, componentHead)
+    let componentScripts = ReactDOMServer.renderToStaticMarkup(<Scripts />)
+    let renderedHtml = renderFullPageHtml(componentHtml, componentHead, componentScripts)
     return res.status(status).send(renderedHtml)
   })
 })
 
 // Joel - i have removed the scripts from the body bottom
 // might need to reinstate them
-function renderFullPageHtml (html, head) {
+function renderFullPageHtml (html, head, scripts) {
   return `
     <!DOCTYPE html>
     <html lang='en'>
@@ -112,6 +113,7 @@ function renderFullPageHtml (html, head) {
     </head>
     <body>
       <div id='app'>${html}</div>
+      ${scripts}
     </body>
     </html>
   `
