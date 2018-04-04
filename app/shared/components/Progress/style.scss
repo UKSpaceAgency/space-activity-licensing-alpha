@@ -1,11 +1,11 @@
-.progress {
-
-}
-
-.progress__items {
-
-}
 
 .progress__item {
   text-align: center;
+  position: relative;
+  padding-bottom: 30px;
+
+  @include media(tablet) {
+    position: static;
+    padding-bottom: 0;
+  }
 }
