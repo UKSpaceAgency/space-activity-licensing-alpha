@@ -208,6 +208,9 @@ content:
         type: .pdf
         supporting: (12mb)
 progress:
+  heading:
+    text: "Frequency section status:"
+    type: h2
   content:
   - state: complete
     title:
