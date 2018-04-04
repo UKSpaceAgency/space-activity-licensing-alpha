@@ -55,6 +55,7 @@ let getRoutes = store => {
         <Route path='technical'>
           <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview-technical'/>
           <Route path='satellite-and-mission-overview' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety' />
+          <Route path='share' component={withFallback(PageContainer)} onEnter={getPage} slug='technical-share' />
         </Route>
         <Route path='frequency'>
           <IndexRoute component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='application-overview-frequency-comments'/>
