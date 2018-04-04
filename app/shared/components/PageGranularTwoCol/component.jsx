@@ -9,6 +9,7 @@ import Grid from '../Grid/component.jsx'
 import GridCol from '../GridCol/component.jsx'
 import SidenavContainer from '../../containers/SidenavContainer/component.jsx'
 import ContentRepeaterContainer from '../../containers/ContentRepeaterContainer/component.jsx'
+import Progress from '../Progress/component.jsx'
 
 const PageGranularTwoCol = props => {
   return (
@@ -23,7 +24,7 @@ const PageGranularTwoCol = props => {
             </GridCol>
             <GridCol className='column-two-thirds'>
               <ContentRepeaterContainer {...props}/>
-              <Button>Complete</Button>
+              <Progress {...props.progress}/>
             </GridCol>
           </Grid>
         </main>
