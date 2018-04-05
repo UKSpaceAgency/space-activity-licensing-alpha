@@ -70,6 +70,21 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
+    source:
+      legend: Comment source
+      fieldsetModifiers: inline
+      items:
+      - contentType: boolean
+        name: first-radio-item
+        type: radio
+        inputs:
+        - id: dfgh89dfgdfgdfgh
+          value: Comment
+          checked: true
+        - id: hjdktlhdfgdfgivm67
+          value: Phone call
+        - id: llojedfgdfgf6
+          value: Email
     deadline:
       legend: Set deadline
       calendar: true
@@ -154,6 +169,21 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
+    source:
+      legend: Comment source
+      fieldsetModifiers: inline
+      items:
+      - contentType: boolean
+        name: second-radio-item
+        type: radio
+        inputs:
+        - id: dfgh89dfgh
+          value: Comment
+          checked: true
+        - id: hjdktlhivm67
+          value: Phone call
+        - id: llojef6
+          value: Email
     assignees:
       label: Assign to comment
       supporting: Select multiple by pressing shift and clicking

@@ -3,7 +3,7 @@ import classNames from 'classnames'
 import formBuilder from '../../components/FormBuilder/component.jsx'
 
 const Fieldset = props => {
-  let classes = classNames('fieldset', props.className)
+  let classes = classNames('fieldset', props.className, props.fieldsetModifiers)
 
   return (
     <fieldset className={classes}>
