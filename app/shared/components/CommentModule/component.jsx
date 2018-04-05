@@ -7,6 +7,7 @@ import Button from '../Button/component.jsx'
 import FileUpload from '../FileUpload/component.jsx'
 import DateInputContainer from '../../containers/DateInputContainer/component.jsx'
 import Select from '../Select/component.jsx'
+import ButtonGroup from '../ButtonGroup/component.jsx'
 import { isArray } from '../../utilities'
 
 const CommentModule = props => {
@@ -27,9 +28,11 @@ const CommentModule = props => {
         <Textarea data='data-textarea' className='form-control-full'/>
         {props.deadline && <DateInputContainer {...props.deadline}/>}
         {props.assignees && <Select {...props.assignees}/>}
-        <Button data='data-comment-add-submit' className='button--secondary'>Post comment</Button>
-        <Button data='data-comment-add-discard' className='button--link'>Discard</Button>
         <FileUpload {...props.fileupload} className='spacing--single'/>
+        <ButtonGroup>
+          <Button data='data-comment-add-submit' className='button--secondary'>Post comment</Button>
+          <Button data='data-comment-add-discard' className='button--link'>Discard</Button>
+        </ButtonGroup>
       </div>
       {comments}
     </section>

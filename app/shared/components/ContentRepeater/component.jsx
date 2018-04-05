@@ -20,17 +20,17 @@ const ContentRepeater = props => {
       {props.documents && <List list={props.documents} className='list-inline'/>}
       <Tablist>
         <Tab id={props.id + '-open'}>
-          Inmarsat frequency (0)
+          Inmarsat frequency (1)
         </Tab>
         <Tab id={props.id + '-private'}>
-          Private notes (0)
+          Private notes (2)
         </Tab>
       </Tablist>
       <TabPanel id={props.id + '-open'}>
-        {props.commentBlock && <CommentModule id={props.permalink} {...props.commentBlock}/>}
+        {props.commentBlock && <CommentModule id={props.permalink + props.id + '-open'} {...props.commentBlock}/>}
       </TabPanel>
       <TabPanel id={props.id + '-private'}>
-        {props.commentBlock && <CommentModule id={props.permalink} {...props.commentBlock}/>}
+        {props.commentBlock && <CommentModule id={props.permalink + props.id + '-private'} {...props.commentBlock}/>}
       </TabPanel>
       <div className='text'>
         <a href='#' className='link-back'>Back to top</a>
