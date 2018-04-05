@@ -26,10 +26,10 @@ const CommentModule = props => {
       <div className='comment-add' data-comment-add>
         <Textarea data='data-textarea' className='form-control-full'/>
         {props.deadline && <DateInputContainer {...props.deadline}/>}
+        {props.assignees && <Select {...props.assignees}/>}
         <Button data='data-comment-add-submit' className='button--secondary'>Post comment</Button>
         <Button data='data-comment-add-discard' className='button--link'>Discard</Button>
         <FileUpload {...props.fileupload} className='spacing--single'/>
-        {props.assignees && <Select {...props.assignees}/>}
       </div>
       {comments}
     </section>

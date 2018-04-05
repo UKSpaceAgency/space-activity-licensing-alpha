@@ -23,6 +23,22 @@ document.addEventListener('DOMContentLoaded', function () {
           next.focus();
         }
       });
+
+      // added this to deselect a tab on second click
+      // might need polyfilling
+      tab.addEventListener('click', function (event) {
+        var href = tab.href.split('#')[1];
+        href = '#' + href;
+
+        if (location.hash === href) {
+          if ('replaceState' in history) {
+            event.preventDefault();
+            window.history.replaceState({}, document.title, window.location.pathname);
+            onhashchange();
+          }
+
+        }
+      });
     });
   });
 
@@ -45,6 +61,14 @@ document.addEventListener('DOMContentLoaded', function () {
       tab[1].removeAttribute('hidden', '');
 
       last = tab;
+    }
+
+    else if (!tab) {
+      if (last) {
+        last[0].removeAttribute('aria-selected');
+        last[0].setAttribute('tabindex', -1);
+        last[1].setAttribute('hidden', '');
+      }
     }
   }
 });
