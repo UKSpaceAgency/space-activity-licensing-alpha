@@ -1,6 +1,8 @@
 import React from 'react'
 import classNames from 'classnames'
 import Comment from '../Comment/component.jsx'
+import Grid from '../Grid/component.jsx'
+import GridCol from '../GridCol/component.jsx'
 import Textarea from '../Textarea/component.jsx'
 import Heading from '../Heading/component.jsx'
 import Button from '../Button/component.jsx'
@@ -9,6 +11,7 @@ import DateInputContainer from '../../containers/DateInputContainer/component.js
 import Select from '../Select/component.jsx'
 import Fieldset from '../Fieldset/component.jsx'
 import ButtonGroup from '../ButtonGroup/component.jsx'
+import RadioCheck from '../RadioCheck/component.jsx'
 import { isArray } from '../../utilities'
 
 const CommentModule = props => {
@@ -34,6 +37,7 @@ const CommentModule = props => {
         <ButtonGroup>
           <Button data='data-comment-add-submit' className='button--secondary'>Post comment</Button>
           <Button data='data-comment-add-discard' className='button--link'>Discard</Button>
+          {props.notice && <RadioCheck {...props.notice.checkbox}/>}
         </ButtonGroup>
       </div>
       {comments}

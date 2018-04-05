@@ -70,6 +70,14 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
+    notice:
+      checkbox:
+        name: priority-level
+        type: checkbox
+        modifiers: float-right d-inline-block
+        inputs:
+        - id: juu7gg4gf33f
+          value: High priority
     source:
       legend: Comment source
       fieldsetModifiers: inline
@@ -169,6 +177,14 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
+    notice:
+      checkbox:
+        name: priority-level
+        type: checkbox
+        modifiers: float-right d-inline-block
+        inputs:
+        - id: juu7gg4gf33f
+          value: High priority
     source:
       legend: Comment source
       fieldsetModifiers: inline
