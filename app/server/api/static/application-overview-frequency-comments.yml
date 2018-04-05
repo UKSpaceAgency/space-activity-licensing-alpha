@@ -207,19 +207,19 @@ content:
       multiple: true
       data: data-assign
       options:
-      - label: Joel Mitchell
+      - label: Joel Harris
         value: sfkhwer87hkj34h
         selected: true
-      - label: Luke Hobbs
+      - label: Luke Wotten
         value: sfkhwesdtjsdfhgqw
-      - label: Jon Brace
+      - label: Jon Smith
         value: adwty5nnkv08b
       - label: Dave Stringer
         value: jfmfuue67tg3f
-      - label: Aimee Smith
+      - label: Aimee Brace
         value: lvm08jjetffs
         selected: true
-      - label: Alex Wotten
+      - label: Alex Hobbs
         value: kfj789dbv
       - label: Tom Foster
         value: 15rdcsb

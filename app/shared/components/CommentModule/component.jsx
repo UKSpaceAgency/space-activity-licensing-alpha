@@ -10,6 +10,7 @@ import FileUpload from '../FileUpload/component.jsx'
 import DateInputContainer from '../../containers/DateInputContainer/component.jsx'
 import Select from '../Select/component.jsx'
 import Fieldset from '../Fieldset/component.jsx'
+import Divider from '../Divider/component.jsx'
 import ButtonGroup from '../ButtonGroup/component.jsx'
 import RadioCheck from '../RadioCheck/component.jsx'
 import { isArray } from '../../utilities'
@@ -39,6 +40,7 @@ const CommentModule = props => {
           <Button data='data-comment-add-discard' className='button--link'>Discard</Button>
           {props.notice && <RadioCheck {...props.notice.checkbox}/>}
         </ButtonGroup>
+        <Divider/>
       </div>
       {comments}
     </section>
