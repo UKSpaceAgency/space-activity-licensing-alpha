@@ -204,9 +204,11 @@ content:
       label: Assign to
       # supporting: Select multiple by pressing shift and clicking
       id: assignees-question-2
-      multiple: true
-      data: data-assign
+      # multiple: true
+      # data: data-assign
       options:
+      - label: Please select
+        value: ''
       - label: Joel Harris
         value: sfkhwer87hkj34h
         selected: true
