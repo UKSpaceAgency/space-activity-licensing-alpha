@@ -1,0 +1,42 @@
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.tabs__item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.tabs__link {
+  position: relative;
+  padding: 10px 30px 10px 15px;
+  display: block;
+  border: solid;
+  border-width: 1px;
+  border-color: transparent transparent $grey-1 transparent;
+
+  .close {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -.5em;
+    display: none;
+    font-size: 140%;
+    font-weight: bold;
+  }
+}
+
+.tabs__link[aria-selected='true'] {
+  border-color: $grey-1;
+  border-bottom-width: 0;
+  text-decoration: none;
+  color: $black;
+  cursor: default;
+
+  .close {
+    display: block;
+  }
+}

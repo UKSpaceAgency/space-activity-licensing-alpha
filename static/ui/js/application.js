@@ -3,15 +3,19 @@
 
 $(document).ready(function () {
 
+  // var selectAssign = $('[data-assign]');
   var commentTarget = $('[data-comment]');
 
-  if (commentTarget) {
-    var activeCommentBlocks = [];
+  // loop through target items and apply the plugin function
+  // selectAssign.each(function(i, target) {
+  //   var tag = new Tag(target);
+  //   tag.init();
+  // });
 
-    // loop through target items and apply the plugin function
+  if (commentTarget) {
+
     commentTarget.each(function(i, target) {
       var comment = new Comment(target);
-      activeCommentBlocks.push(comment);
       comment.init();
     })
   }

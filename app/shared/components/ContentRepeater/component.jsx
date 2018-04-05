@@ -14,8 +14,7 @@ const ContentRepeater = props => {
       <Heading {...props.title}/>
       <Longform {...props}/>
       <Heading {...props.heading}/>
-      {props.documents && <List list={props.documents} className='list-inline'/>}
-      {props.commentBlock && <CommentModule id={props.permalink} {...props.commentBlock}/>}
+      {props.commentBlock && <CommentModule id={props.permalink + props.id + '-open'} {...props.commentBlock}/>}
       <div className='text'>
         <a href='#' className='link-back'>Back to top</a>
       </div>

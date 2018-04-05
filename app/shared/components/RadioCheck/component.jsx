@@ -2,6 +2,7 @@ import React from 'react'
 import classNames from 'classnames'
 
 const RadioCheck = props => {
+  let formClasses = classNames('form-group', props.fieldModifiers)
   let classes = classNames('multiple-choice', props.className, props.modifiers)
   let booleans = props.inputs.map((val, i) => {
     let checked = val.checked ? {'checked': true} : null
@@ -15,7 +16,7 @@ const RadioCheck = props => {
   })
 
   return (
-    <div className='form-group'>
+    <div className={formClasses}>
       {props.label && <label className='form-label'>
         {props.label}
       </label>}

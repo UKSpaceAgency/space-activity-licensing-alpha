@@ -69,41 +69,65 @@ content:
   text: "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
   commentBlock:
     limit: 3
-    # deadline:
-    #   legend: Set deadline
-    #   calendar: true
-    #   items:
-    #   - label: Day
-    #     id: 32455
-    #     name: deadline-day
-    #     modifiers: form-group-day
-    #     type: number
-    #     attr:
-    #       key: pattern
-    #       value: '[0-9]*'
-    #   - label: Month
-    #     id: 435634565
-    #     name: deadline-month
-    #     modifiers: form-group-month
-    #     type: number
-    #     attr:
-    #       key: pattern
-    #       value: '[0-9]*'
-    #   - label: Year
-    #     id: 456745675
-    #     name: deadline-year
-    #     modifiers: form-group-year
-    #     type: number
-    #     attr:
-    #       key: pattern
-    #       value: '[0-9]*'
+    modifiers: spacing-bottom--single
+    notice:
+      checkbox:
+        name: priority-level
+        type: checkbox
+        fieldModifiers: float-right d-inline-block
+        inputs:
+        - id: juu7gg4gf33f
+          value: High priority
+    source:
+      legend: Comment source
+      fieldsetModifiers: inline
+      items:
+      - contentType: boolean
+        name: first-radio-item
+        type: radio
+        inputs:
+        - id: dfgh89dfgdfgdfgh
+          value: Comment
+          checked: true
+        - id: hjdktlhdfgdfgivm67
+          value: Phone call
+        - id: llojedfgdfgf6
+          value: Email
+    deadline:
+      legend: Set deadline
+      calendar: true
+      items:
+      - label: Day
+        id: 32455
+        name: deadline-day
+        modifiers: form-group-day
+        type: number
+        attr:
+          key: pattern
+          value: '[0-9]*'
+      - label: Month
+        id: 435634565
+        name: deadline-month
+        modifiers: form-group-month
+        type: number
+        attr:
+          key: pattern
+          value: '[0-9]*'
+      - label: Year
+        id: 456745675
+        name: deadline-year
+        modifiers: form-group-year
+        type: number
+        attr:
+          key: pattern
+          value: '[0-9]*'
     button:
       label: Add comment
     fileupload:
       label: Upload attachment
       modifiers: file-upload
       id: file-upload-1
-      # shimmed: true
+      shimmed: true
     comments:
     - byline:
         modifiers: spacing-bottom--single
@@ -144,6 +168,18 @@ content:
         url: "/pdfs/disposal-discovery.pdf"
         type: .pdf
         supporting: (12mb)
+      - text: Fuel containment
+        url: "/pdfs/disposal-discovery.pdf"
+        type: .pdf
+        supporting: (1.9mb)
+      deadline:
+        text: "<span class='quiet'>Deadline</span><br/>14 May 2017"
+        type: p
+        modifiers: heading-small
+      assignees:
+        text: "<span class='quiet'>Assigned to</span><br/>Amy Brace"
+        type: p
+        modifiers: heading-small
 - title:
     text: Q2. Has the orbital slot?
     type: h3
@@ -152,41 +188,91 @@ content:
   text: "<p>Ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
   commentBlock:
     limit: 3
-    # deadline:
-    #   legend: Set deadline
-    #   calendar: true
-    #   items:
-    #   - label: Day
-    #     id: 3245
-    #     name: deadline-day
-    #     modifiers: form-group-day
-    #     type: number
-    #     attr:
-    #       key: pattern
-    #       value: '[0-9]*'
-    #   - label: Month
-    #     id: 43563456
-    #     name: deadline-month
-    #     modifiers: form-group-month
-    #     type: number
-    #     attr:
-    #       key: pattern
-    #       value: '[0-9]*'
-    #   - label: Year
-    #     id: 45674567
-    #     name: deadline-year
-    #     modifiers: form-group-year
-    #     type: number
-    #     attr:
-    #       key: pattern
-    #       value: '[0-9]*'
+    modifiers: spacing-bottom--single
+    notice:
+      checkbox:
+        name: priority-level
+        type: checkbox
+        fieldModifiers: float-right d-inline-block
+        inputs:
+        - id: juu7gg4gf33f
+          value: High priority
+    source:
+      legend: Comment source
+      fieldsetModifiers: inline
+      items:
+      - contentType: boolean
+        name: second-radio-item
+        type: radio
+        inputs:
+        - id: dfgh89dfgh
+          value: Comment
+          checked: true
+        - id: hjdktlhivm67
+          value: Phone call
+        - id: llojef6
+          value: Email
+    assignees:
+      label: Assign to
+      # supporting: Select multiple by pressing shift and clicking
+      id: assignees-question-2
+      # multiple: true
+      # data: data-assign
+      options:
+      - label: Please select
+        value: ''
+      - label: Joel Harris
+        value: sfkhwer87hkj34h
+        selected: true
+      - label: Luke Wotten
+        value: sfkhwesdtjsdfhgqw
+      - label: Jon Smith
+        value: adwty5nnkv08b
+      - label: Dave Stringer
+        value: jfmfuue67tg3f
+      - label: Aimee Brace
+        value: lvm08jjetffs
+        selected: true
+      - label: Alex Hobbs
+        value: kfj789dbv
+      - label: Tom Foster
+        value: 15rdcsb
+        selected: true
+    deadline:
+      legend: Set deadline
+      calendar: true
+      items:
+      - label: Day
+        id: 3245
+        name: deadline-day
+        modifiers: form-group-day
+        type: number
+        attr:
+          key: pattern
+          value: '[0-9]*'
+      - label: Month
+        id: 43563456
+        name: deadline-month
+        modifiers: form-group-month
+        type: number
+        attr:
+          key: pattern
+          value: '[0-9]*'
+      - label: Year
+        id: 45674567
+        name: deadline-year
+        modifiers: form-group-year
+        type: number
+        attr:
+          key: pattern
+          value: '[0-9]*'
     button:
       label: Add comment
     fileupload:
       label: Upload attachment
       modifiers: file-upload
       id: file-upload-2
-      # shimmed: true
+      shimmed: true
     comments:
     - byline:
         modifiers: spacing-bottom--single
@@ -207,6 +293,14 @@ content:
         url: "/pdfs/disposal-discovery.pdf"
         type: .pdf
         supporting: (12mb)
+      deadline:
+        text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+        type: p
+        modifiers: heading-small
+      assignees:
+        text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+        type: p
+        modifiers: heading-small
 progress:
   heading:
     text: "Frequency section status:"
