@@ -281,6 +281,14 @@ content:
         url: "/pdfs/disposal-discovery.pdf"
         type: .pdf
         supporting: (12mb)
+      deadline:
+        text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+        type: p
+        modifiers: heading-small
+      assignees:
+        text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+        type: p
+        modifiers: heading-small
 progress:
   heading:
     text: "Frequency section status:"
