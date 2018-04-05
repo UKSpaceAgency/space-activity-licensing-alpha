@@ -4,10 +4,11 @@ import formBuilder from '../../components/FormBuilder/component.jsx'
 
 const Fieldset = props => {
   let classes = classNames('fieldset', props.className, props.fieldsetModifiers)
+  let legendClasses = classNames('legend', props.modifiers)
 
   return (
     <fieldset className={classes}>
-      <legend className={props.modifiers || null}>
+      <legend className={legendClasses}>
         <span className='heading-medium'>
           {props.legend}
           {props.supporting && <span className='form-hint body-text'>
