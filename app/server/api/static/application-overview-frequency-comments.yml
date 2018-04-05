@@ -168,6 +168,18 @@ content:
         url: "/pdfs/disposal-discovery.pdf"
         type: .pdf
         supporting: (12mb)
+      - text: Fuel containment
+        url: "/pdfs/disposal-discovery.pdf"
+        type: .pdf
+        supporting: (1.9mb)
+      deadline:
+        text: "<span class='quiet'>Deadline</span><br/>14 May 2017"
+        type: p
+        modifiers: heading-small
+      assignees:
+        text: "<span class='quiet'>Assigned to</span><br/>Amy Brace"
+        type: p
+        modifiers: heading-small
 - title:
     text: Q2. Has the orbital slot?
     type: h3
@@ -281,6 +293,14 @@ content:
         url: "/pdfs/disposal-discovery.pdf"
         type: .pdf
         supporting: (12mb)
+      deadline:
+        text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+        type: p
+        modifiers: heading-small
+      assignees:
+        text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+        type: p
+        modifiers: heading-small
 progress:
   heading:
     text: "Frequency section status:"
