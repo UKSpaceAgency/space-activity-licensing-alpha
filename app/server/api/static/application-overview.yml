@@ -4,7 +4,7 @@ useComponent: true
 slug: test
 head:
   contentType: head
-  title: Test page
+  title: Application overview
 hero:
   modifiers: bg-dark bg-blue
   breadcrumb:
