@@ -107,10 +107,11 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
+    collapsible: true
     tabs:
-    - label: Inmarsat frequency (1)
+    - label: Inmarsat application notes (1)
       id: notes-open
-    - label: Private notes (2)
+    - label: My notes (2)
       id: notes-private
     notice:
       checkbox:
