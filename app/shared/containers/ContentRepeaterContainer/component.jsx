@@ -1,5 +1,6 @@
 import React from 'react'
 import ContentRepeater from '../../components/ContentRepeater/component.jsx'
+import Heading from '../../components/Heading/component.jsx'
 
 const ContentRepeaterContainer = props => {
   let content = props.content.map((v, i) => {
@@ -8,6 +9,7 @@ const ContentRepeaterContainer = props => {
 
   return (
     <div className={props.modifiers || ''}>
+      {props.heading && <Heading {...props.heading}/>}
       {content}
     </div>
   )
