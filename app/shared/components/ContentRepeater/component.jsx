@@ -8,22 +8,21 @@ import CommentModule from '../CommentModule/component.jsx'
 import TabPanel from '../TabPanel/component.jsx'
 import Tablist from '../Tablist/component.jsx'
 import Tab from '../Tab/component.jsx'
+import Accordion from '../Accordion/component.jsx'
 
 const ContentRepeater = props => {
   let classes = classNames(props.className, props.modifiers)
-  let tabs = props.commentBlock.tabs ? <React.Fragment><Tablist>{props.commentBlock.tabs.map((v, i) => <Tab key={i} id={v.id}>{v.label}</Tab>)}</Tablist>{props.commentBlock.tabs.map((v, i) => <TabPanel key={i} id={v.id}>{props.commentBlock && <CommentModule id={props.permalink + v.id} {...props.commentBlock}/>}</TabPanel>)}</React.Fragment> : null
-  let collapsible = props.commentBlock.collapsible ? <div>{tabs}</div> : tabs
+  let tabs = props.commentBlock && props.commentBlock.tabs ? <React.Fragment><Tablist>{props.commentBlock.tabs.map((v, i) => <Tab key={i} id={v.id}>{v.label}</Tab>)}</Tablist>{props.commentBlock.tabs.map((v, i) => <TabPanel key={i} id={v.id}>{props.commentBlock && <CommentModule id={props.permalink + v.id} {...props.commentBlock}/>}</TabPanel>)}</React.Fragment> : null
+  let collapsible = props.commentBlock && props.commentBlock.collapsible && props.commentBlock.tabs ? (<Accordion><div className='accordion-section'><div className='accordion-section-header'></div><div className='accordion-section-body'>{tabs}</div></div></Accordion>) : tabs
   return (
     <section className={classes} id={props.permalink}>
-      <Heading {...props.title}/>
+      {props.title && <Heading {...props.title}/>}
       <Longform {...props}/>
-      <Heading {...props.heading}/>
+      {props.heading && <Heading {...props.heading}/>}
       {props.documents && <List list={props.documents} className='list-inline'/>}
       {collapsible}
-      <div className='text'>
-        <a href='#' className='link-back'>Back to top</a>
-      </div>
-      <Divider />
+      {props.backbutton && <div className='text'><a href='#' className='link-back'>Back to top</a></div>}
+      {props.divider && <Divider />}
     </section>
   )
 }

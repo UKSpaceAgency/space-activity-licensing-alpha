@@ -21,45 +21,44 @@ Accordion.prototype.setup = function() {
      accordion.sections.push(new AccordionSection(accordion_sections[i], accordion))
   };
 
-  var accordion_controls = document.createElement('div')
-  accordion_controls.setAttribute('class', 'accordion-controls')
+  // var accordion_controls = document.createElement('div')
+  // accordion_controls.setAttribute('class', 'accordion-controls')
 
-  var open_or_close_all_button = document.createElement('button')
-  open_or_close_all_button.textContent = 'Open all'
-  open_or_close_all_button.setAttribute('class', 'accordion-expand-all')
-  open_or_close_all_button.setAttribute('aria-expanded', 'false')
+  // var open_or_close_all_button = document.createElement('button')
+  // open_or_close_all_button.textContent = 'Open all'
+  // open_or_close_all_button.setAttribute('class', 'accordion-expand-all')
+  // open_or_close_all_button.setAttribute('aria-expanded', 'false')
 
-  open_or_close_all_button.addEventListener('click', this.openOrCloseAll.bind(this))
+  // open_or_close_all_button.addEventListener('click', this.openOrCloseAll.bind(this))
 
-  accordion_controls.appendChild(open_or_close_all_button)
+  // accordion_controls.appendChild(open_or_close_all_button)
 
-  this.element.insertBefore(accordion_controls, this.element.firstChild)
-  this.element.classList.add('with-js')
+  // this.element.insertBefore(accordion_controls, this.element.firstChild)
 }
 
-Accordion.prototype.openOrCloseAll = function(event) {
+// Accordion.prototype.openOrCloseAll = function(event) {
 
-  var open_or_close_all_button = event.target
-  var now_expanded = !(open_or_close_all_button.getAttribute('aria-expanded') == 'true')
+//   var open_or_close_all_button = event.target
+//   var now_expanded = !(open_or_close_all_button.getAttribute('aria-expanded') == 'true')
 
-  for (var i = this.sections.length - 1; i >= 0; i--) {
-    this.sections[i].setExpanded(now_expanded)
-  };
+//   for (var i = this.sections.length - 1; i >= 0; i--) {
+//     this.sections[i].setExpanded(now_expanded)
+//   };
 
-  this.setOpenCloseButtonExpanded(now_expanded)
+//   this.setOpenCloseButtonExpanded(now_expanded)
 
-}
+// }
 
 
-Accordion.prototype.setOpenCloseButtonExpanded = function(expanded) {
+// Accordion.prototype.setOpenCloseButtonExpanded = function(expanded) {
 
-  var open_or_close_all_button = this.element.querySelector('.accordion-expand-all')
+//   var open_or_close_all_button = this.element.querySelector('.accordion-expand-all')
 
-  var new_button_text = expanded ? "Close all" : "Open all"
-  open_or_close_all_button.setAttribute('aria-expanded', expanded)
-  open_or_close_all_button.textContent = new_button_text
+//   var new_button_text = expanded ? "Close all" : "Open all"
+//   open_or_close_all_button.setAttribute('aria-expanded', expanded)
+//   open_or_close_all_button.textContent = new_button_text
 
-}
+// }
 
 Accordion.prototype.updateOpenAll = function() {
 
@@ -73,11 +72,11 @@ Accordion.prototype.updateOpenAll = function() {
     }
   };
 
-  if (sectionsCount == openSectionsCount) {
-    this.setOpenCloseButtonExpanded(true)
-  } else {
-    this.setOpenCloseButtonExpanded(false)
-  }
+  // if (sectionsCount == openSectionsCount) {
+  //   this.setOpenCloseButtonExpanded(true)
+  // } else {
+  //   this.setOpenCloseButtonExpanded(false)
+  // }
 
 }
 
