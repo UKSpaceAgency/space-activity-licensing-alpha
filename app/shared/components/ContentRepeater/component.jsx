@@ -11,27 +11,15 @@ import Tab from '../Tab/component.jsx'
 
 const ContentRepeater = props => {
   let classes = classNames(props.className, props.modifiers)
-
   return (
     <section className={classes} id={props.permalink}>
       <Heading {...props.title}/>
       <Longform {...props}/>
       <Heading {...props.heading}/>
       {props.documents && <List list={props.documents} className='list-inline'/>}
-      <Tablist>
-        <Tab id={props.id + '-open'}>
-          Inmarsat frequency (1)
-        </Tab>
-        <Tab id={props.id + '-private'}>
-          Private notes (2)
-        </Tab>
-      </Tablist>
-      <TabPanel id={props.id + '-open'}>
-        {props.commentBlock && <CommentModule id={props.permalink + props.id + '-open'} {...props.commentBlock}/>}
-      </TabPanel>
-      <TabPanel id={props.id + '-private'}>
-        {props.commentBlock && <CommentModule id={props.permalink + props.id + '-private'} {...props.commentBlock}/>}
-      </TabPanel>
+      {props.commentBlock.tabs && <Tablist>{props.commentBlock.tabs.map((v, i) => <Tab key={i} id={v.id}>{v.label}</Tab>)}</Tablist>}
+      {props.commentBlock.tabs && props.commentBlock.tabs.map((v, i) => <TabPanel key={i} id={v.id}>{props.commentBlock && <CommentModule id={props.permalink + v.id} {...props.commentBlock}/>}</TabPanel>)}
+
       <div className='text'>
         <a href='#' className='link-back'>Back to top</a>
       </div>

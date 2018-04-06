@@ -7,6 +7,7 @@ import Form from './components/Form/component'
 import List from './components/List/component'
 import Heading from './components/Heading/component.jsx'
 import Collapsible from './components/Collapsible/component.jsx'
+import ContentRepeater from './components/ContentRepeater/component.jsx'
 import Panel from './components/Panel/component.jsx'
 import Notice from './components/Notice/component.jsx'
 import Listing from './components/Listing/component.jsx'
@@ -39,6 +40,9 @@ export function pageBuilder (pageData) {
         break
       case 'blockquote':
         reactComponent = <Blockquote {...item} key={i} />
+        break
+      case 'collapsiblepanel':
+        reactComponent = <ContentRepeater {...item} key={i} />
         break
       case 'panel':
         reactComponent = <Panel {...item} key={i} />

@@ -74,6 +74,11 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
+    tabs:
+    - label: Inmarsat frequency (1)
+      id: notes-open
+    - label: Private notes (2)
+      id: notes-private
     notice:
       checkbox:
         name: priority-level
