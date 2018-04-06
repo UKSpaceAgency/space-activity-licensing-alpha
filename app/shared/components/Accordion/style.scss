@@ -1,13 +1,11 @@
 .accordion {
 
-  border-bottom-width: 1px;
+/*  border-bottom-width: 1px;
   border-bottom-color: $grey-1;
-  border-bottom-style: solid;
+  border-bottom-style: solid;*/
 
   .accordion-section {
-    border-top-width: 1px;
-    border-top-color: $grey-1;
-    border-top-style: solid;
+
 
     .accordion-section-header {
       cursor: pointer;
@@ -16,12 +14,12 @@
       padding-bottom:  12px;
     }
 
-    .icon {
+    .icon-plus {
 
       position: absolute;
       top: 50%;
-      right: 15px;
-      margin-top: -8px;
+      right: 32px;
+      margin-top: -16px;
       background-size: contain;
       background: url('../img/icons/plus.svg');
 
@@ -29,12 +27,16 @@
   }
 
   .accordion-section[aria-expanded='false'] {
+    border-bottom-width: 1px;
+    border-bottom-color: $grey-1;
+    border-bottom-style: solid;
+
     .accordion-section-body {
       display: none;
     }
   }
 
-  .accordion-section[aria-expanded='true'] .icon {
+  .accordion-section[aria-expanded='true'] .icon-plus {
     background: url('../img/icons/minus.svg');
   }
 

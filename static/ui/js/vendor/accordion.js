@@ -90,7 +90,7 @@ AccordionSection.prototype.setup = function() {
   header.setAttribute('role', 'button')
 
   var icon = document.createElement('span')
-  icon.setAttribute('class', 'icon')
+  icon.setAttribute('class', 'icon icon-plus icon--large')
 
   header.appendChild(icon)
 }
