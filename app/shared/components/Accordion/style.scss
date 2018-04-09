@@ -1,32 +1,23 @@
-.accordion {
 
-/*  border-bottom-width: 1px;
-  border-bottom-color: $grey-1;
-  border-bottom-style: solid;*/
+.accordion-section {
 
-  .accordion-section {
-
-
-    .accordion-section-header {
-      cursor: pointer;
-      position: relative;
-      padding-top: 14px;
-      padding-bottom:  12px;
-    }
-
-    .icon-plus {
-
-      position: absolute;
-      top: 50%;
-      right: 32px;
-      margin-top: -16px;
-      background-size: contain;
-      background: url('../img/icons/plus.svg');
-
-    }
+  .accordion-section-header {
+    cursor: pointer;
+    position: relative;
+    padding-top: 14px;
+    padding-bottom:  12px;
   }
 
-  .accordion-section[aria-expanded='false'] {
+  .icon-plus {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    margin-top: -16px;
+    background-size: contain;
+    background: url('../img/icons/plus.svg');
+  }
+
+  &[aria-expanded='false'] {
     border-bottom-width: 1px;
     border-bottom-color: $grey-1;
     border-bottom-style: solid;
@@ -36,21 +27,8 @@
     }
   }
 
-  .accordion-section[aria-expanded='true'] .icon-plus {
+  &[aria-expanded='true'] .icon-plus {
     background: url('../img/icons/minus.svg');
   }
-
-}
-
-.accordion-controls {
-  text-align: right;
-}
-
-.accordion-expand-all {
-  display: inline;
-  background: transparent;
-  border-width: 0;
-  font-size: 16px;
-  cursor: pointer;
 }
 
