@@ -11,10 +11,14 @@ import FilterBlock from '../../containers/FilterBlock/component.jsx'
 
 const PageTwoCol = props => {
   let list = props.listing.map((v, i) => {
-    return (<div>
-      <Heading {...v.heading}/>
-      {v.list.map((j, i) => <OverviewList {...j} key={i}/>)}
-    </div>)
+    console.log(v)
+    return (
+      <div key={i}>
+        <Heading {...v.heading}/>
+        {v.filters && <FilterBlock {...v.filters}/>}
+        {v.list.map((j, i) => <OverviewList {...j} key={i}/>)}
+      </div>
+    )
   })
 
   return (
@@ -25,7 +29,6 @@ const PageTwoCol = props => {
         <main id='content' role='main'>
           <Breadcrumb breadcrumb={props.breadcrumb} />
           <Hero {...props.hero} />
-          <FilterBlock {...props}/>
           <Grid>
             <GridCol className='column-full'>
               {list}
