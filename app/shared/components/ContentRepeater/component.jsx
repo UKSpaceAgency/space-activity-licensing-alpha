@@ -9,12 +9,13 @@ import TabPanel from '../TabPanel/component.jsx'
 import Tablist from '../Tablist/component.jsx'
 import Tab from '../Tab/component.jsx'
 import Accordion from '../Accordion/component.jsx'
+import AccordionSection from '../AccordionSection/component.jsx'
 
 const ContentRepeater = props => {
   let classes = classNames(props.className, props.modifiers)
   let tabs = props.commentBlock && props.commentBlock.tabs ? <React.Fragment><Tablist>{props.commentBlock.tabs.map((v, i) => <Tab key={i} id={v.id}>{v.label}</Tab>)}</Tablist>{props.commentBlock.tabs.map((v, i) => <TabPanel key={i} id={v.id}>{props.commentBlock && <CommentModule id={props.permalink + v.id} {...props.commentBlock}/>}</TabPanel>)}</React.Fragment> : null
   // @todo @refactor - this is a bit loooong - pare this back a little
-  let collapsible = props.commentBlock && props.commentBlock.collapsible && props.commentBlock.tabs ? (<Accordion><AccordionSection heading='Application notes'>{tabs}</AccordionSection</Accordion>) : tabs
+  let collapsible = props.commentBlock && props.commentBlock.collapsible && props.commentBlock.tabs ? (<Accordion><AccordionSection heading='Application notes'>{tabs}</AccordionSection></Accordion>) : tabs
   return (
     <section className={classes} id={props.permalink}>
       {props.title && <Heading {...props.title}/>}
