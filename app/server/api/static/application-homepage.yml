@@ -53,20 +53,21 @@ listing:
     type: h2
     modifiers: heading-large
   filters:
-  - label: Filter
-    id: filter-by
-    options:
-    - label: Lorem ipsum
-      value: launch-date
-    - label: Lorem ipsum
-      value: launch-date
-  - label: Sort
-    id: sort-by
-    options:
-    - label: Alphabetically A - Z
-      value: a-z
-    - label: Alphabetically Z - A
-      value: z-a
+    blocks:
+    - label: Filter
+      id: filter-by
+      options:
+      - label: Lorem ipsum
+        value: launch-date
+      - label: Lorem ipsum
+        value: launch-date
+    - label: Sort
+      id: sort-by
+      options:
+      - label: Alphabetically A - Z
+        value: a-z
+      - label: Alphabetically Z - A
+        value: z-a
   list:
   - status: 3 UPDATES
     heading:

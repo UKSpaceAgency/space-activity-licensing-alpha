@@ -11,13 +11,12 @@ import FilterBlock from '../../containers/FilterBlock/component.jsx'
 
 const PageTwoCol = props => {
   let list = props.listing.map((v, i) => {
-    console.log(v)
     return (
-      <div key={i}>
+      <React.Fragment>
         <Heading {...v.heading}/>
         {v.filters && <FilterBlock {...v.filters}/>}
         {v.list.map((j, i) => <OverviewList {...j} key={i}/>)}
-      </div>
+      </React.Fragment>
     )
   })
 

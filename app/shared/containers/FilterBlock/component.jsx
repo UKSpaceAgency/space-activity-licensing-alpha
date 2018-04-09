@@ -1,17 +1,17 @@
 import React from 'react'
+import Grid from '../../components/Grid/component.jsx'
 import GridCol from '../../components/GridCol/component.jsx'
 import Select from '../../components/Select/component.jsx'
-import { isArray, mapper } from '../../utilities'
+import { mapper } from '../../utilities'
 
 const FilterBlock = props => {
-  let flattened = isArray(props.filters) ? props.filters : Object.values(props.filters)
-  let cols = mapper[flattened.length]
-  let grids = flattened.map((v, i) => {
+  let cols = mapper[props.blocks.length]
+  let grids = props.blocks.map((v, i) => {
     return <GridCol key={i} className={'column-' + cols}><Select {...v} key={i}/></GridCol>
   })
 
   return (
-    <div>{grids}</div>
+    <Grid className='spacing-bottom--single'>{grids}</Grid>
   )
 }
 
