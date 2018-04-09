@@ -8,6 +8,7 @@ import PageContainer from './containers/PageContainer/component'
 import PageGranularContainer from './containers/PageGranularContainer/component'
 import PageTwoColContainer from './containers/PageTwoColContainer/component'
 import PageGranularTwoColContainer from './containers/PageGranularTwoColContainer/component'
+import PageFlatImage from './containers/PageFlatImageContainer/component'
 
 /*
  * Render 404 / 500 errors
