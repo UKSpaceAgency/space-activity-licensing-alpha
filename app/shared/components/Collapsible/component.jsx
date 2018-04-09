@@ -10,6 +10,7 @@ const Collapsible = props => {
       <summary><span className='summary'>{label}</span></summary>
       <Panel className={panelModifiers || 'panel-border-narrow'}>
         <div dangerouslySetInnerHTML={{__html: content}} />
+        {props.children}
       </Panel>
     </details>
   )

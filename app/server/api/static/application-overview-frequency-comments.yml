@@ -60,128 +60,13 @@ sideNavHeading:
   text: Contents
   type: p
   modifiers: font-xsmall underline float-left block
+heading:
+  text: Frequency
+  type: h2
+  modifiers: heading-xlarge spacing-bottom--single
 content:
 - title:
     text: Q1. Has the orbital slot and frequency been approved by the ITU?
-    type: h3
-    modifiers: heading-medium
-  permalink: question-1
-  text: "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-  commentBlock:
-    limit: 3
-    modifiers: spacing-bottom--single
-    notice:
-      checkbox:
-        name: priority-level
-        type: checkbox
-        fieldModifiers: float-right d-inline-block
-        inputs:
-        - id: juu7gg4gf33f
-          value: High priority
-    source:
-      legend: Comment source
-      fieldsetModifiers: inline
-      items:
-      - contentType: boolean
-        name: first-radio-item
-        type: radio
-        inputs:
-        - id: dfgh89dfgdfgdfgh
-          value: Comment
-          checked: true
-        - id: hjdktlhdfgdfgivm67
-          value: Phone call
-        - id: llojedfgdfgf6
-          value: Email
-    deadline:
-      legend: Set deadline
-      calendar: true
-      items:
-      - label: Day
-        id: 32455
-        name: deadline-day
-        modifiers: form-group-day
-        type: number
-        attr:
-          key: pattern
-          value: '[0-9]*'
-      - label: Month
-        id: 435634565
-        name: deadline-month
-        modifiers: form-group-month
-        type: number
-        attr:
-          key: pattern
-          value: '[0-9]*'
-      - label: Year
-        id: 456745675
-        name: deadline-year
-        modifiers: form-group-year
-        type: number
-        attr:
-          key: pattern
-          value: '[0-9]*'
-    button:
-      label: Add comment
-    fileupload:
-      label: Upload attachment
-      modifiers: file-upload
-      id: file-upload-1
-      shimmed: true
-    comments:
-    - byline:
-        modifiers: spacing-bottom--single
-        name:
-          text: Rachel Griffith
-          type: h3
-          modifiers: heading-small
-        url: "/rachel"
-        date:
-          date: 10.04am 22nd March 2018
-          datetime: '2018-03-26T19:34:15+00:00'
-        icon:
-          label: account
-          modifiers: icon-account-admin
-      modifiers: comment-admin
-      text: "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-      documents:
-      - text: Disposal diagram
-        url: "/pdfs/disposal-discovery.pdf"
-        type: .pdf
-        supporting: (12mb)
-    - byline:
-        modifiers: spacing-bottom--single
-        name:
-          text: Rachel Griffith
-          type: h3
-          modifiers: heading-small
-        url: "/rachel"
-        date:
-          date: 10.04am 22nd March 2018
-          datetime: '2018-03-26T19:34:15+00:00'
-        icon:
-          label: account
-          modifiers: icon-account
-      text: "<p>Sed et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit lapariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-      documents:
-      - text: Disposal diagram
-        url: "/pdfs/disposal-discovery.pdf"
-        type: .pdf
-        supporting: (12mb)
-      - text: Fuel containment
-        url: "/pdfs/disposal-discovery.pdf"
-        type: .pdf
-        supporting: (1.9mb)
-      deadline:
-        text: "<span class='quiet'>Deadline</span><br/>14 May 2017"
-        type: p
-        modifiers: heading-small
-      assignees:
-        text: "<span class='quiet'>Assigned to</span><br/>Amy Brace"
-        type: p
-        modifiers: heading-small
-- title:
-    text: Q2. Has the orbital slot?
     type: h3
     modifiers: heading-medium
   permalink: question-2
@@ -189,6 +74,11 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
+    tabs:
+    - label: Inmarsat frequency (1)
+      id: notes-open
+    - label: Private notes (2)
+      id: notes-private
     notice:
       checkbox:
         name: priority-level
@@ -277,7 +167,7 @@ content:
     - byline:
         modifiers: spacing-bottom--single
         name:
-          text: Rachel Griffith
+          text: Simon Griffith
           type: h3
           modifiers: heading-small
         url: "/rachel"

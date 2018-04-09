@@ -21,7 +21,7 @@ function Comment(element, config) {
     commentBlock: '[data-comment-block]',
     file: '[data-file]',
     textarea: '[data-textarea]',
-    template: '<article class="box box--padded has-byline comment-admin" data-comment-block="true"><div class="byline spacing-bottom--single"><i class="icon icon--byline icon-account-admin"><span class="visually-hidden">account</span></i><h3 class="heading-small">Rachel Griffith</h3><time class="time" datetime="2018-03-26T19:34:15+00:00">{{date}}</time></div><article><div class="long-form">{{text}}</div></article><div class="comment-attachments">{{#file}}<p><strong>Comment attachments</strong></p><p><a href="/pdfs/disposal-discovery.pdf">{{file}}</a></p>{{/file}}</div></article>'
+    template: '<article class="box box--padded has-byline comment-admin" data-comment-block="true"><div class="byline spacing-bottom--single"><i class="icon icon--byline icon-account-admin"><span class="visually-hidden">account</span></i><h3 class="heading-small">Simon Griffith</h3><time class="time" datetime="2018-03-26T19:34:15+00:00">{{date}}</time></div><article><div class="long-form">{{text}}</div></article><div class="comment-attachments">{{#file}}<p><strong>Comment attachments</strong></p><p><a href="/pdfs/disposal-discovery.pdf">{{file}}</a></p>{{/file}}</div></article>'
   }
 
   $.extend(options, config)
