@@ -50,6 +50,8 @@ sup {
   border-bottom: 1px solid $grey-1;
 }
 
+$lighten-amount: 15%;
+
 .bottom-border {
 
   &::after {
@@ -66,14 +68,22 @@ sup {
   }
 
   &.bottom-border-bg-pink {
+    .bg-pink:not(.dark) {
+      background-color: lighten($baby-pink, $lighten-amount);
+    }
+
     &::after {
-      background-color: $baby-pink;
+      background-color: lighten($baby-pink, $lighten-amount);
     }
   }
 
   &.bottom-border-bg-green {
+    .bg-green:not(.dark) {
+      background-color: lighten($turquoise, $lighten-amount);
+    }
+
     &::after {
-      background-color: $turquoise;
+      background-color: lighten($turquoise, $lighten-amount);
     }
   }
 
@@ -84,14 +94,22 @@ sup {
   }
 
   &.bottom-border-bg-orange {
+    .bg-orange:not(.dark) {
+      background-color: lighten($orange, $lighten-amount);
+    }
+
     &::after {
-      background-color: $orange;
+      background-color: lighten($orange, $lighten-amount);
     }
   }
 
   &.bottom-border-bg-brown {
+    .bg-brown:not(.dark) {
+      background-color: lighten($brown, $lighten-amount);
+    }
+
     &::after {
-      background-color: $brown;
+      background-color: lighten($brown, $lighten-amount);
     }
   }
 }

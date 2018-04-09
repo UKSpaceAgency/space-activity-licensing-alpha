@@ -13,27 +13,47 @@ breadcrumb:
   text: Applications
   url: "/"
 hero:
-  modifiers: border
-  title:
-    contentType: title
-    title: Space license applications
+  modifiers: border padding-top--single spacing-bottom--flush
+  # title:
+  #   contentType: title
+  #   title: Your licence cases
+  #   modifiers: heading-medium
   infoGrid:
   - contentType: heading
-    text: 1 new, 4 pending
+    text: Your licence cases
     type: p
-    modifiers: lede
   - contentType: heading
     text: <a href="#">View completed applications</a>
     type: p
-    modifiers: lede
-
+    modifiers: float-right
 listing:
 - heading:
     text: New (2)
     type: h2
     modifiers: heading-large
   list:
-  - heading:
+  - status:
+      label: New
+      modifiers: bg-orange dark
+    heading:
+      text: Skyrora
+      type: h3
+      modifiers: heading-medium spacing-top--flush
+    items:
+    - text: Applicant name
+      value: Dave Branson
+    appStatus: Awaiting Action
+    url: "/application-overview"
+    reference: 62dsffg7238djuju4756
+    updated: 10th March 2018
+    updater: John Terry
+    label:
+      tag: I-OL
+      class: bg-orange
+  - status:
+      label: New
+      modifiers: bg-pink dark
+    heading:
       text: Inmarsat
       type: h3
       modifiers: heading-medium spacing-top--flush
@@ -69,7 +89,9 @@ listing:
       - label: Alphabetically Z - A
         value: z-a
   list:
-  - status: 3 UPDATES
+  - status:
+      label: 2 updates
+      modifiers: bg-blue
     heading:
       text: Inmarsat
       type: h3
@@ -87,7 +109,10 @@ listing:
     label:
       tag: RCS
       class: bg-green
-  - heading:
+  - status:
+      label: 4 updates
+      modifiers: bg-blue
+    heading:
       text: Inmarsat
       type: h3
       modifiers: heading-medium spacing-top--flush
