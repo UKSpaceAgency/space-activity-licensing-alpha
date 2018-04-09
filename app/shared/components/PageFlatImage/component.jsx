@@ -1,15 +1,13 @@
 import React from 'react'
-// import Masthead from '../Masthead/component.jsx'
 
 const Page = props => {
-
-  let image = <img src={props.src} alt='' />
+  let image = <img src={props.image} alt='' />
   let hyperlinked = props.href ? <a href={props.href}>{image}</a> : image
 
   return (
-    <React.Fragment>
+    <div className='align-centre'>
       {hyperlinked}
-    </React.Fragment>
+    </div>
   )
 }
 

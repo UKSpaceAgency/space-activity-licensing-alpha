@@ -1,7 +1,7 @@
 ---
 contentType: page
 useComponent: true
-slug: test
+slug: application-overview
 head:
   contentType: head
   title: Application overview

@@ -47,15 +47,10 @@ hero:
     type: p
     modifiers: badge bg-pink heading-small spacing-top--flush
   synopsisCollapsible:
-    contentType: collapsible
-    label: Read more about mission
-    collapsible: true
-    panelModifiers: border-none
-    modifiers: spacing--tight
-    content: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.</p>"
+    contentType: heading
+    text: "<a href='/application-overview/technical/all-attachments'>View all attachments</a>"
+    type: p
+    modifiers: spacing-top--single
 sideNavHeading:
   text: Contents
   type: p
