@@ -14,7 +14,7 @@ const ContentRepeater = props => {
   let classes = classNames(props.className, props.modifiers)
   let tabs = props.commentBlock && props.commentBlock.tabs ? <React.Fragment><Tablist>{props.commentBlock.tabs.map((v, i) => <Tab key={i} id={v.id}>{v.label}</Tab>)}</Tablist>{props.commentBlock.tabs.map((v, i) => <TabPanel key={i} id={v.id}>{props.commentBlock && <CommentModule id={props.permalink + v.id} {...props.commentBlock}/>}</TabPanel>)}</React.Fragment> : null
   // @todo @refactor - this is a bit loooong - pare this back a little
-  let collapsible = props.commentBlock && props.commentBlock.collapsible && props.commentBlock.tabs ? (<Accordion><div className='accordion-section'><div className='accordion-section-header'><h2 className='heading-large'>Application notes</h2></div><div className='accordion-section-body'>{tabs}</div></div></Accordion>) : tabs
+  let collapsible = props.commentBlock && props.commentBlock.collapsible && props.commentBlock.tabs ? (<Accordion><AccordionSection heading='Application notes'>{tabs}</AccordionSection</Accordion>) : tabs
   return (
     <section className={classes} id={props.permalink}>
       {props.title && <Heading {...props.title}/>}
