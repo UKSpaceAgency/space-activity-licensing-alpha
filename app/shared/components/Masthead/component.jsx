@@ -4,7 +4,6 @@ import Logo from '../Logo/component.jsx'
 import UtilityNav from '../UtilityNav/component.jsx'
 
 const Masthead = props => {
-  console.log(props)
   let classes = classNames('masthead', props.className)
 
   return (

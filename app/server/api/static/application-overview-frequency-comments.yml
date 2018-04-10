@@ -160,6 +160,11 @@ content:
       shimmed: true
     comments:
     - byline:
+        priority:
+          icon:
+            label: High priority
+            modifiers: icon-warning icon--large
+          content: High priority
         modifiers: spacing-bottom--single
         name:
           text: Simon Griffith
