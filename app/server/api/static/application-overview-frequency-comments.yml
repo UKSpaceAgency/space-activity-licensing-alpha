@@ -163,7 +163,7 @@ content:
         priority:
           icon:
             label: High priority
-            modifiers: icon-warning icon--large
+            modifiers: icon-warning icon-warning--orange icon--large
           content: High priority
         modifiers: spacing-bottom--single
         name:

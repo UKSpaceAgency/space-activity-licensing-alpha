@@ -52,4 +52,8 @@ $icon-dims: 16px;
 
 .icon-warning {
   background-image: url('../img/icons/warning.svg');
+
+  &.icon-warning--orange {
+    background-image: url('../img/icons/warning-orange.svg');
+  }
 }
