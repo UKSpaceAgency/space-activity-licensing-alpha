@@ -7,7 +7,7 @@ import Hero from '../../components/Hero/component.jsx'
 const Page = props => {
   return (
     <div>
-      <Masthead />
+      <Masthead {...props.masthead}/>
       {props.hero && <Hero {...props.hero} />}
       {!props.hero && <div id='global-header-bar' />}
       <div className='site-wrapper'>

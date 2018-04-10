@@ -12,7 +12,7 @@ $icon-dims: 16px;
 
   &.icon--byline {
     position: absolute;
-    left: -45px;
+    left: -30px;
   }
 
   &.icon--large {
@@ -52,4 +52,8 @@ $icon-dims: 16px;
 
 .icon-warning {
   background-image: url('../img/icons/warning.svg');
+
+  &.icon-warning--orange {
+    background-image: url('../img/icons/warning-orange.svg');
+  }
 }

@@ -8,6 +8,7 @@ import PageContainer from './containers/PageContainer/component'
 import PageGranularContainer from './containers/PageGranularContainer/component'
 import PageTwoColContainer from './containers/PageTwoColContainer/component'
 import PageGranularTwoColContainer from './containers/PageGranularTwoColContainer/component'
+import PageFlatImage from './containers/PageFlatImageContainer/component'
 
 /*
  * Render 404 / 500 errors
@@ -50,12 +51,16 @@ let getRoutes = store => {
     <Route path='/'>
       <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='index'/>
       <Route path='applications' component={withFallback(PageTwoColContainer)} onEnter={getPage} slug='application-homepage' />
+      <Route path='notifications' component={withFallback(PageFlatImage)} onEnter={getPage} slug='notifications' />
+      <Route path='activity' component={withFallback(PageFlatImage)} onEnter={getPage} slug='activity' />
       <Route path='application-overview'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview' />
+        <Route path='new-member' component={withFallback(PageFlatImage)} onEnter={getPage} slug='new-member' />
         <Route path='technical'>
           <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview-technical'/>
           <Route path='satellite-and-mission-overview' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety' />
           <Route path='share' component={withFallback(PageContainer)} onEnter={getPage} slug='technical-share' />
+          <Route path='all-attachments' component={withFallback(PageFlatImage)} onEnter={getPage} slug='all-attachments' />
         </Route>
         <Route path='frequency'>
           <IndexRoute component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='application-overview-frequency-comments'/>

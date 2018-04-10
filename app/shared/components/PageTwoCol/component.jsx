@@ -11,21 +11,23 @@ import FilterBlock from '../../containers/FilterBlock/component.jsx'
 
 const PageTwoCol = props => {
   let list = props.listing.map((v, i) => {
-    return (<div>
-      <Heading {...v.heading}/>
-      {v.list.map((j, i) => <OverviewList {...j} key={i}/>)}
-    </div>)
+    return (
+      <React.Fragment>
+        <Heading {...v.heading}/>
+        {v.filters && <FilterBlock {...v.filters}/>}
+        {v.list.map((j, i) => <OverviewList {...j} key={i}/>)}
+      </React.Fragment>
+    )
   })
 
   return (
     <div>
-      <Masthead />
+      <Masthead {...props.masthead}/>
       <div id='global-header-bar' />
       <div className='site-wrapper'>
         <main id='content' role='main'>
           <Breadcrumb breadcrumb={props.breadcrumb} />
           <Hero {...props.hero} />
-          <FilterBlock {...props}/>
           <Grid>
             <GridCol className='column-full'>
               {list}

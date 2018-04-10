@@ -1,0 +1,35 @@
+.utility-nav {
+  padding: 0 15px;
+  @include media(tablet) {
+    text-align: right;
+  }
+}
+
+.has-notification {
+  position: relative;
+  padding-left: 50px;
+}
+
+.utility-nav__item {
+  @include media(tablet) {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 30px;
+  }
+
+  a {
+    color: $white;
+  }
+}
+
+.notification {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: $govuk-blue;
+  border-radius: 100%;
+  text-align: center;
+  padding: 5px;
+  margin-top: -2px;
+  left: -15px;
+}

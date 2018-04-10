@@ -3,14 +3,13 @@
 
 $(document).ready(function () {
 
-  // var selectAssign = $('[data-assign]');
+  var accordion = $('[data-accordion]');
   var commentTarget = $('[data-comment]');
 
   // loop through target items and apply the plugin function
-  // selectAssign.each(function(i, target) {
-  //   var tag = new Tag(target);
-  //   tag.init();
-  // });
+  accordion.each(function(i, target) {
+    new Accordion(target);
+  });
 
   if (commentTarget) {
 

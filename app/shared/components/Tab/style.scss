@@ -15,6 +15,7 @@
   display: block;
   border: solid;
   border-width: 1px;
+  margin-bottom: -1px;
   border-color: transparent transparent $grey-1 transparent;
 
   .close {
@@ -31,8 +32,9 @@
 
 .tabs__link[aria-selected='true'] {
   border-color: $grey-1;
-  border-bottom-width: 0;
+  border-bottom-color: $white;
   text-decoration: none;
+  margin-bottom: 0;
   color: $black;
   cursor: default;
 

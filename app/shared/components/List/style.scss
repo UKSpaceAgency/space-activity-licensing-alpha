@@ -1,9 +1,10 @@
 $icon-dims: 13px;
 
 .list {
+
+
   > li {
     margin-bottom: 15px;
-    // padding-left: 15px;
 
     &.update {
       position: relative;
@@ -18,6 +19,12 @@ $icon-dims: 13px;
         top: 0;
         bottom: 0;
       }
+    }
+  }
+
+  &.list--indented {
+    > li {
+      padding-left: 15px;
     }
   }
 

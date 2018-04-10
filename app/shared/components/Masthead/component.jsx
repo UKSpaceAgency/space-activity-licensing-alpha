@@ -1,7 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
-import UtilityNav from '../UtilityNav/component.jsx'
 import Logo from '../Logo/component.jsx'
+import UtilityNav from '../UtilityNav/component.jsx'
 
 const Masthead = props => {
   let classes = classNames('masthead', props.className)
@@ -12,6 +12,7 @@ const Masthead = props => {
         <div className='header-global'>
           <Logo />
         </div>
+        {props.utility && <div className='header-proposition'><UtilityNav {...props.utility}/></div>}
       </div>
     </header>
   )
