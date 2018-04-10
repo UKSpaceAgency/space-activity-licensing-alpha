@@ -165,7 +165,7 @@ content:
             label: High priority
             modifiers: icon-warning icon-warning--orange icon--large
           content: High priority
-        modifiers: spacing-bottom--single
+        modifiers: spacing-bottom--single comment-admin
         name:
           text: Simon Griffith
           type: h3
