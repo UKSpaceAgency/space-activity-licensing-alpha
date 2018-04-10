@@ -8,9 +8,11 @@ head:
 masthead:
   utility:
     links:
+    - text: Notifications
+      url: "/notifications"
+      notification: 3
     - text: Settings
       url: "/application-overview/new-member"
-      notification: 3
 hero:
   modifiers: bg-dark bg-blue
   breadcrumb:

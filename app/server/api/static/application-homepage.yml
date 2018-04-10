@@ -5,6 +5,11 @@ slug: application-homepage
 head:
   contentType: head
   title: Application overview listing
+masthead:
+  utility:
+    links:
+    - text: Settings
+      url: "/application-overview/new-member"
 breadcrumb:
 - contentType: link
   text: Overview

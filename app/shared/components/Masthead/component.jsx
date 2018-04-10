@@ -13,7 +13,7 @@ const Masthead = props => {
         <div className='header-global'>
           <Logo />
         </div>
-        {props.links && <div className='header-proposition'><UtilityNav {...props.links}/></div>}
+        {props.utility && <div className='header-proposition'><UtilityNav {...props.utility}/></div>}
       </div>
     </header>
   )

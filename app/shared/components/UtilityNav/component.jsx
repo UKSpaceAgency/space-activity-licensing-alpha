@@ -2,10 +2,11 @@ import React from 'react'
 import classNames from 'classnames'
 
 const UtilityNav = props => {
-  console.log(props, 'h hwljfhkjlhf skjghflksj')
   // @todo / @refactor - roll this together using the List component
   const list = props.links.map((v, i) => {
-    let itemClasses = classNames('utility-nav__item', v.modifiers)
+    let itemClasses = classNames('utility-nav__item', v.modifiers, {
+      'has-notification': v.notification
+    })
 
     return (<li key={i} className={itemClasses}>
       <a href={v.url}>
@@ -18,7 +19,7 @@ const UtilityNav = props => {
 
   return (
     <nav id='proposition-menu'>
-      <ul id='proposition-links' className='utility-nav'>
+      <ul className='utility-nav'>
         {list}
       </ul>
     </nav>
