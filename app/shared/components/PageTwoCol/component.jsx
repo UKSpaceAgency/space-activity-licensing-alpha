@@ -22,7 +22,7 @@ const PageTwoCol = props => {
 
   return (
     <div>
-      <Masthead />
+      <Masthead {...props.masthead}/>
       <div id='global-header-bar' />
       <div className='site-wrapper'>
         <main id='content' role='main'>

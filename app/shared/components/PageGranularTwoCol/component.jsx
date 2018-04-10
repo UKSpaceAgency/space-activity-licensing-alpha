@@ -14,7 +14,7 @@ import Progress from '../Progress/component.jsx'
 const PageGranularTwoCol = props => {
   return (
     <div>
-      <Masthead />
+      <Masthead {...props.masthead}/>
       <Hero {...props.hero} />
       <div className='site-wrapper'>
         <main id='content' role='main'>

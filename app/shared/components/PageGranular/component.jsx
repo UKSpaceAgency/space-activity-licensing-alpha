@@ -12,7 +12,7 @@ import ContentRepeaterContainer from '../../containers/ContentRepeaterContainer/
 const PageGranular = props => {
   return (
     <div>
-      <Masthead />
+      <Masthead {...props.masthead}/>
       <div id='global-header-bar' />
       <div className='site-wrapper'>
         <main id='content' role='main'>

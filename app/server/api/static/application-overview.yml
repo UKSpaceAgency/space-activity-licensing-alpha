@@ -6,8 +6,11 @@ head:
   contentType: head
   title: Application overview
 masthead:
-  links:
-  - text:
+  utility:
+    links:
+    - text: Settings
+      url: "/application-overview/new-member"
+      notification: 3
 hero:
   modifiers: bg-dark bg-blue
   breadcrumb:
