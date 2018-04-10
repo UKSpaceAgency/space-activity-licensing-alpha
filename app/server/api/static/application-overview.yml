@@ -5,6 +5,9 @@ slug: application-overview
 head:
   contentType: head
   title: Application overview
+masthead:
+  links:
+  - text:
 hero:
   modifiers: bg-dark bg-blue
   breadcrumb:
@@ -94,6 +97,11 @@ hero:
       text: License overview
       type: h2
       modifiers: heading-small spacing-top--tight
+  synopsisCollapsible:
+    contentType: heading
+    text: "<a href='/application-overview/technical/all-attachments'>View all attachments</a>"
+    type: p
+    modifiers: spacing-top--single
   # synopsis:
   #   contentType: longform
   #   intro: Submission overview

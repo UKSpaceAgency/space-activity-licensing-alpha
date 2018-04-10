@@ -22,9 +22,9 @@ const Hero = props => {
           {props.title && <GridCol className='column-three-quarters'><Title {...props.title}/></GridCol>}
           {props.infoGrid && <GridCol className={props.heroLinks ? 'column-three-quarters' : 'column-full'}><InfoGrid grid={props.infoGrid}/></GridCol>}
           {props.synopsis && <GridCol className='column-three-quarters'><Longform {...props.synopsis}/></GridCol>}
-          {props.synopsisCollapsible && <GridCol className='column-three-quarters'><Heading {...props.synopsisCollapsible}/></GridCol>}
           {props.heading && <GridCol className='column-three-quarters'><Heading {...props.heading}/></GridCol>}
           {props.licenceTypeGrid && <GridCol className='column-three-quarters'><CheckboxGridContainer {...props.licenceTypeGrid}/></GridCol>}
+          {props.synopsisCollapsible && <GridCol className='column-three-quarters'><Heading {...props.synopsisCollapsible}/></GridCol>}
           {props.heroLinks && <HeroLinks {...props.heroLinks}/>}
         </Grid>
       </div>
