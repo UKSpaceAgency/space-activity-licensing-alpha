@@ -7,6 +7,7 @@ const Page = props => {
   return (
     <div className='align-centre'>
       {hyperlinked}
+      {props.returnLink && <div className='bg-orange'><a className='link-huge constrained' href={props.returnLink}>Go to {props.returnLink}</a></div>}
     </div>
   )
 }

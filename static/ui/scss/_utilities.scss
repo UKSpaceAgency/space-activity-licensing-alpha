@@ -54,6 +54,14 @@ sup {
   border-bottom: 1px solid $grey-1;
 }
 
+.link-huge {
+  background-color: $orange;
+  padding: 30px 0;
+  margin: 30px auto;
+  display: block;
+}
+
+
 $lighten-amount: 15%;
 
 .bottom-border {

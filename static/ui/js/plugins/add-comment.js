@@ -25,8 +25,6 @@ function Comment(element, config) {
     template: '<article class="box box--padded has-byline comment-admin" data-comment-block="true"><div class="grid-row"><div class="byline column-half spacing-bottom--single"><i class="icon icon--byline icon-account"><span class="visually-hidden">account</span></i><h3 class="heading-small"><span>Simon Griffith</span></h3><time class="time" datetime="2018-03-26T19:34:15+00:00">10.04am 22nd March 2018</time></div>{{#high}}<div class="column-half"><div class="notice"><i class="icon icon-warning icon-warning--orange icon--large"><span class="visually-hidden">High priority</span></i><strong class="bold-small">High priority</strong></div></div>{{/high}}</div><article><div class="long-form">{{text}}</div></article><div class="grid-row"><div class="column-half"><p class="heading-small"><span><span class="quiet">Deadline</span><br>4 June 2018</span></p></div><div class="column-half"><p class="heading-small"><span><span class="quiet">Assigned to</span><br>Joel Hobbs</span></p></div></div><div class="grid-row spacing-top--single"><div class="column-full">{{#file}}<p><strong>Comment attachments</strong></p><p><a href="/pdfs/disposal-discovery.pdf">{{file}}</a></p>{{/file}}</div></div></article>'
   }
 
-
-
   $.extend(options, config)
 
   // Private variables
