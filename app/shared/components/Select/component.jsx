@@ -2,10 +2,11 @@ import React from 'react'
 
 const Select = props => {
   let options = props.options.map((val, i) => {
-    return <option value={val.value} key={i}>{val.label}</option>
+    let modifiers = val.modifiers ? val.modifiers : null
+    return <option value={val.value} key={i} className={modifiers}>{val.label}</option>
   })
   let multiple = props.multiple ? {'multiple': true, 'size': props.options.length} : null
-  let data = props.data ? {[props.data]: true} : null
+  let data = props.data ? {[props.data.key]: props.data.value} : null
 
   return (
     <div className='form-group' {...data}>

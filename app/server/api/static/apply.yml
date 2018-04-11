@@ -1,0 +1,74 @@
+---
+contentType: page
+slug: apply
+head:
+  contentType: head
+  title: Pre application checks
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Settings
+      url: "/application-overview/new-member"
+hero:
+  modifiers: padding-top--single spacing-bottom--flush
+  title:
+    contentType: title
+    title: Pre-application checklist
+    modifiers: heading-xlarge
+content:
+
+- contentType: heading
+  type: p
+  text: Before you begin we want to ask you some key questions to make sure you are fully prepared and ready.
+  modifiers: lede
+- contentType: form
+  legend: WHat space activity are you wanting to undertake?
+  formAction: "/apply/page-1"
+  formItems:
+  - contentType: select
+    name: select-item
+    label: This is a select box with a description
+    supporting: This is a short section of guidance text
+    data:
+      key: data-target
+      value: "#satellite-license-reveal"
+    options:
+    - label: Select one
+      value: " "
+    - label: Satellite license
+      value: satellite-license
+      selected: true
+
+    - label: Space port operator
+      value: space-port-operator
+      modifiers: disabled
+    - label: Space overlord
+      value: space-overlord
+      modifiers: disabled
+  - contentType: formGroup
+    label: This is the first item
+    supporting: This is a short section of guidance text
+    input: text
+    modifiers: form-group-error
+  - contentType: fieldSet
+    label: This is the first item
+    legend: This is the legend for this block
+    supporting: This is a short section of guidance text
+    items:
+    - contentType: boolean
+      name: do-you-have-a-launch-agreement
+      type: radio
+      label: Do you have a launch agreement?
+      inputs:
+      - id: launch-agreement-yes
+        value: Yes
+      - id: launch-agreement-no
+        value: No
+      - id: launch-agreement-in-progress
+        value: In progress
+    - contentType: button
+      name: submit
+      type: submit
+      label: Start
+      modifiers: button-start

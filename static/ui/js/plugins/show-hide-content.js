@@ -11,7 +11,8 @@
     var selectors = {
       namespace: 'ShowHideContent',
       radio: '[data-target] > input[type="radio"]',
-      checkbox: '[data-target] > input[type="checkbox"]'
+      checkbox: '[data-target] > input[type="checkbox"]',
+      select: '[data-target] > option'
     }
 
     // Escape name attribute for use in DOM selector
@@ -104,6 +105,16 @@
       }
     }
 
+    // Handle checkbox show/hide
+    function handleSelectContent ($control, $content) {
+      // Show checkbox content
+      if ($control.is(':selected')) {
+        showToggledContent($control, $content)
+      } else { // Hide checkbox content
+        hideToggledContent($control, $content)
+      }
+    }
+
     // Set up event handlers etc
     function init ($container, elementSelector, eventSelectors, handler) {
       $container = $container || $(document.body)
@@ -120,6 +131,7 @@
 
       // Handle events
       $.each(eventSelectors, function (idx, eventSelector) {
+        console.log($container)
         $container.on('click.' + selectors.namespace, eventSelector, deferred)
       })
 
