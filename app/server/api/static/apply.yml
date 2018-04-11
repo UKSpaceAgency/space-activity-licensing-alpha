@@ -17,7 +17,6 @@ hero:
     title: Pre-application checklist
     modifiers: heading-xlarge
 content:
-
 - contentType: heading
   type: p
   text: Before you begin we want to ask you some key questions to make sure you are fully prepared and ready.
@@ -28,8 +27,7 @@ content:
   formItems:
   - contentType: select
     name: select-item
-    label: This is a select box with a description
-    supporting: This is a short section of guidance text
+    label: What space activity do you want to do?
     data:
       key: data-target
       value: satellite-license-reveal
@@ -44,57 +42,27 @@ content:
     - label: Space overlord
       value: space-overlord
       modifiers: disabled
-  - contentType: formGroup
-    label: This is the first item
-    supporting: This is a short section of guidance text
-    input: text
-    modifiers: form-group-error
-  - contentType: fieldSet
-    label: This is the first item
-    legend: This is the legend for this block
-    supporting: This is a short section of guidance text
-    items:
-    - contentType: boolean
-      name: do-you-have-a-launch-agreement
-      type: radio
-      label: Do you have a launch agreement?
-      inputs:
-      - id: launch-agreement-yes
-        value: Yes
-        data:
-          key: data-target
-          value: launch-agreement-yes-reveal
-      - id: launch-agreement-no
-        value: No
-      - id: launch-agreement-in-progress
-        value: In progress
   - contentType: reveal
     id: satellite-license-reveal
     content:
+    - contentType: heading
+      type: h2
+      text: What we will be looking for
+      modifiers: heading-large
     - contentType: longform
-      intro: Shhhhhhhheeeeeeit
-      text: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrumesse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum</p>"
-  - contentType: reveal
-    id: launch-agreement-yes-reveal
-    content:
-    - contentType: longform
-      intro: Yeah this is the homepage - well done for reaching this
-      text: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-        culpa qui officia deserunt mollit anim id est laborum</p><p>Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-        et dolore magna aliqua. Ut enim ad minim veniamesse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum</p>"
-  - contentType: button
-    name: submit
-    href: "apply/page-1"
-    label: Start
-    modifiers: button-start
+      intro: "These are some of the activities and processes as part of and external to licensing you may need to be undertaking prior to applying:"
+    - contentType: list
+      modifiers: list-bullet
+      list:
+      - text: Launch state
+      - text: Launch provider
+      - text: Launch service agreement
+      - text: Export licences
+      - text: Mission investment
+      - text: Insurance
+      - text: ITU filings - spectrum
+    - contentType: button
+      name: submit
+      url: "apply/page-1"
+      label: Start
+      modifiers: button-start
