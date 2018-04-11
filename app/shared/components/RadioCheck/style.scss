@@ -3,3 +3,13 @@
     clear: none;
   }
 }
+.form-hint {
+  max-width: 60rem;
+}
+
+.form-hint--boolean {
+  margin-left: -38px;
+  clear: both;
+  margin-top: 45px;
+  display: block;
+}

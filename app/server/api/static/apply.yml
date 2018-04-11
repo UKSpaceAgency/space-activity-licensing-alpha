@@ -15,14 +15,14 @@ hero:
   title:
     contentType: title
     title: Pre-application checklist
-    modifiers: heading-xlarge
+    modifiers: spacing-bottom--flush
 content:
 - contentType: heading
   type: p
   text: Before you begin we want to ask you some key questions to make sure you are fully prepared and ready.
   modifiers: lede
 - contentType: form
-  legend: WHat space activity are you wanting to undertake?
+  legend: What space activity are you wanting to undertake?
   formAction: "/apply/page-1"
   formItems:
   - contentType: select

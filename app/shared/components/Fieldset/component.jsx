@@ -1,6 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
-import formBuilder from '../../components/FormBuilder/component.jsx'
+import formBuilder from '../FormBuilder/component.jsx'
+import FormHint from '../FormHint/component.jsx'
 
 const Fieldset = props => {
   let classes = classNames('fieldset', props.className, props.fieldsetModifiers)
@@ -11,9 +12,7 @@ const Fieldset = props => {
       <legend className={legendClasses}>
         <span className='heading-medium'>
           {props.legend}
-          {props.supporting && <span className='form-hint body-text'>
-            {props.supporting}
-          </span>}
+          {props.supporting && <FormHint>{props.supporting}</FormHint>}
         </span>
       </legend>
 

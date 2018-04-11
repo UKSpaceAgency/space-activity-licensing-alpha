@@ -1,5 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
+import FormHint from '../FormHint/component.jsx'
 
 const FormGroup = props => {
   let classes = classNames('form-group', props.className, props.modifiers)
@@ -12,10 +13,7 @@ const FormGroup = props => {
   return (
     <div className={classes}>
       <label className='form-label' htmlFor={props.id}>{props.label}
-        {props.supporting &&
-        <span className='form-hint'>
-          {props.supporting}
-        </span>}
+        {props.supporting && <FormHint>{props.supporting}</FormHint>}
       </label>
       <input className='form-control' id={props.id} name={props.name} type={props.type || 'text'} {...attrs}/>
     </div>
