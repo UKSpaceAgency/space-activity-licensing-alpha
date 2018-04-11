@@ -38,7 +38,7 @@ const formBuilder = (formItems) => {
         component = <Heading {...item} key={i} />
         break
       case 'longform':
-        component = <longform {...item} key={i} />
+        component = <Longform {...item} key={i} />
         break
       case 'list':
         component = <List {...item} key={i} />

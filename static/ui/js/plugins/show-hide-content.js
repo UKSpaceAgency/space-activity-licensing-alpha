@@ -12,7 +12,7 @@
       namespace: 'ShowHideContent',
       radio: '[data-target] > input[type="radio"]',
       checkbox: '[data-target] > input[type="checkbox"]',
-      select: '[data-target] > option'
+      select: '[data-target] > select'
     }
 
     // Escape name attribute for use in DOM selector
@@ -107,8 +107,9 @@
 
     // Handle checkbox show/hide
     function handleSelectContent ($control, $content) {
-      // Show checkbox content
-      if ($control.is(':selected')) {
+      // Show select content
+      var selected = $control.val()
+      if (selected === $content[0].id) {
         showToggledContent($control, $content)
       } else { // Hide checkbox content
         hideToggledContent($control, $content)
@@ -116,7 +117,7 @@
     }
 
     // Set up event handlers etc
-    function init ($container, elementSelector, eventSelectors, handler) {
+    function init ($container, elementSelector, eventSelectors, handler, select) {
       $container = $container || $(document.body)
 
       // Handle control clicks
@@ -131,7 +132,10 @@
 
       // Handle events
       $.each(eventSelectors, function (idx, eventSelector) {
-        console.log($container)
+        if (select) {
+          $container.on('change.' + selectors.namespace, eventSelector, deferred)
+          return
+        }
         $container.on('click.' + selectors.namespace, eventSelector, deferred)
       })
 
@@ -167,6 +171,11 @@
       init($container, selectors.checkbox, [selectors.checkbox], handleCheckboxContent)
     }
 
+    // Set up select show/hide content for container
+    self.showHideSelectContent = function ($container) {
+      init($container, selectors.select, [selectors.select], handleSelectContent, true)
+    }
+
     // Remove event handlers
     self.destroy = function ($container) {
       $container = $container || $(document.body)
@@ -177,6 +186,7 @@
   ShowHideContent.prototype.init = function ($container) {
     this.showHideRadioToggledContent($container)
     this.showHideCheckboxToggledContent($container)
+    this.showHideSelectContent($container)
   }
 
   GOVUK.ShowHideContent = ShowHideContent

@@ -32,14 +32,12 @@ content:
     supporting: This is a short section of guidance text
     data:
       key: data-target
-      value: "#satellite-license-reveal"
+      value: satellite-license-reveal
     options:
     - label: Select one
       value: " "
     - label: Satellite license
-      value: satellite-license
-      selected: true
-
+      value: satellite-license-reveal
     - label: Space port operator
       value: space-port-operator
       modifiers: disabled
@@ -65,36 +63,38 @@ content:
         value: Yes
         data:
           key: data-target
-          value: "launch-agreement-yes-reveal"
+          value: launch-agreement-yes-reveal
       - id: launch-agreement-no
         value: No
       - id: launch-agreement-in-progress
         value: In progress
   - contentType: reveal
-    id: This is the first item
+    id: satellite-license-reveal
     content:
-    - contentType: select
-      name: select-item
-      label: This is a select box with a description
-      supporting: This is a short section of guidance text
-      data:
-        key: data-target
-        value: "#satellite-license-reveal"
-      options:
-      - label: Select one
-        value: " "
-      - label: Satellite license
-        value: satellite-license
-        selected: true
-
-      - label: Space port operator
-        value: space-port-operator
-        modifiers: disabled
-      - label: Space overlord
-        value: space-overlord
-        modifiers: disabled
+    - contentType: longform
+      intro: Shhhhhhhheeeeeeit
+      text: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrumesse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum</p>"
+  - contentType: reveal
+    id: launch-agreement-yes-reveal
+    content:
+    - contentType: longform
+      intro: Yeah this is the homepage - well done for reaching this
+      text: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum</p><p>Lorem ipsum dolor
+        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniamesse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum</p>"
   - contentType: button
     name: submit
-    type: submit
+    href: "apply/page-1"
     label: Start
     modifiers: button-start
