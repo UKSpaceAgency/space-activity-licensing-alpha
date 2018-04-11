@@ -9,6 +9,7 @@ import List from '../List/component.jsx'
 import Longform from '../Longform/component.jsx'
 import Select from '../Select/component.jsx'
 import Textarea from '../Textarea/component.jsx'
+import Reveal from '../Reveal/component.jsx'
 import { isArray } from '../../utilities'
 
 const formBuilder = (formItems) => {
@@ -50,6 +51,9 @@ const formBuilder = (formItems) => {
         break
       case 'buttongroup':
         component = <ButtonGroup {...item} key={i} />
+        break
+      case 'reveal':
+        component = <Reveal {...item} key={i} />
         break
       default:
         console.error('Could not match ' + item.contentType)

@@ -1,8 +1,8 @@
 import React from 'react'
-import FormBuilder from '../FormBuilder/component.jsx'
+import formBuilder from '../FormBuilder/component.jsx'
 
 const Reveal = props => {
-  let Components = formBuilder(props.formItems)
+  let Components = formBuilder(props.content)
   return (
     <div className='js-hidden' id={props.id}>
       {Components}
