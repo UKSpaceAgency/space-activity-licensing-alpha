@@ -6,7 +6,7 @@ const Select = props => {
     let modifiers = val.modifiers ? val.modifiers : null
     return <option value={val.value} key={i} className={modifiers}>{val.label}</option>
   })
-  // let multiple = props.multiple ? {'multiple': true, 'size': props.options.length} : null
+  let multiple = props.multiple ? {'multiple': true, 'size': props.options.length} : null
   let data = props.data ? {[props.data.key]: props.data.value} : null
 
   return (

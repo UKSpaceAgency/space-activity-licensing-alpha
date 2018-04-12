@@ -3,8 +3,9 @@
     clear: none;
   }
 }
+
 .form-hint {
-  max-width: 60rem;
+  max-width: $text-max-width;
 }
 
 .form-hint--boolean {

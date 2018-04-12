@@ -5,8 +5,10 @@ b,
 strong {
   font-weight: bold;
 }
+
+.long-form,
 .lede {
-  max-width: 65rem;
+  max-width: $text-max-width;
 }
 
 .muted {
