@@ -19,10 +19,10 @@ hero:
 content:
 - contentType: heading
   type: p
-  text: Before you begin we want to ask you some key questions to make sure you are fully prepared and ready.
+  text: Where do you want to launch your service from?
   modifiers: lede
 - contentType: form
-  legend: What space activity are you wanting to undertake?
+  legend: Pick your launch
   formAction: "/apply/page-1"
   formItems:
   - contentType: select
@@ -34,35 +34,66 @@ content:
     options:
     - label: Select one
       value: " "
-    - label: Satellite license
-      value: satellite-license-reveal
-    - label: Space port operator
-      value: space-port-operator
-      modifiers: disabled
-    - label: Space overlord
-      value: space-overlord
+    - label: French Guyana
+      value: french-guyana-reveal
+    - label: New Zealand
+      value: new-zealand
       modifiers: disabled
   - contentType: reveal
-    id: satellite-license-reveal
+    id: french-guyana-reveal
     content:
-    - contentType: heading
-      type: h2
-      text: What we will be looking for
-      modifiers: heading-large
-    - contentType: longform
-      intro: "These are some of the activities and processes as part of and external to licensing you may need to be undertaking prior to applying:"
-    - contentType: list
-      modifiers: list-bullet
-      list:
-      - text: Launch state
-      - text: Launch provider
-      - text: Launch service agreement
-      - text: Export licences
-      - text: Mission investment
-      - text: Insurance
-      - text: ITU filings - spectrum
-    - contentType: button
-      name: submit
-      url: "apply/page-1"
-      label: Start
-      modifiers: button-start
+    - contentType: select
+      name: select-item
+      label: Who is providing launch services?
+      data:
+        key: data-target
+        value: ariane-reveal
+      options:
+      - label: Select one
+        value: " "
+      - label: Ariane
+        value: ariane-reveal
+      - label: An other provider
+        value: some-other
+        modifiers: disabled
+    - contentType: reveal
+      id: ariane-reveal
+      content:
+      - contentType: boolean
+        name: do-you-have-a-launch-agreement
+        type: radio
+        label: Do you have a launch service agreement?
+        inputs:
+        - id: launch-agreement-yes
+          value: Yes
+          data:
+            key: data-target
+            value: launch-agreement-yes-reveal
+        - id: launch-agreement-no
+          value: No
+        - id: launch-agreement-in-progress
+          value: In progress
+      - contentType: reveal
+        id: launch-agreement-yes-reveal
+        content:
+        - contentType: boolean
+          name: do-you-have-an-export-licence
+          type: radio
+          label: Do you have an export license?
+          inputs:
+          - id: export-licence-yes
+            value: Yes
+            data:
+              key: data-target
+              value: export-licence-yes-reveal
+          - id: export-licence-no
+            value: No
+          - id: export-licence-in-progress
+            value: In progress
+        - contentType: reveal
+          id: export-licence-yes-reveal
+          content:
+          - contentType: button
+            name: submit
+            url: "apply/page-2"
+            label: Continue
