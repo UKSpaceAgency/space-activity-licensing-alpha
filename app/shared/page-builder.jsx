@@ -12,6 +12,7 @@ import Panel from './components/Panel/component.jsx'
 import Notice from './components/Notice/component.jsx'
 import Listing from './components/Listing/component.jsx'
 import InfoGrid from './components/InfoGrid/component.jsx'
+// import Pagination from './components/Pagination/component.jsx'
 // import { stringContains } from './utilities'
 
 export function pageBuilder (pageData) {
@@ -59,6 +60,9 @@ export function pageBuilder (pageData) {
       case 'collapsible':
         reactComponent = <Collapsible {...item} key={i} />
         break
+      // case 'pagination':
+      //   reactComponent = <Pagination {...item} key={i} />
+      //   break
       case 'form':
         reactComponent = <Form {...item} key={i} />
         break

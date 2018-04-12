@@ -97,3 +97,13 @@ content:
             name: submit
             url: "apply/page-2"
             label: Continue
+# - contentType: pagination
+#   links:
+#   - state: previous
+#     url: previous-page
+#     title: Previous
+#     label: 1 of 10
+#   - state: next
+#     url: next-page
+#     title: Next
+#     label: 3 of 10
