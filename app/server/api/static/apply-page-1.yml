@@ -71,8 +71,14 @@ content:
             value: launch-agreement-yes-reveal
         - id: launch-agreement-no
           value: No
+          data:
+            key: data-target
+            value: launch-agreement-yes-reveal
         - id: launch-agreement-in-progress
           value: In progress
+          data:
+            key: data-target
+            value: launch-agreement-yes-reveal
       - contentType: reveal
         id: launch-agreement-yes-reveal
         content:
@@ -88,14 +94,20 @@ content:
               value: export-licence-yes-reveal
           - id: export-licence-no
             value: No
+            data:
+              key: data-target
+              value: export-licence-yes-reveal
           - id: export-licence-in-progress
             value: In progress
+            data:
+              key: data-target
+              value: export-licence-yes-reveal
         - contentType: reveal
           id: export-licence-yes-reveal
           content:
           - contentType: button
             name: submit
-            url: "apply/page-2"
+            url: "/apply/page-2"
             label: Continue
 # - contentType: pagination
 #   links:

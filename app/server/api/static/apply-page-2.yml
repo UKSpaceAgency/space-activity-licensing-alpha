@@ -1,0 +1,71 @@
+---
+contentType: page
+slug: apply-page-1
+head:
+  contentType: head
+  title: Are you using American technology?
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Settings
+      url: "/application-overview/new-member"
+hero:
+  modifiers: padding-top--single spacing-bottom--flush
+  title:
+    contentType: title
+    title: Are you using American technology?
+    modifiers: spacing-bottom--flush
+content:
+- contentType: heading
+  type: p
+  text: This is important as your launch vehicle will be subject to ITAR regulation and auditing
+  modifiers: lede
+- contentType: form
+  legend: Pick your launch
+  formAction: "/apply/page-3"
+  formItems:
+  - contentType: boolean
+    name: american-technology
+    type: radio
+    label: Are you using American technology?
+    inputs:
+    - id: american-technology-yes
+      value: Yes
+      data:
+        key: data-target
+        value: american-technology-yes-reveal
+    - id: american-technology-no
+      value: No
+  - contentType: reveal
+    id: american-technology-yes-reveal
+    content:
+    - contentType: boolean
+      name: itar-compliant
+      type: radio
+      label: Are you ITAR compliant?
+      inputs:
+      - id: itar-compliant-yes
+        value: Yes
+        data:
+          key: data-target
+          value: itar-compliant-yes-reveal
+      - id: itar-compliant-no
+        value: No
+    - contentType: reveal
+      id: itar-compliant-yes-reveal
+      content:
+      - contentType: button
+        name: submit
+        url: "/apply/page-3"
+        label: Continue
+- contentType: pagination
+  links:
+  - state: previous
+    url: "/apply/page-1"
+    title: Previous
+    label: 1 of 10
+  # - state: next
+  #   url: next-page
+  #   title: Next
+  #   label: 3 of 10
