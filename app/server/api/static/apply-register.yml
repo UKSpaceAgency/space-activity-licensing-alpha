@@ -73,6 +73,6 @@ content:
     text: "<p>Adding a colleague allows you to share secure sections of the application that they can input into.</p><p><a href='#'>+ Add and assign a colleague</a></p>"
   - contentType: button
     name: submit
-    url: "apply/page-1"
+    url: "/apply/"
     label: Start now
     modifiers: button-start

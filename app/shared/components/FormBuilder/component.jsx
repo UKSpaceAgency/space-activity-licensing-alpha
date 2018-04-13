@@ -6,6 +6,7 @@ import RadioCheck from '../RadioCheck/component.jsx'
 import Button from '../Button/component.jsx'
 import ButtonGroup from '../ButtonGroup/component.jsx'
 import List from '../List/component.jsx'
+import Panel from '../Panel/component.jsx'
 import Longform from '../Longform/component.jsx'
 import Select from '../Select/component.jsx'
 import Textarea from '../Textarea/component.jsx'
@@ -33,6 +34,9 @@ const formBuilder = (formItems) => {
         break
       case 'boolean':
         component = <RadioCheck {...item} key={i} />
+        break
+      case 'panel':
+        component = <Panel {...item} key={i} />
         break
       case 'heading':
         component = <Heading {...item} key={i} />

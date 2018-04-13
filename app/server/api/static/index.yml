@@ -48,5 +48,5 @@ content:
 - contentType: list
   modifiers: list-bullet
   list:
-  - url: "/apply"
+  - url: "/apply/register"
     text: Pre-application page - explanations and questions

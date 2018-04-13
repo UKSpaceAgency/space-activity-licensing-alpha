@@ -1,0 +1,46 @@
+---
+contentType: page
+slug: apply-page-3
+head:
+  contentType: head
+  title: Do you have enough investment to cover this venture?
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Settings
+      url: "/application-overview/new-member"
+hero:
+  modifiers: padding-top--single spacing-bottom--flush
+  title:
+    contentType: title
+    supporting: This is important
+    title: Do you have enough investment to cover this venture?
+    modifiers: spacing-bottom--flush
+content:
+- contentType: heading
+  type: p
+  text: Parent company included. You have money?? Come on!!
+  modifiers: lede
+- contentType: form
+  formAction: "/apply/page-3"
+  formItems:
+  - contentType: boolean
+    name: sufficient-capitol
+    type: radio
+    label: Do you have enough?? Well, do you? This could make or break it.
+    inputs:
+    - id: sufficient-capitol-yes
+      value: Yes
+      data:
+        key: data-target
+        value: sufficient-capitol-yes-reveal
+    - id: sufficient-capitol-no
+      value: No
+  - contentType: reveal
+    id: itar-compliant-yes-reveal
+    content:
+    - contentType: button
+      name: submit
+      url: "/apply/page-3"
+      label: Continue
