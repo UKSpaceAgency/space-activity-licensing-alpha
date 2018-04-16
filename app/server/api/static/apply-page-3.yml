@@ -28,6 +28,7 @@ content:
   - contentType: boolean
     name: sufficient-capitol
     type: radio
+    modifiers: multiple-choice--inline
     label: Do you have sufficient sufficient capital.
     inputs:
     - id: sufficient-capitol-yes

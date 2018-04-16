@@ -28,6 +28,7 @@ content:
   - contentType: boolean
     name: american-technology
     type: radio
+    modifiers: multiple-choice--inline
     label: Are you using American technology?
     inputs:
     - id: american-technology-yes
@@ -43,6 +44,7 @@ content:
     - contentType: boolean
       name: itar-compliant
       type: radio
+      modifiers: multiple-choice--inline
       label: Are you ITAR compliant?
       inputs:
       - id: itar-compliant-yes
