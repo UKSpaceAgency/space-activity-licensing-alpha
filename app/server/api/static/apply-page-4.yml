@@ -1,9 +1,9 @@
 ---
 contentType: page
-slug: apply-page-3
+slug: apply-page-4
 head:
   contentType: head
-  title: Do you have enough investment to cover this venture?
+  title: Have you got / are getting insurance?
 masthead:
   logo: Govuk pattern
   utility:
@@ -15,44 +15,44 @@ hero:
   title:
     contentType: title
     supporting: This is important
-    title: Do you have enough investment to cover this venture?
+    title: Have you got / are getting insurance?
     modifiers: spacing-bottom--flush
 content:
 - contentType: heading
   type: p
-  text: Parent company included.
+  text: It may well be that this is the last thing to come through, please get this section started early in the venture
   modifiers: lede
 - contentType: form
-  formAction: "/apply/page-3"
+  formAction: "/apply/page-4"
   formItems:
   - contentType: boolean
-    name: sufficient-capitol
+    name: insurance
     type: radio
-    label: Do you have sufficient sufficient capital.
+    label: Do you have insurance?
     inputs:
-    - id: sufficient-capitol-yes
+    - id: insurance-yes
       value: Yes
       data:
         key: data-target
-        value: sufficient-capitol-yes-reveal
-    - id: sufficient-capitol-no
+        value: insurance-yes-reveal
+    - id: insurance-no
       value: No
       data:
         key: data-target
-        value: sufficient-capitol-no-reveal
+        value: insurance-no-reveal
   - contentType: reveal
-    id: sufficient-capitol-yes-reveal
+    id: insurance-yes-reveal
     content:
     - contentType: button
       name: submit
-      url: "/apply/page-4"
+      url: "/apply/page-5"
       label: Continue
   - contentType: reveal
-    id: sufficient-capitol-no-reveal
+    id: insurance-no-reveal
     content:
     - contentType: panel
       content: You may struggle with this section. It is imperative you demonstrate sound investment here and not doing so will jeopardise your application.
     - contentType: button
       name: submit
-      url: "/apply/page-4"
+      url: "/apply/page-5"
       label: Continue
