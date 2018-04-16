@@ -28,7 +28,6 @@ content:
   - contentType: boolean
     name: insurance
     type: radio
-    modifiers: multiple-choice--inline
     label: Do you have insurance?
     inputs:
     - id: insurance-yes
@@ -36,6 +35,11 @@ content:
       data:
         key: data-target
         value: insurance-yes-reveal
+    - id: insurance-in-progress
+      value: In progress
+      data:
+        key: data-target
+        value: insurance-no-reveal
     - id: insurance-no
       value: No
       data:
