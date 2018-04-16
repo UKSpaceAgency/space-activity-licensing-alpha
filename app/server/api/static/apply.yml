@@ -73,13 +73,16 @@ content:
         options:
         - label: Select one
           value: " "
-        - label: Satellite license
+        - label: Satellite launch provider
           value: satellite-license-reveal
         - label: Space port operator
           value: space-port-operator
           modifiers: disabled
-        - label: Space overlord
-          value: space-overlord
+        - label: Temporary manoeuvres license
+          value: temp-license
+          modifiers: disabled
+        - label: Emergency operations
+          value: emergency-operations
           modifiers: disabled
       - contentType: reveal
         id: satellite-license-reveal
