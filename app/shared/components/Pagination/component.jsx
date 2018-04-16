@@ -11,7 +11,7 @@ const Pagination = props => {
             {v.title}
             {v.state === 'next' && Image}
           </span>
-          <span className='pagination__link-label'>{v.label}</span>
+          {v.label && <span className='pagination__link-label'>{v.label}</span>}
         </a>
       </li>
     )

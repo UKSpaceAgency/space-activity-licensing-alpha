@@ -102,6 +102,6 @@ content:
           - text: ITU filings - spectrum
         - contentType: button
           name: submit
-          url: "apply/page-1"
+          url: "/apply/page-1"
           label: Start
           modifiers: button-start
