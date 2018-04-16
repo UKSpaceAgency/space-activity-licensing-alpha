@@ -1,0 +1,107 @@
+---
+contentType: page
+slug: apply
+head:
+  contentType: head
+  title: Pre application checks
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Settings
+      url: "/application-overview/new-member"
+hero:
+  modifiers: padding-top--single spacing-bottom--flush
+  title:
+    contentType: title
+    title: Pre-application checklist
+    modifiers: spacing-bottom--flush
+content:
+- contentType: heading
+  type: p
+  text: Before you begin we want to ask you some key questions to make sure you are fully prepared and ready.
+  modifiers: lede
+- contentType: form
+  formAction: "/apply/page-1"
+  formItems:
+  - contentType: boolean
+    name: uk-company
+    type: radio
+    label: Are you a UK company?
+    modifiers: multiple-choice--inline
+    inputs:
+    - id: uk-company-yes
+      value: Yes
+      data:
+        key: data-target
+        value: uk-company-yes-reveal
+    - id: uk-company-no
+      value: No
+      data:
+        key: data-target
+        value: uk-company-no-reveal
+  - contentType: reveal
+    id: uk-company-no-reveal
+    content:
+    - contentType: panel
+      content: Yeah, good luck with that, chief
+  - contentType: reveal
+    id: uk-company-yes-reveal
+    content:
+    - contentType: boolean
+      name: operating-uk
+      type: radio
+      label: Are you operating in the UK?
+      modifiers: multiple-choice--inline
+      inputs:
+      - id: operating-uk-yes
+        value: Yes
+        data:
+          key: data-target
+          value: operating-uk-yes-reveal
+      - id: operating-uk-no
+        value: No
+    - contentType: reveal
+      id: operating-uk-yes-reveal
+      content:
+      - contentType: select
+        name: select-item
+        label: What space activity do you want to do?
+        data:
+          key: data-target
+          value: satellite-license-reveal
+        options:
+        - label: Select one
+          value: " "
+        - label: Satellite license
+          value: satellite-license-reveal
+        - label: Space port operator
+          value: space-port-operator
+          modifiers: disabled
+        - label: Space overlord
+          value: space-overlord
+          modifiers: disabled
+      - contentType: reveal
+        id: satellite-license-reveal
+        content:
+        - contentType: heading
+          type: h2
+          text: What we will be looking for
+          modifiers: heading-large
+        - contentType: longform
+          intro: "These are some of the activities and processes as part of and external to licensing you may need to be undertaking prior to applying:"
+        - contentType: list
+          modifiers: list-bullet
+          list:
+          - text: Launch state
+          - text: Launch provider
+          - text: Launch service agreement
+          - text: Export licences
+          - text: Mission investment
+          - text: Insurance
+          - text: ITU filings - spectrum
+        - contentType: button
+          name: submit
+          url: "/apply/page-1"
+          label: Start
+          modifiers: button-start

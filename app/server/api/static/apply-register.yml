@@ -1,0 +1,78 @@
+---
+contentType: page
+slug: apply-register
+head:
+  contentType: head
+  title: Register to apply for a satellite license
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Settings
+      url: "/application-overview/new-member"
+hero:
+  modifiers: padding-top--single spacing-bottom--flush
+  title:
+    contentType: title
+    title: Register to apply for a satellite license
+    modifiers: spacing-bottom--flush
+content:
+- contentType: heading
+  type: p
+  text: To start an application we will need you to create an account and assign members of your organisation, who will assist you in answering questions.
+  modifiers: lede
+- contentType: form
+  # legend: WHat space activity are you wanting to undertake?
+  formAction: "/apply/register"
+  formItems:
+  - contentType: formGroup
+    label: First name
+    name: first-name
+    id: first-name
+    input: text
+  - contentType: formGroup
+    label: Last name
+    name: last-name
+    id: last-name
+    input: text
+  - contentType: formGroup
+    label: Email
+    name: email
+    id: email
+    input: email
+  - contentType: formGroup
+    label: Mobile phone number
+    supporting: This is a security measure, so we can create a two step authentication process for you.
+    name: mobile-phone-number
+    id: mobile-phone-number
+    input: tel
+  - contentType: boolean
+    name: use-sms
+    type: checkbox
+    inputs:
+    - id: launch-agreement-yes
+      value: SMS notifications
+      supporting: This will indicate whether you would like us to notify you about application updates via SMS.
+  - contentType: formGroup
+    label: Organisation
+    name: organisation
+    id: organisation
+    input: text
+  - contentType: formGroup
+    label: Job title
+    name: job-title
+    id: job-title
+    input: text
+  - contentType: formGroup
+    label: Baseline security vetting
+    name: baseline-security-vetting
+    id: baseline-security-vetting
+    supporting: Enter the BPSS Verification Record Reference. If you do not have this information, <a href="#">click here to learn more</a>
+    input: text
+  - contentType: longform
+    text: "<p>Adding a colleague allows you to share secure sections of the application that they can input into.</p><p><a href='#'>+ Add and assign a colleague</a></p>"
+  - contentType: button
+    name: submit
+    url: "/apply/"
+    label: Start now
+    modifiers: button-start

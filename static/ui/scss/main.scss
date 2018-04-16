@@ -1,6 +1,7 @@
 // Path to assets for use with the file-url function
 // in the govuk frontend toolkit's url-helpers partial
 $path: '/ui/img';
+$text-max-width: 65rem;
 
 
 // exported css files as scss for speed as the kit is not complete
@@ -18,7 +19,7 @@ $path: '/ui/img';
 @import 'padding';
 @import 'utilities';
 
-// Added components!! BAD
+// Added components!!
 @import '../../../app/shared/components/Typography/style';
 @import '../../../app/shared/components/Padding/style';
 @import '../../../app/shared/components/Hero/style';
@@ -46,3 +47,4 @@ $path: '/ui/img';
 @import '../../../app/shared/components/Tab/style';
 @import '../../../app/shared/components/Accordion/style';
 @import '../../../app/shared/components/UtilityNav/style';
+@import '../../../app/shared/components/Pagination/style';

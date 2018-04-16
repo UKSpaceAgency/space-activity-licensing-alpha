@@ -1,5 +1,5 @@
 import React from 'react'
-import formBuilder from '../../components/FormBuilder/component.jsx'
+import formBuilder from '../FormBuilder/component.jsx'
 
 const Form = props => {
   let Components = formBuilder(props.formItems)

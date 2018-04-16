@@ -18,6 +18,10 @@
   }
 }
 
+.clearfix {
+  clear: both;
+}
+
 sup {
   font-size: 60%;
 }
@@ -61,6 +65,9 @@ sup {
   display: block;
 }
 
+.js-hidden {
+  display: none;
+}
 
 $lighten-amount: 15%;
 

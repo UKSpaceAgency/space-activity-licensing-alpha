@@ -12,7 +12,7 @@ import Panel from './components/Panel/component.jsx'
 import Notice from './components/Notice/component.jsx'
 import Listing from './components/Listing/component.jsx'
 import InfoGrid from './components/InfoGrid/component.jsx'
-// import { stringContains } from './utilities'
+import Pagination from './components/Pagination/component.jsx'
 
 export function pageBuilder (pageData) {
   let contentItems = pageData.content
@@ -58,6 +58,9 @@ export function pageBuilder (pageData) {
         break
       case 'collapsible':
         reactComponent = <Collapsible {...item} key={i} />
+        break
+      case 'pagination':
+        reactComponent = <Pagination {...item} key={i} />
         break
       case 'form':
         reactComponent = <Form {...item} key={i} />

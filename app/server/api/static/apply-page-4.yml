@@ -1,0 +1,63 @@
+---
+contentType: page
+slug: apply-page-4
+head:
+  contentType: head
+  title: Have you got / are getting insurance?
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Settings
+      url: "/application-overview/new-member"
+hero:
+  modifiers: padding-top--single spacing-bottom--flush
+  title:
+    contentType: title
+    supporting: This is important
+    title: Have you got / are getting insurance?
+    modifiers: spacing-bottom--flush
+content:
+- contentType: heading
+  type: p
+  text: It may well be that this is the last thing to come through, please get this section started early in the venture
+  modifiers: lede
+- contentType: form
+  formAction: "/apply/page-4"
+  formItems:
+  - contentType: boolean
+    name: insurance
+    type: radio
+    label: Do you have insurance?
+    inputs:
+    - id: insurance-yes
+      value: Yes
+      data:
+        key: data-target
+        value: insurance-yes-reveal
+    - id: insurance-in-progress
+      value: In progress
+      data:
+        key: data-target
+        value: insurance-no-reveal
+    - id: insurance-no
+      value: No
+      data:
+        key: data-target
+        value: insurance-no-reveal
+  - contentType: reveal
+    id: insurance-yes-reveal
+    content:
+    - contentType: button
+      name: submit
+      url: "/apply/page-5"
+      label: Continue
+  - contentType: reveal
+    id: insurance-no-reveal
+    content:
+    - contentType: panel
+      content: You may struggle with this section. It is imperative you demonstrate sound investment here and not doing so will jeopardise your application.
+    - contentType: button
+      name: submit
+      url: "/apply/page-5"
+      label: Continue

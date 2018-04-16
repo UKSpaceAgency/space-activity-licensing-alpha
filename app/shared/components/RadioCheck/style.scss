@@ -1,5 +1,20 @@
 .multiple-choice {
   &.multiple-choice--inline {
     clear: none;
+
+    & + .multiple-choice--inline {
+      margin-left: 15px;
+    }
   }
+}
+
+.form-hint {
+  max-width: $text-max-width;
+}
+
+.form-hint--boolean {
+  margin-left: -38px;
+  clear: both;
+  margin-top: 45px;
+  display: block;
 }

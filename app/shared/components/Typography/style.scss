@@ -6,6 +6,11 @@ strong {
   font-weight: bold;
 }
 
+.long-form,
+.lede {
+  max-width: $text-max-width;
+}
+
 .muted {
   color: $grey-2;
 }

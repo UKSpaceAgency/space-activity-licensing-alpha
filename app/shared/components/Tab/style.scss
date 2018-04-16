@@ -1,12 +1,17 @@
 .tabs {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
 }
 
 .tabs__item {
   flex-grow: 1;
   text-align: center;
+
+  & + .tabs__item {
+    .tabs__link {
+      border-left: 0;
+    }
+  }
 }
 
 .tabs__link {
@@ -16,7 +21,8 @@
   border: solid;
   border-width: 1px;
   margin-bottom: -1px;
-  border-color: transparent transparent $grey-1 transparent;
+  border-color: $govuk-blue;
+  background-color: lighten($govuk-blue, 65%);
 
   .close {
     cursor: pointer;
@@ -31,8 +37,9 @@
 }
 
 .tabs__link[aria-selected='true'] {
-  border-color: $grey-1;
+  border-color: $govuk-blue;
   border-bottom-color: $white;
+  background-color: $white;
   text-decoration: none;
   margin-bottom: 0;
   color: $black;

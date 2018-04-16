@@ -1,12 +1,16 @@
 import React from 'react'
-import Heading from '../../components/Heading/component.jsx'
-import Fieldset from '../../components/Fieldset/component.jsx'
-import FormGroup from '../../components/FormGroup/component.jsx'
-import RadioCheck from '../../components/RadioCheck/component.jsx'
-import Button from '../../components/Button/component.jsx'
-import ButtonGroup from '../../components/ButtonGroup/component.jsx'
-import Select from '../../components/Select/component.jsx'
-import Textarea from '../../components/Textarea/component.jsx'
+import Heading from '../Heading/component.jsx'
+import Fieldset from '../Fieldset/component.jsx'
+import FormGroup from '../FormGroup/component.jsx'
+import RadioCheck from '../RadioCheck/component.jsx'
+import Button from '../Button/component.jsx'
+import ButtonGroup from '../ButtonGroup/component.jsx'
+import List from '../List/component.jsx'
+import Panel from '../Panel/component.jsx'
+import Longform from '../Longform/component.jsx'
+import Select from '../Select/component.jsx'
+import Textarea from '../Textarea/component.jsx'
+import Reveal from '../Reveal/component.jsx'
 import { isArray } from '../../utilities'
 
 const formBuilder = (formItems) => {
@@ -31,8 +35,17 @@ const formBuilder = (formItems) => {
       case 'boolean':
         component = <RadioCheck {...item} key={i} />
         break
+      case 'panel':
+        component = <Panel {...item} key={i} />
+        break
       case 'heading':
         component = <Heading {...item} key={i} />
+        break
+      case 'longform':
+        component = <Longform {...item} key={i} />
+        break
+      case 'list':
+        component = <List {...item} key={i} />
         break
       case 'select':
         component = <Select {...item} key={i} />
@@ -42,6 +55,9 @@ const formBuilder = (formItems) => {
         break
       case 'buttongroup':
         component = <ButtonGroup {...item} key={i} />
+        break
+      case 'reveal':
+        component = <Reveal {...item} key={i} />
         break
       default:
         console.error('Could not match ' + item.contentType)
