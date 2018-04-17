@@ -234,12 +234,7 @@ content:
     modifiers: column-three-quarters
     summary:
       contentType: longform
-      text: Before you can submit your application form, you will need to complete  ten (10) technical eligibility questions. These will give us an idea of your application readiness.
-    notice:
-      icon:
-        label: High priority
-        modifiers: icon-warning icon--large
-      content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
+      text: Before you can submit your application form, you will need to complete  ten (10) technical eligibility questions. These will give us an idea of your  application readiness.
       modifiers: spacing--single
     heading:
       contentType: heading
@@ -252,7 +247,7 @@ content:
       modifiers: bg-blue badge--fixed badge--top
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "3<br/><span class='quiet'>Questions</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -266,11 +261,11 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Status</span><br/>Pending"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      text: "<span class='quiet'>By</span>"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -280,9 +275,13 @@ content:
       text: Applicant information <span class='badge badge--border float-right heading-small'>Locked</span>
       type: p
       modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant Information.
+      modifiers: spacing--single
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "3<br/><span class='quiet'>Questions</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -295,23 +294,33 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Status</span><br/>Pending"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      text: "<span class='quiet'>By</span>"
       type: p
       modifiers: heading-medium
   - contentType: tile
     modifiers: column-three-quarters box--muted
     heading:
       contentType: heading
-      text: Launch information
+      text: Your mission <span class='badge badge--border float-right heading-small'>Locked</span>
       type: p
       modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Mission.
+      modifiers: spacing--single
+    notice:
+      icon:
+        label: High priority
+        modifiers: icon-warning icon--large
+      content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
+      modifiers: spacing--single
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "3<br/><span class='quiet'>Questions</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -324,29 +333,27 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Status</span><br/>Pending"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      text: "<span class='quiet'>By</span>"
       type: p
       modifiers: heading-medium
   - contentType: tile
     modifiers: column-three-quarters box--muted
-    summary:
-      contentType: longform
-      text: Technical
-    notice:
-      contentType: longform
-      text: Technical
     heading:
       contentType: heading
-      text: Technical
+      text: Your Organisation & Finance <span class='badge badge--border float-right heading-small'>Locked</span>
       type: h3
       modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Organisation & Finance.
+      modifiers: spacing--single
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "3<br/><span class='quiet'>Questions</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -359,23 +366,33 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Status</span><br/>Pending"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      text: "<span class='quiet'>By</span>"
       type: p
       modifiers: heading-medium
   - contentType: tile
     modifiers: column-three-quarters box--muted
     heading:
       contentType: heading
-      text: Applicant information
+      text: Insurance <span class='badge badge--border float-right heading-small'>Locked</span>
       type: p
       modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Insurance.
+      modifiers: spacing--single
+    notice:
+      icon:
+        label: High priority
+        modifiers: icon-warning icon--large
+      content: You said that you did not have insurance, you will need to secure insurance to complete this application.
+      modifiers: spacing--single
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "3<br/><span class='quiet'>Questions</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -388,23 +405,27 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Status</span><br/>Pending"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      text: "<span class='quiet'>By</span>"
       type: p
       modifiers: heading-medium
   - contentType: tile
     modifiers: column-three-quarters box--muted
     heading:
       contentType: heading
-      text: Launch information
+      text: Frequency <span class='badge badge--border float-right heading-small'>Locked</span>
       type: p
       modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Frequency.
+      modifiers: spacing--single
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "5<br/><span class='quiet'>Questions</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -417,11 +438,11 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Status</span><br/>Pending"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      text: "<span class='quiet'>By</span>"
       type: p
       modifiers: heading-medium
 - contentType: heading
