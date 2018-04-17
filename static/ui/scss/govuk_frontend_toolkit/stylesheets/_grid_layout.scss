@@ -90,7 +90,7 @@ $site-width: 960px;
 //     @include grid-column( 1/3, $full-width: desktop );
 //   }
 
-@mixin grid-column($width, $full-width: tablet, $float: left) {
+@mixin grid-column($width, $full-width: tablet, $float: left, $gutter: $gutter-half) {
 
   @include media($full-width) {
     float: $float;
@@ -101,7 +101,7 @@ $site-width: 960px;
     width: (($site-width + $gutter) * $width) - $gutter;
   }
 
-  padding: 0 $gutter-half;
+  padding: 0 $gutter;
   @include box-sizing(border-box);
 }
 

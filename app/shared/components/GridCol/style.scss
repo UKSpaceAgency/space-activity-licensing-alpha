@@ -1,0 +1,3 @@
+.column-sixth {
+  @include grid-column(1/6, tablet, left, 5px); // slightly unpleasant override of the grid col mixin settings
+}

@@ -48,51 +48,57 @@ hero:
     heading:
       text: "Application section status:"
       type: h2
-      modifiers: heading-medium spacing--single
+      modifiers: heading-small spacing--single
     content:
-    - title:
+    - modifiers: progress__item--current
+      title:
         text: Technical
         type: p
-        modifiers: heading-small muted
       divider:
-        modifiers: divider--thick
-      status: Not started
-    - modifiers: progress--current
-      title:
+        modifiers: divider--flush
+      status:
+        text: Not started
+        type: p
+    - title:
         text: Applicant info
         type: p
-        modifiers: heading-small
       divider:
-        modifiers: divider--thick divider--muted
-      status: Pending
+        modifiers: divider--flush
+      status:
+        text: Pending
+        type: p
     - title:
         text: Mission info
         type: p
-        modifiers: heading-small muted
       divider:
-        modifiers: divider--thick
-      status: Pending
+        modifiers: divider--flush
+      status:
+        text: Pending
+        type: p
     - title:
         text: Organisation info
         type: p
-        modifiers: heading-small muted
       divider:
-        modifiers: divider--thick
-      status: Pending
+        modifiers: divider--flush
+      status:
+        text: Pending
+        type: p
     - title:
         text: Insurance
         type: p
-        modifiers: heading-small muted
       divider:
-        modifiers: divider--thick
-      status: Pending
+        modifiers: divider--flush
+      status:
+        text: Pending
+        type: p
     - title:
         text: Frequency
         type: p
-        modifiers: heading-small muted
       divider:
-        modifiers: divider--thick
-      status: Pending
+        modifiers: divider--flush
+      status:
+        text: Pending
+        type: p
 content:
 - contentType: collapsiblepanel
   commentBlock:
