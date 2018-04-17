@@ -286,11 +286,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-<<<<<<< Updated upstream
-      text: "3<br/><span class='quiet'>Attachments</span>"
-=======
       text: "0<br/><span class='quiet'>Attachments</span>"
->>>>>>> Stashed changes
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -401,11 +397,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-<<<<<<< Updated upstream
-      text: "3<br/><span class='quiet'>Attachments</span>"
-=======
       text: "0<br/><span class='quiet'>Attachments</span>"
->>>>>>> Stashed changes
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -438,11 +430,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-<<<<<<< Updated upstream
-      text: "5<br/><span class='quiet'>Attachments</span>"
-=======
       text: "0<br/><span class='quiet'>Attachments</span>"
->>>>>>> Stashed changes
       type: p
       modifiers: heading-medium
     - contentType: heading
