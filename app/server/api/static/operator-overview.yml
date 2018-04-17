@@ -325,7 +325,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "5<br/><span class='quiet'>Attachments</span>"
+      text: "0<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -358,7 +358,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "1<br/><span class='quiet'>Attachment</span>"
+      text: "0<br/><span class='quiet'>Attachment</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
