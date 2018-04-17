@@ -5,7 +5,7 @@ export default class Logo extends React.Component {
     return (
       <div className='header-logo'>
         <a href='/' title='Go to the homepage' id='logo' className='content'>
-          Space Agency UK
+          Space application licensing manager
         </a>
       </div>
     )

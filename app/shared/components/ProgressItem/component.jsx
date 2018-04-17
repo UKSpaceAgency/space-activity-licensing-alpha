@@ -6,7 +6,7 @@ import Icon from '../Icon/component.jsx'
 import Divider from '../Divider/component.jsx'
 
 const ProgressItem = props => {
-  let classes = classNames('progress__item column-third', props.className, props.modifiers)
+  let classes = classNames('progress__item', props.className, props.modifiers)
 
   return (
     <li className={classes}>
@@ -14,6 +14,7 @@ const ProgressItem = props => {
       <Divider {...props.divider}/>
       {props.icon && <Icon {...props.icon}/>}
       {props.button && <Button {...props.button}/>}
+      {props.status && <Heading {...props.status}/>}
     </li>
   )
 }

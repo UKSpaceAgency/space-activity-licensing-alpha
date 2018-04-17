@@ -8,6 +8,7 @@ import Grid from '../../components/Grid/component.jsx'
 import GridCol from '../../components/GridCol/component.jsx'
 import Heading from '../../components/Heading/component.jsx'
 import HeroLinks from '../../components/HeroLinks/component.jsx'
+import Progress from '../../components/Progress/component.jsx'
 import CheckboxGridContainer from '../../containers/CheckboxGridContainer/component.jsx'
 
 const Hero = props => {
@@ -25,6 +26,7 @@ const Hero = props => {
           {props.heading && <GridCol className='column-three-quarters'><Heading {...props.heading}/></GridCol>}
           {props.licenceTypeGrid && <GridCol className='column-three-quarters'><CheckboxGridContainer {...props.licenceTypeGrid}/></GridCol>}
           {props.synopsisCollapsible && <GridCol className='column-three-quarters'><Heading {...props.synopsisCollapsible}/></GridCol>}
+          {props.progress && <GridCol className='column-full'><Progress {...props.progress}/></GridCol>}
           {props.heroLinks && <HeroLinks {...props.heroLinks}/>}
         </Grid>
       </div>

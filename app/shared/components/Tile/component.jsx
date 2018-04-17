@@ -4,6 +4,8 @@ import Heading from '../../components/Heading/component.jsx'
 import Button from '../../components/Button/component.jsx'
 import Grid from '../../components/Grid/component.jsx'
 import Divider from '../../components/Divider/component.jsx'
+import Notice from '../../components/Notice/component.jsx'
+import Longform from '../../components/Longform/component.jsx'
 import GridCol from '../../components/GridCol/component.jsx'
 import Badge from '../../components/Badge/component.jsx'
 
@@ -12,7 +14,7 @@ const Tile = props => {
     'column-half': !props.gridModifier
   })
   let id = props.id ? {'id': props.id} : null
-  let boxClasses = classNames('box spacing-bottom--large', {
+  let boxClasses = classNames('box spacing-bottom--large', props.modifiers, {
     'relative': props.updates
   })
 
@@ -38,6 +40,8 @@ const Tile = props => {
     <div className={boxClasses} {...id}>
       {props.updates && <Badge {...props.updates}/>}
       <Heading {...props.heading}/>
+      {props.summary && <Longform {...props.summary}/>}
+      {props.notice && <Notice {...props.notice}/>}
       <Grid>
         {Grids}
       </Grid>

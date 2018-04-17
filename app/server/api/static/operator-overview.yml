@@ -1,10 +1,10 @@
 ---
 contentType: page
 useComponent: true
-slug: application-overview
+slug: operator-overview
 head:
   contentType: head
-  title: Application overview
+  title: Operator application overview
 masthead:
   utility:
     links:
@@ -12,7 +12,7 @@ masthead:
       url: "/notifications"
       notification: 3
     - text: Settings
-      url: "/application-overview/new-member"
+      url: "/operator"
 hero:
   modifiers: bg-dark bg-blue
   breadcrumb:
@@ -20,10 +20,10 @@ hero:
     text: Space Agency UK
     url: "/"
   - contentType: link
-    text: Applications
-    url: "/application-overview/"
+    text: My applications
+    url: "/operator/"
   - contentType: link
-    text: Application 11021411
+    text: Inmarsat homepage
   licenceType:
   - contentType: heading
     text: IN-ORBIT LICENCE
@@ -35,86 +35,71 @@ hero:
     modifiers: heading-medium float-right
   title:
     contentType: title
-    title: Inmarsat Application
+    title: Application 11021411
     modifiers: spacing-bottom--tight
     # subTitle: this is a smaller bit of content to support the main title
   infoGrid:
   - contentType: heading
-    text: "<span class='quiet'>Satellite number: </span> Gh341211b"
+    text: "<span class='quiet'>Started: </span> 4th June "
     type: p
     modifiers: heading-small
-  - contentType: heading
-    text: "<span class='quiet'>Submitted: </span>4 June 2017"
-    type: p
-    modifiers: heading-small
-  - contentType: heading
-    text: "<span class='quiet'>Status: </span> Partially Complete"
-    type: p
-    modifiers: heading-small
-  licenceTypeGrid:
+  progress:
+    modifiers: progress--inverted
     heading:
-      text: Licence type
-      type: p
-      modifiers: heading-small padding-bottom--tight spacing-bottom--single border bottom-border mr-5
-    items:
-    - contentType: boolean
-      name: license-type
-      type: checkbox
-      modifiers: multiple-choice--inline
-      inputs:
-      - id: ieurhferf
-        checked: true
-        value: Operations
-      - id: ieurhferf12
-        checked: true
-        value: Emergency operations
-      - id: ieurhferf21
-        checked: true
-        value: Temporary operations
-  heroLinks:
-    links:
-      modifiers: list-arrow list-arrow--dark
-      list:
-      - url: "#finance"
-        text: Finance
-      - url: "/application-overview/frequency"
-        text: Frequency
-      - url: "#insurance"
-        text: Insurance
-      - url: "/application-overview/technical"
+      text: "Application section status:"
+      type: h2
+      modifiers: heading-small spacing--single
+    content:
+    - modifiers: progress__item--pending
+      title:
         text: Technical
-      - url: "#legal"
-        text: Legal
-      - url: "#political"
-        text: Political
-        icon:
-          label: tick
-          modifiers: icon-tick-white
-      - url: "#mod"
-        text: MOD
-    notice:
-      contentType: heading
-      text: "<span class='quiet'>Launch Date</span> <br/>4 June 2018"
-      type: h2
-      modifiers: badge bg-pink heading-small
-    heading:
-      contentType: heading
-      text: License overview
-      type: h2
-      modifiers: heading-small spacing-top--tight
-  synopsisCollapsible:
-    contentType: heading
-    text: "<a href='/application-overview/technical/all-attachments'>View all attachments</a>"
-    type: p
-    modifiers: spacing-top--single
-  # synopsis:
-  #   contentType: longform
-  #   intro: Submission overview
-  #   modifiers: heading-medium
-  #   text: "<p class='lede'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  #     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-  #     minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-  #     commodo consequat.</p>"
+        type: p
+      divider:
+        modifiers: divider--flush
+      status:
+        text: Pending
+        type: p
+    - modifiers: progress__item--complete
+      title:
+        text: Applicant info
+        type: p
+      divider:
+        modifiers: divider--flush
+      status:
+        text: Complete
+        type: p
+    - title:
+        text: Mission info
+        type: p
+      divider:
+        modifiers: divider--flush
+      status:
+        text: not started
+        type: p
+    - title:
+        text: Organisation info
+        type: p
+      divider:
+        modifiers: divider--flush
+      status:
+        text: not started
+        type: p
+    - title:
+        text: Insurance
+        type: p
+      divider:
+        modifiers: divider--flush
+      status:
+        text: not started
+        type: p
+    - title:
+        text: Frequency
+        type: p
+      divider:
+        modifiers: divider--flush
+      status:
+        text: not started
+        type: p
 content:
 - contentType: collapsiblepanel
   commentBlock:
@@ -241,118 +226,29 @@ content:
 - contentType: heading
   text: Applications sections
   type: h2
-  modifiers: heading-large
+  modifiers: heading-medium
 - contentType: listing
-  columns: 2
+  columns: 1
+  gridModifier: column-third
   content:
   - contentType: tile
-    id: finance
-    heading:
-      contentType: heading
-      text: Finance
-      type: p
-      modifiers: heading-large
-    grid:
-    - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "3<br/><span class='quiet'>Attachments</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: button
-      url: '#'
-      label: View
-      modifiers: button--half-width
-      gridModifier: column-full
-    - contentType: divider
-      modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: p
-      modifiers: heading-medium
-  - contentType: tile
-    id: frequency
-    heading:
-      contentType: heading
-      text: Frequency
-      type: p
-      modifiers: heading-large
-    grid:
-    - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "2<br/><span class='quiet'>Attachments</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: button
-      fullWidth: true
-      url: '/application-overview/frequency'
-      label: View
-      modifiers: button--half-width
-      gridModifier: column-full
-    - contentType: divider
-      modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: p
-      modifiers: heading-medium
-  - contentType: tile
-    heading:
-      contentType: heading
-      text: Insurance
-      type: p
-      modifiers: heading-large
-    id: insurance
-    grid:
-    - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "2<br/><span class='quiet'>Attachments</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: button
-      url: '#'
-      label: View
-      gridModifier: column-full
-      modifiers: button--half-width
-    - contentType: divider
-      modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: p
-      modifiers: heading-medium
-  - contentType: tile
+    modifiers: column-three-quarters
+    summary:
+      contentType: longform
+      text: Before you can submit your application form, you will need to complete  ten (10) technical eligibility questions. These will give us an idea of your  application readiness.
+      modifiers: spacing--single
     heading:
       contentType: heading
       text: Technical
-      type: p
-      modifiers: heading-large
-    id: technical
+      type: h3
+      modifiers: heading-large spacing-top--flush
     updates:
       url: "/updates"
-      text: 2 updates
+      text: Inmartsat updates
       modifiers: bg-blue badge--fixed badge--top
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "3<br/><span class='quiet'>Questions</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -360,115 +256,194 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: button
-      url: '/application-overview/technical'
+      url: '/application-overview/technical/satellite-and-mission-overview'
       label: View
-      modifiers: button--half-width
-      gridModifier: column-full
+      modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Updated on: </span><br/>12th June 2018"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: p
-      modifiers: heading-medium
-  - contentType: tile
-    heading:
-      contentType: heading
-      text: Legal
-      type: p
-      modifiers: heading-large
-    id: legal
-    grid:
-    - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "8<br/><span class='quiet'>Attachments</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: button
-      fullWidth: true
-      url: '#'
-      label: View
-      modifiers: button--half-width
-      gridModifier: column-full
-    - contentType: divider
-      modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span><br/> Luke McGuinness"
       type: p
       modifiers: heading-medium
   - contentType: tile
+    modifiers: column-three-quarters box--muted
     heading:
       contentType: heading
-      text: Political
-      icon:
-        label: tick
-        modifiers: icon-tick-green icon--large
+      text: Applicant information <span class='badge badge--border float-right heading-small'>Locked</span>
       type: p
-      modifiers: heading-large
-    id: political
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant Information.
+      modifiers: spacing--single
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "6<br/><span class='quiet'>Attachments</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: button
-      url: '#'
-      label: View
-      gridModifier: column-full
-      modifiers: button--half-width
-    - contentType: divider
-      modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: p
-      modifiers: heading-medium
-  - contentType: tile
-    heading:
-      contentType: heading
-      text: MOD
-      type: p
-      modifiers: heading-large
-    id: mod
-    grid:
-    - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "3<br/><span class='quiet'>Questions</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
       text: "0<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
-    - contentType: button
-      url: '#'
-      label: View
-      modifiers: button--half-width
-      gridModifier: column-full
+    - contentType: heading
+      text: ""
+      type: p
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Status</span><br/>Pending"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span>"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters box--muted
+    heading:
+      contentType: heading
+      text: Your mission <span class='badge badge--border float-right heading-small'>Locked</span>
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Mission.
+      modifiers: spacing--single
+    notice:
+      icon:
+        label: High priority
+        modifiers: icon-warning icon--large
+      content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: "3<br/><span class='quiet'>Questions</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: ""
+      type: p
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Status</span><br/>Pending"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span>"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters box--muted
+    heading:
+      contentType: heading
+      text: Your Organisation & Finance <span class='badge badge--border float-right heading-small'>Locked</span>
+      type: h3
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Organisation & Finance.
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: "3<br/><span class='quiet'>Questions</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Attachment</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: ""
+      type: p
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Status</span><br/>Pending"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span>"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters box--muted
+    heading:
+      contentType: heading
+      text: Insurance <span class='badge badge--border float-right heading-small'>Locked</span>
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Insurance.
+      modifiers: spacing--single
+    notice:
+      icon:
+        label: High priority
+        modifiers: icon-warning icon--large
+      content: You said that you did not have insurance, you will need to secure insurance to complete this application.
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: "3<br/><span class='quiet'>Questions</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: ""
+      type: p
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Status</span><br/>Pending"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span>"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters box--muted
+    heading:
+      contentType: heading
+      text: Frequency <span class='badge badge--border float-right heading-small'>Locked</span>
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Frequency.
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: "5<br/><span class='quiet'>Questions</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: ""
+      type: p
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Status</span><br/>Pending"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span>"
       type: p
       modifiers: heading-medium
 - contentType: heading

@@ -24,4 +24,10 @@
   &.comment-admin {
     background-color: lighten($light-blue-25, 5%);
   }
+
+  &.box--muted {
+    background-color: lighten($grey-4, 2%);
+
+    color: $grey-1;
+  }
 }

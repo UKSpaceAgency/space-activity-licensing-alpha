@@ -24,6 +24,20 @@
   border-color: $govuk-blue;
   background-color: lighten($govuk-blue, 65%);
 
+  &[aria-selected='true'] {
+    border-color: $govuk-blue;
+    border-bottom-color: $white;
+    background-color: $white;
+    text-decoration: none;
+    margin-bottom: 0;
+    color: $black;
+    cursor: default;
+
+    .close {
+      display: block;
+    }
+  }
+
   .close {
     cursor: pointer;
     position: absolute;
@@ -33,19 +47,5 @@
     display: none;
     font-size: 140%;
     font-weight: bold;
-  }
-}
-
-.tabs__link[aria-selected='true'] {
-  border-color: $govuk-blue;
-  border-bottom-color: $white;
-  background-color: $white;
-  text-decoration: none;
-  margin-bottom: 0;
-  color: $black;
-  cursor: default;
-
-  .close {
-    display: block;
   }
 }

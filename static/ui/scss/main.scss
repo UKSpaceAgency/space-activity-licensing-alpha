@@ -14,10 +14,12 @@ $text-max-width: 65rem;
 
 // need access to colour variables
 @import 'govuk_frontend_toolkit/stylesheets/_conditionals';
+@import 'govuk_frontend_toolkit/stylesheets/_grid_layout';
 @import 'govuk_frontend_toolkit/stylesheets/_colours';
 @import 'vertical-spacing';
 @import 'padding';
 @import 'utilities';
+
 
 // Added components!!
 @import '../../../app/shared/components/Typography/style';
@@ -48,3 +50,4 @@ $text-max-width: 65rem;
 @import '../../../app/shared/components/Accordion/style';
 @import '../../../app/shared/components/UtilityNav/style';
 @import '../../../app/shared/components/Pagination/style';
+@import '../../../app/shared/components/GridCol/style'; // adding a sixth
