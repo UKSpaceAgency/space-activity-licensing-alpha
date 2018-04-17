@@ -16,7 +16,7 @@ content:
   text: Pages index
   type: h2
 - contentType: heading
-  text: Journeys 95, 97, 112
+  text: Backstage and commenting
   type: p
   modifiers: spacing-top--large spacing-bottom--single
 - contentType: list
@@ -33,7 +33,7 @@ content:
   - url: "/application-overview/frequency"
     text: Notes and comments on application page (frequency)
 - contentType: heading
-  text: Journeys 88 - share with an assessor
+  text: Share with an assessor
   type: p
   modifiers: spacing-top--large spacing-bottom--single
 - contentType: list
@@ -42,7 +42,7 @@ content:
   - url: "/application-overview/technical/share"
     text: Share technical aspects of an application with an assessor
 - contentType: heading
-  text: Journey 107 - I need to submit a license
+  text: I need to submit a license
   type: p
   modifiers: spacing-top--large spacing-bottom--single
 - contentType: list
@@ -51,11 +51,11 @@ content:
   - url: "/apply/register"
     text: Pre-application page - explanations and questions
 - contentType: heading
-  text: Journey 65 - operator application overview
+  text: Operator application overview
   type: p
   modifiers: spacing-top--large spacing-bottom--single
 - contentType: list
   modifiers: list-bullet
   list:
   - url: "/operator/"
-    text: Pre-application page - explanations and questions
+    text: Front stage - operator overview
