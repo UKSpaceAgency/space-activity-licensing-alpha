@@ -1,0 +1,475 @@
+---
+contentType: page
+useComponent: true
+slug: operator-overview
+head:
+  contentType: head
+  title: Operator application overview
+masthead:
+  utility:
+    links:
+    - text: Notifications
+      url: "/notifications"
+      notification: 3
+    - text: Settings
+      url: "/operator"
+hero:
+  modifiers: bg-dark bg-blue
+  breadcrumb:
+  - contentType: link
+    text: Space Agency UK
+    url: "/"
+  - contentType: link
+    text: My applications
+    url: "/operator/"
+  - contentType: link
+    text: Inmarsat homepage
+  licenceType:
+  - contentType: heading
+    text: IN-ORBIT LICENCE
+    type: p
+    modifiers: heading-medium badge badge--large bg-pink
+  - contentType: heading
+    text: "<span class='quiet'>Ref: </span> 11021411"
+    type: p
+    modifiers: heading-medium float-right
+  title:
+    contentType: title
+    title: Application 11021411
+    modifiers: spacing-bottom--tight
+    # subTitle: this is a smaller bit of content to support the main title
+  infoGrid:
+  - contentType: heading
+    text: "<span class='quiet'>Started: </span> 4th June "
+    type: p
+    modifiers: heading-small
+  progress:
+    modifiers: progress--inverted
+    heading:
+      text: "Application section status:"
+      type: h2
+      modifiers: heading-medium spacing--single
+    content:
+    - title:
+        text: Technical
+        type: p
+        modifiers: heading-small muted
+      divider:
+        modifiers: divider--thick
+      status: Not started
+    - modifiers: progress--current
+      title:
+        text: Applicant info
+        type: p
+        modifiers: heading-small
+      divider:
+        modifiers: divider--thick divider--muted
+      status: Pending
+    - title:
+        text: Mission info
+        type: p
+        modifiers: heading-small muted
+      divider:
+        modifiers: divider--thick
+      status: Pending
+    - title:
+        text: Organisation info
+        type: p
+        modifiers: heading-small muted
+      divider:
+        modifiers: divider--thick
+      status: Pending
+    - title:
+        text: Insurance
+        type: p
+        modifiers: heading-small muted
+      divider:
+        modifiers: divider--thick
+      status: Pending
+    - title:
+        text: Frequency
+        type: p
+        modifiers: heading-small muted
+      divider:
+        modifiers: divider--thick
+      status: Pending
+content:
+- contentType: collapsiblepanel
+  commentBlock:
+    limit: 3
+    modifiers: spacing-bottom--single
+    collapsible: true
+    tabs:
+    - label: Inmarsat application notes (1)
+      id: notes-open
+    - label: My notes (2)
+      id: notes-private
+    notice:
+      checkbox:
+        name: priority-level
+        type: checkbox
+        fieldModifiers: float-right d-inline-block
+        inputs:
+        - id: juu7gg4gf33f
+          value: High priority
+    source:
+      legend: Comment source
+      fieldsetModifiers: inline
+      items:
+      - contentType: boolean
+        name: second-radio-item
+        type: radio
+        inputs:
+        - id: dfgh89dfgh
+          value: Comment
+          checked: true
+        - id: hjdktlhivm67
+          value: Phone call
+        - id: llojef6
+          value: Email
+    assignees:
+      label: Assign to
+      # supporting: Select multiple by pressing shift and clicking
+      id: assignees-question-2
+      # multiple: true
+      # data: data-assign
+      options:
+      - label: Please select
+        value: ''
+      - label: Joel Harris
+        value: sfkhwer87hkj34h
+        selected: true
+      - label: Luke Wotten
+        value: sfkhwesdtjsdfhgqw
+      - label: Jon Smith
+        value: adwty5nnkv08b
+      - label: Dave Stringer
+        value: jfmfuue67tg3f
+      - label: Aimee Brace
+        value: lvm08jjetffs
+        selected: true
+      - label: Alex Hobbs
+        value: kfj789dbv
+      - label: Tom Foster
+        value: 15rdcsb
+        selected: true
+    deadline:
+      legend: Set deadline
+      calendar: true
+      items:
+      - label: Day
+        id: 3245
+        name: deadline-day
+        modifiers: form-group-day
+        type: number
+        attr:
+          key: pattern
+          value: '[0-9]*'
+      - label: Month
+        id: 43563456
+        name: deadline-month
+        modifiers: form-group-month
+        type: number
+        attr:
+          key: pattern
+          value: '[0-9]*'
+      - label: Year
+        id: 45674567
+        name: deadline-year
+        modifiers: form-group-year
+        type: number
+        attr:
+          key: pattern
+          value: '[0-9]*'
+    button:
+      label: Add comment
+    fileupload:
+      label: Upload attachment
+      modifiers: file-upload
+      id: file-upload-2
+      shimmed: true
+    comments:
+    - byline:
+        modifiers: spacing-bottom--single
+        name:
+          text: Simon Griffith
+          type: h3
+          modifiers: heading-small
+        url: "/rachel"
+        date:
+          date: 10.04am 22nd March 2018
+          datetime: '2018-03-26T19:34:15+00:00'
+        icon:
+          label: account
+          modifiers: icon-account
+      text: "<p>Please can </p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
+      documents:
+      - text: Disposal diagram
+        url: "/pdfs/disposal-discovery.pdf"
+        type: .pdf
+        supporting: (12mb)
+      deadline:
+        text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+        type: p
+        modifiers: heading-small
+      assignees:
+        text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+        type: p
+        modifiers: heading-small
+- contentType: heading
+  text: Applications sections
+  type: h2
+  modifiers: heading-large
+- contentType: listing
+  columns: 2
+  content:
+  - contentType: tile
+    id: finance
+    heading:
+      contentType: heading
+      text: Finance
+      type: p
+      modifiers: heading-large
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "3<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/application-overview/finance'
+      label: View
+      modifiers: button--half-width
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    id: frequency
+    heading:
+      contentType: heading
+      text: Frequency
+      type: p
+      modifiers: heading-large
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "2<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      fullWidth: true
+      url: '/application-overview/frequency'
+      label: View
+      modifiers: button--half-width
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Insurance
+      type: p
+      modifiers: heading-large
+    id: insurance
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "2<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/application-overview/insurance'
+      label: View
+      gridModifier: column-full
+      modifiers: button--half-width
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Technical
+      type: p
+      modifiers: heading-large
+    id: technical
+    updates:
+      url: "/updates"
+      text: 2 updates
+      modifiers: bg-blue badge--fixed badge--top
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "1<br/><span class='quiet'>Attachment</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/application-overview/technical'
+      label: View
+      modifiers: button--half-width
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Legal
+      type: p
+      modifiers: heading-large
+    id: legal
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "8<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      fullWidth: true
+      url: '/application-overview/frequency'
+      label: View
+      modifiers: button--half-width
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Political
+      icon:
+        label: tick
+        modifiers: icon-tick-green icon--large
+      type: p
+      modifiers: heading-large
+    id: political
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "6<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/application-overview/insurance'
+      label: View
+      gridModifier: column-full
+      modifiers: button--half-width
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: MOD
+      type: p
+      modifiers: heading-large
+    id: mod
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/application-overview/technical'
+      label: View
+      modifiers: button--half-width
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      type: p
+      modifiers: heading-medium
+- contentType: heading
+  text: Operator Contact
+  type: h2
+  modifiers: heading-medium
+- contentType: heading
+  text: James Smart
+  type: p
+  modifiers: heading-small border bottom-border padding-bottom--tight
+- contentType: infoGrid
+  grid:
+  - contentType: heading
+    text: "<a href='mailto:james@inmarsat.com'>email: james@inmarsat.com</a>"
+    type: p
+  - contentType: heading
+    text: "phone: 0117 801735"
+    type: p
+  - contentType: heading
+    text: "mobile: +44 7882281628"
+    type: p
+- contentType: infoGrid
+  grid:
+  - text: "address: 80 Gloucester Road, London, WC2 2BA"
+    type: p
+    gridModifier: column-full

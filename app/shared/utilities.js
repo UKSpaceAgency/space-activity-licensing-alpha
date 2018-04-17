@@ -75,5 +75,7 @@ export const mapper = {
   1: 'full',
   2: 'half',
   3: 'third',
-  4: 'quarter'
+  4: 'quarter',
+  5: 'fifth',
+  6: 'sixth'
 }

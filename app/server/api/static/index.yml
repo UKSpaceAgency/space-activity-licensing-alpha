@@ -50,3 +50,12 @@ content:
   list:
   - url: "/apply/register"
     text: Pre-application page - explanations and questions
+- contentType: heading
+  text: Journey 65 - operator application overview
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - url: "/operator/"
+    text: Pre-application page - explanations and questions
