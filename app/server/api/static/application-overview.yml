@@ -77,11 +77,11 @@ hero:
       list:
       - url: "#finance"
         text: Finance
-      - url: "#frequency"
+      - url: "/application-overview/frequency"
         text: Frequency
       - url: "#insurance"
         text: Insurance
-      - url: "#technical"
+      - url: "/application-overview/technical"
         text: Technical
       - url: "#legal"
         text: Legal
@@ -262,7 +262,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: button
-      url: '/application-overview/finance'
+      url: '#'
       label: View
       modifiers: button--half-width
       gridModifier: column-full
@@ -325,7 +325,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: button
-      url: '/application-overview/insurance'
+      url: '#'
       label: View
       gridModifier: column-full
       modifiers: button--half-width
@@ -392,7 +392,7 @@ content:
       modifiers: heading-medium
     - contentType: button
       fullWidth: true
-      url: '/application-overview/frequency'
+      url: '#'
       label: View
       modifiers: button--half-width
       gridModifier: column-full
@@ -426,7 +426,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: button
-      url: '/application-overview/insurance'
+      url: '#'
       label: View
       gridModifier: column-full
       modifiers: button--half-width
@@ -457,7 +457,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: button
-      url: '/application-overview/technical'
+      url: '#'
       label: View
       modifiers: button--half-width
       gridModifier: column-full
