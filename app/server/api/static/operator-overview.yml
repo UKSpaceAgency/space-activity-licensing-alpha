@@ -50,7 +50,7 @@ hero:
       type: h2
       modifiers: heading-small spacing--single
     content:
-    - modifiers: progress__item--current
+    - modifiers: progress__item--pending
       title:
         text: Technical
         type: p

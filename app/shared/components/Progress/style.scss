@@ -20,9 +20,17 @@
 
   .progress--inverted & {
     text-align: left;
-    opacity: .5;
+    opacity: .4;
 
-    &.progress__item--current {
+    &.progress__item--pending {
+      opacity: .75;
+
+      .divider {
+        opacity: .75;
+      }
+    }
+
+    &.progress__item--complete {
       opacity: 1;
 
       .divider {
@@ -32,7 +40,7 @@
 
     .divider {
       background-color: $white;
-      opacity: .5;
+      opacity: .4;
     }
   }
 
