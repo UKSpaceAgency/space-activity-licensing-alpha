@@ -225,114 +225,30 @@ content:
 - contentType: heading
   text: Applications sections
   type: h2
-  modifiers: heading-large
+  modifiers: heading-medium
 - contentType: listing
-  columns: 2
+  columns: 1
+  gridModifier: column-third
   content:
   - contentType: tile
-    id: finance
-    heading:
-      contentType: heading
-      text: Finance
-      type: p
-      modifiers: heading-large
-    grid:
-    - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "3<br/><span class='quiet'>Attachments</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: button
-      url: '/application-overview/finance'
-      label: View
-      modifiers: button--half-width
-      gridModifier: column-full
-    - contentType: divider
-      modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: p
-      modifiers: heading-medium
-  - contentType: tile
-    id: frequency
-    heading:
-      contentType: heading
-      text: Frequency
-      type: p
-      modifiers: heading-large
-    grid:
-    - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "2<br/><span class='quiet'>Attachments</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: button
-      fullWidth: true
-      url: '/application-overview/frequency'
-      label: View
-      modifiers: button--half-width
-      gridModifier: column-full
-    - contentType: divider
-      modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: p
-      modifiers: heading-medium
-  - contentType: tile
-    heading:
-      contentType: heading
-      text: Insurance
-      type: p
-      modifiers: heading-large
-    id: insurance
-    grid:
-    - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "2<br/><span class='quiet'>Attachments</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: button
-      url: '/application-overview/insurance'
-      label: View
-      gridModifier: column-full
-      modifiers: button--half-width
-    - contentType: divider
-      modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
-      type: p
-      modifiers: heading-medium
-  - contentType: tile
+    modifiers: column-three-quarters
+    summary:
+      contentType: longform
+      text: Before you can submit your application form, you will need to complete  ten (10) technical eligibility questions. These will give us an idea of your application readiness.
+    notice:
+      icon:
+        label: High priority
+        modifiers: icon-warning icon--large
+      content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
+      modifiers: spacing--single
     heading:
       contentType: heading
       text: Technical
-      type: p
-      modifiers: heading-large
-    id: technical
+      type: h3
+      modifiers: heading-large spacing-top--flush
     updates:
       url: "/updates"
-      text: 2 updates
+      text: Inmartsat updates
       modifiers: bg-blue badge--fixed badge--top
     grid:
     - contentType: heading
@@ -344,115 +260,168 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: button
-      url: '/application-overview/technical'
+      url: '/application-overview/technical/satellite-and-mission-overview'
       label: View
-      modifiers: button--half-width
-      gridModifier: column-full
+      modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
       type: p
       modifiers: heading-medium
   - contentType: tile
+    modifiers: column-three-quarters box--muted
     heading:
       contentType: heading
-      text: Legal
+      text: Applicant information <span class='badge badge--border float-right heading-small'>Locked</span>
       type: p
-      modifiers: heading-large
-    id: legal
+      modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "8<br/><span class='quiet'>Attachments</span>"
+      text: "3<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
-    - contentType: button
-      fullWidth: true
-      url: '/application-overview/frequency'
-      label: View
-      modifiers: button--half-width
-      gridModifier: column-full
+    - contentType: heading
+      text: ""
+      type: p
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
       type: p
       modifiers: heading-medium
   - contentType: tile
+    modifiers: column-three-quarters box--muted
     heading:
       contentType: heading
-      text: Political
-      icon:
-        label: tick
-        modifiers: icon-tick-green icon--large
+      text: Launch information
       type: p
-      modifiers: heading-large
-    id: political
+      modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "6<br/><span class='quiet'>Attachments</span>"
+      text: "5<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
-    - contentType: button
-      url: '/application-overview/insurance'
-      label: View
-      gridModifier: column-full
-      modifiers: button--half-width
+    - contentType: heading
+      text: ""
+      type: p
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
       type: p
       modifiers: heading-medium
   - contentType: tile
+    modifiers: column-three-quarters box--muted
+    summary:
+      contentType: longform
+      text: Technical
+    notice:
+      contentType: longform
+      text: Technical
     heading:
       contentType: heading
-      text: MOD
-      type: p
-      modifiers: heading-large
-    id: mod
+      text: Technical
+      type: h3
+      modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Attachments</span>"
+      text: "1<br/><span class='quiet'>Attachment</span>"
       type: p
       modifiers: heading-medium
-    - contentType: button
-      url: '/application-overview/technical'
-      label: View
-      modifiers: button--half-width
-      gridModifier: column-full
+    - contentType: heading
+      text: ""
+      type: p
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters box--muted
+    heading:
+      contentType: heading
+      text: Applicant information
+      type: p
+      modifiers: heading-large spacing-top--flush
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "3<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: ""
+      type: p
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters box--muted
+    heading:
+      contentType: heading
+      text: Launch information
+      type: p
+      modifiers: heading-large spacing-top--flush
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "5<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: ""
+      type: p
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
       type: p
       modifiers: heading-medium
 - contentType: heading
