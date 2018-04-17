@@ -57,15 +57,16 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: Not started
+        text: Pending
         type: p
-    - title:
+    - modifiers: progress__item--complete
+      title:
         text: Applicant info
         type: p
       divider:
         modifiers: divider--flush
       status:
-        text: Pending
+        text: Complete
         type: p
     - title:
         text: Mission info
@@ -73,7 +74,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: Pending
+        text: not started
         type: p
     - title:
         text: Organisation info
@@ -81,7 +82,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: Pending
+        text: not started
         type: p
     - title:
         text: Insurance
@@ -89,7 +90,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: Pending
+        text: not started
         type: p
     - title:
         text: Frequency
@@ -97,7 +98,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: Pending
+        text: not started
         type: p
 content:
 - contentType: collapsiblepanel
