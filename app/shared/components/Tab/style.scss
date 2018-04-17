@@ -24,7 +24,7 @@
   border-color: $govuk-blue;
   background-color: lighten($govuk-blue, 65%);
 
-  [aria-selected='true'] {
+  &[aria-selected='true'] {
     border-color: $govuk-blue;
     border-bottom-color: $white;
     background-color: $white;
