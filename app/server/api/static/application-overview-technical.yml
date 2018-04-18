@@ -35,7 +35,7 @@ hero:
     modifiers: heading-small spacing-top--single
   title:
     contentType: title
-    title: Inmarsat Application
+    title: Satellite operator 1
     modifiers: heading-xlarge spacing-bottom--tight
   infoGrid:
   - contentType: heading
@@ -94,7 +94,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -127,7 +127,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -156,6 +156,6 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Griffin"
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
       type: p
       modifiers: heading-medium

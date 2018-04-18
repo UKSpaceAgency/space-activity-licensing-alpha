@@ -23,7 +23,7 @@ hero:
     text: My applications
     url: "/operator/"
   - contentType: link
-    text: Inmarsat homepage
+    text: Satellite operator 1 homepage
   licenceType:
   - contentType: heading
     text: IN-ORBIT LICENCE
@@ -107,7 +107,7 @@ content:
     modifiers: spacing-bottom--single
     collapsible: true
     tabs:
-    - label: Inmarsat application notes (1)
+    - label: Satellite operator 1 notes (1)
       id: notes-open
     - label: My notes (2)
       id: notes-private
@@ -457,7 +457,7 @@ content:
 - contentType: infoGrid
   grid:
   - contentType: heading
-    text: "<a href='mailto:james@inmarsat.com'>email: james@inmarsat.com</a>"
+    text: "<a href='mailto:james@Satellite-operator-1.com'>email: james@Satellite-operator-1.com</a>"
     type: p
   - contentType: heading
     text: "phone: 0117 801735"
