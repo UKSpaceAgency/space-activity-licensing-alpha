@@ -62,7 +62,7 @@ content:
     text: "<p>The description of the proposed activity, requested at Question 13, should cover the design and construction of the satellite, the launch arrangements, TT&C facilities, operation, in-orbit functioning and arrangements for final disposal. All relevant documents, in addition to those requested in the application form, should be supplied to UK Space Agency with the application form.</p>"
   divider: true
 - title:
-    text: Q2. Will the space-object dock or rendezvous?
+    text: Q2. Copies of Launch Services contract
     type: h3
     modifiers: heading-medium quiet
   permalink: question-2
@@ -91,7 +91,7 @@ content:
     text: "<p>Please attach the Launch Service Contract</p>"
   divider: true
 - title:
-    text: Q3. Is it planned that any solid or ionizing or gaseous materials should be released from the object other than as part of a normal propulsion system?
+    text: Q3. The satellite technical specification
     type: h3
     modifiers: heading-medium quiet
   permalink: question-3
@@ -121,7 +121,7 @@ content:
     text: "<p>Please attach satellite contract</p>"
     divider: true
 - title:
-    text: Q4. Will the space object carry any radioactive or nuclear material?
+    text: Q4. The satellite contract and conditions
     type: h3
     modifiers: heading-medium quiet
   permalink: question-4
@@ -148,10 +148,10 @@ content:
         value: true
   supporting:
     modifiers: form-hint
-    text: "<p>The description of the proposed activity, requested at Question 13, should cover the design and construction of the satellite, the launch arrangements, TT&C facilities, operation, in-orbit functioning and arrangements for final disposal. All relevant documents, in addition to those requested in the application form, should be supplied to UK Space Agency with the application form.</p>"
+    text: "<p>Please attach satellite contracts</p>"
   divider: true
 - title:
-    text: Q5. Will the space object carry any form of animal life?
+    text: Q5. The Ground Station specification
     type: h3
     modifiers: heading-medium quiet
   permalink: question-5
@@ -176,12 +176,9 @@ content:
       data:
         key: data-complete
         value: true
-  supporting:
-    modifiers: form-hint
-    text: "<p>The description of the proposed activity, requested at Question 13, should cover the design and construction of the satellite, the launch arrangements, TT&C facilities, operation, in-orbit functioning and arrangements for final disposal. All relevant documents, in addition to those requested in the application form, should be supplied to UK Space Agency with the application form.</p>"
   divider: true
 - title:
-    text: Q6. At what radio frequencies and at what powers will the space object transmit during its planned mission? Are there additional frequencies or transmit powers which can be invoked?
+    text: Q5. If this is a remote sensing mission, you should include details of your plans to share data to address the UK's obligations under the UN's Remote Sensing Principles
     type: h3
     modifiers: heading-medium quiet
   permalink: question-6
@@ -206,7 +203,4 @@ content:
       data:
         key: data-complete
         value: true
-  supporting:
-    modifiers: form-hint
-    text: "<p>The description of the proposed activity, requested at Question 13, should cover the design and construction of the satellite, the launch arrangements, TT&C facilities, operation, in-orbit functioning and arrangements for final disposal. All relevant documents, in addition to those requested in the application form, should be supplied to UK Space Agency with the application form.</p>"
   divider: true
