@@ -204,3 +204,10 @@ content:
         key: data-complete
         value: true
   divider: true
+complete:
+  label: Save
+  url: "#"
+  id: submit
+  modifiers: button--secondary
+  data: data-submit-section
+
