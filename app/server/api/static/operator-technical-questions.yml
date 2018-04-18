@@ -1,0 +1,212 @@
+---
+contentType: page
+useComponent: true
+slug: operator-technical-questions
+head:
+  contentType: head
+  title: Satellite and mission overview | technical
+hero:
+  modifiers: bg-dark bg-blue
+  breadcrumb:
+  - contentType: link
+    text: Space Agency UK
+    url: "/"
+  - contentType: link
+    text: Applications
+    url: "/application-overview/"
+  - contentType: link
+    text: Application 11021411
+  title:
+    contentType: title
+    supporting: Technical
+    title: Satellite and mission overview
+    modifiers: heading-xlarge spacing-bottom--tight
+  infoGrid:
+  - contentType: heading
+    text: Updated 26 February 2018
+    type: p
+    modifiers: lede
+sideNavHeading:
+  text: Contents
+  type: p
+  modifiers: font-xsmall underline float-left block
+content:
+- title:
+    text: Q1. Please give a technical account of the satellite or space activity, the payload, mission and launch means
+    type: h3
+    modifiers: heading-medium quiet
+  permalink: question-1
+  textarea:
+    label: Please write below
+    name: answer-1
+    id: answer-1
+    data: data-textarea
+  attachment: true
+  booleans:
+    name: complete-1
+    type: checkbox
+    inputs:
+    - id: complete-1
+      value: Mark as complete
+      data:
+        key: data-complete
+        value: true
+  supporting:
+    modifiers: form-hint
+    text: "<p>The description of the proposed activity, requested at Question 13, should cover the design and construction of the satellite, the launch arrangements, TT&C facilities, operation, in-orbit functioning and arrangements for final disposal. All relevant documents, in addition to those requested in the application form, should be supplied to UK Space Agency with the application form.</p>"
+- title:
+    text: Q2. Will the space-object dock or rendezvous?
+    type: h3
+    modifiers: heading-medium quiet
+  permalink: question-2
+  textarea:
+    label: Please write below
+    name: answer-2
+    id: answer-2
+    data: data-textarea
+  attachment: true
+  booleans:
+    name: complete-2
+    type: checkbox
+    inputs:
+    - id: complete-2
+      value: Mark as complete
+      data:
+        key: data-complete
+        value: true
+  supporting:
+    text: "<p>Please attach the Launch Service Contract</p>"
+- title:
+    text: Q3. Is it planned that any solid or ionizing or gaseous materials should be released from the object other than as part of a normal propulsion system?
+    type: h3
+    modifiers: heading-medium quiet
+  permalink: question-3
+  textarea:
+    label: Please write below
+    name: answer-3
+    id: answer-3
+    data: data-textarea
+  attachment: true
+  booleans:
+    name: complete-3
+    type: checkbox
+    inputs:
+    - id: complete-3
+      value: Mark as complete
+      data:
+        key: data-complete
+        value: true
+  supporting:
+    modifiers: form-hint
+    text: "<p>Please attach satellite contract</p>"
+- title:
+    text: Q4. Will the space object carry any radioactive or nuclear material?
+    type: h3
+    modifiers: heading-medium quiet
+  permalink: question-4
+  textarea:
+    label: Please write below
+    name: answer-4
+    id: answer-4
+    data: data-textarea
+  attachment: true
+  booleans:
+    name: complete-4
+    type: checkbox
+    inputs:
+    - id: complete-4
+      value: Mark as complete
+      data:
+        key: data-complete
+        value: true
+  supporting:
+    modifiers: form-hint
+    text: "<p>The description of the proposed activity, requested at Question 13, should cover the design and construction of the satellite, the launch arrangements, TT&C facilities, operation, in-orbit functioning and arrangements for final disposal. All relevant documents, in addition to those requested in the application form, should be supplied to UK Space Agency with the application form.</p>"
+- title:
+    text: Q5. Will the space object carry any form of animal life?
+    type: h3
+    modifiers: heading-medium quiet
+  permalink: question-5
+  textarea:
+    label: Please write below
+    name: answer-5
+    id: answer-5
+    data: data-textarea
+  attachment: true
+  booleans:
+    name: complete-5
+    type: checkbox
+    inputs:
+    - id: complete-5
+      value: Mark as complete
+      data:
+        key: data-complete
+        value: true
+  supporting:
+    modifiers: form-hint
+    text: "<p>The description of the proposed activity, requested at Question 13, should cover the design and construction of the satellite, the launch arrangements, TT&C facilities, operation, in-orbit functioning and arrangements for final disposal. All relevant documents, in addition to those requested in the application form, should be supplied to UK Space Agency with the application form.</p>"
+- title:
+    text: Q6. At what radio frequencies and at what powers will the space object transmit during its planned mission? Are there additional frequencies or transmit powers which can be invoked?
+    type: h3
+    modifiers: heading-medium quiet
+  permalink: question-6
+  textarea:
+    label: Please write below
+    name: answer-6
+    id: answer-6
+    data: data-textarea
+  attachment: true
+  booleans:
+    name: complete-6
+    type: checkbox
+    inputs:
+    - id: complete-6
+      value: Mark as complete
+      data:
+        key: data-complete
+        value: true
+  supporting:
+    modifiers: form-hint
+    text: "<p>The description of the proposed activity, requested at Question 13, should cover the design and construction of the satellite, the launch arrangements, TT&C facilities, operation, in-orbit functioning and arrangements for final disposal. All relevant documents, in addition to those requested in the application form, should be supplied to UK Space Agency with the application form.</p>"
+  # commentBlock:
+  #   modifiers: spacing-bottom--single
+  #   button:
+  #     label: Add comment
+  #   fileupload:
+  #     label: Upload attachment
+  #     modifiers: file-upload
+  #     id: file-upload-2
+  #     shimmed: true
+  #   comments:
+  #   - byline:
+  #       priority:
+  #         icon:
+  #           label: High priority
+  #           modifiers: icon-warning icon-warning--orange icon--large
+  #         content: High priority
+  #       modifiers: spacing-bottom--single comment-admin
+  #       name:
+  #         text: Simon Griffith
+  #         type: h3
+  #         modifiers: heading-small
+  #       url: "/rachel"
+  #       date:
+  #         date: 10.04am 22nd March 2018
+  #         datetime: '2018-03-26T19:34:15+00:00'
+  #       icon:
+  #         label: account
+  #         modifiers: icon-account
+  #     text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
+  #     documents:
+  #     - text: Disposal diagram
+  #       url: "/pdfs/disposal-discovery.pdf"
+  #       type: .pdf
+  #       supporting: (12mb)
+  #     deadline:
+  #       text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+  #       type: p
+  #       modifiers: heading-small
+  #     assignees:
+  #       text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+  #       type: p
+  #       modifiers: heading-small

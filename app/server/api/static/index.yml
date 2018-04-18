@@ -59,3 +59,12 @@ content:
   list:
   - url: "/operator/"
     text: Front stage - operator overview
+- contentType: heading
+  text: Technical eligibility forms
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - url: "/operator/technical"
+    text: Technical eligibility question set
