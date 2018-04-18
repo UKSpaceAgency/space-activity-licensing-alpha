@@ -241,7 +241,7 @@ content:
       type: h3
       modifiers: heading-large spacing-top--flush
     updates:
-      url: "/updates"
+      url: "/operator/operator-overview-technical"
       text: Satellite operator 1 updates
       modifiers: bg-blue badge--fixed badge--top
     grid:
