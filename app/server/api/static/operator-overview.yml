@@ -64,7 +64,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: Complete
+        text: Not started
         type: p
     - title:
         text: Mission info
@@ -72,7 +72,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: not started
+        text: Not started
         type: p
     - title:
         text: Organisation info
@@ -80,7 +80,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: not started
+        text: Not started
         type: p
     - title:
         text: Insurance
@@ -88,7 +88,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: not started
+        text: Not started
         type: p
     - title:
         text: Frequency
@@ -96,7 +96,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: not started
+        text: Not started
         type: p
 content:
 - contentType: collapsiblepanel
