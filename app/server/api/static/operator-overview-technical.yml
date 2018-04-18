@@ -64,8 +64,8 @@ content:
       type: h3
       modifiers: heading-large spacing-top--flush
     updates:
-      url: "/updates"
-      text: "Action: Regulator"
+      url: "#"
+      text: "Action: UKSA"
       modifiers: bg-blue badge--fixed badge--top
     grid:
     - contentType: heading
@@ -78,7 +78,7 @@ content:
       modifiers: heading-medium
     - contentType: button
       url: '/operator/operator-overview/technical'
-      label: Continue
+      label: View
       modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
@@ -101,6 +101,10 @@ content:
       contentType: longform
       text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant Information.
       modifiers: spacing--single
+    updates:
+      url: "#"
+      text: "Action: Satellite operator 1"
+      modifiers: bg-blue badge--fixed badge--top
     grid:
     - contentType: heading
       text: "3<br/><span class='quiet'>Questions</span>"
@@ -134,12 +138,6 @@ content:
     summary:
       contentType: longform
       text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Mission.
-      modifiers: spacing--single
-    notice:
-      icon:
-        label: High priority
-        modifiers: icon-warning icon--large icon-warning--orange
-      content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
       modifiers: spacing--single
     grid:
     - contentType: heading
