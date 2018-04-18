@@ -267,5 +267,5 @@ content:
     id: further-comment
   - contentType: button
     label: Complete
-    url: "/operator/"
+    url: "/operator/operator-overview-unlocked"
     id: further-comment
