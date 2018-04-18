@@ -59,7 +59,7 @@ hero:
       status:
         text: Pending
         type: p
-    - modifiers: progress__item--complete
+    - modifiers: progress__item--pending
       title:
         text: Applicant info
         type: p
@@ -68,7 +68,8 @@ hero:
       status:
         text: Complete
         type: p
-    - title:
+    - modifiers: progress__item--pending
+      title:
         text: Mission info
         type: p
       divider:
@@ -76,7 +77,8 @@ hero:
       status:
         text: not started
         type: p
-    - title:
+    - modifiers: progress__item--pending
+      title:
         text: Organisation info
         type: p
       divider:
@@ -84,7 +86,8 @@ hero:
       status:
         text: not started
         type: p
-    - title:
+    - modifiers: progress__item--pending
+      title:
         text: Insurance
         type: p
       divider:
@@ -92,7 +95,8 @@ hero:
       status:
         text: not started
         type: p
-    - title:
+    - modifiers: progress__item--pending
+      title:
         text: Frequency
         type: p
       divider:
@@ -244,7 +248,7 @@ content:
       modifiers: heading-large spacing-top--flush
     updates:
       url: "/updates"
-      text: Inmartsat updates
+      text: "Action: Regulator"
       modifiers: bg-blue badge--fixed badge--top
     grid:
     - contentType: heading
@@ -256,8 +260,8 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: button
-      url: '/operator/technical-eligibility-questions'
-      label: View
+      url: '/operator/operator-overview/technical'
+      label: Continue
       modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
@@ -270,10 +274,10 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Applicant information <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Applicant information
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
@@ -303,10 +307,10 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Your mission <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Your mission
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
@@ -342,10 +346,10 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Your Organisation & Finance <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Your Organisation & Finance
       type: h3
       modifiers: heading-large spacing-top--flush
     summary:
@@ -375,10 +379,10 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Insurance <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Insurance
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
@@ -414,10 +418,10 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Frequency <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Frequency
       type: p
       modifiers: heading-large spacing-top--flush
     summary:

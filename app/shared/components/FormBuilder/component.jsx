@@ -11,6 +11,7 @@ import Longform from '../Longform/component.jsx'
 import Select from '../Select/component.jsx'
 import Textarea from '../Textarea/component.jsx'
 import Reveal from '../Reveal/component.jsx'
+import DateInputContainer from '../../containers/DateInputContainer/component.jsx'
 import { isArray } from '../../utilities'
 
 const formBuilder = (formItems) => {
@@ -25,6 +26,9 @@ const formBuilder = (formItems) => {
     switch (item.contentType) {
       case 'fieldSet':
         component = <Fieldset {...item} key={i} />
+        break
+      case 'date':
+        component = <DateInputContainer {...item} key={i} />
         break
       case 'formGroup':
         component = <FormGroup {...item} key={i} />

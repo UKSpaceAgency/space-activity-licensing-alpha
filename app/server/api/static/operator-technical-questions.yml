@@ -44,7 +44,7 @@ content:
   attachment:
     shimmed: true
     id: attachment-answer-1
-    label: Add attachment
+    label: + Add attachment(s)
     name: attachment-answer-1
     modifiers: inline
   booleans:
@@ -74,7 +74,7 @@ content:
   attachment:
     shimmed: true
     id: attachment-answer-2
-    label: Add attachment
+    label: + Add attachment(s)
     name: attachment-answer-2
     modifiers: inline
   booleans:
@@ -103,7 +103,7 @@ content:
   attachment:
     shimmed: true
     id: attachment-answer-3
-    label: Add attachment
+    label: + Add attachment(s)
     name: attachment-answer-3
     modifiers: inline
   booleans:
@@ -133,7 +133,7 @@ content:
   attachment:
     shimmed: true
     id: attachment-answer-4
-    label: Add attachment
+    label: + Add attachment(s)
     name: attachment-answer-4
     modifiers: inline
   booleans:
@@ -163,7 +163,7 @@ content:
   attachment:
     shimmed: true
     id: attachment-answer-5
-    label: Add attachment
+    label: + Add attachment(s)
     name: attachment-answer-5
     modifiers: inline
   booleans:
@@ -178,7 +178,7 @@ content:
         value: true
   divider: true
 - title:
-    text: Q5. If this is a remote sensing mission, you should include details of your plans to share data to address the UK's obligations under the UN's Remote Sensing Principles
+    text: Q6. If this is a remote sensing mission, you should include details of your plans to share data to address the UK's obligations under the UN's Remote Sensing Principles
     type: h3
     modifiers: heading-medium quiet
   permalink: question-6
@@ -190,7 +190,7 @@ content:
   attachment:
     shimmed: true
     id: attachment-answer-6
-    label: Add attachment
+    label: + Add attachment(s)
     name: attachment-answer-6
     modifiers: inline
   booleans:
