@@ -12,6 +12,7 @@ import Accordion from '../Accordion/component.jsx'
 import AccordionSection from '../AccordionSection/component.jsx'
 import Textarea from '../Textarea/component.jsx'
 import FileUpload from '../FileUpload/component.jsx'
+import RadioCheck from '../RadioCheck/component.jsx'
 
 const ContentRepeater = props => {
   let classes = classNames(props.className, props.modifiers)
@@ -25,6 +26,7 @@ const ContentRepeater = props => {
       {props.supporting && <Longform {...props.supporting}/>}
       {props.heading && <Heading {...props.heading}/>}
       {props.textarea && <Textarea {...props.textarea}/>}
+      {props.booleans && <RadioCheck {...props.booleans}/>}
       {props.attachment && <FileUpload {...props.attachment}/>}
       {props.documents && <List list={props.documents} className='list-inline'/>}
       {collapsible}
