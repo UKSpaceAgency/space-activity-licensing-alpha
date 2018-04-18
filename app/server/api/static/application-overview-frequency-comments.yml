@@ -27,7 +27,7 @@ hero:
     modifiers: heading-small spacing-top--single
   title:
     contentType: title
-    title: Inmarsat Application
+    title: Satellite operator 1
     modifiers: heading-xlarge spacing-bottom--tight
   infoGrid:
   - contentType: heading
@@ -70,7 +70,7 @@ content:
     limit: 3
     modifiers: spacing-bottom--single
     tabs:
-    - label: Inmarsat frequency (1)
+    - label: Satellite operator 1 frequency (1)
       id: notes-open
     - label: Private notes (2)
       id: notes-private

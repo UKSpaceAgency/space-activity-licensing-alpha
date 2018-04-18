@@ -41,7 +41,7 @@ listing:
       label: New
       modifiers: bg-orange dark
     heading:
-      text: Skyrora
+      text: Satellite operator 2
       type: h3
       modifiers: heading-medium spacing-top--flush
     items:
@@ -59,7 +59,7 @@ listing:
       label: New
       modifiers: bg-pink dark
     heading:
-      text: Inmarsat
+      text: Satellite operator 1
       type: h3
       modifiers: heading-medium spacing-top--flush
     items:
@@ -69,7 +69,7 @@ listing:
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
     updated: 10th March 2018
-    updater: Rachel Jeffries
+    updater: Dave Francis
     label:
       tag: I-OL
       class: bg-pink
@@ -98,7 +98,7 @@ listing:
       label: 2 updates
       modifiers: bg-blue
     heading:
-      text: Inmarsat
+      text: Satellite operator 1
       type: h3
       modifiers: heading-medium spacing-top--flush
     items:
@@ -110,7 +110,7 @@ listing:
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
     updated: 10th March 2018
-    updater: Rachel Jeffries
+    updater: Dave Francis
     label:
       tag: RCS
       class: bg-green
@@ -118,7 +118,7 @@ listing:
       label: 4 updates
       modifiers: bg-blue
     heading:
-      text: Inmarsat
+      text: Satellite operator 1
       type: h3
       modifiers: heading-medium spacing-top--flush
     items:
@@ -130,12 +130,12 @@ listing:
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
     updated: 10th March 2018
-    updater: Rachel Jeffries
+    updater: Dave Francis
     label:
       tag: LS
       class: bg-orange
   - heading:
-      text: Inmarsat
+      text: Satellite operator 1
       type: h3
       modifiers: heading-medium spacing-top--flush
     items:
@@ -145,12 +145,12 @@ listing:
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
     updated: 10th March 2018
-    updater: Rachel Jeffries
+    updater: Dave Francis
     label:
       tag: I-OL
       class: bg-pink
   - heading:
-      text: Lockheed Martin
+      text: Satellite operator 3
       type: h3
       modifiers: heading-medium spacing-top--flush
     items:
@@ -160,12 +160,12 @@ listing:
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
     updated: 10th March 2018
-    updater: Rachel Jeffries
+    updater: Dave Francis
     label:
       tag: LS
       class: bg-orange
   - heading:
-      text: Lockheed Martin
+      text: Satellite operator 3
       type: h3
       modifiers: heading-medium spacing-top--flush
     items:
@@ -175,7 +175,7 @@ listing:
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
     updated: 10th March 2018
-    updater: Rachel Jeffries
+    updater: Dave Francis
     label:
       tag: SP
       class: bg-brown

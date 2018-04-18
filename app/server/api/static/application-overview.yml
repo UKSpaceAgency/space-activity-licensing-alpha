@@ -35,7 +35,7 @@ hero:
     modifiers: heading-medium float-right
   title:
     contentType: title
-    title: Inmarsat Application
+    title: Satellite operator 1
     modifiers: spacing-bottom--tight
     # subTitle: this is a smaller bit of content to support the main title
   infoGrid:
@@ -122,7 +122,7 @@ content:
     modifiers: spacing-bottom--single
     collapsible: true
     tabs:
-    - label: Inmarsat application notes (1)
+    - label: Satellite operator 1 notes (1)
       id: notes-open
     - label: My notes (2)
       id: notes-private
@@ -273,7 +273,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -305,7 +305,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -336,7 +336,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -371,7 +371,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -403,7 +403,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -437,7 +437,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -468,7 +468,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Rachel Morris"
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
       type: p
       modifiers: heading-medium
 - contentType: heading
@@ -482,7 +482,7 @@ content:
 - contentType: infoGrid
   grid:
   - contentType: heading
-    text: "<a href='mailto:james@inmarsat.com'>email: james@inmarsat.com</a>"
+    text: "<a href='mailto:james@Satellite-operator-1.com'>email: james@Satellite-operator-1.com</a>"
     type: p
   - contentType: heading
     text: "phone: 0117 801735"
