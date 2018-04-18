@@ -50,7 +50,7 @@ content:
   booleans:
     name: complete-1
     type: checkbox
-    modifiers: float-right
+    fieldModifiers: float-right
     inputs:
     - id: complete-1
       value: Mark as complete
@@ -80,7 +80,7 @@ content:
   booleans:
     name: complete-2
     type: checkbox
-    modifiers: float-right
+    fieldModifiers: float-right
     inputs:
     - id: complete-2
       value: Mark as complete
@@ -109,7 +109,7 @@ content:
   booleans:
     name: complete-3
     type: checkbox
-    modifiers: float-right
+    fieldModifiers: float-right
     inputs:
     - id: complete-3
       value: Mark as complete
@@ -139,7 +139,7 @@ content:
   booleans:
     name: complete-4
     type: checkbox
-    modifiers: float-right
+    fieldModifiers: float-right
     inputs:
     - id: complete-4
       value: Mark as complete
@@ -169,7 +169,7 @@ content:
   booleans:
     name: complete-5
     type: checkbox
-    modifiers: float-right
+    fieldModifiers: float-right
     inputs:
     - id: complete-5
       value: Mark as complete
@@ -196,7 +196,7 @@ content:
   booleans:
     name: complete-6
     type: checkbox
-    modifiers: float-right
+    fieldModifiers: float-right
     inputs:
     - id: complete-6
       value: Mark as complete
