@@ -35,9 +35,8 @@ hero:
     modifiers: heading-medium float-right
   title:
     contentType: title
-    title: Application 11021411
+    title: S EAN multi-beam
     modifiers: spacing-bottom--tight
-    # subTitle: this is a smaller bit of content to support the main title
   infoGrid:
   - contentType: heading
     text: "<span class='quiet'>Started: </span> 4th June "

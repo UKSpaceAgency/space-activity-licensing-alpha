@@ -35,7 +35,7 @@ hero:
     modifiers: heading-medium float-right
   title:
     contentType: title
-    title: Application 11021411
+    title: S EAN multi-beam
     modifiers: spacing-bottom--tight
     # subTitle: this is a smaller bit of content to support the main title
   infoGrid:
@@ -293,9 +293,10 @@ content:
       text: "0<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
-    - contentType: heading
-      text: ""
-      type: p
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -332,9 +333,10 @@ content:
       text: "0<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
-    - contentType: heading
-      text: ""
-      type: p
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -365,9 +367,10 @@ content:
       text: "0<br/><span class='quiet'>Attachment</span>"
       type: p
       modifiers: heading-medium
-    - contentType: heading
-      text: ""
-      type: p
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -404,9 +407,10 @@ content:
       text: "0<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
-    - contentType: heading
-      text: ""
-      type: p
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -437,9 +441,10 @@ content:
       text: "0<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
-    - contentType: heading
-      text: ""
-      type: p
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
