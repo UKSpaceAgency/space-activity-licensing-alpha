@@ -242,7 +242,7 @@ content:
       modifiers: heading-large spacing-top--flush
     updates:
       url: "/updates"
-      text: Inmartsat updates
+      text: Satellite operator 1 updates
       modifiers: bg-blue badge--fixed badge--top
     grid:
     - contentType: heading
