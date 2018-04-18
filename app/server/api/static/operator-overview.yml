@@ -58,8 +58,7 @@ hero:
       status:
         text: Pending
         type: p
-    - modifiers: progress__item--complete
-      title:
+    - title:
         text: Applicant info
         type: p
       divider:

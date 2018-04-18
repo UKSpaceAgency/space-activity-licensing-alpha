@@ -1,0 +1,224 @@
+---
+contentType: page
+useComponent: true
+slug: operator-overview
+head:
+  contentType: head
+  title: Operator application overview
+masthead:
+  utility:
+    links:
+    - text: Notifications
+      url: "/notifications"
+      notification: 3
+    - text: Settings
+      url: "/operator"
+hero:
+  modifiers: bg-dark bg-blue
+  breadcrumb:
+  - contentType: link
+    text: Space Agency UK
+    url: "/"
+  - contentType: link
+    text: My applications
+    url: "/operator/"
+  - contentType: link
+    text: Technical section
+  licenceType:
+  - contentType: heading
+    text: IN-ORBIT LICENCE
+    type: p
+    modifiers: heading-medium badge badge--large bg-pink
+  - contentType: heading
+    text: "<span class='quiet'>Ref: </span> 11021411"
+    type: p
+    modifiers: heading-medium float-right
+  title:
+    contentType: title
+    title: S EAN multi-beam
+    modifiers: spacing-bottom--tight
+    # subTitle: this is a smaller bit of content to support the main title
+  infoGrid:
+  - contentType: heading
+    text: "<span class='quiet'>Started: </span> 4th June "
+    type: p
+    modifiers: heading-small
+content:
+- contentType: heading
+  text: Applications sections
+  type: h2
+  modifiers: heading-medium
+- contentType: listing
+  columns: 1
+  gridModifier: column-third
+  content:
+  - contentType: tile
+    modifiers: column-three-quarters
+    summary:
+      contentType: longform
+      text: Before you can submit your application form, you will need to complete  ten (10) technical eligibility questions. These will give us an idea of your  application readiness.
+      modifiers: spacing--single
+    heading:
+      contentType: heading
+      text: Technical Eligibility
+      type: h3
+      modifiers: heading-large spacing-top--flush
+    updates:
+      url: "/updates"
+      text: "Action: Regulator"
+      modifiers: bg-blue badge--fixed badge--top
+    grid:
+    - contentType: heading
+      text: "3<br/><span class='quiet'>Questions</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "1<br/><span class='quiet'>Attachment</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Continue
+      modifiers: button--full-width
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Updated on: </span><br/>12th June 2018"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/> Luke McGuinness"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Satellite and mission overview
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant Information.
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: "3<br/><span class='quiet'>Questions</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Status</span><br/>Pending"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span>"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Safety and damage considerations
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Mission.
+      modifiers: spacing--single
+    notice:
+      icon:
+        label: High priority
+        modifiers: icon-warning icon--large icon-warning--orange
+      content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: "3<br/><span class='quiet'>Questions</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Status</span><br/>Pending"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span>"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Launch information
+      type: h3
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Organisation & Finance.
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: "3<br/><span class='quiet'>Questions</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Attachment</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Status</span><br/>Pending"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span>"
+      type: p
+      modifiers: heading-medium
+- contentType: heading
+  text: Operator Contact
+  type: h2
+  modifiers: heading-medium
+- contentType: heading
+  text: James Smart
+  type: p
+  modifiers: heading-small border bottom-border padding-bottom--tight
+- contentType: infoGrid
+  grid:
+  - contentType: heading
+    text: "<a href='mailto:james@Satellite-operator-1.com'>email: james@Satellite-operator-1.com</a>"
+    type: p
+  - contentType: heading
+    text: "phone: 0117 801735"
+    type: p
+  - contentType: heading
+    text: "mobile: +44 7882281628"
+    type: p
+- contentType: infoGrid
+  grid:
+  - text: "address: 80 Gloucester Road, London, WC2 2BA"
+    type: p
+    gridModifier: column-full

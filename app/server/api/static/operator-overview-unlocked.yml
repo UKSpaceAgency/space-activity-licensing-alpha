@@ -57,7 +57,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: Pending
+        text: In progress
         type: p
     - modifiers: progress__item--pending
       title:
@@ -66,7 +66,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: Complete
+        text: Not started
         type: p
     - modifiers: progress__item--pending
       title:
@@ -75,7 +75,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: not started
+        text: Not started
         type: p
     - modifiers: progress__item--pending
       title:
@@ -84,7 +84,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: not started
+        text: Not started
         type: p
     - modifiers: progress__item--pending
       title:
@@ -93,7 +93,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: not started
+        text: Not started
         type: p
     - modifiers: progress__item--pending
       title:
@@ -102,7 +102,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: not started
+        text: Not started
         type: p
 content:
 - contentType: collapsiblepanel
@@ -247,7 +247,7 @@ content:
       type: h3
       modifiers: heading-large spacing-top--flush
     updates:
-      url: "/updates"
+      url: "/operator/operator-overview-technical"
       text: "Action: Regulator"
       modifiers: bg-blue badge--fixed badge--top
     grid:

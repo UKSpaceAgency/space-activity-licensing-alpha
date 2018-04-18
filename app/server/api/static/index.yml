@@ -63,3 +63,5 @@ content:
     text: Technical eligibility question set
   - url: "/operator/operator-overview-unlocked"
     text: Operator overview - unlocked
+  - url: "/operator/operator-overview-technical"
+    text: Operator overview - unlocked - technical section
