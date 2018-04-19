@@ -53,7 +53,7 @@ listing:
     updated: 10th March 2018
     updater: John Terry
     label:
-      tag: I-OL
+      tag: In-orbit
       class: bg-orange
   - status:
       label: New
@@ -71,7 +71,7 @@ listing:
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: I-OL
+      tag: In-orbit
       class: bg-pink
 - heading:
     text: Your applications (2 with updates)
@@ -96,7 +96,7 @@ listing:
   list:
   - status:
       label: 2 updates
-      modifiers: bg-blue
+      modifiers: bg-fuschia
     heading:
       text: Satellite operator 1
       type: h3
@@ -112,11 +112,11 @@ listing:
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: RCS
+      tag: Range
       class: bg-green
   - status:
       label: 4 updates
-      modifiers: bg-blue
+      modifiers: bg-fuschia
     heading:
       text: Satellite operator 1
       type: h3
@@ -132,7 +132,7 @@ listing:
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: LS
+      tag: Launch
       class: bg-orange
   - heading:
       text: Satellite operator 1
@@ -147,7 +147,7 @@ listing:
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: I-OL
+      tag: In-orbit
       class: bg-pink
   - heading:
       text: Satellite operator 3
@@ -162,7 +162,7 @@ listing:
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: LS
+      tag: Launch
       class: bg-orange
   - heading:
       text: Satellite operator 3
@@ -177,5 +177,5 @@ listing:
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: SP
+      tag: Space port
       class: bg-brown

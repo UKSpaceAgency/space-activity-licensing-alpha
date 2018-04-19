@@ -347,9 +347,9 @@ content:
       modifiers: heading-large
     id: technical
     updates:
-      url: "/updates"
+      url: "#"
       text: 2 updates
-      modifiers: bg-blue badge--fixed badge--top
+      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"

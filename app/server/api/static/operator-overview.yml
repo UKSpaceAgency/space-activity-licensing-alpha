@@ -243,7 +243,7 @@ content:
     updates:
       url: "/operator/operator-overview-technical"
       text: Satellite operator 1 updates
-      modifiers: bg-blue badge--fixed badge--top
+      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: "3<br/><span class='quiet'>Questions</span>"
