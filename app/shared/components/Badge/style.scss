@@ -33,7 +33,9 @@
   }
 
   &.bg-blue,
-  &.bg-fuschia {
+  &.bg-fuschia,
+  &.bg-blue a,
+  &.bg-fuschia a, {
     color: $white;
   }
 
