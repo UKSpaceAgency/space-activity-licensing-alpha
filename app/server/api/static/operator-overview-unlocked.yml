@@ -37,6 +37,7 @@ hero:
     contentType: title
     title: S EAN multi-beam
     modifiers: spacing-bottom--tight
+    # subTitle: this is a smaller bit of content to support the main title
   infoGrid:
   - contentType: heading
     text: "<span class='quiet'>Started: </span> 4th June "
@@ -56,9 +57,10 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: Pending
+        text: In progress
         type: p
-    - title:
+    - modifiers: progress__item--pending
+      title:
         text: Applicant info
         type: p
       divider:
@@ -66,7 +68,8 @@ hero:
       status:
         text: Not started
         type: p
-    - title:
+    - modifiers: progress__item--pending
+      title:
         text: Mission info
         type: p
       divider:
@@ -74,7 +77,8 @@ hero:
       status:
         text: Not started
         type: p
-    - title:
+    - modifiers: progress__item--pending
+      title:
         text: Organisation info
         type: p
       divider:
@@ -82,7 +86,8 @@ hero:
       status:
         text: Not started
         type: p
-    - title:
+    - modifiers: progress__item--pending
+      title:
         text: Insurance
         type: p
       divider:
@@ -90,7 +95,8 @@ hero:
       status:
         text: Not started
         type: p
-    - title:
+    - modifiers: progress__item--pending
+      title:
         text: Frequency
         type: p
       divider:
@@ -242,7 +248,7 @@ content:
       modifiers: heading-large spacing-top--flush
     updates:
       url: "/operator/operator-overview-technical"
-      text: Satellite operator 1 updates
+      text: "Action: Regulator"
       modifiers: bg-blue badge--fixed badge--top
     grid:
     - contentType: heading
@@ -254,8 +260,8 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: button
-      url: '/operator/technical-eligibility-questions'
-      label: View
+      url: '/operator/operator-overview/technical'
+      label: Continue
       modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
@@ -268,10 +274,10 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Applicant information <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Applicant information
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
@@ -287,9 +293,10 @@ content:
       text: "0<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
-    - contentType: heading
-      text: ""
-      type: p
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -301,10 +308,10 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Your mission <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Your mission
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
@@ -314,7 +321,7 @@ content:
     notice:
       icon:
         label: High priority
-        modifiers: icon-warning icon--large
+        modifiers: icon-warning icon--large icon-warning--orange
       content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
       modifiers: spacing--single
     grid:
@@ -326,9 +333,10 @@ content:
       text: "0<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
-    - contentType: heading
-      text: ""
-      type: p
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -340,10 +348,10 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Your Organisation & Finance <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Your Organisation & Finance
       type: h3
       modifiers: heading-large spacing-top--flush
     summary:
@@ -359,9 +367,10 @@ content:
       text: "0<br/><span class='quiet'>Attachment</span>"
       type: p
       modifiers: heading-medium
-    - contentType: heading
-      text: ""
-      type: p
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -373,10 +382,10 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Insurance <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Insurance
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
@@ -386,7 +395,7 @@ content:
     notice:
       icon:
         label: High priority
-        modifiers: icon-warning icon--large
+        modifiers: icon-warning icon--large icon-warning--orange
       content: You said that you did not have insurance, you will need to secure insurance to complete this application.
       modifiers: spacing--single
     grid:
@@ -398,9 +407,10 @@ content:
       text: "0<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
-    - contentType: heading
-      text: ""
-      type: p
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -412,10 +422,10 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Frequency <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Frequency
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
@@ -431,9 +441,10 @@ content:
       text: "0<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
-    - contentType: heading
-      text: ""
-      type: p
+    - contentType: button
+      url: '/operator/operator-overview/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading

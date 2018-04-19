@@ -10,6 +10,9 @@ import Tablist from '../Tablist/component.jsx'
 import Tab from '../Tab/component.jsx'
 import Accordion from '../Accordion/component.jsx'
 import AccordionSection from '../AccordionSection/component.jsx'
+import Textarea from '../Textarea/component.jsx'
+import FileUpload from '../FileUpload/component.jsx'
+import RadioCheck from '../RadioCheck/component.jsx'
 
 const ContentRepeater = props => {
   let classes = classNames(props.className, props.modifiers)
@@ -20,7 +23,11 @@ const ContentRepeater = props => {
     <section className={classes} id={props.permalink}>
       {props.title && <Heading {...props.title}/>}
       <Longform {...props}/>
+      {props.supporting && <Longform {...props.supporting}/>}
       {props.heading && <Heading {...props.heading}/>}
+      {props.textarea && <Textarea {...props.textarea}/>}
+      {props.booleans && <RadioCheck {...props.booleans}/>}
+      {props.attachment && <FileUpload {...props.attachment}/>}
       {props.documents && <List list={props.documents} className='list-inline'/>}
       {collapsible}
       {props.backbutton && <div className='text'><a href='#' className='link-back'>Back to top</a></div>}

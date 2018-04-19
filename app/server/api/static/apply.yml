@@ -44,7 +44,7 @@ content:
     id: uk-company-no-reveal
     content:
     - contentType: panel
-      content: Yeah, good luck with that, chief
+      content: Please get in touch with UKSA as this parameter is key to your being able to get a space license
   - contentType: reveal
     id: uk-company-yes-reveal
     content:
