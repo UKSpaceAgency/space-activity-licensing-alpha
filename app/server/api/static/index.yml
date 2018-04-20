@@ -15,6 +15,7 @@ content:
 - contentType: heading
   text: Pages index
   type: h2
+  modifiers: heading-large
 - contentType: heading
   text: Backstage and commenting
   type: p
