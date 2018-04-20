@@ -63,12 +63,6 @@ content:
     name: job-title
     id: job-title
     input: text
-  - contentType: formGroup
-    label: Baseline security vetting
-    name: baseline-security-vetting
-    id: baseline-security-vetting
-    supporting: Enter the BPSS Verification Record Reference. If you do not have this information, <a href="#">click here to learn more</a>
-    input: text
   - contentType: longform
     text: "<p>Adding a colleague allows you to share secure sections of the application that they can input into.</p><p><a href='#'>+ Add and assign a colleague</a></p>"
   - contentType: button
