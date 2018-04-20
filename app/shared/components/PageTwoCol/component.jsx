@@ -21,7 +21,7 @@ const PageTwoCol = props => {
   })
 
   return (
-    <div>
+    <React.Fragment>
       <Masthead {...props.masthead}/>
       <div id='global-header-bar' />
       <div className='site-wrapper'>
@@ -36,7 +36,7 @@ const PageTwoCol = props => {
         </main>
         <Footer />
       </div>
-    </div>
+    </React.Fragment>
   )
 }
 

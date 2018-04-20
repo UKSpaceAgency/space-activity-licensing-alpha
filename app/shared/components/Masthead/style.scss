@@ -1,0 +1,24 @@
+.masthead {
+  background-color: $black;
+  width: 100%;
+}
+
+.masthead__inner {
+  display: flex;
+  align-items: center;
+  //justify-content: center;
+}
+
+.logo {
+  color: $white !important;
+  display: inline-block;
+  font-size: 21px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-decoration: none;
+
+  @include media(tablet) {
+    font-size: 30px;
+    flex: 1 1 auto;
+  }
+}

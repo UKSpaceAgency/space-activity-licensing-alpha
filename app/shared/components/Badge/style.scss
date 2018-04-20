@@ -19,6 +19,11 @@
     background-color: $baby-pink;
   }
 
+  &.bg-pink-40 {
+    color: $black;
+    background-color: $pink-40;
+  }
+
   &.badge--border {
     color: $grey-2;
     border: 2px solid $grey-2;

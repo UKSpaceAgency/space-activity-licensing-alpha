@@ -13,7 +13,7 @@ import Progress from '../Progress/component.jsx'
 
 const PageGranularTwoCol = props => {
   return (
-    <div>
+    <React.Fragment>
       <Masthead {...props.masthead}/>
       <Hero {...props.hero} />
       <div className='site-wrapper'>
@@ -31,7 +31,7 @@ const PageGranularTwoCol = props => {
         </main>
         <Footer />
       </div>
-    </div>
+    </React.Fragment>
   )
 }
 

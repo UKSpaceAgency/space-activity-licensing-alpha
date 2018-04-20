@@ -18,8 +18,8 @@ const UtilityNav = props => {
   })
 
   return (
-    <nav id='proposition-menu'>
-      <ul className='utility-nav'>
+    <nav className='utility-nav'>
+      <ul className='utility-nav__items'>
         {list}
       </ul>
     </nav>

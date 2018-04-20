@@ -8,6 +8,7 @@ $text-max-width: 65rem;
 // and a litle disparate if not imported using Gulp
 @charset 'UTF-8';
 @import 'font/fonts';
+//@import "~bootstrap/less/variables";
 @import 'govuk-template';
 @import 'sass/application';
 
@@ -22,6 +23,7 @@ $text-max-width: 65rem;
 
 
 // Added components!!
+@import '../../../app/shared/components/Masthead/style';
 @import '../../../app/shared/components/Typography/style';
 @import '../../../app/shared/components/Padding/style';
 @import '../../../app/shared/components/Hero/style';

@@ -1,5 +1,13 @@
 .utility-nav {
   padding: 0 15px;
+  display: inline-block;
+
+  @include media(tablet) {
+    flex: 1 1 auto;
+  }
+}
+
+.utility-nav__items{
   @include media(tablet) {
     text-align: right;
   }
