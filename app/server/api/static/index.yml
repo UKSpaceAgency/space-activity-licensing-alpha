@@ -19,7 +19,7 @@ content:
 - contentType: heading
   text: Backstage and commenting
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing--single
 - contentType: list
   modifiers: list-bullet
   list:

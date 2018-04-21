@@ -12,3 +12,14 @@
 .form-hint {
   margin-bottom: 10px;
 }
+
+.form-group-hour {
+  position: relative;
+
+  &::after {
+    content: ':';
+    position: absolute;
+    bottom: 5px;
+    right: -13px;
+  }
+}

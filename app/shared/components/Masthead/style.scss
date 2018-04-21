@@ -4,15 +4,16 @@
 }
 
 .masthead__inner {
-  display: flex;
-  align-items: center;
-  //justify-content: center;
+  @include media(tablet) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .logo {
   color: $white !important;
   display: inline-block;
-  font-size: 21px;
+  font-size: 24px;
   margin-top: 15px;
   margin-bottom: 15px;
   text-decoration: none;
