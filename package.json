@@ -70,7 +70,6 @@
     "grunt-contrib-uglify": "^2.2.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-eslint": "^19.0.0",
-    "grunt-grunticon": "^2.3.1",
     "grunt-nodemon": "^0.4.2",
     "grunt-postcss": "^0.8.0",
     "grunt-rsync": "^2.0.1",
