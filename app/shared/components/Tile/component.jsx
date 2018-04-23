@@ -54,7 +54,7 @@ const Tile = props => {
           {Grids}
         </Grid>
       </div>
-      {props.completion && <GridCol className='column-quarter spacing-top--single'><Icon {...props.completion.icon}/><Heading {...props.completion.heading}/><Heading {...props.completion.comment}/></GridCol>}
+      {props.completion && <GridCol className='column-quarter spacing-top--single'><Icon {...props.completion.icon}/><Heading {...props.completion.heading}/><Heading {...props.completion.comment}/><Button {...props.completion.action}/></GridCol>}
     </div>
   )
 }

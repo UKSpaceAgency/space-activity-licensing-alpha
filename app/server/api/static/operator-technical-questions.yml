@@ -211,9 +211,8 @@ content:
       value: Ready for submission
   divider: true
 complete:
-  label: Save
-  url: "#"
+  label: Save and exit
+  url: "/operator/operator-overview-technical-submit"
   id: submit
   # modifiers: button--secondary
   data: data-submit-section
-
