@@ -1,20 +1,27 @@
 import React from 'react'
 import classNames from 'classnames'
-import Heading from '../../components/Heading/component.jsx'
-import Button from '../../components/Button/component.jsx'
-import Grid from '../../components/Grid/component.jsx'
-import Divider from '../../components/Divider/component.jsx'
-import Notice from '../../components/Notice/component.jsx'
-import Longform from '../../components/Longform/component.jsx'
-import GridCol from '../../components/GridCol/component.jsx'
-import Badge from '../../components/Badge/component.jsx'
+import Heading from '../Heading/component.jsx'
+import Button from '../Button/component.jsx'
+import Grid from '../Grid/component.jsx'
+import Divider from '../Divider/component.jsx'
+import Notice from '../Notice/component.jsx'
+import Longform from '../Longform/component.jsx'
+import GridCol from '../GridCol/component.jsx'
+import Badge from '../Badge/component.jsx'
+import Icon from '../Icon/component.jsx'
 
 const Tile = props => {
+  let wrapper = classNames({
+    'bordered': props.completion,
+    'spacing-bottom--large': props.completion
+  })
+
   let classes = classNames(props.gridModifier, 'spacing-bottom--single', {
     'column-half': !props.gridModifier
   })
   let id = props.id ? {'id': props.id} : null
-  let boxClasses = classNames('box spacing-bottom--large', props.modifiers, {
+  let boxClasses = classNames('box', props.modifiers, {
+    'spacing-bottom--large': !props.completion,
     'relative': props.updates
   })
 
@@ -37,14 +44,17 @@ const Tile = props => {
   })
 
   return (
-    <div className={boxClasses} {...id}>
-      {props.updates && <Badge {...props.updates}/>}
-      <Heading {...props.heading}/>
-      {props.summary && <Longform {...props.summary}/>}
-      {props.notice && <Notice {...props.notice}/>}
-      <Grid>
-        {Grids}
-      </Grid>
+    <div className={wrapper}>
+      <div className={boxClasses} {...id}>
+        {props.updates && <Badge {...props.updates}/>}
+        <Heading {...props.heading}/>
+        {props.summary && <Longform {...props.summary}/>}
+        {props.notice && <Notice {...props.notice}/>}
+        <Grid>
+          {Grids}
+        </Grid>
+      </div>
+      {props.completion && <GridCol className='column-quarter'><Icon {...props.completion.icon}/><Heading {...props.completion.heading}/><Heading {...props.completion.comment}/></GridCol>}
     </div>
   )
 }

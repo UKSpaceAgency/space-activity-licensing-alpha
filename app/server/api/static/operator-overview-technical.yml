@@ -60,6 +60,61 @@ content:
       text: Technical Eligibility
       type: h3
       modifiers: heading-large spacing-top--flush
+    grid:
+    - contentType: heading
+      text: 10 questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 30<br/><span class='quiet'>Draft answers</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 30<br/><span class='quiet'>Ready for submission</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "30 of 30 <br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: button
+      url: '/operator/technical'
+      label: View
+      modifiers: button--full-width button--secondary
+    - contentType: heading
+      text: "<span class='quiet'>Status</span><br/>Complete"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>Comments</span><br/>23"
+      type: p
+      modifiers: heading-medium
+    completion:
+      icon:
+        label: tick
+        modifiers: icon-tick-green icon--large
+      heading:
+        text: Technical Eligibility section has been submitted.
+        type: p
+        modifiers: heading-medium
+      comment:
+        text: This section has been approved.
+        type: p
+        modifiers: lede
+  - contentType: tile
+    modifiers: column-three-quarters
+    summary:
+      contentType: longform
+      text: Before you can submit your application form, you will need to complete  ten (10) technical eligibility questions. These will give us an idea of your  application readiness.
+      modifiers: spacing--single
+    heading:
+      contentType: heading
+      text: Technical Eligibility
+      type: h3
+      modifiers: heading-large spacing-top--flush
     updates:
       url: "#"
       text: "Action: UKSA"

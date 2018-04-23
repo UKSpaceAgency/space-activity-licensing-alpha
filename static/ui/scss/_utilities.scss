@@ -137,6 +137,11 @@ sup {
   }
 }
 
+.bordered {
+  border: 1px solid $black;
+  overflow: hidden;
+}
+
 .constrained {
   max-width: 960px;
   margin: 0 15px;
