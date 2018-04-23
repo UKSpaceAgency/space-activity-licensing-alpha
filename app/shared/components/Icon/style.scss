@@ -29,6 +29,11 @@ $icon-dims: 16px;
   background-image: url('../img/icons/checkmark-white.svg');
 }
 
+.icon--circled {
+  border-radius: 100%;
+  border: 3px solid $green;
+}
+
 .icon-account-admin,
 .icon-account {
   width: $icon-dims * 2;
