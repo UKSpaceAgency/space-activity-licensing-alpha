@@ -4,7 +4,7 @@ useComponent: true
 slug: operator-overview
 head:
   contentType: head
-  title: Operator application overview
+  title: Operator overview technical
 masthead:
   utility:
     links:
@@ -66,25 +66,34 @@ content:
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
-      text: "3<br/><span class='quiet'>Questions</span>"
+      text: 10 questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 30<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "1<br/><span class='quiet'>Attachment</span>"
+      text: "0 of 30<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
-    - contentType: button
-      url: '/operator/operator-overview/technical'
-      label: View
-      modifiers: button--full-width
+    - contentType: heading
+      text: "30 of 30 <br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
+    - contentType: button
+      url: '/operator/technical'
+      label: View
+      modifiers: button--full-width button--secondary
     - contentType: heading
-      text: "<span class='quiet'>Updated on: </span><br/>12th June 2018"
+      text: "<span class='quiet'>Status</span><br/>Complete"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/> Luke McGuinness"
+      text: "<span class='quiet'>Comments</span><br/>23"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -104,25 +113,30 @@ content:
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
-      text: "3<br/><span class='quiet'>Questions</span>"
+      text: 10 questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 30<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Attachments</span>"
+      text: "0 of 30<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
-    - contentType: button
-      url: '/operator/operator-overview/technical'
-      label: Start
-      modifiers: button--full-width
+    - contentType: heading
+      text: "30 of 30 <br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
+    - contentType: button
+      url: '/operator/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>Pending"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span>"
+      text: "<span class='quiet'>Status</span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -138,25 +152,30 @@ content:
       modifiers: spacing--single
     grid:
     - contentType: heading
-      text: "3<br/><span class='quiet'>Questions</span>"
+      text: 10 questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 30<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Attachments</span>"
+      text: "0 of 30<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
-    - contentType: button
-      url: '/operator/operator-overview/technical'
-      label: Start
-      modifiers: button--full-width
+    - contentType: heading
+      text: "30 of 30 <br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
+    - contentType: button
+      url: '/operator/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>Pending"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span>"
+      text: "<span class='quiet'>Status</span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -172,25 +191,30 @@ content:
       modifiers: spacing--single
     grid:
     - contentType: heading
-      text: "3<br/><span class='quiet'>Questions</span>"
+      text: 10 questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 30<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Attachment</span>"
+      text: "0 of 30<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
-    - contentType: button
-      url: '/operator/operator-overview/technical'
-      label: Start
-      modifiers: button--full-width
+    - contentType: heading
+      text: "30 of 30 <br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
+    - contentType: button
+      url: '/operator/technical'
+      label: Start
+      modifiers: button--full-width
     - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>Pending"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span>"
+      text: "<span class='quiet'>Status</span><br/>Not started"
       type: p
       modifiers: heading-medium
 - contentType: heading

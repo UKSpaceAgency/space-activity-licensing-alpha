@@ -41,12 +41,6 @@ content:
     name: answer-1
     id: answer-1
     data: data-textarea
-  attachment:
-    shimmed: true
-    id: attachment-answer-1
-    label: + Add attachment(s)
-    name: attachment-answer-1
-    modifiers: inline
   booleans:
     name: complete-1
     type: radio
@@ -72,12 +66,6 @@ content:
     name: answer-2
     id: answer-2
     data: data-textarea
-  attachment:
-    shimmed: true
-    id: attachment-answer-2
-    label: + Add attachment(s)
-    name: attachment-answer-2
-    modifiers: inline
   booleans:
     name: complete-2
     type: radio
@@ -133,12 +121,6 @@ content:
     name: answer-4
     id: answer-4
     data: data-textarea
-  attachment:
-    shimmed: true
-    id: attachment-answer-4
-    label: + Add attachment(s)
-    name: attachment-answer-4
-    modifiers: inline
   booleans:
     name: complete-4
     type: radio
@@ -164,12 +146,6 @@ content:
     name: answer-5
     id: answer-5
     data: data-textarea
-  attachment:
-    shimmed: true
-    id: attachment-answer-5
-    label: + Add attachment(s)
-    name: attachment-answer-5
-    modifiers: inline
   booleans:
     name: complete-5
     type: radio
@@ -192,12 +168,6 @@ content:
     name: answer-6
     id: answer-6
     data: data-textarea
-  attachment:
-    shimmed: true
-    id: attachment-answer-6
-    label: + Add attachment(s)
-    name: attachment-answer-6
-    modifiers: inline
   booleans:
     name: complete-6
     type: radio
