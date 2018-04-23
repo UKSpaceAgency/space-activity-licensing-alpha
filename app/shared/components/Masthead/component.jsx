@@ -14,4 +14,3 @@ const Masthead = props => {
 }
 
 export default Masthead
-
