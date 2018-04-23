@@ -95,14 +95,13 @@ content:
       heading:
         text: Questions within the Technical section have been marked as complete.
         type: p
-        modifiers: heading-medium spacing-top--flush
+        modifiers: heading-small spacing-top--flush
       comment:
         text: Are you ready to submit these completed questions?
         type: p
-        modifiers: lede
       action:
         label: Submit
-        url: "/operator/technical"
+        url: "/operator/operator-overview-technical-complete"
         id: submit
         modifiers: button--full-width button--large
   - contentType: tile
