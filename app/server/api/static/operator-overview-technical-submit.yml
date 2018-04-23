@@ -101,10 +101,10 @@ content:
         type: p
         modifiers: lede
       action:
-        label: Save
+        label: Submit
         url: "/operator/technical"
         id: submit
-        modifiers: button--full-width
+        modifiers: button--full-width button--large
   - contentType: tile
     modifiers: column-three-quarters
     heading:
