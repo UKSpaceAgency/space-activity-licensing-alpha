@@ -461,26 +461,26 @@ content:
       type: p
       modifiers: heading-medium
 - contentType: heading
-  text: Operator Contact
+  text: UKSA Contact
   type: h2
   modifiers: heading-medium
 - contentType: heading
-  text: James Smart
+  text: "If you require help with your application, please get in touch with your case manager:"
   type: p
-  modifiers: heading-small border bottom-border padding-bottom--tight
-- contentType: infoGrid
-  grid:
-  - contentType: heading
-    text: "<a href='mailto:james@Satellite-operator-1.com'>email: james@Satellite-operator-1.com</a>"
-    type: p
-  - contentType: heading
-    text: "phone: 0117 801735"
-    type: p
-  - contentType: heading
-    text: "mobile: +44 7882281628"
-    type: p
-- contentType: infoGrid
-  grid:
-  - text: "address: 80 Gloucester Road, London, WC2 2BA"
-    type: p
-    gridModifier: column-full
+- contentType: heading
+  text: Rakel Jenson<br/><span class='quiet'>Licensing Manager</span>
+  type: p
+  modifiers: heading-small border bottom-border padding-bottom--single
+- contentType: heading
+  text: "email: <a href='mailto:rakel.jenson@Satellite-operator-1.com'>rakel.jenson@Satellite-operator-1.com</a>"
+  type: p
+  modifiers: spacing-top--tight
+- contentType: heading
+  text: "phone: 0117 801735"
+  type: p
+- contentType: heading
+  text: "mobile: +44 7882281628"
+  type: p
+- contentType: heading
+  text: "address: 80 Gloucester Road, London, WC2 2BA"
+  type: p
