@@ -96,7 +96,7 @@ hero:
       contentType: heading
       text: "<span class='quiet'>Launch Date</span> <br/>4 June 2018"
       type: h2
-      modifiers: badge bg-pink heading-small
+      modifiers: badge bg-pink-40 heading-small
     heading:
       contentType: heading
       text: License overview
@@ -347,9 +347,9 @@ content:
       modifiers: heading-large
     id: technical
     updates:
-      url: "/updates"
+      url: "#"
       text: 2 updates
-      modifiers: bg-blue badge--fixed badge--top
+      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: "2 of 3<br/><span class='quiet'>Questions completed</span>"

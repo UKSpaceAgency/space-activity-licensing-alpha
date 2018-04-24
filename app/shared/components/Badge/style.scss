@@ -7,7 +7,7 @@
 
   a,
   a & {
-    color: $white;
+    color: $black;
     text-decoration: none;
   }
 
@@ -16,8 +16,12 @@
   }
 
   &.bg-pink {
-    color: $black;
     background-color: $baby-pink;
+  }
+
+  &.bg-pink-40 {
+    color: $black;
+    background-color: $pink-40;
   }
 
   &.badge--border {
@@ -27,6 +31,17 @@
 
   &.bg-blue {
     background-color: $govuk-blue;
+  }
+
+  &.bg-fuschia {
+    background-color: $fuschia;
+  }
+
+  &.bg-blue,
+  &.bg-fuschia,
+  &.bg-blue a,
+  &.bg-fuschia a {
+    color: $white;
   }
 
   &.badge--fixed {

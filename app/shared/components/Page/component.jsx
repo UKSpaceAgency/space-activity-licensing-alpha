@@ -6,7 +6,7 @@ import Hero from '../../components/Hero/component.jsx'
 
 const Page = props => {
   return (
-    <div>
+    <React.Fragment>
       <Masthead {...props.masthead}/>
       {props.hero && <Hero {...props.hero} />}
       {!props.hero && <div id='global-header-bar' />}
@@ -17,7 +17,7 @@ const Page = props => {
         </main>
         <Footer />
       </div>
-    </div>
+    </React.Fragment>
   )
 }
 

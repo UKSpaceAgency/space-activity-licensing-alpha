@@ -247,9 +247,9 @@ content:
       type: h3
       modifiers: heading-large spacing-top--flush
     updates:
-      url: "/operator/operator-overview-technical"
+      url: "/operator/technical"
       text: "Action: Regulator"
-      modifiers: bg-blue badge--fixed badge--top
+      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: "3<br/><span class='quiet'>Questions</span>"
@@ -260,7 +260,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: button
-      url: '/operator/operator-overview/technical'
+      url: '/operator/technical'
       label: Continue
       modifiers: button--full-width
     - contentType: divider

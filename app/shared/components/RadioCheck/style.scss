@@ -1,9 +1,12 @@
 .multiple-choice {
-  &.multiple-choice--inline {
-    clear: none;
 
-    & + .multiple-choice--inline {
-      margin-left: 15px;
+  @include media(tablet) {
+    &.multiple-choice--inline {
+      clear: none;
+
+      & + .multiple-choice--inline {
+        margin-left: 15px;
+      }
     }
   }
 }

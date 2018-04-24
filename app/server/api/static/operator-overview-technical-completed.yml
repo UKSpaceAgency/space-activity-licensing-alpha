@@ -59,10 +59,6 @@ content:
       text: Technical Eligibility
       type: h3
       modifiers: heading-large spacing-top--flush
-    updates:
-      url: "/operator/technical"
-      text: "Action: Satellite operator 1"
-      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 10 questions
@@ -74,27 +70,38 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "10 of 30<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 30<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "10 of 30 <br/><span class='quiet'>Submitted</span>"
+      text: "30 of 30 <br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      url: "/operator/technical"
+      url: '/operator/technical'
       label: View
-      modifiers: button--full-width
+      modifiers: button--full-width button--secondary
     - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>In progress"
+      text: "<span class='quiet'>Status</span><br/>Complete"
       type: p
       modifiers: heading-medium
     - contentType: heading
       text: "<span class='quiet'>Comments</span><br/>23"
       type: p
       modifiers: heading-medium
+    completion:
+      icon:
+        label: tick
+        modifiers: icon-tick-green icon--large icon--circled
+      heading:
+        text: Technical Eligibility section has been submitted.
+        type: p
+        modifiers: heading-small
+      comment:
+        text: This is currently being assesed.
+        type: p
   - contentType: tile
     modifiers: column-three-quarters
     heading:
@@ -121,7 +128,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 30<br/><span class='quiet'>Ready for submission</span>"
+      text: "30 of 30<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -132,12 +139,28 @@ content:
       modifiers: border border-bottom
     - contentType: button
       url: '/operator/technical'
-      label: Start
-      modifiers: button--full-width
+      label: Continue
+      modifiers: button--full-width button--secondary
     - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>Not started"
+      text: "<span class='quiet'>Status</span><br/>In progress"
       type: p
       modifiers: heading-medium
+    completion:
+      icon:
+        label: tick
+        modifiers: icon-tick-green icon--large icon--circled
+      heading:
+        text: Technical Eligibility section has been marked as complete.
+        type: p
+        modifiers: heading-small
+      comment:
+        text: Are you ready to submit this section?
+        type: p
+      action:
+        label: Submit
+        url: "#"
+        id: submit
+        modifiers: button--full-width button--large
   - contentType: tile
     modifiers: column-three-quarters
     heading:

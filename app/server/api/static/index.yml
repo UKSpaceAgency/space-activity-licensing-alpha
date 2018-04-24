@@ -15,10 +15,11 @@ content:
 - contentType: heading
   text: Pages index
   type: h2
+  modifiers: heading-large
 - contentType: heading
   text: Backstage and commenting
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing--single
 - contentType: list
   modifiers: list-bullet
   list:
@@ -67,5 +68,9 @@ content:
     text: Operator overview - unlocked - technical section
   - url: "/operator/technical"
     text: Operator overview - technical - satellite and mission overview
-  # - url: "/operator/technical-no-attachments"
-  #   text: Operator overview - technical - satellite and mission overview - no attachments
+  - url: "/operator/operator-overview-technical-submit"
+    text: Operator overview - technical - submission
+  - url: "/operator/operator-overview-technical-complete"
+    text: Operator overview - section completed
+  - url: "/operator/technical-no-attachments"
+    text: Operator overview - technical - satellite and mission overview - no attachments

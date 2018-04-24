@@ -11,7 +11,7 @@ import ContentRepeaterContainer from '../../containers/ContentRepeaterContainer/
 
 const PageGranular = props => {
   return (
-    <div>
+    <React.Fragment>
       <Masthead {...props.masthead}/>
       <div id='global-header-bar' />
       <div className='site-wrapper'>
@@ -30,7 +30,7 @@ const PageGranular = props => {
         </main>
         <Footer />
       </div>
-    </div>
+    </React.Fragment>
   )
 }
 

@@ -47,6 +47,11 @@ sup {
   width: 100%;
 }
 
+
+.flexed {
+  display: flex;
+}
+
 .no-underline {
   span {
     text-decoration:none;
@@ -69,8 +74,6 @@ sup {
   display: none;
 }
 
-$lighten-amount: 15%;
-
 .bottom-border {
 
   &::after {
@@ -86,23 +89,24 @@ $lighten-amount: 15%;
     }
   }
 
+
   &.bottom-border-bg-pink {
     .bg-pink:not(.dark) {
-      background-color: lighten($baby-pink, $lighten-amount);
+      background-color: $pink-40;
     }
 
     &::after {
-      background-color: lighten($baby-pink, $lighten-amount);
+      background-color: $pink-40;
     }
   }
 
   &.bottom-border-bg-green {
     .bg-green:not(.dark) {
-      background-color: lighten($turquoise, $lighten-amount);
+      background-color: $turquoise-40;
     }
 
     &::after {
-      background-color: lighten($turquoise, $lighten-amount);
+      background-color: $turquoise-40;
     }
   }
 
@@ -114,22 +118,40 @@ $lighten-amount: 15%;
 
   &.bottom-border-bg-orange {
     .bg-orange:not(.dark) {
-      background-color: lighten($orange, $lighten-amount);
+      background-color: $orange-40;
     }
 
     &::after {
-      background-color: lighten($orange, $lighten-amount);
+      background-color: $orange-40;
     }
   }
 
   &.bottom-border-bg-brown {
     .bg-brown:not(.dark) {
-      background-color: lighten($brown, $lighten-amount);
+      background-color: $brown-40;
     }
 
     &::after {
-      background-color: lighten($brown, $lighten-amount);
+      background-color: $brown-40;
     }
+  }
+}
+
+.bordered {
+  border: 1px solid $green;
+  overflow: hidden;
+}
+
+.constrained {
+  max-width: 960px;
+  margin: 0 15px;
+
+  @include media(tablet) {
+    margin: 0 30px;
+  }
+
+  @include media(1020px) {
+    margin: 0 auto;
   }
 }
 

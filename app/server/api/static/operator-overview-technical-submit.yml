@@ -59,10 +59,6 @@ content:
       text: Technical Eligibility
       type: h3
       modifiers: heading-large spacing-top--flush
-    updates:
-      url: "/operator/technical"
-      text: "Action: Satellite operator 1"
-      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 10 questions
@@ -70,31 +66,44 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0 of 30<br/><span class='quiet'>Draft answers</span>"
+      text: "25 of 30<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "10 of 30<br/><span class='quiet'>Ready for submission</span>"
+      text: "15 of 30<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "10 of 30 <br/><span class='quiet'>Submitted</span>"
+      text: "30 of 30 <br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      url: "/operator/technical"
+      url: '/operator/technical'
       label: View
-      modifiers: button--full-width
+      modifiers: button--full-width button--secondary
     - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>In progress"
+      text: "<span class='quiet'>Status</span><br/>Complete"
       type: p
       modifiers: heading-medium
     - contentType: heading
       text: "<span class='quiet'>Comments</span><br/>23"
       type: p
       modifiers: heading-medium
+    completion:
+      heading:
+        text: Questions within the Technical section have been marked as complete.
+        type: p
+        modifiers: heading-small spacing-top--flush
+      comment:
+        text: Are you ready to submit these completed questions?
+        type: p
+      action:
+        label: Submit
+        url: "/operator/operator-overview-technical-complete"
+        id: submit
+        modifiers: button--full-width button--large
   - contentType: tile
     modifiers: column-three-quarters
     heading:
