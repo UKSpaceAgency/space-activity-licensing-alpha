@@ -63,13 +63,10 @@ hero:
       modifiers: multiple-choice--inline
       inputs:
       - id: ieurhferf
-        checked: true
         value: Operations
       - id: ieurhferf12
-        checked: true
         value: Emergency operations
       - id: ieurhferf21
-        checked: true
         value: Temporary operations
   heroLinks:
     links:
