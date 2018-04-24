@@ -23,7 +23,6 @@ const CommentModule = props => {
   return (
     <section className={classes} id={props.id} data-comment={props.id}>
       <div className='comments-header'>
-        <strong>Comments (<span data-comment-total>0</span>)</strong>
         <Button data='data-comment-add-comment' className='float-right button--secondary'>Add comment</Button>
       </div>
       <p className='font-xsmall d-block'>Only post comments that are relevant to the application - do not include personal opinions or information. <a href='#'>Read more in our privacy guidelines</a>.</p>

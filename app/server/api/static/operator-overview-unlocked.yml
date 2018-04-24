@@ -110,8 +110,9 @@ content:
     limit: 3
     modifiers: spacing-bottom--single
     collapsible: true
+    collapsibleHeading: Application notes (3)
     tabs:
-    - label: Satellite operator 1 notes (1)
+    - label: Notes to regulator (1)
       id: notes-open
     - label: My notes (2)
       id: notes-private

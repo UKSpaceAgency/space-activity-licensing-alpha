@@ -69,6 +69,10 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
+    heading:
+      text: Comments
+      type: h3
+      modifiers: heading-medium
     tabs:
     - label: Satellite operator 1 frequency (1)
       id: notes-open

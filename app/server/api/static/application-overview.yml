@@ -107,20 +107,13 @@ hero:
     text: "<a href='/application-overview/technical/all-attachments'>View all attachments</a>"
     type: p
     modifiers: spacing-top--single
-  # synopsis:
-  #   contentType: longform
-  #   intro: Submission overview
-  #   modifiers: heading-medium
-  #   text: "<p class='lede'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  #     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-  #     minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-  #     commodo consequat.</p>"
 content:
 - contentType: collapsiblepanel
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
     collapsible: true
+    collapsibleHeading: Application notes
     tabs:
     - label: Satellite operator 1 notes (1)
       id: notes-open
