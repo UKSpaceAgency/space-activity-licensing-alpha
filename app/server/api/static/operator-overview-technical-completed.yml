@@ -40,10 +40,15 @@ hero:
     type: p
     modifiers: heading-small
 content:
-- contentType: heading
-  text: "Technical <a class='lede float-right spacing-bottom--large' href='#'>Link Section</a>"
-  type: h2
-  modifiers: heading-large
+- contentType: infoGrid
+  grid:
+  - contentType: heading
+    text: Technical
+    type: h2
+    modifiers: heading-large spacing-bottom--large
+  - contentType: heading
+    text: "<a class='button float-right' href='#'>Link Section</a>"
+    type: p
 - contentType: listing
   columns: 1
   gridModifier: column-third
@@ -100,7 +105,7 @@ content:
         type: p
         modifiers: heading-small
       comment:
-        text: This is currently being assesed.
+        text: This is currently being assessed.
         type: p
   - contentType: tile
     modifiers: column-three-quarters
@@ -109,10 +114,6 @@ content:
       text: Satellite and mission overview
       type: p
       modifiers: heading-large spacing-top--flush
-    summary:
-      contentType: longform
-      text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant Information.
-      modifiers: spacing--single
     updates:
       url: "#"
       text: "Action: Satellite operator 1"
@@ -150,7 +151,7 @@ content:
         label: tick
         modifiers: icon-tick-green icon--large icon--circled
       heading:
-        text: Technical Eligibility section has been marked as complete.
+        text: Satellite and mission overview section has been marked as complete.
         type: p
         modifiers: heading-small
       comment:

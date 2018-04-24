@@ -40,10 +40,15 @@ hero:
     type: p
     modifiers: heading-small
 content:
-- contentType: heading
-  text: "Technical <a class='lede float-right spacing-bottom--large' href='#'>Link Section</a>"
-  type: h2
-  modifiers: heading-large
+- contentType: infoGrid
+  grid:
+  - contentType: heading
+    text: Technical
+    type: h2
+    modifiers: heading-large spacing-bottom--large
+  - contentType: heading
+    text: "<a class='button float-right' href='#'>Link Section</a>"
+    type: p
 - contentType: listing
   columns: 1
   gridModifier: column-third
