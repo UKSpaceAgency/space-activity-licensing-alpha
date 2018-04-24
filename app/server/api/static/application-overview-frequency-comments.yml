@@ -4,7 +4,7 @@ useComponent: true
 slug: test
 head:
   contentType: head
-  title: Test page
+  title:  Frequency | Technical eligibility section | Satellite operator 1
 hero:
   modifiers: bg-dark bg-blue
   breadcrumb:
@@ -69,6 +69,7 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
+    collapsibleHeading: Application notes
     heading:
       text: Comments
       type: h3
