@@ -69,7 +69,7 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
-    collapsibleHeading: Application notes
+    collapsibleHeading: Application notes (3)
     heading:
       text: Comments
       type: h3
