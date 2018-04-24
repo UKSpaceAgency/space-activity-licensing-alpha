@@ -42,7 +42,7 @@ content:
     id: answer-1
     data: data-textarea
   attachment:
-    shimmed: true
+    # shimmed: true
     id: attachment-answer-1
     label: + Add attachment(s)
     name: attachment-answer-1
@@ -73,7 +73,7 @@ content:
     id: answer-2
     data: data-textarea
   attachment:
-    shimmed: true
+    # shimmed: true
     id: attachment-answer-2
     label: + Add attachment(s)
     name: attachment-answer-2
@@ -103,7 +103,7 @@ content:
     id: answer-3
     data: data-textarea
   attachment:
-    shimmed: true
+    # shimmed: true
     id: attachment-answer-3
     label: + Add attachment(s)
     name: attachment-answer-3
@@ -134,7 +134,7 @@ content:
     id: answer-4
     data: data-textarea
   attachment:
-    shimmed: true
+    # shimmed: true
     id: attachment-answer-4
     label: + Add attachment(s)
     name: attachment-answer-4
@@ -165,7 +165,7 @@ content:
     id: answer-5
     data: data-textarea
   attachment:
-    shimmed: true
+    # shimmed: true
     id: attachment-answer-5
     label: + Add attachment(s)
     name: attachment-answer-5
@@ -193,7 +193,7 @@ content:
     id: answer-6
     data: data-textarea
   attachment:
-    shimmed: true
+    # shimmed: true
     id: attachment-answer-6
     label: + Add attachment(s)
     name: attachment-answer-6

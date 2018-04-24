@@ -91,7 +91,7 @@ content:
     id: answer-3
     data: data-textarea
   attachment:
-    shimmed: true
+    # shimmed: true
     id: attachment-answer-3
     label: + Add attachment(s)
     name: attachment-answer-3
