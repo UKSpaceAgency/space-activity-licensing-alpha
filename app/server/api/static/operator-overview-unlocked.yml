@@ -37,7 +37,6 @@ hero:
     contentType: title
     title: S EAN multi-beam
     modifiers: spacing-bottom--tight
-    # subTitle: this is a smaller bit of content to support the main title
   infoGrid:
   - contentType: heading
     text: "<span class='quiet'>Started: </span> 4th June "
@@ -120,7 +119,7 @@ content:
       checkbox:
         name: priority-level
         type: checkbox
-        fieldModifiers: float-right d-inline-block
+        fieldModifiers: baseline d-inline-block
         inputs:
         - id: juu7gg4gf33f
           value: High priority

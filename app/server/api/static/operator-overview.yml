@@ -114,7 +114,7 @@ content:
       checkbox:
         name: priority-level
         type: checkbox
-        fieldModifiers: float-right d-inline-block
+        fieldModifiers: baseline d-inline-block
         inputs:
         - id: juu7gg4gf33f
           value: High priority
