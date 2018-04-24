@@ -75,7 +75,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 frequency (1)
+    - label: Satellite operator 1 - Frequency (1)
       id: notes-open-1
       commentBlock:
         limit: 3
