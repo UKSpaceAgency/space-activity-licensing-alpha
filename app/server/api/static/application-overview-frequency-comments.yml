@@ -167,8 +167,9 @@ content:
         priority:
           icon:
             label: High priority
-            modifiers: icon-warning icon-warning--orange icon--large
+            modifiers: icon-warning icon-warning--red icon--large
           content: High priority
+          modifiers: red
         modifiers: spacing-bottom--single comment-admin
         name:
           text: Simon Griffith

@@ -321,9 +321,9 @@ content:
     notice:
       icon:
         label: High priority
-        modifiers: icon-warning icon--large icon-warning--orange
+        modifiers: icon-warning icon--large icon-warning--red
       content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
-      modifiers: spacing--single
+      modifiers: spacing--single red
     grid:
     - contentType: heading
       text: "3<br/><span class='quiet'>Questions</span>"
@@ -395,9 +395,9 @@ content:
     notice:
       icon:
         label: High priority
-        modifiers: icon-warning icon--large icon-warning--orange
+        modifiers: icon-warning icon--large icon-warning--red
       content: You said that you did not have insurance, you will need to secure insurance to complete this application.
-      modifiers: spacing--single
+      modifiers: spacing--single red
     grid:
     - contentType: heading
       text: "3<br/><span class='quiet'>Questions</span>"
