@@ -192,7 +192,6 @@ content:
       label: Upload attachment
       modifiers: file-upload
       id: file-upload-2
-      # shimmed: true
     comments:
     - byline:
         modifiers: spacing-bottom--single
