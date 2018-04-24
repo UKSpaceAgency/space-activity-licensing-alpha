@@ -23,12 +23,12 @@ content:
 - contentType: list
   modifiers: list-bullet
   list:
+  - url: "/applications"
+    text: Applications listing - administrator homescreen
   - url: "/application-overview"
     text: Application overview
   - url: "/application-overview/technical"
     text: Application overview - Technical
-  - url: "/applications"
-    text: Applications listing - administrator homescreen
   - url: "/application-overview/technical/satellite-and-mission-overview"
     text: Technical applications - internal page
   - url: "/application-overview/frequency"
