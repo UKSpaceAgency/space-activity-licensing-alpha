@@ -82,8 +82,8 @@ listing:
     - label: Filter
       id: filter-by
       options:
-      - label: Lorem ipsum
-        value: launch-date
+      - label: Select
+        value: please-select
       - label: Lorem ipsum
         value: launch-date
     - label: Sort
