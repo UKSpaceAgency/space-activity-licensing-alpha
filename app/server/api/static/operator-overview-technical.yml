@@ -230,7 +230,7 @@ content:
 - contentType: heading
   text: "email: <a href='mailto:rakel.jenson@Satellite-operator-1.com'>rakel.jenson@Satellite-operator-1.com</a>"
   type: p
-  modifiers: spacing-top--tight
+  modifiers: spacing-top--single
 - contentType: heading
   text: "phone: 0117 801735"
   type: p
