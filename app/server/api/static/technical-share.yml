@@ -1,11 +1,7 @@
 ---
 contentType: page
 slug: technical-share
-banner:
-  label: Alpha
-  heading:
-    type: p
-    text: "<span>This is a new service – your <a href='#'>feedback</a> will help us to improve it.</span>"
+
 breadcrumb:
 - contentType: link
   text: Space Agency UK

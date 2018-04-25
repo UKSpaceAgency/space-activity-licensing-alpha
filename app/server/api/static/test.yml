@@ -4,11 +4,7 @@ slug: test
 head:
   contentType: head
   title: Kitchen sink page - everything in one place
-banner:
-  label: Alpha
-  heading:
-    type: p
-    text: "<span>This is a new service – your <a href='#'>feedback</a> will help us to improve it.</span>"
+
 breadcrumb:
 - contentType: link
   text: Home

@@ -1,15 +1,11 @@
 import React from 'react'
-import classNames from 'classnames'
-import Heading from '../Heading/component.jsx'
 
-const Banner = props => {
-  let classes = classNames('phase-banner constrained', props.className, props.modifiers)
-
+const Banner = () => {
   return (
-    <div className={classes}>
+    <div className='phase-banner constrained'>
       <p>
-        <strong className='phase-tag'>{props.label}</strong>
-        <Heading {...props.heading}/>
+        <strong className='phase-tag'>ALPHA</strong>
+        <span>This is a new service – your <a href='#'>feedback</a> will help us to improve it.</span>
       </p>
     </div>
   )

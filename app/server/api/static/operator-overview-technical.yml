@@ -2,11 +2,7 @@
 contentType: page
 useComponent: true
 slug: operator-overview
-banner:
-  label: Alpha
-  heading:
-    type: p
-    text: "<span>This is a new service – your <a href='#'>feedback</a> will help us to improve it.</span>"
+
 head:
   contentType: head
   title: S EAN multi-beam | Satellite Operator 1 | UKSA
