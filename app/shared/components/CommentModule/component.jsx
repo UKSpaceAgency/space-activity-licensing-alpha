@@ -11,7 +11,6 @@ import Fieldset from '../Fieldset/component.jsx'
 import Divider from '../Divider/component.jsx'
 import ButtonGroup from '../ButtonGroup/component.jsx'
 import RadioCheck from '../RadioCheck/component.jsx'
-import { isArray } from '../../utilities'
 
 const CommentModule = props => {
   let classes = classNames('comments', props.className, props.modifiers)
@@ -29,13 +28,13 @@ const CommentModule = props => {
       <div className='comment-add' data-comment-add>
         <Textarea data='data-textarea' className='form-control-full'/>
         {props.source && <Fieldset {...props.source}/>}
-        {props.deadline && <DateInputContainer {...props.deadline}/>}
+        {props.deadline && <DateInputContainer className='d-inline-block' {...props.deadline}/>}
+        {props.notice && <RadioCheck {...props.notice.checkbox}/>}
         {props.assignees && <Select {...props.assignees}/>}
-        <FileUpload {...props.fileupload} className='spacing--single'/>
+        {props.fileupload && <FileUpload {...props.fileupload} className='spacing--single'/>}
         <ButtonGroup>
           <Button data='data-comment-add-submit' className='button--secondary'>Post comment</Button>
           <Button data='data-comment-add-discard' className='button--link'>Discard</Button>
-          {props.notice && <RadioCheck {...props.notice.checkbox}/>}
         </ButtonGroup>
         <Divider/>
       </div>
