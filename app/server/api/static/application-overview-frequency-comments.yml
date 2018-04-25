@@ -4,7 +4,7 @@ useComponent: true
 slug: test
 head:
   contentType: head
-  title: Test page
+  title:  Frequency | Technical eligibility section | Satellite operator 1
 hero:
   modifiers: bg-dark bg-blue
   breadcrumb:
@@ -69,6 +69,11 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
+    collapsibleHeading: Application notes
+    heading:
+      text: Comments
+      type: h3
+      modifiers: heading-medium
     tabs:
     - label: Satellite operator 1 frequency (1)
       id: notes-open
@@ -78,7 +83,7 @@ content:
       checkbox:
         name: priority-level
         type: checkbox
-        fieldModifiers: float-right d-inline-block
+        fieldModifiers: baseline d-inline-block
         inputs:
         - id: juu7gg4gf33f
           value: High priority
@@ -126,6 +131,7 @@ content:
     deadline:
       legend: Set deadline
       calendar: true
+      modifiers: mr-5
       items:
       - label: Day
         id: 3245
@@ -157,14 +163,14 @@ content:
       label: Upload attachment
       modifiers: file-upload
       id: file-upload-2
-      shimmed: true
     comments:
     - byline:
         priority:
           icon:
             label: High priority
-            modifiers: icon-warning icon-warning--orange icon--large
+            modifiers: icon-warning icon-warning--red icon--large
           content: High priority
+          modifiers: red
         modifiers: spacing-bottom--single comment-admin
         name:
           text: Simon Griffith

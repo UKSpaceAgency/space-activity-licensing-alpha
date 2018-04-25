@@ -3,7 +3,7 @@ import classNames from 'classnames'
 import FormHint from '../FormHint/component.jsx'
 
 const RadioCheck = props => {
-  let formClasses = classNames('form-group', props.fieldModifiers)
+  let formClasses = classNames('form-group', props.groupClassName, props.fieldModifiers)
   let classes = classNames('multiple-choice', props.className, props.modifiers)
   let booleans = props.inputs.map((val, i) => {
     let checked = val.checked ? {'checked': true} : null

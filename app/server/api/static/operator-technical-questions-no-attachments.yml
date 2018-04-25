@@ -37,7 +37,6 @@ content:
     modifiers: heading-medium quiet
   permalink: question-1
   textarea:
-    # label: Please write below
     name: answer-1
     id: answer-1
     data: data-textarea
@@ -62,7 +61,6 @@ content:
     modifiers: heading-medium quiet
   permalink: question-2
   textarea:
-    # label: Please write below
     name: answer-2
     id: answer-2
     data: data-textarea
@@ -86,12 +84,10 @@ content:
     modifiers: heading-medium quiet
   permalink: question-3
   textarea:
-    # label: Please write below
     name: answer-3
     id: answer-3
     data: data-textarea
   attachment:
-    shimmed: true
     id: attachment-answer-3
     label: + Add attachment(s)
     name: attachment-answer-3
@@ -117,7 +113,6 @@ content:
     modifiers: heading-medium quiet
   permalink: question-4
   textarea:
-    # label: Please write below
     name: answer-4
     id: answer-4
     data: data-textarea
@@ -142,7 +137,6 @@ content:
     modifiers: heading-medium quiet
   permalink: question-5
   textarea:
-    # label: Please write below
     name: answer-5
     id: answer-5
     data: data-textarea
@@ -164,7 +158,6 @@ content:
     modifiers: heading-medium quiet
   permalink: question-6
   textarea:
-    # label: Please write below
     name: answer-6
     id: answer-6
     data: data-textarea
@@ -184,6 +177,4 @@ complete:
   label: Save
   url: "#"
   id: submit
-  # modifiers: button--secondary
   data: data-submit-section
-

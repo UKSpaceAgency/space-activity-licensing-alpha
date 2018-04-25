@@ -37,7 +37,6 @@ hero:
     contentType: title
     title: S EAN multi-beam
     modifiers: spacing-bottom--tight
-    # subTitle: this is a smaller bit of content to support the main title
   infoGrid:
   - contentType: heading
     text: "<span class='quiet'>Started: </span> 4th June "
@@ -110,8 +109,9 @@ content:
     limit: 3
     modifiers: spacing-bottom--single
     collapsible: true
+    collapsibleHeading: Application notes (3)
     tabs:
-    - label: Satellite operator 1 notes (1)
+    - label: Notes to regulator (1)
       id: notes-open
     - label: My notes (2)
       id: notes-private
@@ -119,7 +119,7 @@ content:
       checkbox:
         name: priority-level
         type: checkbox
-        fieldModifiers: float-right d-inline-block
+        fieldModifiers: baseline d-inline-block
         inputs:
         - id: juu7gg4gf33f
           value: High priority
@@ -167,6 +167,7 @@ content:
     deadline:
       legend: Set deadline
       calendar: true
+      modifiers: mr-5
       items:
       - label: Day
         id: 3245
@@ -198,7 +199,6 @@ content:
       label: Upload attachment
       modifiers: file-upload
       id: file-upload-2
-      shimmed: true
     comments:
     - byline:
         modifiers: spacing-bottom--single
@@ -321,9 +321,9 @@ content:
     notice:
       icon:
         label: High priority
-        modifiers: icon-warning icon--large icon-warning--orange
+        modifiers: icon-warning icon--large icon-warning--red
       content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
-      modifiers: spacing--single
+      modifiers: spacing--single red
     grid:
     - contentType: heading
       text: "3<br/><span class='quiet'>Questions</span>"
@@ -395,9 +395,9 @@ content:
     notice:
       icon:
         label: High priority
-        modifiers: icon-warning icon--large icon-warning--orange
+        modifiers: icon-warning icon--large icon-warning--red
       content: You said that you did not have insurance, you will need to secure insurance to complete this application.
-      modifiers: spacing--single
+      modifiers: spacing--single red
     grid:
     - contentType: heading
       text: "3<br/><span class='quiet'>Questions</span>"
@@ -456,26 +456,26 @@ content:
       type: p
       modifiers: heading-medium
 - contentType: heading
-  text: Operator Contact
+  text: UKSA Contact
   type: h2
   modifiers: heading-medium
 - contentType: heading
-  text: James Smart
+  text: "If you require help with your application, please get in touch with your case manager:"
   type: p
-  modifiers: heading-small border bottom-border padding-bottom--tight
-- contentType: infoGrid
-  grid:
-  - contentType: heading
-    text: "<a href='mailto:james@Satellite-operator-1.com'>email: james@Satellite-operator-1.com</a>"
-    type: p
-  - contentType: heading
-    text: "phone: 0117 801735"
-    type: p
-  - contentType: heading
-    text: "mobile: +44 7882281628"
-    type: p
-- contentType: infoGrid
-  grid:
-  - text: "address: 80 Gloucester Road, London, WC2 2BA"
-    type: p
-    gridModifier: column-full
+- contentType: heading
+  text: Rakel Jenson<br/><span class='quiet'>Licensing Manager</span>
+  type: p
+  modifiers: heading-small border bottom-border padding-bottom--single
+- contentType: heading
+  text: "email: <a href='mailto:rakel.jenson@Satellite-operator-1.com'>rakel.jenson@Satellite-operator-1.com</a>"
+  type: p
+  modifiers: spacing-top--single
+- contentType: heading
+  text: "phone: 0117 801735"
+  type: p
+- contentType: heading
+  text: "mobile: +44 7882281628"
+  type: p
+- contentType: heading
+  text: "address: 80 Gloucester Road, London, WC2 2BA"
+  type: p
