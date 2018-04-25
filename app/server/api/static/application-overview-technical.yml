@@ -4,7 +4,7 @@ useComponent: true
 slug: test
 head:
   contentType: head
-  title: Test page
+  title: Satellite Operator 1 | Case worker overview | UKSA
 masthead:
   utility:
     links:
@@ -35,7 +35,7 @@ hero:
     modifiers: heading-small spacing-top--single
   title:
     contentType: title
-    title: Satellite operator 1
+    title: Satellite Operator 1
     modifiers: heading-xlarge spacing-bottom--tight
   infoGrid:
   - contentType: heading
