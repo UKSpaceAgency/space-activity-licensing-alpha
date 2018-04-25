@@ -11,3 +11,5 @@ config.dev.yaml
 
 *.bak
 /.aws
+
+.env
