@@ -124,6 +124,7 @@ content:
     deadline:
       legend: Set deadline
       calendar: true
+      modifiers: mr-5
       items:
       - label: Day
         id: 3245789
@@ -279,6 +280,7 @@ content:
     deadline:
       legend: Set deadline
       calendar: true
+      modifiers: mr-5
       items:
       - label: Day
         id: 3245fgjfghj
@@ -434,6 +436,7 @@ content:
     deadline:
       legend: Set deadline
       calendar: true
+      modifiers: mr-5
       items:
       - label: Day
         id: 3245asdfasdf
@@ -589,6 +592,7 @@ content:
     deadline:
       legend: Set deadline
       calendar: true
+      modifiers: mr-5
       items:
       - label: Day
         id: 3245tyuityu
@@ -745,6 +749,7 @@ content:
     deadline:
       legend: Set deadline
       calendar: true
+      modifiers: mr-5
       items:
       - label: Day
         id: 3245rthrty
@@ -900,6 +905,7 @@ content:
     deadline:
       legend: Set deadline
       calendar: true
+      modifiers: mr-5
       items:
       - label: Day
         id: 3245ertyerty
