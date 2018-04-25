@@ -1,6 +1,11 @@
 ---
 contentType: page
 slug: operator-technical-share
+banner:
+  label: Alpha
+  heading:
+    type: p
+    text: "<span>This is a new service – your <a href='#'>feedback</a> will help us to improve it.</span>"
 breadcrumb:
 - contentType: link
   text: Share technical section | SAUK
@@ -19,21 +24,18 @@ content:
   type: h1
   modifiers: heading-xlarge
 - contentType: heading
-  text: "You are about to share a section with your organisation colleagues.  <br/>Please select who will have assess to this section:"
+  text: "You are about to share a section with your organisation colleagues.  "
   type: h2
   modifiers: lede
-# - contentType: heading
-#   text: "Please select who will assess this application"
-#   type: p
-#   modifiers: heading-large
 - contentType: form
   formItems:
   - contentType: fieldSet
-    legend: Space operator 1 - engineering team
-    modifiers: spacing-bottom--single
+    legend: "Please select who will have assess to this section:"
+    modifiers: spacing--single
     items:
     - contentType: boolean
       name: sharing
+      label: Space operator 1 - engineering team
       type: checkbox
       inputs:
       - id: Richard-Crowther-123
@@ -48,11 +50,11 @@ content:
         value: Jakob LeClerk
     - contentType: buttongroup
       buttons:
-      - url: "/application-overview/technical/"
+      - url: "javascript:window.history.back()"
         label: Share
         type: a
         modifiers:
-      - url: "/application-overview/technical/"
+      - url: "javascript:window.history.back()"
         label: Cancel
         type: a
         modifiers: button--link

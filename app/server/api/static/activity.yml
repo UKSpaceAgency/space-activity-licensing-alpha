@@ -1,4 +1,9 @@
 ---
+banner:
+  label: Alpha
+  heading:
+    type: p
+    text: "<span>This is a new service – your <a href='#'>feedback</a> will help us to improve it.</span>"
 contentType: page
 useComponent: true
 slug: activity

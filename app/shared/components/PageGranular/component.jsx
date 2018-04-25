@@ -8,10 +8,12 @@ import Grid from '../Grid/component.jsx'
 import GridCol from '../GridCol/component.jsx'
 import SidenavContainer from '../../containers/SidenavContainer/component.jsx'
 import ContentRepeaterContainer from '../../containers/ContentRepeaterContainer/component.jsx'
+import Banner from '../Banner/component.jsx'
 
 const PageGranular = props => {
   return (
     <React.Fragment>
+      <Banner {...props.banner}/>
       <Masthead {...props.masthead}/>
       <div id='global-header-bar' />
       <div className='site-wrapper'>

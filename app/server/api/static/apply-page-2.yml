@@ -4,6 +4,11 @@ slug: apply-page-2
 head:
   contentType: head
   title: Are you using American technology?
+banner:
+  label: Alpha
+  heading:
+    type: p
+    text: "<span>This is a new service – your <a href='#'>feedback</a> will help us to improve it.</span>"
 masthead:
   logo: Govuk pattern
   utility:
