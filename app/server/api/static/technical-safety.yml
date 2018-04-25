@@ -82,7 +82,7 @@ content:
           value: High priority
           icon:
             label: High priority
-            modifiers: icon-warning icon--large
+            modifiers: icon-warning
     source:
       legend: Comment source
       fieldsetModifiers: inline
@@ -241,7 +241,7 @@ content:
           value: High priority
           icon:
             label: High priority
-            modifiers: icon-warning icon--large
+            modifiers: icon-warning
     source:
       legend: Comment source
       fieldsetModifiers: inline
@@ -400,7 +400,7 @@ content:
           value: High priority
           icon:
             label: High priority
-            modifiers: icon-warning icon--large
+            modifiers: icon-warning
     source:
       legend: Comment source
       fieldsetModifiers: inline
@@ -559,7 +559,7 @@ content:
           value: High priority
           icon:
             label: High priority
-            modifiers: icon-warning icon--large
+            modifiers: icon-warning
     source:
       legend: Comment source
       fieldsetModifiers: inline
@@ -719,7 +719,7 @@ content:
           value: High priority
           icon:
             label: High priority
-            modifiers: icon-warning icon--large
+            modifiers: icon-warning
     source:
       legend: Comment source
       fieldsetModifiers: inline
@@ -878,7 +878,7 @@ content:
           value: High priority
           icon:
             label: High priority
-            modifiers: icon-warning icon--large
+            modifiers: icon-warning
     source:
       legend: Comment source
       fieldsetModifiers: inline
