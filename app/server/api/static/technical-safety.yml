@@ -80,6 +80,9 @@ content:
         inputs:
         - id: 1242342342342
           value: High priority
+          icon:
+            label: High priority
+            modifiers: icon-warning icon--large
     source:
       legend: Comment source
       fieldsetModifiers: inline
@@ -236,6 +239,9 @@ content:
         inputs:
         - id: juu7gg4gf33ffhffghj
           value: High priority
+          icon:
+            label: High priority
+            modifiers: icon-warning icon--large
     source:
       legend: Comment source
       fieldsetModifiers: inline
@@ -392,6 +398,9 @@ content:
         inputs:
         - id: juu7gg4gf33ffghfg
           value: High priority
+          icon:
+            label: High priority
+            modifiers: icon-warning icon--large
     source:
       legend: Comment source
       fieldsetModifiers: inline
@@ -548,6 +557,9 @@ content:
         inputs:
         - id: juu7gg4gf33f
           value: High priority
+          icon:
+            label: High priority
+            modifiers: icon-warning icon--large
     source:
       legend: Comment source
       fieldsetModifiers: inline
@@ -705,6 +717,9 @@ content:
         inputs:
         - id: juu7gg4gf33fertyer
           value: High priority
+          icon:
+            label: High priority
+            modifiers: icon-warning icon--large
     source:
       legend: Comment source
       fieldsetModifiers: inline
@@ -861,6 +876,9 @@ content:
         inputs:
         - id: juu7gg4gf33fertyeyyy
           value: High priority
+          icon:
+            label: High priority
+            modifiers: icon-warning icon--large
     source:
       legend: Comment source
       fieldsetModifiers: inline
