@@ -4,6 +4,7 @@ slug: apply-page-2
 head:
   contentType: head
   title: Are you using American technology?
+
 masthead:
   logo: Govuk pattern
   utility:

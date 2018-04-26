@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
-import Icon from '../../components/Icon/component.jsx'
+import Icon from '../Icon/component.jsx'
 
 const Notice = props => {
   let classes = classNames('notice', props.className, props.modifiers)

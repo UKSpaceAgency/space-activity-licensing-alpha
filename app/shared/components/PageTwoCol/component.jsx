@@ -8,6 +8,7 @@ import GridCol from '../GridCol/component.jsx'
 import OverviewList from '../OverviewList/component.jsx'
 import Heading from '../Heading/component.jsx'
 import FilterBlock from '../../containers/FilterBlock/component.jsx'
+import Banner from '../Banner/component.jsx'
 
 const PageTwoCol = props => {
   let list = props.listing.map((v, i) => {
@@ -22,6 +23,7 @@ const PageTwoCol = props => {
 
   return (
     <React.Fragment>
+      <Banner {...props.banner}/>
       <Masthead {...props.masthead}/>
       <div id='global-header-bar' />
       <div className='site-wrapper'>

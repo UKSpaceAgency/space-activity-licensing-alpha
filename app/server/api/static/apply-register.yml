@@ -4,6 +4,7 @@ slug: apply-register
 head:
   contentType: head
   title: Register to apply for a satellite license
+
 masthead:
   logo: Govuk pattern
   utility:

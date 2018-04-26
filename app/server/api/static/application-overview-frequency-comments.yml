@@ -2,6 +2,7 @@
 contentType: page
 useComponent: true
 slug: test
+
 head:
   contentType: head
   title:  Frequency | Technical eligibility section | Satellite operator 1
@@ -69,134 +70,223 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
-    collapsibleHeading: Application notes
+    collapsibleHeading: Application notes (3)
     heading:
       text: Comments
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 frequency (1)
-      id: notes-open
-    - label: Private notes (2)
-      id: notes-private
-    notice:
-      checkbox:
-        name: priority-level
-        type: checkbox
-        fieldModifiers: baseline d-inline-block
-        inputs:
-        - id: juu7gg4gf33f
-          value: High priority
-    source:
-      legend: Comment source
-      fieldsetModifiers: inline
-      items:
-      - contentType: boolean
-        name: second-radio-item
-        type: radio
-        inputs:
-        - id: dfgh89dfgh
-          value: Comment
-          checked: true
-        - id: hjdktlhivm67
-          value: Phone call
-        - id: llojef6
-          value: Email
-    assignees:
-      label: Assign to
-      # supporting: Select multiple by pressing shift and clicking
-      id: assignees-question-2
-      # multiple: true
-      # data: data-assign
-      options:
-      - label: Please select
-        value: ''
-      - label: Joel Harris
-        value: sfkhwer87hkj34h
-        selected: true
-      - label: Luke Wotten
-        value: sfkhwesdtjsdfhgqw
-      - label: Jon Smith
-        value: adwty5nnkv08b
-      - label: Dave Stringer
-        value: jfmfuue67tg3f
-      - label: Aimee Brace
-        value: lvm08jjetffs
-        selected: true
-      - label: Alex Hobbs
-        value: kfj789dbv
-      - label: Tom Foster
-        value: 15rdcsb
-        selected: true
-    deadline:
-      legend: Set deadline
-      calendar: true
-      modifiers: mr-5
-      items:
-      - label: Day
-        id: 3245
-        name: deadline-day
-        modifiers: form-group-day
-        type: number
-        attr:
-          key: pattern
-          value: '[0-9]*'
-      - label: Month
-        id: 43563456
-        name: deadline-month
-        modifiers: form-group-month
-        type: number
-        attr:
-          key: pattern
-          value: '[0-9]*'
-      - label: Year
-        id: 45674567
-        name: deadline-year
-        modifiers: form-group-year
-        type: number
-        attr:
-          key: pattern
-          value: '[0-9]*'
-    button:
-      label: Add comment
-    fileupload:
-      label: Upload attachment
-      modifiers: file-upload
-      id: file-upload-2
-    comments:
-    - byline:
-        priority:
-          icon:
-            label: High priority
-            modifiers: icon-warning icon-warning--red icon--large
-          content: High priority
-          modifiers: red
-        modifiers: spacing-bottom--single comment-admin
-        name:
-          text: Simon Griffith
-          type: h3
-          modifiers: heading-small
-        url: "/rachel"
-        date:
-          date: 10.04am 22nd March 2018
-          datetime: '2018-03-26T19:34:15+00:00'
-        icon:
-          label: account
-          modifiers: icon-account
-      text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-      documents:
-      - text: Disposal diagram
-        url: "/pdfs/disposal-discovery.pdf"
-        type: .pdf
-        supporting: (12mb)
-      deadline:
-        text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-        type: p
-        modifiers: heading-small
-      assignees:
-        text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-        type: p
-        modifiers: heading-small
+    - label: Satellite operator 1 - Frequency
+      id: notes-open-1
+      commentBlock:
+        modifiers: spacing-bottom--single
+        notice:
+          checkbox:
+            name: priority-level
+            type: checkbox
+            fieldModifiers: baseline d-inline-block
+            inputs:
+            - id: juu7gg4gf33fjjjfjfjfjfjfjf
+              value: High priority
+        source:
+          legend: Comment source
+          fieldsetModifiers: inline
+          items:
+          - contentType: boolean
+            name: second-radio-item
+            type: radio
+            inputs:
+            - id: dfgh89dfgh
+              value: Comment
+              checked: true
+            - id: hjdktlhivm67
+              value: Phone call
+            - id: llojef6
+              value: Email
+        assignees:
+          label: Assign to
+          # supporting: Select multiple by pressing shift and clicking
+          id: assignees-question-3
+          # multiple: true
+          # data: data-assign
+          options:
+          - label: Please select
+            value: ''
+          - label: Joel Harris
+            value: sfkhwer87hkj34h
+            selected: true
+          - label: Luke Wotten
+            value: sfkhwesdtjsdfhgqw
+          - label: Jon Smith
+            value: adwty5nnkv08b
+          - label: Dave Stringer
+            value: jfmfuue67tg3f
+          - label: Aimee Brace
+            value: lvm08jjetffs
+            selected: true
+          - label: Alex Hobbs
+            value: kfj789dbv
+          - label: Tom Foster
+            value: 15rdcsb
+            selected: true
+        deadline:
+          legend: Set deadline
+          calendar: true
+          modifiers: mr-5
+          items:
+          - label: Day
+            id: 3245345
+            name: deadline-day
+            modifiers: form-group-day
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+          - label: Month
+            id: 43563456345345
+            name: deadline-month
+            modifiers: form-group-month
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+          - label: Year
+            id: 45674567345345345
+            name: deadline-year
+            modifiers: form-group-year
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+        button:
+          label: Add comment
+        fileupload:
+          label: Upload attachment
+          modifiers: file-upload
+          id: file-upload-3
+        comments:
+        - byline:
+            priority:
+              icon:
+                label: High priority
+                modifiers: icon-warning icon-warning--red icon--large
+              content: High priority
+              modifiers: red
+            modifiers: spacing-bottom--single comment-admin
+            name:
+              text: Simon Griffith
+              type: h3
+              modifiers: heading-small
+            url: "/rachel"
+            date:
+              date: 10.04am 22nd March 2018
+              datetime: '2018-03-26T19:34:15+00:00'
+            icon:
+              label: account
+              modifiers: icon-account
+          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
+          documents:
+          - text: Disposal diagram
+            url: "/pdfs/disposal-discovery.pdf"
+            type: .pdf
+            supporting: (12mb)
+          deadline:
+            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+            type: p
+            modifiers: heading-small
+          assignees:
+            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+            type: p
+            modifiers: heading-small
+    - label: Private notes
+      id: notes-private-2
+      commentBlock:
+        modifiers: spacing-bottom--single
+        notice:
+          checkbox:
+            name: priority-level
+            type: checkbox
+            fieldModifiers: baseline d-inline-block
+            inputs:
+            - id: juu7gg4gf33f234234
+              value: High priority
+        source:
+          legend: Comment source
+          fieldsetModifiers: inline
+          items:
+          - contentType: boolean
+            name: second-radio-item
+            type: radio
+            inputs:
+            - id: dfgh89dfghfefeb
+              value: Comment
+              checked: true
+            - id: hjdktlhivm67rwrwrw
+              value: Phone call
+            - id: llojef663687
+              value: Email
+        assignees:
+          label: Assign to
+          # supporting: Select multiple by pressing shift and clicking
+          id: assignees-question-2
+          # multiple: true
+          # data: data-assign
+          options:
+          - label: Please select
+            value: ''
+          - label: Joel Harris
+            value: sfkhwer87hkj34h
+            selected: true
+          - label: Luke Wotten
+            value: sfkhwesdtjsdfhgqw
+          - label: Jon Smith
+            value: adwty5nnkv08b
+          - label: Dave Stringer
+            value: jfmfuue67tg3f
+          - label: Aimee Brace
+            value: lvm08jjetffs
+            selected: true
+          - label: Alex Hobbs
+            value: kfj789dbv
+          - label: Tom Foster
+            value: 15rdcsb
+            selected: true
+        deadline:
+          legend: Set deadline
+          calendar: true
+          modifiers: mr-5
+          items:
+          - label: Day
+            id: 3245
+            name: deadline-day
+            modifiers: form-group-day
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+          - label: Month
+            id: 43563456
+            name: deadline-month
+            modifiers: form-group-month
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+          - label: Year
+            id: 45674567
+            name: deadline-year
+            modifiers: form-group-year
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+        button:
+          label: Add comment
+        fileupload:
+          label: Upload attachment
+          modifiers: file-upload
+          id: file-upload-23456
+        comments: null
 progress:
   heading:
     text: "Frequency section status:"

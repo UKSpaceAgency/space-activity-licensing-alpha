@@ -14,7 +14,9 @@ import RadioCheck from '../RadioCheck/component.jsx'
 
 const CommentModule = props => {
   let classes = classNames('comments', props.className, props.modifiers)
-  let comments = props.comments.map((v, i) => {
+
+  console.log(props.comments)
+  let comments = props.comments !== null && props.comments.map((v, i) => {
     v['id'] = props.id + '_' + i
     return <Comment key={i} {...v}/>
   })

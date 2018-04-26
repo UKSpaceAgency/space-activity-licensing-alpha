@@ -2,6 +2,7 @@
 contentType: page
 useComponent: true
 slug: application-homepage
+
 head:
   contentType: head
   title: Application overview listing
@@ -19,10 +20,6 @@ breadcrumb:
   url: "/"
 hero:
   modifiers: border padding-top--single spacing-bottom--flush
-  # title:
-  #   contentType: title
-  #   title: Your licence cases
-  #   modifiers: heading-medium
   infoGrid:
   - contentType: heading
     text: Your licence cases

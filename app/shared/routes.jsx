@@ -86,6 +86,10 @@ let getRoutes = store => {
         <Route path='technical-eligibility-questions' component={withFallback(PageContainer)} onEnter={getPage} slug='technical-eligibility-questions' />
         <Route path='technical' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions' />
         <Route path='technical-no-attachments' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions-no-attachments' />
+        <Route path='technical-share' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-technical-share' />
+        <Route path='link-previous-application' component={withFallback(PageFlatImage)} onEnter={getPage} slug='link-previous-application' />
+        <Route path='link-section-summaries' component={withFallback(PageFlatImage)} onEnter={getPage} slug='link-section-summaries' />
+        <Route path='technical-section-linked' component={withFallback(PageFlatImage)} onEnter={getPage} slug='technical-section-linked' />
       </Route>
       <Route path='*' component={withFallback(PageContainer)} onEnter={getPage} slug='no-match' />
     </Route>
