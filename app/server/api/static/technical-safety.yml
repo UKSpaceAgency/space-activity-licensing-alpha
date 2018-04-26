@@ -76,7 +76,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjfsdfgsdfgf
               value: High priority
@@ -97,10 +97,7 @@ content:
               value: Email
         assignees:
           label: Assign to
-          # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-3sdfgsdgsdf
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
@@ -124,6 +121,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245345sdfgsdfgsdgf
@@ -197,7 +195,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33f234234fgfs
               value: High priority
@@ -245,6 +243,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245bb
@@ -319,7 +318,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjf567567
               value: High priority
@@ -367,6 +366,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245345erth
@@ -440,7 +440,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33f234234dfghdfgh
               value: High priority
@@ -488,6 +488,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245werwer
@@ -524,7 +525,7 @@ content:
       checkbox:
         name: priority-level
         type: checkbox
-        fieldModifiers: float-right d-inline-block
+        fieldModifiers: baseline d-inline-block
         inputs:
         - id: juu7gg4gf33ffhffghj
           value: High priority
@@ -572,6 +573,7 @@ content:
     deadline:
       legend: Set deadline
       calendar: true
+      modifiers: mr-5
       items:
       - label: Day
         id: 3245fgjfghj
@@ -679,7 +681,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjftt
               value: High priority
@@ -727,6 +729,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245345d
@@ -800,7 +803,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33f234234yukyuk
               value: High priority
@@ -848,6 +851,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245uu
@@ -884,7 +888,7 @@ content:
       checkbox:
         name: priority-level
         type: checkbox
-        fieldModifiers: float-right d-inline-block
+        fieldModifiers: baseline d-inline-block
         inputs:
         - id: juu7gg4gf33ffghfgtyuktyuk
           value: High priority
@@ -932,6 +936,7 @@ content:
     deadline:
       legend: Set deadline
       calendar: true
+      modifiers: mr-5
       items:
       - label: Day
         id: 3245asdfasdf
@@ -1035,7 +1040,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu
               value: High priority
@@ -1083,6 +1088,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245345dfgh
@@ -1156,7 +1162,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33f234234sdfsdf
               value: High priority
@@ -1204,6 +1210,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 32sdfs45
@@ -1279,7 +1286,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juusdfg7gg4gf33fjjjfjfjfjfjfjf
               value: High priority
@@ -1327,6 +1334,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 32sdfg5345
@@ -1401,7 +1409,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juasdfu7gg4gf33fjjjfjfjfjfjfjf
               value: High priority
@@ -1449,6 +1457,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 32asdf45345
@@ -1556,7 +1565,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: j567iuu7gg4gf33fjjjfjfjfjfjfjf
               value: High priority
@@ -1604,6 +1613,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3567i245345
@@ -1677,7 +1687,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: jwertuu7gg4gf33f2wert34234
               value: High priority
@@ -1725,6 +1735,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3wertwert245
