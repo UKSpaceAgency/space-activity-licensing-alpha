@@ -10,7 +10,7 @@ const notifyClient = new NotifyClient(config.NOTIFY_API_KEY)
 export const REQUEST_PAGE = 'REQUEST_PAGE'
 export const RECEIVE_PAGE = 'RECEIVE_PAGE'
 export const RECEIVE_PAGE_ERROR = 'RECEIVE_PAGE_ERROR'
-export const SEND_EMAIL = 'SEND_EMAIL'
+export const SEND_NOTIFICATION = 'SEND_NOTIFICATION'
 
 let apiHost = getApiHost()
 
@@ -34,10 +34,10 @@ function receivePage (pageData) {
   }
 }
 
-function sendEmail (emailData) {
+function sendNotification (userData) {
   return {
-    type: SEND_EMAIL,
-    emailData
+    type: SEND_NOTIFICATION,
+    userData
   }
 }
 
@@ -57,13 +57,30 @@ export function fetchPage (slug, type = 'pages') {
   }
 }
 
-export function notify (emailData) {
+export function notifyByEmail (userData) {
   return dispatch => {
-    dispatch(sendEmail(emailData))
+    dispatch(sendNotification(userData))
     // stuff in test email code - TODO: refactor
     const templateId = '48f862be-c277-428d-8a5c-b4c4627c1753'
-    const personalisation = { 'first_name': emailData.firstName }
-    notifyClient.sendEmail(templateId, emailData.emailAddress, {
+    const personalisation = { 'first_name': userData.firstName }
+    notifyClient.sendEmail(templateId, userData.emailAddress, {
+      personalisation: personalisation})
+    .then(response => {
+      console.log(response)
+    })
+    .catch(err => {
+      console.error(err)
+    })
+  }
+}
+
+export function notifyBySms (userData) {
+  return dispatch => {
+    dispatch(sendNotification(userData))
+    // stuff in test SMS code - TODO: refactor
+    const templateId = '8b97b04f-8461-4f30-958d-a392c109ed1c'
+    const personalisation = { 'first_name': userData.firstName }
+    notifyClient.sendSms(templateId, userData.phoneNumber, {
       personalisation: personalisation})
     .then(response => {
       console.log(response)

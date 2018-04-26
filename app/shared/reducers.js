@@ -2,7 +2,7 @@ import * as actions from './actions'
 
 const initialState = {
   pageData: {},
-  emailData: {},
+  userData: {},
   interviews: {
     results: []
   },
@@ -24,9 +24,9 @@ export function app (state = initialState, action) {
       return Object.assign({}, state, {
         error: action.error
       })
-    case actions.SEND_EMAIL:
+    case actions.SEND_NOTIFICATION:
       return Object.assign({}, state, {
-        emailData: action.emailData
+        userData: action.userData
       })
     default:
       return state

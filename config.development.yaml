@@ -3,4 +3,4 @@ buildConfig: development
 
 users: !!import/single ./config.users.yaml
 
-NOTIFY_API_KEY: initial_test-63998e44-a39f-4f58-b2a7-bb8f7a4269e1-e7a4c23e-6be6-4565-8b18-fca1669ff28c
+NOTIFY_API_KEY: initial_test_2-63998e44-a39f-4f58-b2a7-bb8f7a4269e1-2075e450-b620-4b8f-ac60-32d0427e6a44
