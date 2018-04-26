@@ -24,9 +24,9 @@ $(document).ready(function () {
   });
 
   if (commentTarget) {
-
+    var tabs = $('[data-tab]');
     commentTarget.each(function(i, target) {
-      var comment = new Comment(target);
+      var comment = new Comment(target, tabs);
       comment.init();
     })
   }

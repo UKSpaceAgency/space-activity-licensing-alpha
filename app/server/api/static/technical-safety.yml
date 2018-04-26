@@ -67,7 +67,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 (1)
+    - label: Satellite operator 1
       id: notes-open-1
       commentBlock:
         limit: 3
@@ -189,7 +189,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notes-private-1ggf
       commentBlock:
         modifiers: spacing-bottom--single
@@ -310,7 +310,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 (1)
+    - label: Satellite operator 1
       id: notes-open-2567
       commentBlock:
         limit: 3
@@ -432,7 +432,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notes-private-2ghkhj
       commentBlock:
         modifiers: spacing-bottom--single
@@ -670,7 +670,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 (1)
+    - label: Satellite operator 1
       id: notes-open-3ertert
       commentBlock:
         limit: 3
@@ -792,7 +792,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notes-private-3yukyuk
       commentBlock:
         modifiers: spacing-bottom--single
@@ -1026,7 +1026,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 (1)
+    - label: Satellite operator 1
       id: notes-open-4sasdf
       commentBlock:
         limit: 3
@@ -1148,7 +1148,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notes-private-4sdfsdf
       commentBlock:
         modifiers: spacing-bottom--single
@@ -1270,7 +1270,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 (1)
+    - label: Satellite operator 1
       id: notes-open-5
       commentBlock:
         limit: 3
@@ -1392,7 +1392,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notes-priasdfvate-5
       commentBlock:
         limit: 3
@@ -1547,7 +1547,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 (1)
+    - label: Satellite operator 1
       id: no567ites-open-6
       commentBlock:
         limit: 3
@@ -1669,7 +1669,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notwertes-pwertrivate-6
       commentBlock:
         modifiers: spacing-bottom--single

@@ -76,7 +76,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 - Frequency (1)
+    - label: Satellite operator 1 - Frequency
       id: notes-open-1
       commentBlock:
         limit: 3
@@ -198,7 +198,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notes-private-2
       commentBlock:
         modifiers: spacing-bottom--single

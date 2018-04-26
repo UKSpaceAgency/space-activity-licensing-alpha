@@ -106,7 +106,7 @@ content:
     collapsible: true
     collapsibleHeading: Application notes (3)
     tabs:
-    - label: Notes to regulator (2)
+    - label: Notes to regulator
       id: notes-open
       commentBlock:
         modifiers: spacing-bottom--single
@@ -254,7 +254,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: My notes (1)
+    - label: My notes
       id: notes-private
       commentBlock:
         modifiers: spacing-bottom--single
