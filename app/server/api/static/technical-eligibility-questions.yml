@@ -233,6 +233,8 @@ content:
     label: 7. What is the primary function of the platform and its payloads(s)?
     name: primary-function
     id: primary-function
+  - contentType: divider
+    modifiers: border border-bottom
   - contentType: fieldSet
     modifiers: spacing-bottom--single
     items:
