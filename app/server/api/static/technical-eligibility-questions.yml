@@ -66,7 +66,7 @@ content:
       type: checkbox
       inputs:
       - id: name-designation-dunno
-        value: Don't know
+        value: I don't know
   - contentType: divider
     modifiers: border border-bottom
   - contentType: fieldSet
@@ -82,7 +82,7 @@ content:
       - id: multiple-platforms-no
         value: No
       - id: multiple-platforms-dont-know
-        value: Don't know
+        value: I don't know
   - contentType: divider
     modifiers: border border-bottom
   - contentType: textarea
@@ -218,7 +218,7 @@ content:
       - id: unique-aspects-no
         value: No
       - id: unique-aspects-dont-know
-        value: Don't know
+        value: I don't know
   - contentType: reveal
     id: unique-aspects-yes-reveal
     modifiers: panel
@@ -251,7 +251,7 @@ content:
       - id: internationally-recognised-no
         value: No
       - id: internationally-recognised-dont-know
-        value: Don't know
+        value: I don't know
     - contentType: reveal
       id: internationally-recognised-yes-reveal
       modifiers: panel
@@ -350,7 +350,7 @@ content:
       - id: reentry-no
         value: No
       - id: reentry-dont-know
-        value: Don't know
+        value: I don't know
   - contentType: textarea
     label: Why?
     name: further-comment
