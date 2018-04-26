@@ -3,7 +3,8 @@ contentType: page
 slug: test
 head:
   contentType: head
-  title: Test page
+  title: Kitchen sink page - everything in one place
+
 breadcrumb:
 - contentType: link
   text: Home

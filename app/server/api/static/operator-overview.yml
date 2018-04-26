@@ -2,6 +2,7 @@
 contentType: page
 useComponent: true
 slug: operator-overview
+
 head:
   contentType: head
   title: Operator application overview
@@ -105,7 +106,7 @@ content:
     collapsible: true
     collapsibleHeading: Application notes (3)
     tabs:
-    - label: Notes to regulator (2)
+    - label: Notes to regulator
       id: notes-open
       commentBlock:
         modifiers: spacing-bottom--single
@@ -113,7 +114,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjf
               value: High priority
@@ -161,6 +162,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245345
@@ -253,33 +255,21 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: My notes (1)
+    - label: My notes
       id: notes-private
       commentBlock:
         modifiers: spacing-bottom--single
-        notice:
-          checkbox:
-            name: priority-level
-            type: checkbox
-            fieldModifiers: float-right d-inline-block
-            inputs:
-            - id: juu7gg4gf33f234234
-              value: High priority
-        source:
-          legend: Comment source
-          fieldsetModifiers: inline
-          items:
-          - contentType: boolean
-            name: second-radio-item
-            type: radio
-            inputs:
-            - id: dfgh89dfghfefeb
-              value: Comment
-              checked: true
-            - id: hjdktlhivm67rwrwrw
-              value: Phone call
-            - id: llojef663687
-              value: Email
+        name:
+          text: Simon Griffith
+          type: h3
+          modifiers: heading-small
+        url: "/rachel"
+        date:
+          date: 10.04am 22nd March 2018
+          datetime: '2018-03-26T19:34:15+00:00'
+        icon:
+          label: account
+          modifiers: icon-account
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -309,6 +299,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245

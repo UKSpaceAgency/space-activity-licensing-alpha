@@ -4,6 +4,7 @@ slug: apply-page-1
 head:
   contentType: head
   title: Pre application checks
+
 masthead:
   logo: Govuk pattern
   utility:

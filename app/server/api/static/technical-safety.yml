@@ -67,7 +67,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 (1)
+    - label: Satellite operator 1
       id: notes-open-1
       commentBlock:
         limit: 3
@@ -76,7 +76,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjfsdfgsdfgf
               value: High priority
@@ -97,10 +97,7 @@ content:
               value: Email
         assignees:
           label: Assign to
-          # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-3sdfgsdgsdf
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
@@ -124,6 +121,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245345sdfgsdfgsdgf
@@ -189,7 +187,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notes-private-1ggf
       commentBlock:
         modifiers: spacing-bottom--single
@@ -197,7 +195,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33f234234fgfs
               value: High priority
@@ -245,6 +243,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245bb
@@ -310,7 +309,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 (1)
+    - label: Satellite operator 1
       id: notes-open-2567
       commentBlock:
         limit: 3
@@ -319,7 +318,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjf567567
               value: High priority
@@ -367,6 +366,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245345erth
@@ -432,7 +432,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notes-private-2ghkhj
       commentBlock:
         modifiers: spacing-bottom--single
@@ -440,7 +440,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33f234234dfghdfgh
               value: High priority
@@ -488,6 +488,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245werwer
@@ -524,7 +525,7 @@ content:
       checkbox:
         name: priority-level
         type: checkbox
-        fieldModifiers: float-right d-inline-block
+        fieldModifiers: baseline d-inline-block
         inputs:
         - id: juu7gg4gf33ffhffghj
           value: High priority
@@ -572,6 +573,7 @@ content:
     deadline:
       legend: Set deadline
       calendar: true
+      modifiers: mr-5
       items:
       - label: Day
         id: 3245fgjfghj
@@ -670,7 +672,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 (1)
+    - label: Satellite operator 1
       id: notes-open-3ertert
       commentBlock:
         limit: 3
@@ -679,7 +681,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjftt
               value: High priority
@@ -727,6 +729,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245345d
@@ -792,7 +795,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notes-private-3yukyuk
       commentBlock:
         modifiers: spacing-bottom--single
@@ -800,7 +803,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33f234234yukyuk
               value: High priority
@@ -848,6 +851,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245uu
@@ -884,7 +888,7 @@ content:
       checkbox:
         name: priority-level
         type: checkbox
-        fieldModifiers: float-right d-inline-block
+        fieldModifiers: baseline d-inline-block
         inputs:
         - id: juu7gg4gf33ffghfgtyuktyuk
           value: High priority
@@ -932,6 +936,7 @@ content:
     deadline:
       legend: Set deadline
       calendar: true
+      modifiers: mr-5
       items:
       - label: Day
         id: 3245asdfasdf
@@ -1026,7 +1031,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 (1)
+    - label: Satellite operator 1
       id: notes-open-4sasdf
       commentBlock:
         limit: 3
@@ -1035,7 +1040,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu
               value: High priority
@@ -1083,6 +1088,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245345dfgh
@@ -1148,7 +1154,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notes-private-4sdfsdf
       commentBlock:
         modifiers: spacing-bottom--single
@@ -1156,7 +1162,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33f234234sdfsdf
               value: High priority
@@ -1204,6 +1210,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 32sdfs45
@@ -1270,7 +1277,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 (1)
+    - label: Satellite operator 1
       id: notes-open-5
       commentBlock:
         limit: 3
@@ -1279,7 +1286,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juusdfg7gg4gf33fjjjfjfjfjfjfjf
               value: High priority
@@ -1327,6 +1334,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 32sdfg5345
@@ -1392,7 +1400,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notes-priasdfvate-5
       commentBlock:
         limit: 3
@@ -1401,7 +1409,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juasdfu7gg4gf33fjjjfjfjfjfjfjf
               value: High priority
@@ -1449,6 +1457,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 32asdf45345
@@ -1547,7 +1556,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 (1)
+    - label: Satellite operator 1
       id: no567ites-open-6
       commentBlock:
         limit: 3
@@ -1556,7 +1565,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: j567iuu7gg4gf33fjjjfjfjfjfjfjf
               value: High priority
@@ -1604,6 +1613,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3567i245345
@@ -1669,7 +1679,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notwertes-pwertrivate-6
       commentBlock:
         modifiers: spacing-bottom--single
@@ -1677,7 +1687,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: jwertuu7gg4gf33f2wert34234
               value: High priority
@@ -1725,6 +1735,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3wertwert245

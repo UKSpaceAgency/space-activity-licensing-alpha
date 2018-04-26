@@ -2,6 +2,7 @@
 contentType: page
 useComponent: true
 slug: operator-overview
+
 head:
   contentType: head
   title: Operator application overview
@@ -111,7 +112,7 @@ content:
     collapsible: true
     collapsibleHeading: Application notes (3)
     tabs:
-    - label: Notes to regulator (2)
+    - label: Notes to regulator
       id: notes-open
       commentBlock:
         modifiers: spacing-bottom--single
@@ -119,7 +120,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjf
               value: High priority
@@ -167,6 +168,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245345
@@ -259,7 +261,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: My notes (1)
+    - label: My notes
       id: notes-private
       commentBlock:
         modifiers: spacing-bottom--single
@@ -267,7 +269,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33f234234
               value: High priority
@@ -315,6 +317,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245

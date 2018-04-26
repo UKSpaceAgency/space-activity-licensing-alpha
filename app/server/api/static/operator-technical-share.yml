@@ -1,0 +1,56 @@
+---
+contentType: page
+slug: operator-technical-share
+
+breadcrumb:
+- contentType: link
+  text: Share technical section | SAUK
+  url: "/"
+- contentType: link
+  url: "/application-overview/technical"
+  text: Application 11021411
+- contentType: link
+  url: "/application-overview/technical/satellite-and-mission-overview"
+  text: Technical
+- contentType: link
+  text: Share technical
+content:
+- contentType: heading
+  text: Share technical section
+  type: h1
+  modifiers: heading-xlarge
+- contentType: heading
+  text: "You are about to share a section with your organisation colleagues.  "
+  type: h2
+  modifiers: lede
+- contentType: form
+  formItems:
+  - contentType: fieldSet
+    legend: "Please select who will have assess to this section:"
+    modifiers: spacing--single
+    items:
+    - contentType: boolean
+      name: sharing
+      label: Space operator 1 - engineering team
+      type: checkbox
+      inputs:
+      - id: Richard-Crowther-123
+        value: Luke Jones
+      - id: Aimee123
+        value: Aimee Hobbs
+      - id: jj3
+        value: Jon Johnson III
+      - id: joel123
+        value: Joel van Sante
+      - id: jakob
+        value: Jakob LeClerk
+    - contentType: buttongroup
+      buttons:
+      - url: "javascript:window.history.back()"
+        label: Share
+        type: a
+        modifiers:
+      - url: "javascript:window.history.back()"
+        label: Cancel
+        type: a
+        modifiers: button--link

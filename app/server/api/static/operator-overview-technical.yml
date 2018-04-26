@@ -2,9 +2,10 @@
 contentType: page
 useComponent: true
 slug: operator-overview
+
 head:
   contentType: head
-  title: Operator overview technical
+  title: S EAN multi-beam | Satellite Operator 1 | UKSA
 masthead:
   utility:
     links:
@@ -41,9 +42,14 @@ hero:
     modifiers: heading-small
 content:
 - contentType: heading
-  text: "Technical <a class='lede float-right spacing-bottom--large' href='#'>Link Section</a>"
+  text: Technical
   type: h2
   modifiers: heading-large
+- contentType: infoGrid
+  grid:
+  - contentType: heading
+    text:  "<a class='float-right spacing-bottom--large' href='/operator/technical-share'>Share Section</a><a class='float-right spacing-bottom--large mr-5' href='/operator/link-previous-application'>Link with previous application</a>"
+    type: p
 - contentType: listing
   columns: 1
   gridModifier: column-third

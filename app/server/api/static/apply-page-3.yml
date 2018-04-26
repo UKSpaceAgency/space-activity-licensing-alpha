@@ -4,6 +4,7 @@ slug: apply-page-3
 head:
   contentType: head
   title: Do you have enough investment to cover this venture?
+
 masthead:
   logo: Govuk pattern
   utility:

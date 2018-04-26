@@ -2,6 +2,7 @@
 contentType: page
 useComponent: true
 slug: test
+
 head:
   contentType: head
   title:  Frequency | Technical eligibility section | Satellite operator 1
@@ -75,16 +76,15 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1 - Frequency (1)
+    - label: Satellite operator 1 - Frequency
       id: notes-open-1
       commentBlock:
-        limit: 3
         modifiers: spacing-bottom--single
         notice:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjf
               value: High priority
@@ -132,6 +132,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245345
@@ -197,7 +198,7 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
             type: p
             modifiers: heading-small
-    - label: Private notes (0)
+    - label: Private notes
       id: notes-private-2
       commentBlock:
         modifiers: spacing-bottom--single
@@ -205,7 +206,7 @@ content:
           checkbox:
             name: priority-level
             type: checkbox
-            fieldModifiers: float-right d-inline-block
+            fieldModifiers: baseline d-inline-block
             inputs:
             - id: juu7gg4gf33f234234
               value: High priority
@@ -253,6 +254,7 @@ content:
         deadline:
           legend: Set deadline
           calendar: true
+          modifiers: mr-5
           items:
           - label: Day
             id: 3245
