@@ -22,36 +22,60 @@ content:
 - contentType: form
   formAction: "/application-overview/technical/share"
   formItems:
-  - contentType: formGroup
-    label: 1. What is the name/designation of the launch system?
-    name: name/designation
-    id: name/designation
-    input: text
-  - contentType: textarea
-    label: 2. What is the primary function of the platform and its payloads(s)?
-    name: primary-function
-    id: primary-function
+  - contentType: select
+    name: name-range
+    id: name-range
+    label: 1. What is the name of the site/range?
+    data:
+      key: data-target
+      value: satellite-name-range-reveal
+    options:
+    - label: Please select
+      value: " "
+    - label: Range / name one
+      value: "xxx"
+    - label: Range / name two
+      value: "xxx"
+    - label: Range / name three
+      value: "xxx"
+    - label: Range / name four
+      value: "xxx"
+    - label: Other
+      value: satellite-name-range-reveal
+  - contentType: reveal
+    id: satellite-name-range-reveal
+    modifiers: panel
+    content:
+    - contentType: formGroup
+      label: Name of range
+      name: name-range-other
+      id: name-range-other
+      input: text
+  - contentType: divider
+    modifiers: border border-bottom
   - contentType: fieldSet
     modifiers: spacing-bottom--single
     items:
+    - contentType: formGroup
+      label: 2. What is the name/designation of the launch system?
+      name: name/designation
+      id: name-designation
+      input: text
     - contentType: boolean
-      name: internationally-recognised
-      type: radio
-      label: 3.Does the platform/bus conform to an internationally recognised/industrial standard?
+      name: name/designation-dunno
+      type: checkbox
       inputs:
-      - id: internationally-recognised-yes
-        value: Yes
-      - id: internationally-recognised-no
-        value: No
-      - id: internationally-recognised-dont-know
+      - id: name-designation-dunno
         value: Don't know
+  - contentType: divider
+    modifiers: border border-bottom
   - contentType: fieldSet
     modifiers: spacing-bottom--single
     items:
     - contentType: boolean
       name: multiple-platforms
       type: radio
-      label: 4.Are there multiple platforms on the launch?
+      label: 3.Are there multiple platforms on the launch?
       inputs:
       - id: multiple-platforms-yes
         value: Yes
@@ -59,17 +83,16 @@ content:
         value: No
       - id: multiple-platforms-dont-know
         value: Don't know
+  - contentType: divider
+    modifiers: border border-bottom
   - contentType: textarea
-    label: 5. What are the injection and operational altitudes of stages/platforms?
+    label: 4. What are the injection and operational altitudes of stages/platforms?
     name: injection-altitudes
     id: injection-altitudes
-  - contentType: formGroup
-    label: 6. What is the name of the site/range?
-    name: name-range
-    id: name-range
-    input: text
+  - contentType: divider
+    modifiers: border border-bottom
   - contentType: date
-    legend: 7. What is the range of times and dates for launch epoch/launch window?
+    legend: 5. What is the range of times and dates for launch epoch/launch window?
     supporting: 24 hour format for example, 23:30 31 3 2020
     items:
     - label: Hour
@@ -171,20 +194,82 @@ content:
       attr:
         key: pattern
         value: '[0-9]*'
+  - contentType: boolean
+    name: time-date-range
+    type: checkbox
+    inputs:
+    - id: time-date-range-dunno
+      value: I don't know
+  - contentType: divider
+    modifiers: border border-bottom
   - contentType: fieldSet
     modifiers: spacing-bottom--single
     items:
     - contentType: boolean
       name: unique-aspects
       type: radio
-      label: 8.Are there any unique aspects of launch and injection?
+      label: 6.Are there any unique aspects of launch and injection?
       inputs:
       - id: unique-aspects-yes
         value: Yes
+        data:
+          key: data-target
+          value: unique-aspects-yes-reveal
       - id: unique-aspects-no
         value: No
       - id: unique-aspects-dont-know
         value: Don't know
+  - contentType: reveal
+    id: unique-aspects-yes-reveal
+    modifiers: panel
+    content:
+    - contentType: textarea
+      label: Please describe these
+      name: unique-aspects-comment
+      id: unique-aspects-comment
+  - contentType: divider
+    modifiers: border border-bottom
+  - contentType: textarea
+    label: 7. What is the primary function of the platform and its payloads(s)?
+    name: primary-function
+    id: primary-function
+  - contentType: fieldSet
+    modifiers: spacing-bottom--single
+    items:
+    - contentType: boolean
+      name: internationally-recognised
+      type: radio
+      label: 8.Does the platform/bus conform to an internationally recognised/industrial standard?
+      inputs:
+      - id: internationally-recognised-yes
+        value: Yes
+        data:
+          key: data-target
+          value: internationally-recognised-yes-reveal
+      - id: internationally-recognised-no
+        value: No
+      - id: internationally-recognised-dont-know
+        value: Don't know
+    - contentType: reveal
+      id: internationally-recognised-yes-reveal
+      modifiers: panel
+      content:
+      - contentType: select
+        name: which-select-item
+        label: Which?
+        options:
+        - label: Please select
+          value: " "
+        - label: Standard one
+          value: "xxx"
+        - label: Standard two
+          value: "xxx"
+        - label: Standard three
+          value: "xxx"
+        - label: Standard four
+          value: "xxx"
+  - contentType: divider
+    modifiers: border border-bottom
   - contentType: formGroup
     label: 9. What are the the durations of the different phases of the mission?
     name: durations
@@ -248,6 +333,8 @@ content:
   - contentType: heading
     text: "<a href='#'>+ Add phase</a>"
     type: p
+  - contentType: divider
+    modifiers: border border-bottom
   - contentType: fieldSet
     modifiers: spacing-bottom--single
     items:
