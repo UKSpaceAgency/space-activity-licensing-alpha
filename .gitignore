@@ -5,7 +5,11 @@ node_modules
 
 /.idea/
 
-config.dev.yaml
+config.development.yaml
+config.production.yaml
+config.staging.yaml
+config.users.yaml
+config.yaml
 
 .DS_Store
 
