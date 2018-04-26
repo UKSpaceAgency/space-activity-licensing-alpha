@@ -79,7 +79,6 @@ content:
     - label: Satellite operator 1 - Frequency
       id: notes-open-1
       commentBlock:
-        limit: 3
         modifiers: spacing-bottom--single
         notice:
           checkbox:
