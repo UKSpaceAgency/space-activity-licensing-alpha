@@ -350,7 +350,7 @@ content:
       - id: reentry-dont-know
         value: Don't know
   - contentType: textarea
-    label: Add further comment
+    label: Why?
     name: further-comment
     id: further-comment
   - contentType: button
