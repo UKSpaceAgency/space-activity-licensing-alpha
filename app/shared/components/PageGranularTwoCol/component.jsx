@@ -13,8 +13,8 @@ import Banner from '../Banner/component.jsx'
 const PageGranularTwoCol = props => {
   return (
     <React.Fragment>
-      <Banner {...props.banner}/>
       <Masthead {...props.masthead}/>
+      <Banner {...props.banner}/>
       <Hero {...props.hero} />
       <div className='site-wrapper'>
         <main id='content' role='main'>
