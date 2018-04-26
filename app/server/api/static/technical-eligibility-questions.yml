@@ -51,8 +51,7 @@ content:
       name: name-range-other
       id: name-range-other
       input: text
-  - contentType: divider
-    modifiers: border border-bottom
+
   - contentType: fieldSet
     modifiers: spacing-bottom--single
     items:
@@ -67,8 +66,7 @@ content:
       inputs:
       - id: name-designation-dunno
         value: I don't know
-  - contentType: divider
-    modifiers: border border-bottom
+
   - contentType: fieldSet
     modifiers: spacing-bottom--single
     items:
@@ -83,14 +81,12 @@ content:
         value: No
       - id: multiple-platforms-dont-know
         value: I don't know
-  - contentType: divider
-    modifiers: border border-bottom
+
   - contentType: textarea
     label: 4. What are the injection and operational altitudes of stages/platforms?
     name: injection-altitudes
     id: injection-altitudes
-  - contentType: divider
-    modifiers: border border-bottom
+
   - contentType: date
     legend: 5. What is the range of times and dates for launch epoch/launch window?
     supporting: 24 hour format for example, 23:30 31 3 2020
@@ -200,8 +196,7 @@ content:
     inputs:
     - id: time-date-range-dunno
       value: I don't know
-  - contentType: divider
-    modifiers: border border-bottom
+
   - contentType: fieldSet
     modifiers: spacing-bottom--single
     items:
@@ -227,14 +222,12 @@ content:
       label: Please describe these
       name: unique-aspects-comment
       id: unique-aspects-comment
-  - contentType: divider
-    modifiers: border border-bottom
+
   - contentType: textarea
     label: 7. What is the primary function of the platform and its payloads(s)?
     name: primary-function
     id: primary-function
-  - contentType: divider
-    modifiers: border border-bottom
+
   - contentType: fieldSet
     modifiers: spacing-bottom--single
     items:
@@ -270,8 +263,7 @@ content:
           value: "xxx"
         - label: Standard four
           value: "xxx"
-  - contentType: divider
-    modifiers: border border-bottom
+
   - contentType: formGroup
     label: 9. What are the the durations of the different phases of the mission?
     name: durations
@@ -335,8 +327,7 @@ content:
   - contentType: heading
     text: "<a href='#'>+ Add phase</a>"
     type: p
-  - contentType: divider
-    modifiers: border border-bottom
+
   - contentType: fieldSet
     modifiers: spacing-bottom--single
     items:
