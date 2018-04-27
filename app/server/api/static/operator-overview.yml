@@ -5,7 +5,7 @@ slug: operator-overview
 
 head:
   contentType: head
-  title: Operator application overview
+  title: Operator application overview | UKSA
 masthead:
   utility:
     links:
@@ -234,7 +234,7 @@ content:
               text: Simon Griffith
               type: h3
               modifiers: heading-small
-            url: "/rachel"
+            url: "#"
             date:
               date: 10.04am 22nd March 2018
               datetime: '2018-03-26T19:34:15+00:00'
@@ -371,11 +371,11 @@ content:
     modifiers: column-three-quarters
     summary:
       contentType: longform
-      text: Before you can submit your application form, you will need to complete  ten (10) technical eligibility questions. These will give us an idea of your  application readiness.
+      text: Before you can submit your application form, you will need to complete  ten technical eligibility questions. These will give us an idea of your  application readiness.
       modifiers: spacing--single
     heading:
       contentType: heading
-      text: Technical
+      text: Eligibility
       type: h3
       modifiers: heading-large spacing-top--flush
     updates:
@@ -384,25 +384,57 @@ content:
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
-      text: "3<br/><span class='quiet'>Questions</span>"
+      text: 10 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: button
+      url: '/operator/technical-eligibility-questions'
+      label: Start
+      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Status </span><br/>Not started"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters box--muted
+    heading:
+      contentType: heading
+      text: Technical <span class='badge badge--border float-right heading-small'>Locked</span>
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: 16 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "1<br/><span class='quiet'>Attachment</span>"
+      text: "0<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
-    - contentType: button
-      url: '/operator/technical-eligibility-questions'
-      label: View
-      modifiers: button--full-width
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Updated on: </span><br/>12th June 2018"
+      text: "<span class='quiet'>Status</span><br/>Pending"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/> Luke McGuinness"
+      text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -418,16 +450,22 @@ content:
       modifiers: spacing--single
     grid:
     - contentType: heading
-      text: "3<br/><span class='quiet'>Questions</span>"
+      text: 14 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Attachments</span>"
+      text: "0<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: ""
+      text: "0<br/><span class='quiet'>Submitted</span>"
       type: p
+      modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -435,7 +473,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span>"
+      text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -457,16 +495,22 @@ content:
       modifiers: spacing--single red
     grid:
     - contentType: heading
-      text: "3<br/><span class='quiet'>Questions</span>"
+      text: 23 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Attachments</span>"
+      text: "0<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: ""
+      text: "0<br/><span class='quiet'>Submitted</span>"
       type: p
+      modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -474,7 +518,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span>"
+      text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -490,16 +534,22 @@ content:
       modifiers: spacing--single
     grid:
     - contentType: heading
-      text: "3<br/><span class='quiet'>Questions</span>"
+      text: 33 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Attachment</span>"
+      text: "0<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: ""
+      text: "0<br/><span class='quiet'>Submitted</span>"
       type: p
+      modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -507,7 +557,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span>"
+      text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -529,16 +579,22 @@ content:
       modifiers: spacing--single red
     grid:
     - contentType: heading
-      text: "3<br/><span class='quiet'>Questions</span>"
+      text: 5 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Attachments</span>"
+      text: "0<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: ""
+      text: "0<br/><span class='quiet'>Submitted</span>"
       type: p
+      modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -546,7 +602,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span>"
+      text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -562,16 +618,22 @@ content:
       modifiers: spacing--single
     grid:
     - contentType: heading
-      text: "5<br/><span class='quiet'>Questions</span>"
+      text: 33 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Attachments</span>"
+      text: "0<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: ""
+      text: "0<br/><span class='quiet'>Submitted</span>"
       type: p
+      modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -579,7 +641,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span>"
+      text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
 - contentType: heading
