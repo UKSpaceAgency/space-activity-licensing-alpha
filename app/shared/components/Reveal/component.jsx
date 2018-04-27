@@ -4,7 +4,7 @@ import formBuilder from '../FormBuilder/component.jsx'
 
 const Reveal = props => {
   let Components = formBuilder(props.content)
-  let classes = classNames('js-hidden', props.className, props.modifiers)
+  let classes = classNames('js-hidden', props.modifiers)
 
   return (
     <div className={classes} id={props.id}>

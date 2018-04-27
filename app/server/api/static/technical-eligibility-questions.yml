@@ -26,6 +26,7 @@ content:
     name: name-range
     id: name-range
     label: 1. What is the name of the site/range?
+    modifiers: spacing-bottom--large
     data:
       key: data-target
       value: satellite-name-range-reveal
@@ -53,7 +54,7 @@ content:
       input: text
 
   - contentType: fieldSet
-    modifiers: spacing-bottom--single
+    fieldsetModifiers: spacing-bottom--large
     items:
     - contentType: formGroup
       label: 2. What is the name/designation of the launch system?
@@ -68,7 +69,7 @@ content:
         value: I don't know
 
   - contentType: fieldSet
-    modifiers: spacing-bottom--single
+    fieldsetModifiers: spacing-bottom--large
     items:
     - contentType: boolean
       name: multiple-platforms
@@ -86,6 +87,7 @@ content:
     label: 4. What are the injection and operational altitudes of stages/platforms?
     name: injection-altitudes
     id: injection-altitudes
+    modifiers: spacing-bottom--large
 
   - contentType: date
     legend: 5. What is the range of times and dates for launch epoch/launch window?
@@ -193,12 +195,13 @@ content:
   - contentType: boolean
     name: time-date-range
     type: checkbox
+    modifiers: spacing-bottom--large
     inputs:
     - id: time-date-range-dunno
       value: I don't know
 
   - contentType: fieldSet
-    modifiers: spacing-bottom--single
+    fieldsetModifiers: spacing-bottom--large
     items:
     - contentType: boolean
       name: unique-aspects
@@ -227,9 +230,10 @@ content:
     label: 7. What is the primary function of the platform and its payloads(s)?
     name: primary-function
     id: primary-function
+    odifiers: spacing-bottom--large
 
   - contentType: fieldSet
-    modifiers: spacing-bottom--single
+    fieldsetModifiers: spacing-bottom--large
     items:
     - contentType: boolean
       name: internationally-recognised
@@ -327,9 +331,8 @@ content:
   - contentType: heading
     text: "<a href='#'>+ Add phase</a>"
     type: p
-
+    modifiers: spacing-bottom--large
   - contentType: fieldSet
-    modifiers: spacing-bottom--single
     items:
     - contentType: boolean
       name: reentry
@@ -346,6 +349,7 @@ content:
     label: Why?
     name: further-comment
     id: further-comment
+    modifiers: spacing-bottom--large
   - contentType: button
     label: Complete
     url: "/operator/operator-overview-unlocked"
