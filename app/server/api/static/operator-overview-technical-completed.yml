@@ -106,7 +106,7 @@ content:
         type: p
         modifiers: heading-small
       comment:
-        text: This is currently being assesed.
+        text: This is currently being assessed.
         type: p
   - contentType: tile
     modifiers: column-three-quarters

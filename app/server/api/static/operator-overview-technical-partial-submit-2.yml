@@ -1,11 +1,11 @@
 ---
 contentType: page
 useComponent: true
-slug: operator-eligibility-assessing
+slug: operator-eligibility-has-been-assessed
 
 head:
   contentType: head
-  title: Eligibility assessing | Operator application overview | UKSA
+  title: Technical submissionpartially ready | Operator application overview | UKSA
 masthead:
   utility:
     links:
@@ -395,14 +395,18 @@ content:
       label: View
       modifiers: button--full-width button--secondary
     - contentType: heading
-      text: "<span class='quiet'>Status </span><br/>Being assessed"
+      text: "<span class='quiet'>Status </span><br/>Approved"
       type: p
       modifiers: heading-medium
     completion:
+      modifiers: is-green
+      icon:
+        label: tick
+        modifiers: icon-tick icon-tick-white icon--large icon--circled icon--circled-white
       heading:
         text: Technical Eligibility section has been submitted
         type: p
-        modifiers: heading-small spacing-top--flush
+        modifiers: heading-small
       comment:
         text: This is currently being asssessed by the UKSA engineering team.
         type: p
@@ -415,12 +419,20 @@ content:
       modifiers: heading-large spacing-top--flush
     summary:
       contentType: longform
-      text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
+      text: Thank you for submitting you ten eligibility questions, you now have access to the full Technical question set.
       modifiers: spacing--single
     updates:
       url: "/operator/operator-overview-technical"
       text: Sat op 1 (1) - UKSA (1)
       modifiers: bg-fuschia badge--fixed badge--top
+    completion:
+      heading:
+        text: 4 questions within the Technical section are 'Ready for submission'
+        type: p
+        modifiers: heading-small spacing-top--flush
+      comment:
+        text: Would you like to submit these completed questions?
+        type: p
     grid:
     - contentType: heading
       text: 16 Questions
@@ -436,7 +448,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 16<br/><span class='quiet'>Submitted</span>"
+      text: "4 of 16<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
@@ -445,9 +457,9 @@ content:
       label: Continue
       disabled: true
       url: "/operator/operator-overview-technical"
-      modifiers: button--full-width
+      modifiers: button--full-width button--secondary
     - contentType: heading
-      text: "<span class='quiet'>Status </span><br/>Not started"
+      text: "<span class='quiet'>Status </span><br/>In progress"
       type: p
       modifiers: heading-medium
   - contentType: tile

@@ -201,7 +201,5 @@ content:
   divider: true
 complete:
   label: Save and exit
-  url: "/operator/operator-overview-technical-submit"
+  url: "/operator/operator-eligibility-has-been-assessed"
   id: submit
-  # modifiers: button--secondary
-  data: data-submit-section
