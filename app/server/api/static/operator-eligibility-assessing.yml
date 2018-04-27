@@ -199,7 +199,7 @@ content:
             priority:
               icon:
                 label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
+                modifiers: icon-warning icon-warning--red icon-warning--red icon--large
               content: High priority
               modifiers: red
             modifiers: spacing-bottom--single comment-admin
@@ -417,6 +417,10 @@ content:
       contentType: longform
       text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
       modifiers: spacing--single
+    updates:
+      url: "/operator/technical"
+      text: Sat op 1 (1) - UKSA (1)
+      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 16 Questions
@@ -424,23 +428,24 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 16<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 16<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 16<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>Pending"
-      type: p
-      modifiers: heading-medium
+    - contentType: button
+      label: Continue
+      disabled: true
+      url: "/operator/technical"
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
@@ -463,23 +468,24 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 14<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 14<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 14<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>Pending"
-      type: p
-      modifiers: heading-medium
+    - contentType: button
+      label: Continue
+      disabled: true
+      url: "#"
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
@@ -498,7 +504,7 @@ content:
     notice:
       icon:
         label: High priority
-        modifiers: icon-warning icon--large
+        modifiers: icon-warning icon-warning--red icon--large
       content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
       modifiers: spacing--single red
     grid:
@@ -508,23 +514,24 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 23<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 23<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 23<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>Pending"
-      type: p
-      modifiers: heading-medium
+    - contentType: button
+      label: Continue
+      disabled: true
+      url: "#"
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
@@ -547,23 +554,24 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 33<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 33<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 33<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>Pending"
-      type: p
-      modifiers: heading-medium
+    - contentType: button
+      label: Continue
+      disabled: true
+      url: "#"
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
@@ -582,7 +590,7 @@ content:
     notice:
       icon:
         label: High priority
-        modifiers: icon-warning icon--large
+        modifiers: icon-warning icon-warning--red icon--large
       content: You said that you did not have insurance, you will need to secure insurance to complete this application.
       modifiers: spacing--single red
     grid:
@@ -592,23 +600,24 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 5<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 5<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 5<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>Pending"
-      type: p
-      modifiers: heading-medium
+    - contentType: button
+      label: Continue
+      disabled: true
+      url: "#"
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
@@ -631,23 +640,24 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 33<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 33<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 33<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>Pending"
-      type: p
-      modifiers: heading-medium
+    - contentType: button
+      label: Continue
+      disabled: true
+      url: "#"
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
