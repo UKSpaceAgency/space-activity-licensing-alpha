@@ -30,7 +30,6 @@ content:
     label: Are you a UK company
     supporting: Enter your company name / id below
     id: autocomplete
-    modifiers: form-control--has-icon
     attr:
       key: data-autocomplete
       value: true
@@ -49,6 +48,6 @@ content:
       modifiers: spacing-bottom--large
     - contentType: button
       name: submit
-      url: "/apply/apply-register"
+      url: "/apply/register"
       label: Continue
 

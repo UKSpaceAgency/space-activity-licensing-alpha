@@ -22,6 +22,7 @@ $(document).ready(function () {
     maxItems: 7,
     showNoResults: true,
     onSelect: function(el, val) {
+      console.log(val)
       if (val === null) {
         $('.results').html('All results for "' + $(this).val() + '"" would go here');
       }
