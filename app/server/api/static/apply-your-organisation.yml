@@ -1,0 +1,37 @@
+---
+contentType: page
+slug: apply-page-5
+head:
+  contentType: head
+  title: Your organisation | pre-application | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Settings
+      url: "/application-overview/new-member"
+hero:
+  modifiers: padding-top--single spacing-bottom--flush
+  title:
+    contentType: title
+    supporting: This is important
+    title: Your organisation
+    modifiers: spacing-bottom--flush
+content:
+- contentType: heading
+  type: p
+  text: To start an application we will need you to create an account and assign members of your organisation, who will assist you in answering questions.
+  modifiers: lede
+- contentType: form
+  formAction: "/apply/page-4"
+  formItems:
+  - contentType: formGroup
+    name: autocomplete
+    label: Are you a UK company
+    id: autocomplete
+    modifiers: form-control--has-icon
+    attr:
+      key: data-autocomplete
+      value: true
+
+
