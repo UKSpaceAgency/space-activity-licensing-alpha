@@ -23,8 +23,8 @@ const PageTwoCol = props => {
 
   return (
     <React.Fragment>
-      <Banner {...props.banner}/>
       <Masthead {...props.masthead}/>
+      <Banner {...props.banner}/>
       <div id='global-header-bar' />
       <div className='site-wrapper'>
         <main id='content' role='main'>
