@@ -5,7 +5,7 @@ import { getApiHost } from './utilities'
 import { config } from 'config'
 
 const NotifyClient = require('notifications-node-client').NotifyClient
-const notifyClient = new NotifyClient(config.NOTIFY_API_KEY)
+const notifyClient = new NotifyClient(config.NOTIFY_API_KEY || "")
 
 export const REQUEST_PAGE = 'REQUEST_PAGE'
 export const RECEIVE_PAGE = 'RECEIVE_PAGE'
