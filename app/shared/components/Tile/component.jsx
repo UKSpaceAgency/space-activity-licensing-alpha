@@ -13,7 +13,7 @@ import Icon from '../Icon/component.jsx'
 const Tile = props => {
   let wrapper = classNames(props.completion ? props.completion.modifiers : null, {
     'bordered': props.completion,
-    'spacing-bottom--large': props.completion,
+    'spacing-bottom--large': props.completion
   })
   let classes = classNames(props.gridModifier, 'spacing-bottom--single', {
     'column-half': !props.gridModifier
