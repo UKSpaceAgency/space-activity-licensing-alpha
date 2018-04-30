@@ -28,6 +28,10 @@ $(document).ready(function () {
       else {
         $(this).val(val.title);
         $('.results').html('<h1>' + val.title + '</h1>');
+        if (val.target) {
+          // ghastly - quick n dirty
+          $(val.target).removeClass('js-hidden');
+        }
       }
     }
   });
