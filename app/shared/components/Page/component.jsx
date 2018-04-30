@@ -8,8 +8,8 @@ import Banner from '../Banner/component.jsx'
 const Page = props => {
   return (
     <React.Fragment>
-      <Banner {...props.banner}/>
       <Masthead {...props.masthead}/>
+      <Banner {...props.banner}/>
       {props.hero && <Hero {...props.hero} />}
       {!props.hero && <div id='global-header-bar' />}
       <div className='site-wrapper'>
