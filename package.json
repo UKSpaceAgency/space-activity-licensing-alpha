@@ -97,6 +97,7 @@
   "dependencies": {
     "express-basic-auth": "^1.1.4",
     "install": "^0.10.4",
+    "notifications-node-client": "^4.1.0",
     "npm": "^5.7.1",
     "yaml-import": "^0.2.3"
   }
