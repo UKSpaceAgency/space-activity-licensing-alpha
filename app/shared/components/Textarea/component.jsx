@@ -1,11 +1,13 @@
 import React from 'react'
+import classNames from 'classnames'
 import FormHint from '../FormHint/component.jsx'
 
 const Textarea = props => {
   let data = props.data ? {[props.data]: true} : null
+  let classes = classNames('form-group', props.modifiers)
 
   return (
-    <div className='form-group'>
+    <div className={classes}>
       <label className='form-label' htmlFor={props.id}>{props.label}
         {props.supporting && <FormHint>{props.supporting}</FormHint>}
       </label>
