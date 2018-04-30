@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
-import { fetchPage, receivePageError } from './actions'
+import { notifyByEmail, notifyBySms, fetchPage, receivePageError } from './actions'
 
 import NoMatchContainer from './containers/NoMatchContainer/component.jsx'
 import ServerError from './components/ServerError/component.jsx'
