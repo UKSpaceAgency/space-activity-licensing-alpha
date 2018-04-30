@@ -59,7 +59,7 @@ content:
       modifiers: spacing--single
     - contentType: button
       name: submit
-      url: "/operator/"
+      url: "/apply/your-organisation"
       label: Save and register
   - contentType: reveal
     id: itu-filings-no-reveal
@@ -71,5 +71,5 @@ content:
       modifiers: spacing--single
     - contentType: button
       name: submit
-      url: "/operator/"
+      url: "/apply/your-organisation"
       label: Save and register
