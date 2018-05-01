@@ -88,7 +88,7 @@ let getRoutes = store => {
         <Route path='operator-overview-technical-complete' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-completed' />
         <Route path='operator-overview-technical-submit' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-submit' />
         <Route path='technical-eligibility-questions' component={withFallback(PageContainer)} onEnter={getPage} slug='technical-eligibility-questions' />
-        <Route path='technical-eligibility-questions-draft' component={withFallback(PageContainer)} onEnter={getPage} slug='technical-eligibility-questions-draft' />
+        <Route path='technical-draft' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions-draft' />
         <Route path='technical' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions' />
         <Route path='technical-no-attachments' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions-no-attachments' />
         <Route path='technical-share' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-technical-share' />

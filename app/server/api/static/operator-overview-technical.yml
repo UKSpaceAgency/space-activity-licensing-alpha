@@ -56,6 +56,10 @@ content:
   content:
   - contentType: tile
     modifiers: column-three-quarters
+    updates:
+      url: "/operator/technical"
+      text: Sat op 1 (1) - UKSA (1)
+      modifiers: bg-fuschia badge--fixed badge--top
     heading:
       contentType: heading
       text: Satellite and mission overview
@@ -95,10 +99,6 @@ content:
       modifiers: heading-medium
   - contentType: tile
     modifiers: column-three-quarters
-    updates:
-      url: "/operator/technical"
-      text: Sat op 1 (1) - UKSA (1)
-      modifiers: bg-fuschia badge--fixed badge--top
     heading:
       contentType: heading
       text: Safety and damage considerations
