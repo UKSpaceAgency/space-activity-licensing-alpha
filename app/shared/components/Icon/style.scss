@@ -38,6 +38,21 @@ $icon-dims: 16px;
   }
 }
 
+.icon-search {
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: $icon-dims * 2;
+    background-image: url('../img/icons/search.svg');
+  }
+
+}
+
 .icon--circled {
   border-radius: 100%;
   border: 3px solid $green;

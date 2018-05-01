@@ -34,13 +34,3 @@ content:
   text: "<p>We have sent an email to your registered account, <a href='#'>your.email@ukcompany.company.uk</a>. Please click on the link in this email to confirm your email address. You will then need to log in to the digital licensing service.</p>"
 - contentType: longform
   text: "<p>We have also sent a confirmation email to your organisation's company secretary. They will have to verify that you are the individual responsible for space licensing within the organisation, before you are formally registered.</p><p>In the meantime you will be able to start the initial sections of the application form.</p>"
-
-# - contentType: form
-#   # legend: What space activity are you wanting to undertake?
-#   formAction: "/apply/register"
-#   formItems:
-#   - contentType: button
-#     name: submit
-#     url: "/operator/"
-#     label: Start application
-#     modifiers: spacing--single

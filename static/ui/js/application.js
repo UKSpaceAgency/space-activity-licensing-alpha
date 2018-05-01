@@ -5,7 +5,6 @@ $(document).ready(function () {
 
   var accordion = $('[data-accordion]');
   var commentTarget = $('[data-comment]');
-  var fileUpload = $('[data-file]');
 
   // Where .multiple-choice uses the data-target attribute
   // to toggle hidden content
@@ -18,9 +17,24 @@ $(document).ready(function () {
   });
 
 
-  fileUpload.each(function(i, target) {
-    var file = new Fileupload(target);
-    file.init();
+  $('#autocomplete').tinyAutocomplete({
+    url: '/ui/data/flat.json',
+    maxItems: 7,
+    showNoResults: true,
+    onSelect: function(el, val) {
+      console.log(val)
+      if (val === null) {
+        $('.results').html('All results for "' + $(this).val() + '"" would go here');
+      }
+      else {
+        $(this).val(val.title);
+        $('.results').html('<h1>' + val.title + '</h1>');
+        if (val.target) {
+          // ghastly - quick n dirty
+          $(val.target).removeClass('js-hidden');
+        }
+      }
+    }
   });
 
   if (commentTarget) {

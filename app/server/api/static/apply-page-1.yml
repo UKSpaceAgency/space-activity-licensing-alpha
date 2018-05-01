@@ -74,12 +74,68 @@ content:
           value: No
           data:
             key: data-target
-            value: launch-agreement-yes-reveal
+            value: launch-agreement-no-reveal
         - id: launch-agreement-in-progress
           value: In progress
           data:
             key: data-target
-            value: launch-agreement-yes-reveal
+            value: launch-agreement-no-reveal
+        - id: launch-agreement-dunno
+          value: I don't know
+          data:
+            key: data-target
+            value: launch-agreement-no-reveal
+      - contentType: reveal
+        id: launch-agreement-no-reveal
+        content:
+        - contentType: panel
+          content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+
+        - contentType: boolean
+          name: do-you-have-an-export-licence2
+          type: radio
+          label: Do you have an export license?
+          inputs:
+          - id: export-licence-yes2
+            value: Yes
+            data:
+              key: data-target
+              value: export-licence-yes-reveal2
+          - id: export-licence-no2
+            value: No
+            data:
+              key: data-target
+              value: export-licence-no-reveal2
+          - id: export-licence-in-progress
+            value: In progress
+            data:
+              key: data-target
+              value: export-licence-no-reveal2
+          - id: export-licence-dunno
+            value: I don't know
+            data:
+              key: data-target
+              value: export-licence-no-reveal2
+        - contentType: reveal
+          id: export-licence-no-reveal2
+          content:
+          - contentType: panel
+            content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          - contentType: button
+            name: submit
+            url: "/apply/page-2"
+            label: Continue
+        - contentType: reveal
+          id: export-licence-yes-reveal2
+          content:
+          - contentType: panel
+            content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          - contentType: button
+            name: submit
+            url: "/apply/page-2"
+            label: Continue
+
+
       - contentType: reveal
         id: launch-agreement-yes-reveal
         content:
@@ -97,12 +153,26 @@ content:
             value: No
             data:
               key: data-target
-              value: export-licence-yes-reveal
+              value: export-licence-no-reveal
           - id: export-licence-in-progress
             value: In progress
             data:
               key: data-target
-              value: export-licence-yes-reveal
+              value: export-licence-no-reveal
+          - id: export-licence-dunno
+            value: I don't know
+            data:
+              key: data-target
+              value: export-licence-no-reveal
+        - contentType: reveal
+          id: export-licence-no-reveal
+          content:
+          - contentType: panel
+            content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          - contentType: button
+            name: submit
+            url: "/apply/page-2"
+            label: Continue
         - contentType: reveal
           id: export-licence-yes-reveal
           content:
@@ -110,13 +180,3 @@ content:
             name: submit
             url: "/apply/page-2"
             label: Continue
-# - contentType: pagination
-#   links:
-#   - state: previous
-#     url: previous-page
-#     title: Previous
-#     label: 1 of 10
-#   - state: next
-#     url: next-page
-#     title: Next
-#     label: 3 of 10
