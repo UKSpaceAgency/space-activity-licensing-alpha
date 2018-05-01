@@ -11,7 +11,18 @@
     width: 22%;
   }
 
+  &.hero-links--top {
+    @include media(tablet) {
+      top: 0;
+      bottom: auto;
+    }
+  }
+
   .badge {
     margin-right: 0;
+  }
+
+  &.hero-links--light {
+    background-color: $white;
   }
 }
