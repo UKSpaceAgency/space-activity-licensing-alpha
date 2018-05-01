@@ -324,7 +324,6 @@ content:
       id: nvmbkhlhl
       name: deadline-year
       modifiers: form-group-year
-      modifiers: form-group-year
       type: number
       attr:
         key: pattern
