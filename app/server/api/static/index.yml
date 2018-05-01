@@ -60,11 +60,11 @@ content:
   modifiers: list-bullet
   list:
   - url: "/operator/"
-    text: Front stage - operator overview
+    text: Operator overview page - first visit
   - url: "/operator/technical-eligibility-questions"
-    text: Technical eligibility question set
+    text: Technical eligibility questions
   - url: "/operator/operator-overview-unlocked"
-    text: Operator overview - unlocked
+    text: Operator overview - sections unlocked
   - url: "/operator/operator-overview-technical"
     text: Operator overview - unlocked - technical section
   - url: "/operator/technical"
