@@ -1,4 +1,0 @@
-api: http://127.0.0.1:3000
-buildConfig: development
-
-users: !!import/single ./config.users.yaml

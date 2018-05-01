@@ -3,6 +3,10 @@
   cursor: pointer;
   display: block;
 
+  .form-control {
+    border: 0;
+  }
+
   .form-control-file {
     position: absolute;
     opacity: 0;

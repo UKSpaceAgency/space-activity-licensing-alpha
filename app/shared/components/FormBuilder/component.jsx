@@ -11,6 +11,7 @@ import Longform from '../Longform/component.jsx'
 import Select from '../Select/component.jsx'
 import Textarea from '../Textarea/component.jsx'
 import Reveal from '../Reveal/component.jsx'
+import Divider from '../Divider/component.jsx'
 import DateInputContainer from '../../containers/DateInputContainer/component.jsx'
 import { isArray } from '../../utilities'
 
@@ -32,6 +33,9 @@ const formBuilder = (formItems) => {
         break
       case 'formGroup':
         component = <FormGroup {...item} key={i} />
+        break
+      case 'divider':
+        component = <Divider {...item} key={i} />
         break
       case 'textarea':
         component = <Textarea {...item} key={i} />
