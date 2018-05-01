@@ -20,8 +20,8 @@ breadcrumb:
 - contentType: link
   text: Technical section
 content:
-- contentType: hero
-  modifiers: padding-top--single align-centre bg-green white
+- contentType: noticePanel
+  modifiers: padding--single align-centre bg-green white spacing-bottom--large
   title:
     title: Registration complete
     modifiers: spacing-bottom--single
@@ -40,4 +40,4 @@ content:
     name: submit
     url: "/operator/"
     label: Start application
-    modifiers: spacing--large
+    modifiers: spacing--single
