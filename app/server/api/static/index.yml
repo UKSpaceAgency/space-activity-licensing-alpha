@@ -93,3 +93,18 @@ content:
 
   - url: "/operator/technical-no-attachments"
     text: Operator overview - technical - satellite and mission overview - no attachments
+
+- contentType: heading
+  text: Login sequence
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - url: "/sign-in/"
+    text: Sign-in page
+  - url: "/sign-in/authenticate"
+    text: authentication step
+
+
+
