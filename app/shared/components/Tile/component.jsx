@@ -11,11 +11,10 @@ import Badge from '../Badge/component.jsx'
 import Icon from '../Icon/component.jsx'
 
 const Tile = props => {
-  let wrapper = classNames({
+  let wrapper = classNames(props.completion ? props.completion.modifiers : null, {
     'bordered': props.completion,
     'spacing-bottom--large': props.completion
   })
-
   let classes = classNames(props.gridModifier, 'spacing-bottom--single', {
     'column-half': !props.gridModifier
   })
@@ -54,7 +53,7 @@ const Tile = props => {
           {Grids}
         </Grid>
       </div>
-      {props.completion && <GridCol className='column-quarter spacing-top--single'>{props.completion.icon && <Icon {...props.completion.icon}/>}<Heading {...props.completion.heading}/><Heading {...props.completion.comment}/>{props.completion.action && <Button {...props.completion.action}/>}</GridCol>}
+      {props.completion && <GridCol className='column-quarter spacing-top--single has-state'>{props.completion.icon && <Icon {...props.completion.icon}/>}<Heading {...props.completion.heading}/><Heading {...props.completion.comment}/>{props.completion.action && <Button {...props.completion.action}/>}</GridCol>}
     </div>
   )
 }

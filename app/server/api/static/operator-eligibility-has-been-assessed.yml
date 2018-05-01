@@ -1,11 +1,11 @@
 ---
 contentType: page
 useComponent: true
-slug: operator-overview
+slug: operator-eligibility-has-been-assessed
 
 head:
   contentType: head
-  title: Operator application overview | UKSA
+  title: Eligibility has been assessed | Operator application overview | UKSA
 masthead:
   utility:
     links:
@@ -199,7 +199,7 @@ content:
             priority:
               icon:
                 label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
+                modifiers: icon-warning icon-warning--red icon-warning--red icon--large
               content: High priority
               modifiers: red
             modifiers: spacing-bottom--single comment-admin
@@ -392,23 +392,39 @@ content:
       modifiers: border border-bottom
     - contentType: button
       url: '/operator/technical-eligibility-questions'
-      label: Start
-      modifiers: button--full-width
+      label: View
+      modifiers: button--full-width button--secondary
     - contentType: heading
-      text: "<span class='quiet'>Status </span><br/>Not started"
+      text: "<span class='quiet'>Status </span><br/>Approved"
       type: p
       modifiers: heading-medium
+    completion:
+      modifiers: is-green
+      icon:
+        label: tick
+        modifiers: icon-tick icon-tick-white icon--large icon--circled icon--circled-white
+      heading:
+        text: Your eligibility status is green.
+        type: p
+        modifiers: heading-small
+      comment:
+        text: This means your mission is likely to be eligible for a licence, pending succesful completion of your application.
+        type: p
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Technical <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Technical
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
       contentType: longform
       text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
       modifiers: spacing--single
+    updates:
+      url: "/operator/operator-overview-technical-partial-submit"
+      text: Sat op 1 (1) - UKSA (1)
+      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 16 Questions
@@ -416,32 +432,33 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0<br/><span class='quiet'>Draft answers</span>"
+      text: "4 of 16<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 16<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 16<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      label: Start
+      label: Continue
       disabled: true
-      modifiers: button--full-width button--disabled
+      url: "/operator/operator-overview-technical-partial-submit"
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Applicant information <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Applicant information
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
@@ -455,32 +472,33 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 14<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 14<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 14<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      label: Start
+      label: Continue
       disabled: true
-      modifiers: button--full-width button--disabled
+      url: "#"
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Your mission <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Your mission
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
@@ -490,7 +508,7 @@ content:
     notice:
       icon:
         label: High priority
-        modifiers: icon-warning icon--large
+        modifiers: icon-warning icon-warning--red icon--large
       content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
       modifiers: spacing--single red
     grid:
@@ -500,32 +518,33 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 23<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 23<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 23<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      label: Start
+      label: Continue
       disabled: true
-      modifiers: button--full-width button--disabled
+      url: "#"
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Your Organisation & Finance <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Your Organisation & Finance
       type: h3
       modifiers: heading-large spacing-top--flush
     summary:
@@ -539,32 +558,33 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 33<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 33<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 33<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      label: Start
+      label: Continue
       disabled: true
-      modifiers: button--full-width button--disabled
+      url: "#"
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Insurance <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Insurance
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
@@ -574,7 +594,7 @@ content:
     notice:
       icon:
         label: High priority
-        modifiers: icon-warning icon--large
+        modifiers: icon-warning icon-warning--red icon--large
       content: You said that you did not have insurance, you will need to secure insurance to complete this application.
       modifiers: spacing--single red
     grid:
@@ -584,32 +604,33 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 5<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 5<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 5<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      label: Start
+      label: Continue
       disabled: true
-      modifiers: button--full-width button--disabled
+      url: "#"
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Frequency <span class='badge badge--border float-right heading-small'>Locked</span>
+      text: Frequency
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
@@ -623,23 +644,24 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 33<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 33<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 33<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      label: Start
+      label: Continue
       disabled: true
-      modifiers: button--full-width button--disabled
+      url: "#"
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p

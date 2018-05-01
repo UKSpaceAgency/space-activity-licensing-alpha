@@ -351,6 +351,6 @@ content:
     id: further-comment
     modifiers: spacing-bottom--large
   - contentType: button
-    label: Complete
-    url: "/operator/operator-overview-unlocked"
+    label: Save and exit
+    url: "/operator/operator-eligibility-assessing"
     id: further-comment

@@ -57,9 +57,15 @@ $icon-dims: 16px;
   border-radius: 100%;
   border: 3px solid $green;
   padding: 5px;
+  background-size: $icon-dims * 2;
+  background-position: center;
 
   @include media(tablet) {
     padding: 10px;
+  }
+
+  &.icon--circled-white {
+    border-color: $white;
   }
 }
 

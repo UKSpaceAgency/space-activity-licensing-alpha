@@ -1,0 +1,5 @@
+.has-state {
+  .is-green & {
+    color: $white;
+  }
+}

@@ -56,53 +56,10 @@ content:
   content:
   - contentType: tile
     modifiers: column-three-quarters
-    summary:
-      contentType: longform
-      text: Before you can submit your application form, you will need to complete  ten (10) technical eligibility questions. These will give us an idea of your  application readiness.
-      modifiers: spacing--single
-    heading:
-      contentType: heading
-      text: Technical Eligibility
-      type: h3
-      modifiers: heading-large spacing-top--flush
     updates:
       url: "/operator/technical"
-      text: "Action: Satellite operator 1"
+      text: Sat op 1 (1) - UKSA (1)
       modifiers: bg-fuschia badge--fixed badge--top
-    grid:
-    - contentType: heading
-      text: 10 questions
-      type: p
-      modifiers: heading-medium
-      gridModifier: column-full
-    - contentType: heading
-      text: "0 of 30<br/><span class='quiet'>Draft answers</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "10 of 30<br/><span class='quiet'>Ready for submission</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "10 of 30 <br/><span class='quiet'>Submitted</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: divider
-      modifiers: border border-bottom
-    - contentType: button
-      url: "/operator/technical"
-      label: View
-      modifiers: button--full-width
-    - contentType: heading
-      text: "<span class='quiet'>Status</span><br/>In progress"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>Comments</span><br/>23"
-      type: p
-      modifiers: heading-medium
-  - contentType: tile
-    modifiers: column-three-quarters
     heading:
       contentType: heading
       text: Satellite and mission overview
@@ -112,26 +69,22 @@ content:
       contentType: longform
       text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant Information.
       modifiers: spacing--single
-    updates:
-      url: "#"
-      text: "Action: Satellite operator 1"
-      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
-      text: 10 questions
+      text: 5 questions
       type: p
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0 of 30<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 5<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 30<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 5<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "30 of 30 <br/><span class='quiet'>Submitted</span>"
+      text: "0 of 5 <br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
@@ -157,20 +110,20 @@ content:
       modifiers: spacing--single
     grid:
     - contentType: heading
-      text: 10 questions
+      text: 6 questions
       type: p
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0 of 30<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 6<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 30<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 6<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "30 of 30 <br/><span class='quiet'>Submitted</span>"
+      text: "0 of 6 <br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
@@ -196,20 +149,20 @@ content:
       modifiers: spacing--single
     grid:
     - contentType: heading
-      text: 10 questions
+      text: 5 questions
       type: p
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0 of 30<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 5<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 30<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 5<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "30 of 30 <br/><span class='quiet'>Submitted</span>"
+      text: "0 of 5 <br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider

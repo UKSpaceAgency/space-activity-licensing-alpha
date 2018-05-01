@@ -73,18 +73,23 @@ content:
   modifiers: list-bullet
   list:
   - url: "/operator/"
-    text: Front stage - operator overview
+    text: Operator overview page - first visit
   - url: "/operator/technical-eligibility-questions"
-    text: Technical eligibility question set
-  - url: "/operator/operator-overview-unlocked"
-    text: Operator overview - unlocked
+    text: Technical eligibility questions
+  - url: "/operator/operator-eligibility-assessing"
+    text: Eligibilty questions under assessment, technical section ready for attention
   - url: "/operator/operator-overview-technical"
-    text: Operator overview - unlocked - technical section
+    text: Technical section (select Satellite and mission overview)
   - url: "/operator/technical"
-    text: Operator overview - technical - satellite and mission overview
+    text: Satellite and mission overview | technical questions
+
   - url: "/operator/operator-overview-technical-submit"
-    text: Operator overview - technical - submission
+    text: Technical - submission
   - url: "/operator/operator-overview-technical-complete"
-    text: Operator overview - section completed
+    text: Section completed
+
+  - url: "/operator/operator-eligibility-has-been-assessed"
+    text: Assessed
+
   - url: "/operator/technical-no-attachments"
     text: Operator overview - technical - satellite and mission overview - no attachments

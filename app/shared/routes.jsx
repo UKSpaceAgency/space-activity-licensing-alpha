@@ -79,11 +79,16 @@ let getRoutes = store => {
       </Route>
       <Route path='operator'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview'/>
+        <Route path='operator-eligibility-assessing' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-eligibility-assessing' />
+        <Route path='operator-eligibility-has-been-assessed' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-eligibility-has-been-assessed' />
+        <Route path='operator-overview-technical-partial-submit' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-partial-submit' />
+        <Route path='operator-overview-technical-partial-submit-2' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-partial-submit-2' />
         <Route path='operator-overview-unlocked' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-unlocked' />
         <Route path='operator-overview-technical' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical' />
         <Route path='operator-overview-technical-complete' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-completed' />
         <Route path='operator-overview-technical-submit' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-submit' />
         <Route path='technical-eligibility-questions' component={withFallback(PageContainer)} onEnter={getPage} slug='technical-eligibility-questions' />
+        <Route path='technical-draft' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions-draft' />
         <Route path='technical' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions' />
         <Route path='technical-no-attachments' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions-no-attachments' />
         <Route path='technical-share' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-technical-share' />
