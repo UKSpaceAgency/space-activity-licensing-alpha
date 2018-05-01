@@ -65,10 +65,6 @@ content:
       contentType: longform
       text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant Information.
       modifiers: spacing--single
-    updates:
-      url: "#"
-      text: Sat op 1 (1) - UKSA (1)
-      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 5 questions
@@ -99,6 +95,10 @@ content:
       modifiers: heading-medium
   - contentType: tile
     modifiers: column-three-quarters
+    updates:
+      url: "/operator/technical"
+      text: Sat op 1 (1) - UKSA (1)
+      modifiers: bg-fuschia badge--fixed badge--top
     heading:
       contentType: heading
       text: Safety and damage considerations
