@@ -451,7 +451,7 @@ content:
       url: "/operator/operator-overview-technical-partial-submit"
       modifiers: button--full-width
     - contentType: heading
-      text: "<span class='quiet'>Status </span><br/>Not started"
+      text: "<span class='quiet'>Status </span><br/>In progress"
       type: p
       modifiers: heading-medium
   - contentType: tile

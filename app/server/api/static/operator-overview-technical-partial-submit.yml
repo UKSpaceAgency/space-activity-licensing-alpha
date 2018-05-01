@@ -378,10 +378,10 @@ content:
       text: Eligibility
       type: h3
       modifiers: heading-large spacing-top--flush
-    updates:
-      url: "/operator/operator-overview-technical"
-      text: SAT OP 1 (1) - UKSA (1)
-      modifiers: bg-fuschia badge--fixed badge--top
+    # updates:
+    #   url: "/operator/operator-overview-technical"
+    #   text: SAT OP 1 (1) - UKSA (1)
+    #   modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 10 Questions
@@ -421,10 +421,10 @@ content:
       contentType: longform
       text: Thank you for submitting you ten eligibility questions, you now have access to the full Technical question set.
       modifiers: spacing--single
-    updates:
-      url: "/operator/technical-draft"
-      text: Sat op 1 (1) - UKSA (1)
-      modifiers: bg-fuschia badge--fixed badge--top
+    # updates:
+    #   url: "/operator/technical-draft"
+    #   text: Sat op 1 (1) - UKSA (1)
+    #   modifiers: bg-fuschia badge--fixed badge--top
     completion:
       heading:
         text: 4 questions within the Technical section are 'Ready for submission'

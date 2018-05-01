@@ -61,9 +61,9 @@ content:
   - url: "/apply/your-organisation"
     text: Add your organisation
   - url: "/apply/register"
-    text: Registation
+    text: Registration
   - url: "/apply/confirmation"
-    text: Registation confirmation
+    text: Registration confirmation
 
 - contentType: heading
   text: Operator application overview
