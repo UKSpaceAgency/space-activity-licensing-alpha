@@ -26,4 +26,14 @@
 .button-group {
   padding-top: 30px;
   padding-bottom: 30px;
+
+  .button + .button {
+    margin-top: 15px;
+  }
+
+  @include media(tablet) {
+    .button + .button {
+      margin-top: 0;
+    }
+  }
 }

@@ -25,14 +25,12 @@ content:
     modifiers: hero-links--light hero-links--top spacing-top--single
     links:
       list:
-      - url: "#finance"
+      - url: "/homepage/satellite-operator-license"
         text: Satellite Licence
-      - url: "/application-overview/frequency"
+      - url: "#"
         text: Launch licence
-      - url: "#insurance"
-        text: Spaceport licence
-      - url: "/application-overview/technical"
-        text: Range control licence
+      - text: Spaceport licence
+      - text: Range control licence
   cta:
     name: submit
     id: submit
