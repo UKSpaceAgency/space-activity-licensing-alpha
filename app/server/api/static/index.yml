@@ -50,7 +50,6 @@ content:
 - contentType: list
   modifiers: list-bullet
   list:
-
   - url: "/apply/"
     text: Where are you launching?
   - url: "/apply/page-2"
@@ -65,6 +64,7 @@ content:
     text: Registation
   - url: "/apply/confirmation"
     text: Registation confirmation
+
 - contentType: heading
   text: Operator application overview
   type: p

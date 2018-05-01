@@ -76,5 +76,5 @@ content:
       value: "I accept <a href='#'>terms and conditions</a>"
   - contentType: button
     name: submit
-    url: "/operator/"
+    url: "/apply/confirmation"
     label: Register
