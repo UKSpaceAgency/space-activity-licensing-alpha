@@ -380,7 +380,7 @@ content:
       modifiers: heading-large spacing-top--flush
     updates:
       url: "/operator/operator-overview-technical"
-      text: SAT OP 1 (1) - UKSA (1)
+      text: SAT OP 1 (0) - UKSA (1)
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
@@ -417,10 +417,10 @@ content:
       contentType: longform
       text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
       modifiers: spacing--single
-    updates:
-      url: "/operator/operator-overview-technical"
-      text: Sat op 1 (1) - UKSA (1)
-      modifiers: bg-fuschia badge--fixed badge--top
+    # updates:
+    #   url: "/operator/operator-overview-technical"
+    #   text: Sat op 1 (1) - UKSA (1)
+    #   modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 16 Questions
@@ -549,20 +549,20 @@ content:
       modifiers: spacing--single
     grid:
     - contentType: heading
-      text: 33 Questions
+      text: 1 question
       type: p
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0 of 33<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 1<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 33<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 1<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 33<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 1<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
@@ -635,20 +635,20 @@ content:
       modifiers: spacing--single
     grid:
     - contentType: heading
-      text: 33 Questions
+      text: 1 question
       type: p
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0 of 33<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 1<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 33<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 1<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 33<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 1<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider

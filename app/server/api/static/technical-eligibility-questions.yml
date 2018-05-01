@@ -324,6 +324,7 @@ content:
       id: nvmbkhlhl
       name: deadline-year
       modifiers: form-group-year
+      modifiers: form-group-year
       type: number
       attr:
         key: pattern
@@ -352,5 +353,10 @@ content:
     modifiers: spacing-bottom--large
   - contentType: button
     label: Save and exit
+    url: "/operator/operator-eligibility-assessing"
+    id: further-comment
+    modifiers: button--secondary mr-5
+  - contentType: button
+    label: Submit
     url: "/operator/operator-eligibility-assessing"
     id: further-comment

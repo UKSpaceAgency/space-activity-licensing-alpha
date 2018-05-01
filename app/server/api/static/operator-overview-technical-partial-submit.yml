@@ -565,20 +565,20 @@ content:
       modifiers: spacing--single
     grid:
     - contentType: heading
-      text: 33 Questions
+      text: 1 question
       type: p
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0 of 33<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 1<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 33<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 1<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 33<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 1<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
@@ -651,20 +651,20 @@ content:
       modifiers: spacing--single
     grid:
     - contentType: heading
-      text: 33 Questions
+      text: 1 question
       type: p
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0 of 33<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 1<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 33<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 1<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 33<br/><span class='quiet'>Submitted</span>"
+      text: "0 of 1<br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider
