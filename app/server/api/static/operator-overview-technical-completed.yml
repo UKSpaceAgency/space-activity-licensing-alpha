@@ -102,11 +102,11 @@ content:
         label: tick
         modifiers: icon-tick-green icon--large icon--circled
       heading:
-        text: Technical Eligibility section has been submitted.
+        text: Your eligibility status is green.
         type: p
         modifiers: heading-small
       comment:
-        text: This is currently being assessed.
+        text: This means your mission is likely to be eligible for a licence, pending succesful completion of your application.
         type: p
   - contentType: tile
     modifiers: column-three-quarters
