@@ -422,7 +422,7 @@ content:
       text: Thank you for submitting you ten eligibility questions, you now have access to the full Technical question set.
       modifiers: spacing--single
     updates:
-      url: "/operator/operator-overview-technical"
+      url: "/operator/technical-draft"
       text: Sat op 1 (1) - UKSA (1)
       modifiers: bg-fuschia badge--fixed badge--top
     completion:
@@ -460,7 +460,7 @@ content:
     - contentType: button
       label: Continue
       disabled: true
-      url: "/operator/operator-overview-technical"
+      url: "/operator/technical-draft"
       modifiers: button--full-width button--secondary
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>In progress"

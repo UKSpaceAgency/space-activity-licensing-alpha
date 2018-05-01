@@ -404,7 +404,7 @@ content:
         type: p
         modifiers: heading-small spacing-top--flush
       comment:
-        text: This is currently being assesed by the UKSA engineering team.
+        text: This is currently being assessed by the UKSA engineering team.
         type: p
   - contentType: tile
     modifiers: column-three-quarters
