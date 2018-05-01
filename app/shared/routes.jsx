@@ -75,6 +75,7 @@ let getRoutes = store => {
         <Route path='page-4' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-4' />
         <Route path='page-5' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-5' />
         <Route path='your-organisation' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-your-organisation' />
+        <Route path='confirmation' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-confirmation' />
       </Route>
       <Route path='operator'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview'/>
