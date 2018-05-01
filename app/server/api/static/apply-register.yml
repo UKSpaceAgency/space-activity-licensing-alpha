@@ -15,7 +15,7 @@ hero:
   modifiers: padding-top--single spacing-bottom--flush
   title:
     contentType: title
-    title: Register to apply for a satellite license
+    title: Your details and contact
     modifiers: spacing-bottom--flush
 content:
 - contentType: heading
@@ -42,6 +42,20 @@ content:
     id: email
     input: email
   - contentType: formGroup
+    label: Password
+    supporting: "Your password must have at least <strong>8 characters</strong>, at least <strong>one symbol</strong> (eg ?!£%) and at least one <strong>capital letter</strong>"
+    name: mobile-phone-number
+    id: mobile-phone-number
+    input: password
+    attr:
+      key: data-reveal-password
+      value: true
+  - contentType: formGroup
+    label: Repeat password
+    name: mobile-phone-number-repeat
+    id: mobile-phone-number-repeat
+    input: password
+  - contentType: formGroup
     label: Mobile phone number
     supporting: This is a security measure, so we can create a two step authentication process for you.
     name: mobile-phone-number
@@ -54,20 +68,13 @@ content:
     - id: launch-agreement-yes
       value: SMS notifications
       supporting: This will indicate whether you would like us to notify you about application updates via SMS.
-  - contentType: formGroup
-    label: Organisation
-    name: organisation
-    id: organisation
-    input: text
-  - contentType: formGroup
-    label: Job title
-    name: job-title
-    id: job-title
-    input: text
-  - contentType: longform
-    text: "<p>Adding a colleague allows you to share secure sections of the application that they can input into.</p><p><a href='#'>+ Add and assign a colleague</a></p>"
+  - contentType: boolean
+    name: use-sms
+    type: checkbox
+    inputs:
+    - id: terms-and-conditions
+      value: "I accept <a href='#'>terms and conditions</a>"
   - contentType: button
     name: submit
-    url: "/apply/"
-    label: Start now
-    modifiers: button-start
+    url: "/apply/confirmation"
+    label: Register

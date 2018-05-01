@@ -1,0 +1,43 @@
+---
+contentType: page
+slug: apply-register
+head:
+  contentType: head
+  title: Confirmation of your registration | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: UKSA home
+      url: "/"
+breadcrumb:
+- contentType: link
+  text: Space Agency UK
+  url: "/"
+- contentType: link
+  text: My applications
+  url: "/operator/"
+- contentType: link
+  text: Technical section
+content:
+- contentType: noticePanel
+  modifiers: padding--single align-centre bg-green white spacing-bottom--large
+  title:
+    title: Registration complete
+    modifiers: spacing-bottom--single
+  heading:
+    contentType: heading
+    text: "Your reference number is <br/><strong>HDJ2123F</strong>"
+    type: p
+    modifiers: heading-medium spacing-top--flush
+- contentType: longform
+  text: "<p>We have sent a confirmation email to the company secretary. They will have to verify that you are the individual responsible for space licensing within the organisation, before you are formally registered.</p><p>In the meantime you will be able to start the initial sections of the application form.</p>"
+- contentType: form
+  # legend: What space activity are you wanting to undertake?
+  formAction: "/apply/register"
+  formItems:
+  - contentType: button
+    name: submit
+    url: "/operator/"
+    label: Start application
+    modifiers: spacing--single
