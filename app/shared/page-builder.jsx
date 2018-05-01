@@ -13,7 +13,7 @@ import Notice from './components/Notice/component.jsx'
 import Listing from './components/Listing/component.jsx'
 import InfoGrid from './components/InfoGrid/component.jsx'
 import NoticePanel from './components/NoticePanel/component.jsx'
-//import Pagination from './components/Pagination/component.jsx'
+//  import Pagination from './components/Pagination/component.jsx'
 
 export function pageBuilder (pageData) {
   let contentItems = pageData.content
