@@ -46,6 +46,11 @@ content:
       data:
         key: data-target
         value: insurance-no-reveal
+    - id: insurance-dunno
+      value: I don't know
+      data:
+        key: data-target
+        value: insurance-no-reveal
   - contentType: reveal
     id: insurance-yes-reveal
     content:
@@ -57,7 +62,7 @@ content:
     id: insurance-no-reveal
     content:
     - contentType: panel
-      content: You may struggle with this section. It is imperative you demonstrate sound investment here and not doing so will jeopardise your application.
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
     - contentType: button
       name: submit
       url: "/apply/page-5"

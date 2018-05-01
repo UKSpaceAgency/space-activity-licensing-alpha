@@ -1,0 +1,53 @@
+---
+contentType: page
+slug: apply-page-5
+head:
+  contentType: head
+  title: Your organisation | pre-application | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Settings
+      url: "/application-overview/new-member"
+hero:
+  modifiers: padding-top--single spacing-bottom--flush
+  title:
+    contentType: title
+    supporting: This is important
+    title: Your organisation
+    modifiers: spacing-bottom--flush
+content:
+- contentType: heading
+  type: p
+  text: To start an application we will need you to create an account and assign members of your organisation, who will assist you in answering questions.
+  modifiers: lede
+- contentType: form
+  formAction: "/apply/page-4"
+  formItems:
+  - contentType: formGroup
+    name: autocomplete
+    label: Are you a UK company
+    supporting: Enter your company name / id below
+    id: autocomplete
+    attr:
+      key: data-autocomplete
+      value: true
+  - contentType: reveal
+    id: satellite-global-plc
+    content:
+    - contentType: heading
+      type: h3
+      text: "<a href='#'>SATELLITE GLOBAL PLC</a>"
+      modifiers: heading-medium
+    - contentType: panel
+      modifiers: spacing--single
+      content: "<p>Matching previous names:<br/><strong>SATELLITE GLOBAL</strong> GROUP HOLDINGS</p>"
+    - contentType: longform
+      text: "17438293 - Incorporated on 12 September 1990<br/>Tenth Floor 4 College Square Sail Road, Bristol, England, BS1 4UW"
+      modifiers: spacing-bottom--large
+    - contentType: button
+      name: submit
+      url: "/apply/register"
+      label: Continue
+

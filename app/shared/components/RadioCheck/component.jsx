@@ -13,7 +13,7 @@ const RadioCheck = props => {
     return (
       <div className={classes} key={i} {...data}>
         <input id={val.id} type={props.type} name={props.name} {...checked} value={val.value} />
-        <label htmlFor={val.id}>{val.icon && <Icon {...val.icon} />}{val.value}</label>
+        <label htmlFor={val.id}>{val.icon && <Icon {...val.icon} />}<span dangerouslySetInnerHTML={{__html: val.value}}/></label>
         {val.supporting && <FormHint className='form-hint--boolean'>{val.supporting}</FormHint>}
       </div>
     )

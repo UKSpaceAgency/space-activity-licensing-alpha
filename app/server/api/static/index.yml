@@ -50,8 +50,21 @@ content:
 - contentType: list
   modifiers: list-bullet
   list:
+  - url: "/apply/"
+    text: Where are you launching?
+  - url: "/apply/page-2"
+    text: Are you using American technology?
+  - url: "/apply/page-4"
+    text: Have you got / are getting insurance?
+  - url: "/apply/page-5"
+    text: Have you got / are getting your ITU filings?
+  - url: "/apply/your-organisation"
+    text: Add your organisation
   - url: "/apply/register"
-    text: Pre-application page - explanations and questions
+    text: Registation
+  - url: "/apply/confirmation"
+    text: Registation confirmation
+
 - contentType: heading
   text: Operator application overview
   type: p
