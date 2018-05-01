@@ -157,11 +157,11 @@ content:
 - contentType: buttongroup
   buttons:
   - url: "/homepage/satellite-operator-license"
-    label: Share
-    modifiers: button-start
+    label: Start now
+    modifiers: button-start mr-5
   - url: "/sign-in/"
     label: Log in
-    modifiers: button--link
+    modifiers: button--secondary
 - contentType: heading
   type: p
   text: All information submitted will be stored on a government secure<br/> server and only accessible through multi-factored authentication.

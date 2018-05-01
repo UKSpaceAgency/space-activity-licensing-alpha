@@ -12,6 +12,9 @@
   }
 
   &.hero-links--top {
+    padding-left: 0;
+    border-top: 6px solid $govuk-blue;
+
     @include media(tablet) {
       top: 0;
       bottom: auto;

@@ -14,8 +14,8 @@ const PageGranular = props => {
   return (
     <React.Fragment>
       <Masthead {...props.masthead}/>
-      <Banner {...props.banner}/>
       <div id='global-header-bar' />
+      <Banner {...props.banner}/>
       <div className='site-wrapper'>
         <main id='content' role='main'>
           <Breadcrumb breadcrumb={props.breadcrumb} />
