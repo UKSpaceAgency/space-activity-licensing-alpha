@@ -17,6 +17,10 @@
     background-color: $green;
   }
 
+  &.divider--blue {
+    background-color: $govuk-blue;
+  }
+
   .progress__item & {
     position: absolute;
     margin-top: 0;
