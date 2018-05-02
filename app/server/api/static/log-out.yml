@@ -1,0 +1,30 @@
+---
+contentType: page
+slug: sign-in
+head:
+  contentType: head
+  title: Logged out | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: UKSA home
+      url: "/"
+breadcrumb:
+- contentType: link
+  text: Space Agency UK
+  url: "/"
+content:
+- contentType: hero
+  modifiers: spacing-bottom--flush
+  title:
+    title: You are now logged out
+    modifiers: spacing-bottom--single
+- contentType: heading
+  text: Click below to log back in
+  type: p
+  modifiers: lede spacing-top--flush
+- contentType: buttongroup
+  buttons:
+  - url: "/sign-in/"
+    label: Log in
