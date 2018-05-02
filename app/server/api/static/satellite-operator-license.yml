@@ -1,0 +1,133 @@
+---
+contentType: page
+slug: sign-in
+head:
+  contentType: head
+  title: Confirmation of your registration | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Log in
+      url: "/sign-in"
+breadcrumb:
+- contentType: link
+  text: Space Agency UK
+  url: "/homepage"
+- contentType: link
+  text: Satellite operator licence
+content:
+- contentType: hero
+  modifiers: spacing-bottom--flush
+  title:
+    title: Satellite operator licence
+  synopsis:
+    text: "<p>Any UK company who is conducting the launch and/or operation of a satellite in outer space, including temporary operations.</p><p>The licence can cover all phases of the operation undee the Outer Space Act 1986. </p>"
+  heroLinks:
+    modifiers: hero-links--light hero-links--top spacing-top--single
+    heading:
+      text: Subsections
+      type: h3
+      modifiers: heading-small spacing--tight
+    links:
+      list:
+      - url: "/homepage/application-guidance"
+        text: Application guidance
+      - url: "/homepage/application-process"
+        text: Application process
+  cta:
+    name: submit
+    id: submit
+    url: "#"
+    label: Start now
+    modifiers: button-start spacing-bottom--large
+  progress:
+    gridModifiers: column-three-quarters
+    modifiers: align-left
+    heading:
+      text: Satellite statistics
+      type: h3
+      modifiers: heading-small
+    content:
+    - title:
+        text: "<span class='heading-large'>25</span> <br/>Satellites"
+        type: p
+      divider:
+        modifiers: divider--thick divider--blue
+    - modifiers: progress--current
+      title:
+        text: "<span class='heading-large'>112</span> <br/>UK launches"
+        type: p
+      divider:
+        modifiers: divider--thick divider--blue
+    - title:
+        text: "<span class='heading-large'>2345</span> <br/>In-orbit"
+        type: p
+      divider:
+        modifiers: divider--thick divider--blue
+- contentType: heading
+  type: h2
+  text: What activity it will cover
+  modifiers: heading-large spacing-bottom--single
+- contentType: longform
+  text: There are three categories of in-orbit licences.
+- contentType: list
+  modifiers: list-number
+  list:
+  - text: In-orbit operations, including launch and commission
+  - text: Temporary operations, including licence extensions
+  - text: Emergency operations, if you need to move your satellite to avoid collision
+- contentType: heading
+  type: h2
+  text: What you will need
+  modifiers: heading-large spacing-bottom--single
+- contentType: longform
+  text: "These are some of the activities and processes as part of and external to licensing you may need to be undertaking prior to applying:"
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Launch state and provider
+  - text: Launch service agreement
+  - text: Export licences
+  - text: Insurance
+  - text: ITU filings - spectrum
+- contentType: longform
+  text: We want to make sure you have these in order, so take our quick questionnaire and you may register at the end.
+- contentType: buttongroup
+  buttons:
+  - url: "/homepage/satellite-operator-license"
+    label: Start now
+    modifiers: button-start mr-5
+  - url: "/sign-in/"
+    label: Log in
+    modifiers: button--secondary
+- contentType: heading
+  type: p
+  text: All information submitted will be stored on a government secure<br/> server and only accessible through multi-factored authentication.
+  modifiers: font-xsmall
+- contentType: heading
+  type: p
+  text: "<a href='#'>Still not sure if you need a licence? Take our suitability questionnaire </a>"
+- contentType: heading
+  type: h2
+  text: Need more information?
+  modifiers: heading-large spacing-bottom--single
+- contentType: longform
+  text: You can get in contact with us if you want to learn more about space activity licensing or if you want to set up an initial conversation.
+- contentType: heading
+  text: UKSA Contact
+  type: h2
+  modifiers: heading-medium border bottom-border padding-bottom--single
+- contentType: heading
+  text: "phone: 0117 801735"
+  type: p
+- contentType: heading
+  text: "email: <a href='#'>regulation@uksa.gov.uk</a>"
+  type: p
+- contentType: heading
+  text: "address: UK Space Agency, Polaris House, Swindon, SW1 2BA"
+  type: p
+- contentType: heading
+  text: If the service goes offline then please get in touch with your case manager using the phone number or email and they will be able to progress with your application.
+  type: p
+  modifiers: font-xsmall
