@@ -15,6 +15,7 @@ import InfoGrid from './components/InfoGrid/component.jsx'
 import NoticePanel from './components/NoticePanel/component.jsx'
 import Button from './components/Button/component.jsx'
 import ButtonGroup from './components/ButtonGroup/component.jsx'
+import Divider from './components/Divider/component.jsx'
 //  import Pagination from './components/Pagination/component.jsx'
 
 export function pageBuilder (pageData) {
@@ -71,8 +72,8 @@ export function pageBuilder (pageData) {
       case 'collapsible':
         reactComponent = <Collapsible {...item} key={i} />
         break
-      case 'pagination':
-        reactComponent = <Pagination {...item} key={i} />
+      case 'divider':
+        reactComponent = <Divider {...item} key={i} />
         break
       case 'form':
         reactComponent = <Form {...item} key={i} />
@@ -85,6 +86,9 @@ export function pageBuilder (pageData) {
         break
       case 'listing':
         reactComponent = <Listing {...item} key={i} />
+        break
+      case 'pagination':
+        reactComponent = <Pagination {...item} key={i} />
         break
       default:
         console.error('Could not match ' + item.contentType)

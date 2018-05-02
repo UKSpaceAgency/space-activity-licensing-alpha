@@ -126,7 +126,12 @@ content:
   modifiers: list-bullet
   list:
   - text: UKSA landing page
+    url: "/homepage"
   - text: Licence type page - satellite
+    url: "/homepage/satellite-operator-license"
+  - text: Application process
+    url: "/homepage/satellite-operator-license"
+    modifiers: not-happy
   - text: Pre-application - intelligent questions
   - text: Register your organisation
   - text: Register your details
