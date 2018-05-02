@@ -36,6 +36,7 @@ content:
     id: activation
     label: Access code
     type: activation
+    modifiers: form-group-5em
   - contentType: boolean
     name: remember
     type: checkbox

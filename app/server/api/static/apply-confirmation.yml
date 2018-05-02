@@ -38,6 +38,6 @@ content:
   formItems:
   - contentType: button
     name: submit
-    url: "/operator/"
-    label: Start application
+    url: "/apply/email-confirmation"
+    label: Start application (go to email confirmation)
     modifiers: spacing--single
