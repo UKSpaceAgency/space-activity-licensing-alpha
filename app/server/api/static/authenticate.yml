@@ -46,7 +46,7 @@ content:
   - contentType: button
     name: submit
     id: submit
-    url: "/sign-in/authenticate"
+    url: "/operator/"
     label: Continue
 
   - contentType: heading
