@@ -18,6 +18,18 @@ content:
   type: h2
   modifiers: heading-large
 - contentType: heading
+  text: Homepage
+  type: p
+  modifiers: spacing--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - url: "/homepage"
+    text: UKSA homepage
+  - url: "/homepage/satellite-operator-license"
+    text: Satellite operator license
+
+- contentType: heading
   text: Backstage and commenting
   type: p
   modifiers: spacing--single

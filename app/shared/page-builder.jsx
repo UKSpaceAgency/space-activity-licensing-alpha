@@ -13,6 +13,8 @@ import Notice from './components/Notice/component.jsx'
 import Listing from './components/Listing/component.jsx'
 import InfoGrid from './components/InfoGrid/component.jsx'
 import NoticePanel from './components/NoticePanel/component.jsx'
+import Button from './components/Button/component.jsx'
+import ButtonGroup from './components/ButtonGroup/component.jsx'
 //  import Pagination from './components/Pagination/component.jsx'
 
 export function pageBuilder (pageData) {
@@ -35,6 +37,12 @@ export function pageBuilder (pageData) {
     switch (item.contentType) {
       case 'title':
         reactComponent = <Title {...item} key={i} />
+        break
+      case 'button':
+        reactComponent = <Button {...item} key={i} />
+        break
+      case 'buttongroup':
+        reactComponent = <ButtonGroup {...item} key={i} />
         break
       case 'noticePanel':
         reactComponent = <NoticePanel {...item} key={i} />
