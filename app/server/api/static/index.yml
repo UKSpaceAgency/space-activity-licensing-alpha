@@ -117,6 +117,128 @@ content:
     text: Sign-in page
   - url: "/sign-in/authenticate"
     text: authentication step
+- contentType: divider
+- contentType: heading
+  text: "Front stage registration:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: UKSA landing page
+  - text: Licence type page - satellite
+  - text: Pre-application - intelligent questions
+  - text: Register your organisation
+  - text: Register your details
+  - text: Registration confirmation
+  - text: Email - Registration confirmation
+  - text: Log in
+  - text: Multi-factor authentication - mobile verification code
 
+- contentType: heading
+  text: "Backstage - new application:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Admin dashboard - 1 new application
+
+- contentType: heading
+  text: "Front stage logged in:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Application overview - locked
+  - text: Eligibility questions - submit
+  - text: Application overview - unlocked
+  - text: TIME PASSES
+  - text: Eligibility section reviewed - GREEN
+  - text: Technical section - share
+  - text: Share technical section - engineering colleague
+  - text: Log out
+
+- contentType: heading
+  text: "Front stage engineer input:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Email - Shared section with link
+  - text: Technical section
+  - text: Satellite and mission overview - fills in and marks 4 questions as draft
+  - text: TIME PASSES
+  - text: Technical section overview - 4 marked draft
+  - text: Satellite and mission overview - all filled in and marked ready for submission
+
+- contentType: heading
+  text: "Front stage technical submission:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Operator admin - Emailed - Satellite and mission overview - ready for submission
+  - text: Log in
+  - text: Multi-factor authentication
+  - text: Application overview - Technical section - 5 Q's ready for submission - SUBMIT
+  - text: Application overview - submission confirmation
+- contentType: heading
+  text: "Back stage check submission:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: SMS notification of submitted questions
+  - text: Admin dashboard - 'New update' flag
+  - text: Application overview - 'New update' flag on technical
+  - text: Technical section - New update' flag on Satellite and mission overview
+  - text: Satellite and mission overview - select status change - CHECKED
+  - text: Share section with Technical
+- contentType: heading
+  text: "Back stage engineering:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Email notification - Technical section shared - deep link to Satellite and mission overview
+  - text: Satellite and mission overview - review and comment on one answer
+- contentType: heading
+  text: "Front stage notification of comment - engineering:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Email notification - Comment on technical section, satellite and mission overview Q3 - deep link
+  - text: Satellite and mission overview - reply to comment
+
+- contentType: heading
+  text: "Back stage - admin:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Email notification - Comment from engineering - section OK - deep link
+  - text: Satellite mission and overview - Admin reviews and selects status change to assessed
+
+- contentType: heading
+  text: "TIME PASSES"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single heading-large
+- contentType: heading
+  text: "Back stage - admin:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Application overview - all sections complete - create licence CTA at top of page
 
 
