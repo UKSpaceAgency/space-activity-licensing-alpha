@@ -11,7 +11,6 @@ const Page = props => {
       <Masthead {...props.masthead}/>
       {props.hero && <React.Fragment><Banner {...props.banner}/><Hero {...props.hero} /></React.Fragment>}
       {!props.hero && <React.Fragment><div id='global-header-bar' /><Banner {...props.banner}/></React.Fragment>}
-      <Banner {...props.banner}/>
       <div className='site-wrapper'>
         <main id='content' role='main'>
           {props.breadcrumb && <Breadcrumb breadcrumb={props.breadcrumb} />}
