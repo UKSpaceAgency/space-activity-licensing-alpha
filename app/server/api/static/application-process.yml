@@ -1,0 +1,105 @@
+---
+contentType: page
+slug: sign-in
+head:
+  contentType: head
+  title: Application process | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Log in
+      url: "/sign-in"
+breadcrumb:
+- contentType: link
+  text: Space Agency UK
+  url: "/homepage"
+- contentType: link
+  text: Application process
+content:
+- contentType: hero
+  modifiers: spacing-bottom--flush
+  title:
+    title: Application process
+  synopsis:
+    text: "<p class='lede'>The application process for a space activity licence is unique to the industry due to the complexity of assessing the viability or an operator’s mission.</p><p>There are 9 stages in total and iterations within many of those stages, which means the process is not linear. It can take up to two years to obtain a licence, dependent on the maturity of your organisation and the amount of times you have applied.</p><p>You will be assigned a case manager who will administer your licence from start to finish and they will share sections of your application with specialist assessors to ensure the regulator is happy with your submission.</p>"
+  heroLinks:
+    modifiers: hero-links--light hero-links--top spacing-top--single
+    heading:
+      text: Subsections
+      type: h3
+      modifiers: heading-small spacing--tight
+    links:
+      list:
+      - url: "/homepage/application-guidance"
+        text: Application guidance
+      - url: "/homepage/satellite-operator-license"
+        text: Register for a space  activity licence
+- contentType: progressList
+  list:
+  - index: 1
+    heading:
+      text: "Trigger <span class='font-xsmall ml-5'>1 day – 1 month</span>"
+      type: h2
+      modifiers: heading-medium spacing-top--flush spacing-bottom--single
+    content:
+      text: This will be your initial understanding that you require a space activity licence, you may have an initial meeting with the regulator to discuss your eligibility and maturity to apply or you can do this online and register.
+  - index: 2
+    heading:
+      text: "Contact <span class='font-xsmall ml-5'>1 day – 1 month</span>"
+      type: h2
+      modifiers: heading-medium spacing-top--flush spacing-bottom--single
+    content:
+      text: If you are a new comer to the industry or conducting novel activity, then you may want to get in touch with the regulator to set up a face to face meeting where you can present your mission and details.
+  - index: 3
+    heading:
+      text: "Gather <span class='font-xsmall ml-5'>2 weeks – 1 month</span> <span class='badge badge--border float-right font-xsmall'>iterative</span>"
+      type: h2
+      modifiers: heading-medium spacing-top--flush spacing-bottom--single
+    content:
+      text: You will be required to collate all the information as part of an application. This may involve asking for specialist content from your colleagues, who you can share the relevant sections of the application with.
+  - index: 4
+    heading:
+      text: "Submit <span class='font-xsmall ml-5'>1 day – 1 month</span>"
+      type: h2
+      modifiers: heading-medium spacing-top--flush spacing-bottom--single
+    content:
+      text: Once you have collated your initial information as part of your application you will be able to submit it formally. You aren’t required to answer every question as some of the information may not be available until later.
+  - index: 5
+    heading:
+      text: "Check <span class='font-xsmall ml-5'>3 days – 3 weeks</span> <span class='badge badge--border float-right font-xsmall'>iterative</span>"
+      type: h2
+      modifiers: heading-medium spacing-top--flush spacing-bottom--single
+    content:
+      text: Once you have formally submitted parts of your application, they will be reviewed by your case manager to see if there are any gaps in the answers and may ask you for more information.
+  - index: 6
+    heading:
+      text: "Assess <span class='font-xsmall ml-5'>5 days – 1 year</span> <span class='badge badge--border float-right font-xsmall'>iterative</span>"
+      type: h2
+      modifiers: heading-medium spacing-top--flush spacing-bottom--single
+    content:
+      text: The case manager will ask if you’re happy to share your application sections with internal or third party assessors. Once shared, they will review your application in detail and ask further questions.
+  - index: 7
+    heading:
+      text: "Review <span class='font-xsmall ml-5'>5 days – 2 weeks</span>"
+      type: h2
+      modifiers: heading-medium spacing-top--flush spacing-bottom--single
+    content:
+      text: The case manager will ask if you’re happy to share your application sections with internal or third party assessors. Once shared, they will review your application in detail and ask further questions.
+  - index: 8
+    heading:
+      text: "Decide <span class='font-xsmall ml-5'>5 days – 3 weeks</span> <span class='badge badge--border float-right font-xsmall'>iterative</span>"
+      type: h2
+      modifiers: heading-medium spacing-top--flush spacing-bottom--single
+    content:
+      text: You will be sent your draft licence to review, you may appeal conditions at this time. Once both you and the regulator are happy with the outcome your licence will be granted or refused..
+- contentType: heading
+  type: h2
+  text: Want to find out more about the process?
+  modifiers: heading-large spacing-bottom--single
+- contentType: longform
+  text: The guidance of the Outer Space Act (OSA) 1986 provides digestible information regarding what the legislation is and how to interpret it. There is also a helpful diagram that shows the process flow and people involved.
+- contentType: buttongroup
+  buttons:
+  - url: "#"
+    label: OSA guidance
