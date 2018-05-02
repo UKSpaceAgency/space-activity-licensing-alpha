@@ -9,9 +9,9 @@ const Page = props => {
   return (
     <React.Fragment>
       <Masthead {...props.masthead}/>
-      {props.hero && <Hero {...props.hero} />}
-      {!props.hero && <div id='global-header-bar' />}
-      <Banner {...props.banner}/>
+      {props.hero && <React.Fragment><Banner {...props.banner}/><Hero {...props.hero} /></React.Fragment>}
+      {!props.hero && <React.Fragment><div id='global-header-bar' /><Banner {...props.banner}/></React.Fragment>}
+
       <div className='site-wrapper'>
         <main id='content' role='main'>
           {props.breadcrumb && <Breadcrumb breadcrumb={props.breadcrumb} />}

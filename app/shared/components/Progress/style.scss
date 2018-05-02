@@ -1,12 +1,4 @@
 
-
-.progress--inverted {
-  .progress__items {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
 .progress__item {
   text-align: center;
   position: relative;
@@ -21,8 +13,15 @@
     position: static;
     padding-bottom: 0;
   }
+}
 
-  .progress--inverted & {
+.progress--inverted {
+  .progress__items {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .progress__item {
     text-align: left;
     opacity: .4;
 
@@ -47,5 +46,4 @@
       opacity: .4;
     }
   }
-
 }
