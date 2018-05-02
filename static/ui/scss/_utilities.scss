@@ -46,6 +46,10 @@ sup {
   text-align: center;
 }
 
+.align-left {
+  text-align: left;
+}
+
 .block {
   display: block;
   width: 100%;
@@ -89,6 +93,14 @@ sup {
 
     @include media(tablet) {
       width: 50%;
+    }
+  }
+
+  &.bottom-border--full {
+    &::after {
+      @include media(tablet) {
+        width: 100%;
+      }
     }
   }
 

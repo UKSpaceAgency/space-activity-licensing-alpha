@@ -1,5 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
+import Button from '../../components/Button/component.jsx'
 import Breadcrumb from '../../components/Breadcrumb/component.jsx'
 import InfoGrid from '../../components/InfoGrid/component.jsx'
 import Title from '../../components/Title/component.jsx'
@@ -26,7 +27,8 @@ const Hero = props => {
           {props.heading && <GridCol className='column-three-quarters'><Heading {...props.heading}/></GridCol>}
           {props.licenceTypeGrid && <GridCol className='column-three-quarters'><CheckboxGridContainer {...props.licenceTypeGrid}/></GridCol>}
           {props.synopsisCollapsible && <GridCol className='column-three-quarters'><Heading {...props.synopsisCollapsible}/></GridCol>}
-          {props.progress && <GridCol className='column-full'><Progress {...props.progress}/></GridCol>}
+          {props.cta && <GridCol className='column-three-quarters'><Button {...props.cta}/></GridCol>}
+          {props.progress && <GridCol className={props.progress.gridModifiers || 'column-full'}><Progress {...props.progress}/></GridCol>}
           {props.heroLinks && <HeroLinks {...props.heroLinks}/>}
         </Grid>
       </div>

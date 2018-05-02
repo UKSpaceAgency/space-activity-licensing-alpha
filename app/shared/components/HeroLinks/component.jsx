@@ -1,10 +1,13 @@
 import React from 'react'
-import List from '../../components/List/component.jsx'
-import Heading from '../../components/Heading/component.jsx'
+import classNames from 'classnames'
+import List from '../List/component.jsx'
+import Heading from '../Heading/component.jsx'
 
 const HeroLinks = props => {
+  let classes = classNames('hero-links', props.modifiers)
+
   return (
-    <div className='hero-links'>
+    <div className={classes}>
       <Heading {...props.heading}/>
       <List {...props.links} />
       {props.notice && <Heading {...props.notice}/>}

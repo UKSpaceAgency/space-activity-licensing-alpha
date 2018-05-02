@@ -1,0 +1,196 @@
+---
+contentType: page
+slug: sign-in
+head:
+  contentType: head
+  title: Confirmation of your registration | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Log in
+      url: "/sign-in"
+breadcrumb:
+- contentType: link
+  text: Space Agency UK
+  url: "/"
+content:
+- contentType: hero
+  modifiers: spacing-bottom--flush
+  title:
+    title: Need to register for a space  activity licence?
+  synopsis:
+    text: "<p>Driven by the UK Government’s commitment to space industry growth, the UK will become a launching state by 2020. As part of this the UK Space Agency has developed a digital service for space operators to apply for space activity licences online.</p><p>Applications can be made by clicking the ‘Start now’ button below. Or continue to read more about licensing.</p>"
+  heroLinks:
+    modifiers: hero-links--light hero-links--top spacing-top--single
+    heading:
+      text: Subsections
+      type: h3
+      modifiers: heading-small spacing--tight
+    links:
+      list:
+      - url: "/homepage/satellite-operator-license"
+        text: Satellite Licence
+      - url: "#"
+        text: Launch licence
+      - text: Spaceport licence
+      - text: Range control licence
+  cta:
+    name: submit
+    id: submit
+    url: "#"
+    label: Start now
+    modifiers: button-start spacing-bottom--large
+  progress:
+    gridModifiers: column-three-quarters
+    modifiers: align-left
+    heading:
+      text: Satellite statistics
+      type: h3
+      modifiers: heading-small
+    content:
+    - title:
+        text: "<span class='heading-large'>42</span> <br/>UK satellites in-orbit"
+        type: p
+      divider:
+        modifiers: divider--thick
+    - modifiers: progress--current
+      title:
+        text: "<span class='heading-large'>39</span> <br/>UK satellites in-orbit"
+        type: p
+      divider:
+        modifiers: divider--thick
+    - title:
+        text: "<span class='heading-large'>7</span> <br/>Launch states"
+        type: p
+      divider:
+        modifiers: divider--thick
+- contentType: heading
+  type: h2
+  text: Who needs to apply?
+  modifiers: heading-large spacing-bottom--single
+- contentType: longform
+  text: Any UK national or UK company intending to launch or procure the launch of a space object, operate a space object or carry out any other activity in outer space.
+- contentType: heading
+  type: p
+  text: "Already registered? <a href='#'>Log in</a>"
+- contentType: listing
+  columns: 2
+  modifiers: spacing-top--single
+  content:
+  - contentType: tile
+    id: satellite
+    modifiers: relative bottom-border bottom-border-bg-pink bottom-border--full
+    heading:
+      contentType: heading
+      text: <a href="/homepage/satellite-operator-license">Satellite</a>
+      type: p
+      modifiers: heading-medium
+    grid:
+    - contentType: heading
+      text: Any UK company who is conducting the launch and/or operation of a satellite in outer space, including temporary operations.
+      type: p
+      gridModifier: column-full
+    - contentType: button
+      url: '/homepage/satellite-operator-license'
+      label: View
+      modifiers: button--secondary
+      gridModifier: column-full
+  - contentType: tile
+    id: launch
+    modifiers: relative bottom-border bottom-border-bg-pink bottom-border--full
+    heading:
+      contentType: heading
+      text: <a href="/homepage/launch-license">Launch</a>
+      type: p
+      modifiers: heading-medium
+    grid:
+    - contentType: heading
+      text: Any UK company conducting or procuring a launch outside of the UK are required to get a licence.
+      type: p
+      gridModifier: column-full
+    - contentType: button
+      url: '/homepage/launch-license'
+      label: View
+      modifiers: button--secondary
+      gridModifier: column-full
+  - contentType: tile
+    id: space-port
+    modifiers: muted relative bottom-border bottom-border-bg-pink bottom-border--full
+    heading:
+      contentType: heading
+      text: Space port <span class='badge badge--border float-right heading-small'>coming</span>
+      type: p
+      modifiers: heading-medium
+    grid:
+    - contentType: heading
+      text: If you are a vertical or horizontal spaceport responsible for launching space craft from the UK.
+      type: p
+      gridModifier: column-full
+    - contentType: button
+      label: View
+      modifiers: button--secondary disabled
+      gridModifier: column-full
+      disabled: true
+  - contentType: tile
+    id: space-port
+    modifiers: muted relative bottom-border bottom-border-bg-pink bottom-border--full
+    heading:
+      contentType: heading
+      text: Range control <span class='badge badge--border float-right heading-small'>coming</span>
+      type: p
+      modifiers: heading-medium
+    grid:
+    - contentType: heading
+      text: An organisation that is responsible for creating and managing the area of exclusion for UK launches.
+      type: p
+      gridModifier: column-full
+    - contentType: button
+      label: View
+      modifiers: button--secondary disabled
+      gridModifier: column-full
+      disabled: true
+- contentType: heading
+  type: h2
+  text: Ready to apply?
+  modifiers: heading-large spacing-bottom--single
+- contentType: longform
+  text: If you feel like you already know which licence you need to apply for then click below to begin.
+- contentType: buttongroup
+  buttons:
+  - url: "/homepage/satellite-operator-license"
+    label: Start now
+    modifiers: button-start mr-5
+  - url: "/sign-in/"
+    label: Log in
+    modifiers: button--secondary
+- contentType: heading
+  type: p
+  text: All information submitted will be stored on a government secure<br/> server and only accessible through multi-factored authentication.
+  modifiers: font-xsmall
+- contentType: heading
+  type: p
+  text: "<a href='#'>Still not sure if you need a licence? Take our suitability questionnaire </a>"
+- contentType: heading
+  type: h2
+  text: Need more information?
+  modifiers: heading-large spacing-bottom--single
+- contentType: longform
+  text: You can get in contact with us if you want to learn more about space activity licensing or if you want to set up an initial conversation.
+- contentType: heading
+  text: UKSA Contact
+  type: h2
+  modifiers: heading-medium border bottom-border padding-bottom--single
+- contentType: heading
+  text: "phone: 0117 801735"
+  type: p
+- contentType: heading
+  text: "email: <a href='#'>regulation@uksa.gov.uk</a>"
+  type: p
+- contentType: heading
+  text: "address: UK Space Agency, Polaris House, Swindon, SW1 2BA"
+  type: p
+- contentType: heading
+  text: If the service goes offline then please get in touch with your case manager using the phone number or email and they will be able to progress with your application.
+  type: p
+  modifiers: font-xsmall
