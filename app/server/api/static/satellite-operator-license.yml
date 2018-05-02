@@ -38,7 +38,7 @@ content:
   cta:
     name: submit
     id: submit
-    url: "#"
+    url: "/apply/"
     label: Start now
     modifiers: button-start spacing-bottom--large
   progress:
@@ -95,7 +95,7 @@ content:
   text: We want to make sure you have these in order, so take our quick questionnaire and you may register at the end.
 - contentType: buttongroup
   buttons:
-  - url: "/homepage/satellite-operator-license"
+  - url: "/apply/"
     label: Start now
     modifiers: button-start mr-5
   - url: "/sign-in/"

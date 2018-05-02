@@ -131,7 +131,7 @@ content:
     url: "/homepage/satellite-operator-license"
   - text: Application process
     url: "/homepage/application-process"
-    modifiers: not-happy
+    modifiers: indented not-happy
   - text: Pre-application - intelligent questions
     url: "/apply/"
   - url: "/apply/page-2"
@@ -164,6 +164,7 @@ content:
   modifiers: list-bullet
   list:
   - text: Admin dashboard - 1 new application
+    url: /applications
 
 - contentType: heading
   text: "Front stage logged in:"
@@ -173,12 +174,17 @@ content:
   modifiers: list-bullet
   list:
   - text: Application overview - locked
+    url: /operator/
   - text: Eligibility questions - submit
+    url: /operator/technical-eligibility-questions
   - text: Application overview - unlocked
+    url: /operator/operator-eligibility-assessing
   - text: TIME PASSES
   - text: Eligibility section reviewed - GREEN
+    url: /operator/operator-eligibility-has-been-assessed
   - text: Technical section - share
   - text: Share technical section - engineering colleague
+    url: /operator/operator-overview-technical-submit
   - text: Log out
 
 - contentType: heading
