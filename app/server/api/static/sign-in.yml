@@ -1,0 +1,47 @@
+---
+contentType: page
+slug: sign-in
+head:
+  contentType: head
+  title: Confirmation of your registration | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: UKSA home
+      url: "/"
+breadcrumb:
+- contentType: link
+  text: Space Agency UK
+  url: "/"
+content:
+- contentType: hero
+  modifiers: spacing-bottom--flush
+  title:
+    title: Sign in
+    modifiers: spacing-bottom--single
+- contentType: heading
+  text: Enter your Goverment Gateway credentials to sign in. You received these when you created your HMRC online account.
+  type: p
+  modifiers: lede spacing-top--flush
+- contentType: form
+  formAction: ""
+  formItems:
+  - contentType: formGroup
+    name: email
+    id: email
+    label: Email address
+    type: email
+  - contentType: formGroup
+    name: password
+    id: password
+    label: Password
+    type: password
+  - contentType: button
+    name: submit
+    url: "/sign-in/authenticate"
+    id: submit
+    label: Sign in
+  - contentType: heading
+    text: "<a href='#'>Forgot your password?</a>"
+    modifiers: spacing--single
