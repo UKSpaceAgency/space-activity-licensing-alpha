@@ -1,0 +1,53 @@
+---
+contentType: page
+slug: sign-in
+head:
+  contentType: head
+  title: Confirmation of your registration | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: UKSA home
+      url: "/"
+breadcrumb:
+- contentType: link
+  text: Space Agency UK
+  url: "/"
+content:
+- contentType: hero
+  modifiers: spacing-bottom--flush
+  title:
+    title: Enter your access code
+    modifiers: spacing-bottom--single
+- contentType: heading
+  text: "We just sent a 6 digit access code by text to: ***************501"
+  type: p
+  modifiers: lede
+- contentType: heading
+  text: It may take a few minutes to arrive.
+  type: p
+  modifiers: spacing-bottom--single
+- contentType: form
+  formAction: ""
+  formItems:
+  - contentType: formGroup
+    name: activation
+    id: activation
+    label: Access code
+    type: activation
+  - contentType: boolean
+    name: remember
+    type: checkbox
+    inputs:
+    - id: remember-yes
+      value: Remember this access code for 7 days
+  - contentType: button
+    name: submit
+    id: submit
+    url: "/sign-in/authenticate"
+    label: Continue
+
+  - contentType: heading
+    text: "<a href='#'>Not received a text message?</a>"
+    modifiers: spacing--single
