@@ -130,7 +130,7 @@ content:
   - text: Licence type page - satellite
     url: "/homepage/satellite-operator-license"
   - text: Application process
-    url: "/homepage/satellite-operator-license"
+    url: "/homepage/application-process"
     modifiers: not-happy
   - text: Pre-application - intelligent questions
   - text: Register your organisation
