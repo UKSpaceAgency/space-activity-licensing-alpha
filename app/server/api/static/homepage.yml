@@ -8,8 +8,8 @@ masthead:
   logo: Govuk pattern
   utility:
     links:
-    - text: UKSA home
-      url: "/"
+    - text: Log in
+      url: "/sign-in"
 breadcrumb:
 - contentType: link
   text: Space Agency UK
@@ -23,6 +23,10 @@ content:
     text: "<p>Driven by the UK Government’s commitment to space industry growth, the UK will become a launching state by 2020. As part of this the UK Space Agency has developed a digital service for space operators to apply for space activity licences online.</p><p>Applications can be made by clicking the ‘Start now’ button below. Or continue to read more about licensing.</p>"
   heroLinks:
     modifiers: hero-links--light hero-links--top spacing-top--single
+    heading:
+      text: Subsections
+      type: h3
+      modifiers: heading-small spacing--tight
     links:
       list:
       - url: "/homepage/satellite-operator-license"
