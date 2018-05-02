@@ -150,8 +150,11 @@ content:
   - text: Registration confirmation
     url: "/apply/confirmation"
   - text: Email - Registration confirmation
+    url: "/apply/email-confirmation"
   - text: Log in
+    url: "/sign-in"
   - text: Multi-factor authentication - mobile verification code
+    url: "/sign-in/authenticate"
 
 - contentType: heading
   text: "Backstage - new application:"
