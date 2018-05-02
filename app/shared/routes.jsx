@@ -68,6 +68,7 @@ let getRoutes = store => {
       </Route>
       <Route path='homepage'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='homepage' />
+        <Route path='application-process' component={withFallback(PageContainer)} onEnter={getPage} slug='application-process' />
       </Route>
       <Route path='test' component={withFallback(PageContainer)} onEnter={getPage} slug='test' />
       <Route path='apply'>

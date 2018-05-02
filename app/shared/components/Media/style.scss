@@ -1,0 +1,16 @@
+
+.media {
+  overflow: hidden;
+}
+
+.media__item {
+  @include media(tablet) {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+}
+
+.media__content {
+  overflow: hidden;
+}
