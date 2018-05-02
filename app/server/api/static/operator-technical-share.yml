@@ -22,7 +22,7 @@ content:
 - contentType: heading
   text: "You are about to share a section with your organisation colleagues.  "
   type: h2
-  modifiers: lede
+  modifiers: lede spacing-bottom--single
 - contentType: form
   formItems:
   - contentType: fieldSet

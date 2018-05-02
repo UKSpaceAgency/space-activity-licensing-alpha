@@ -19,7 +19,7 @@ content:
   modifiers: spacing-bottom--flush
   title:
     title: You are now logged out
-    modifiers: spacing-bottom--single
+    modifiers: spacing-bottom--flush
 - contentType: heading
   text: Click below to log back in
   type: p

@@ -69,6 +69,7 @@ let getRoutes = store => {
       <Route path='sign-in'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='sign-in'/>
         <Route path='authenticate' component={withFallback(PageContainer)} onEnter={getPage} slug='authenticate' />
+        <Route path='log-out' component={withFallback(PageContainer)} onEnter={getPage} slug='log-out' />
       </Route>
       <Route path='homepage'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='homepage' />
@@ -98,7 +99,6 @@ let getRoutes = store => {
         <Route path='technical-eligibility-questions' component={withFallback(PageContainer)} onEnter={getPage} slug='technical-eligibility-questions' />
         <Route path='technical-draft' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions-draft' />
         <Route path='technical' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions' />
-        <Route path='technical-no-attachments' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions-no-attachments' />
         <Route path='technical-share' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-technical-share' />
         <Route path='link-previous-application' component={withFallback(PageFlatImage)} onEnter={getPage} slug='link-previous-application' />
         <Route path='link-section-summaries' component={withFallback(PageFlatImage)} onEnter={getPage} slug='link-section-summaries' />

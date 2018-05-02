@@ -14,110 +14,59 @@ hero:
     subTitle: UKSA Licensing Proof of Concept
 content:
 - contentType: heading
-  text: Pages index
-  type: h2
-  modifiers: heading-large
-# - contentType: heading
-#   text: Homepage
-#   type: p
-#   modifiers: spacing--single
-# - contentType: list
-#   modifiers: list-bullet
-#   list:
-#   - url: "/homepage"
-#     text: UKSA homepage
-#   - url: "/homepage/satellite-operator-license"
-#     text: Satellite operator license
+  text: Backstage and commenting
+  type: p
+  modifiers: spacing--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - url: "/applications"
+    text: Applications listing - administrator homescreen
+  - url: "/application-overview"
+    text: Application overview
+  - url: "/application-overview/technical"
+    text: Application overview - Technical
+  - url: "/application-overview/technical/satellite-and-mission-overview"
+    text: Technical applications - internal page
+  - url: "/application-overview/frequency"
+    text: Notes and comments on application page (frequency)
+- contentType: heading
+  text: Share with an assessor
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - url: "/application-overview/technical/share"
+    text: Share technical aspects of an application with an assessor
 
-# - contentType: heading
-#   text: Backstage and commenting
-#   type: p
-#   modifiers: spacing--single
-# - contentType: list
-#   modifiers: list-bullet
-#   list:
-#   - url: "/applications"
-#     text: Applications listing - administrator homescreen
-#   - url: "/application-overview"
-#     text: Application overview
-#   - url: "/application-overview/technical"
-#     text: Application overview - Technical
-#   - url: "/application-overview/technical/satellite-and-mission-overview"
-#     text: Technical applications - internal page
-#   - url: "/application-overview/frequency"
-#     text: Notes and comments on application page (frequency)
-# - contentType: heading
-#   text: Share with an assessor
-#   type: p
-#   modifiers: spacing-top--large spacing-bottom--single
-# - contentType: list
-#   modifiers: list-bullet
-#   list:
-#   - url: "/application-overview/technical/share"
-#     text: Share technical aspects of an application with an assessor
-# - contentType: heading
-#   text: I need to submit a license
-#   type: p
-#   modifiers: spacing-top--large spacing-bottom--single
-# - contentType: list
-#   modifiers: list-bullet
-#   list:
-#   - url: "/apply/"
-#     text: Where are you launching?
-#   - url: "/apply/page-2"
-#     text: Are you using American technology?
-#   - url: "/apply/page-4"
-#     text: Have you got / are getting insurance?
-#   - url: "/apply/page-5"
-#     text: Have you got / are getting your ITU filings?
-#   - url: "/apply/your-organisation"
-#     text: Add your organisation
-#   - url: "/apply/register"
-#     text: Registation
-#   - url: "/apply/confirmation"
-#     text: Registation confirmation
+- contentType: heading
+  text: Operator application overview
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - url: "/operator/"
+    text: Operator overview page - first visit
+  - url: "/operator/technical-eligibility-questions"
+    text: Technical eligibility questions
+  - url: "/operator/operator-eligibility-assessing"
+    text: Eligibilty questions under assessment, technical section ready for attention
+  - url: "/operator/operator-overview-technical"
+    text: Technical section (select Satellite and mission overview)
+  - url: "/operator/technical"
+    text: Satellite and mission overview | technical questions
 
-# - contentType: heading
-#   text: Operator application overview
-#   type: p
-#   modifiers: spacing-top--large spacing-bottom--single
-# - contentType: list
-#   modifiers: list-bullet
-#   list:
-#   - url: "/operator/"
-#     text: Operator overview page - first visit
-#   - url: "/operator/technical-eligibility-questions"
-#     text: Technical eligibility questions
-#   - url: "/operator/operator-eligibility-assessing"
-#     text: Eligibilty questions under assessment, technical section ready for attention
-#   - url: "/operator/operator-overview-technical"
-#     text: Technical section (select Satellite and mission overview)
-#   - url: "/operator/technical"
-#     text: Satellite and mission overview | technical questions
+  - url: "/operator/operator-overview-technical-submit"
+    text: Technical - submission
+  - url: "/operator/operator-overview-technical-complete"
+    text: Section completed
 
-#   - url: "/operator/operator-overview-technical-submit"
-#     text: Technical - submission
-#   - url: "/operator/operator-overview-technical-complete"
-#     text: Section completed
+  - url: "/operator/operator-eligibility-has-been-assessed"
+    text: Assessed
 
-#   - url: "/operator/operator-eligibility-has-been-assessed"
-#     text: Assessed
-
-#   - url: "/operator/technical-no-attachments"
-#     text: Operator overview - technical - satellite and mission overview - no attachments
-
-# - contentType: heading
-#   text: Login sequence
-#   type: p
-#   modifiers: spacing-top--large spacing-bottom--single
-# - contentType: list
-#   modifiers: list-bullet
-#   list:
-#   - url: "/sign-in/"
-#     text: Sign-in page
-#   - url: "/sign-in/authenticate"
-#     text: authentication step
-# - contentType: divider
+- contentType: divider
 - contentType: heading
   text: "Front stage registration:"
   type: p
@@ -187,6 +136,7 @@ content:
   - text: Share technical section - engineering colleague
     url: /operator/operator-overview-technical-submit
   - text: Log out
+    url: /sign-in/log-out
 
 - contentType: heading
   text: "Front stage engineer input:"
