@@ -53,18 +53,18 @@ content:
         text: "<span class='heading-large'>42</span> <br/>UK satellites in-orbit"
         type: p
       divider:
-        modifiers: divider--thick
+        modifiers: divider--thick divider--blue
     - modifiers: progress--current
       title:
         text: "<span class='heading-large'>39</span> <br/>UK satellites in-orbit"
         type: p
       divider:
-        modifiers: divider--thick
+        modifiers: divider--thick divider--blue
     - title:
         text: "<span class='heading-large'>7</span> <br/>Launch states"
         type: p
       divider:
-        modifiers: divider--thick
+        modifiers: divider--thick divider--blue
 - contentType: heading
   type: h2
   text: Who needs to apply?
