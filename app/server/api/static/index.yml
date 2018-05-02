@@ -133,9 +133,22 @@ content:
     url: "/homepage/application-process"
     modifiers: not-happy
   - text: Pre-application - intelligent questions
+    url: "/apply/"
+  - url: "/apply/page-2"
+    text: Are you using American technology?
+    modifiers: indented
+  - url: "/apply/page-4"
+    text: Have you got / are getting insurance?
+    modifiers: indented
+  - url: "/apply/page-5"
+    text: Have you got / are getting your ITU filings?
+    modifiers: indented
   - text: Register your organisation
+    url: "/apply/your-organisation"
   - text: Register your details
+    url: "/apply/register"
   - text: Registration confirmation
+    url: "/apply/confirmation"
   - text: Email - Registration confirmation
   - text: Log in
   - text: Multi-factor authentication - mobile verification code
