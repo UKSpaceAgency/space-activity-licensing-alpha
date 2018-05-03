@@ -423,7 +423,7 @@ content:
       modifiers: spacing--single
     updates:
       url: "/operator/operator-overview-technical"
-      text: Sat op 1 (1) - UKSA (0)
+      text: Sat op 1 (1) - UKSA (1)
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading

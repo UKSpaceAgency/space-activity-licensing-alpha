@@ -137,6 +137,9 @@ content:
     url: /operator/operator-overview-technical-submit
   - text: Log out
     url: /sign-in/log-out
+  - text: Engineer sign-in
+    url: /sign-in/sign-in-engineer
+    modifiers: indented
 
 - contentType: heading
   text: "Front stage engineer input:"

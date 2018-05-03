@@ -2,7 +2,11 @@
 contentType: page
 useComponent: true
 slug: operator-technical-questions
-
+masthead:
+  utility:
+    links:
+    - text: Mr Hobbs
+      url: "/operator/technical"
 head:
   contentType: head
   title: Satellite and mission overview | technical
