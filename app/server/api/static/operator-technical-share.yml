@@ -46,8 +46,8 @@ content:
         value: Jakob LeClerk
     - contentType: buttongroup
       buttons:
-      - url: "javascript:window.history.back()"
-        label: Share
+      - url: "/sign-in/log-out"
+        label: Share section
         type: a
         modifiers:
       - url: "javascript:window.history.back()"

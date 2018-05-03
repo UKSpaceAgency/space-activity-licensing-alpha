@@ -17,8 +17,8 @@ hero:
     text: Space Agency UK
     url: "/"
   - contentType: link
-    text: Applications
-    url: "/application-overview/"
+    text: Overview
+    url: "/operator/"
   - contentType: link
     text: Application 11021411
   title:

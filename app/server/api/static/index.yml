@@ -137,9 +137,7 @@ content:
     url: /operator/operator-overview-technical-submit
   - text: Log out
     url: /sign-in/log-out
-  - text: Engineer sign-in
-    url: /sign-in/sign-in-engineer
-    modifiers: indented
+
 
 - contentType: heading
   text: "Front stage engineer input:"
@@ -149,9 +147,16 @@ content:
   modifiers: list-bullet
   list:
   - text: Email - Shared section with link
+    url: /operator/engineer-email
+  - text: Engineer sign-in
+    url: /sign-in/sign-in-engineer
+    modifiers: indented
   - text: Technical section
+    url: /operator/operator-overview-technical
   - text: Satellite and mission overview - fills in and marks 4 questions as draft
+    url: /operator/technical
   - text: TIME PASSES
+    modifiers: heading-large
   - text: Technical section overview - 4 marked draft
   - text: Satellite and mission overview - all filled in and marked ready for submission
 
