@@ -1,10 +1,14 @@
 import React from 'react'
 
-const Spinner = () => {
+const Spinner = props => {
   return (
-    <div className={'spinner ' + props.modifiers}>
-      <span className='spinner-inner'>Loading</span>
-    </div>
+    <aside className='loading fixed'>
+      <a href={props.url}>
+        <div className={'spinner ' + props.modifiers}>
+          <span className='spinner__inner'>{props.label}</span>
+        </div>
+      </a>
+    </aside>
   )
 }
 
