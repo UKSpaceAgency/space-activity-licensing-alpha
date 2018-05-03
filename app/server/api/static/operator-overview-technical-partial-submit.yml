@@ -1,11 +1,10 @@
 ---
 contentType: page
 useComponent: true
-slug: operator-eligibility-has-been-assessed
-
+slug: operator-eligibility-assessing
 head:
   contentType: head
-  title: Technical submission partially ready | Operator application overview | UKSA
+  title: Eligibility assessing | Operator application overview | UKSA
 masthead:
   utility:
     links:
@@ -380,7 +379,7 @@ content:
       modifiers: heading-large spacing-top--flush
     updates:
       url: "/operator/operator-overview-technical"
-      text: SAT OP 1 (1) - UKSA (1)
+      text: SAT OP 1 (0) - UKSA (1)
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
@@ -395,7 +394,7 @@ content:
       label: View
       modifiers: button--full-width button--secondary
     - contentType: heading
-      text: "<span class='quiet'>Status </span><br/>Approved"
+      text: "<span class='quiet'>Status </span><br/>Being assessed"
       type: p
       modifiers: heading-medium
     completion:
@@ -419,12 +418,8 @@ content:
       modifiers: heading-large spacing-top--flush
     summary:
       contentType: longform
-      text: Thank you for submitting you ten eligibility questions, you now have access to the full Technical question set.
+      text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
       modifiers: spacing--single
-    updates:
-      url: "/operator/technical-draft"
-      text: Sat op 1 (1) - UKSA (1)
-      modifiers: bg-fuschia badge--fixed badge--top
     completion:
       heading:
         text: 4 questions within the Technical section are 'Ready for submission'
@@ -435,8 +430,12 @@ content:
         type: p
       action:
         label: Submit
-        url: "/operator/operator-overview-technical-partial-submit-2"
+        url: /operator/operator-overview-technical-partial-submit-2
         modifiers: button--full-width button--large
+    updates:
+      url: /operator/operator-technical-questions-completed
+      text: Sat op 1 (1) - UKSA (0)
+      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 16 Questions
@@ -444,7 +443,7 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "5 of 16<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 16<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -460,7 +459,7 @@ content:
     - contentType: button
       label: Continue
       disabled: true
-      url: "/operator/technical-draft"
+      url: /operator/operator-technical-questions-completed
       modifiers: button--full-width button--secondary
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>In progress"

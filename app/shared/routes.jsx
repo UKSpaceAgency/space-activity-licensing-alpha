@@ -72,6 +72,8 @@ let getRoutes = store => {
         <Route path='log-out' component={withFallback(PageContainer)} onEnter={getPage} slug='log-out' />
         <Route path='sign-in-engineer' component={withFallback(PageContainer)} onEnter={getPage} slug='sign-in-engineer' />
         <Route path='authenticate-engineer' component={withFallback(PageContainer)} onEnter={getPage} slug='authenticate-engineer' />
+        <Route path='sign-in-operator' component={withFallback(PageContainer)} onEnter={getPage} slug='sign-in-operator' />
+        <Route path='authenticate-operator' component={withFallback(PageContainer)} onEnter={getPage} slug='authenticate-operator' />
       </Route>
       <Route path='homepage'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='homepage' />
@@ -97,6 +99,8 @@ let getRoutes = store => {
         <Route path='operator-submission-ready-email' component={withFallback(PageFlatImage)} onEnter={getPage} slug='operator-submission-ready-email' />
         <Route path='operator-overview-technical-partial-submit' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-partial-submit' />
         <Route path='operator-overview-technical-partial-submit-2' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-partial-submit-2' />
+        <Route path='operator-technical-questions-completed' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions-completed' />
+
         <Route path='operator-overview-unlocked' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-unlocked' />
         <Route path='operator-overview-technical' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical' />
         <Route path='operator-overview-technical-draft' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-draft' />

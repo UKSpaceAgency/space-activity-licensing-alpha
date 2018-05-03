@@ -102,7 +102,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      url: '/operator/technical-draft'
+      url: '/operator/operator-submission-ready-email'
       label: Continue
       modifiers: button--full-width
     - contentType: heading

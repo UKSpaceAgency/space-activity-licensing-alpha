@@ -443,11 +443,11 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "4 of 16<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 16<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 16<br/><span class='quiet'>Ready for submission</span>"
+      text: "4 of 16<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -460,7 +460,7 @@ content:
       label: Continue
       disabled: true
       url: "/operator/operator-overview-technical-draft"
-      modifiers: button--full-width button--secondary
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>In progress"
       type: p

@@ -170,9 +170,13 @@ content:
   modifiers: list-bullet
   list:
   - text: Operator admin - Emailed - Satellite and mission overview - ready for submission
+    url: /operator/operator-submission-ready-email
   - text: Log in
+    url: /sign-in/sign-in-operator
   - text: Multi-factor authentication
-  - text: Application overview - Technical section - 5 Q's ready for submission - SUBMIT
+    url: /sign-in/authenticate-operator
+  - text: Application overview - Technical section - 4 Q's ready for submission - SUBMIT
+    url: /operator/operator-eligibility-assessing-approved
   - text: Application overview - submission confirmation
 - contentType: heading
   text: "Back stage check submission:"

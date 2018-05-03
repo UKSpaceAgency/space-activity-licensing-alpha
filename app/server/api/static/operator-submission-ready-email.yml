@@ -3,5 +3,5 @@ contentType: page
 useComponent: true
 slug: engineer-email-technical
 image: "/ui/img/content/submisssion-ready-email.png"
-href: "/operator/operator-overview-technical-partial-submit"
+href: "/sign-in/sign-in-operator"
 returnLink: "/"
