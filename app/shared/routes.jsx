@@ -94,7 +94,7 @@ let getRoutes = store => {
         <Route path='operator-eligibility-assessing' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-eligibility-assessing' />
         <Route path='operator-eligibility-has-been-assessed' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-eligibility-has-been-assessed' />
         <Route path='operator-eligibility-assessing-approved' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-eligibility-assessing-approved' />
-
+        <Route path='operator-submission-ready-email' component={withFallback(PageFlatImage)} onEnter={getPage} slug='operator-submission-ready-email' />
         <Route path='operator-overview-technical-partial-submit' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-partial-submit' />
         <Route path='operator-overview-technical-partial-submit-2' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-partial-submit-2' />
         <Route path='operator-overview-unlocked' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-unlocked' />
