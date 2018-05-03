@@ -110,20 +110,20 @@ content:
       modifiers: spacing--single
     grid:
     - contentType: heading
-      text: 6 questions
+      text: 5 questions
       type: p
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "0 of 6<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 5<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 6<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 5<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 6 <br/><span class='quiet'>Submitted</span>"
+      text: "0 of 5 <br/><span class='quiet'>Submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: divider

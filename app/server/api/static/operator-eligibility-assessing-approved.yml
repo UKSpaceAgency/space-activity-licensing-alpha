@@ -420,6 +420,18 @@ content:
       contentType: longform
       text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
       modifiers: spacing--single
+    completion:
+      heading:
+        text: 4 questions within the Technical section are 'Ready for submission'
+        type: p
+        modifiers: heading-small spacing-top--flush
+      comment:
+        text: Would you like to submit these completed questions?
+        type: p
+      action:
+        label: Submit
+        url: "#"
+        modifiers: button--full-width button--large
     # updates:
     #   url: "/operator/operator-overview-technical"
     #   text: Sat op 1 (1) - UKSA (1)
@@ -448,9 +460,9 @@ content:
       label: Continue
       disabled: true
       url: "/operator/operator-overview-technical-draft"
-      modifiers: button--full-width
+      modifiers: button--full-width button--secondary
     - contentType: heading
-      text: "<span class='quiet'>Status </span><br/>Not started"
+      text: "<span class='quiet'>Status </span><br/>In progress"
       type: p
       modifiers: heading-medium
   - contentType: tile

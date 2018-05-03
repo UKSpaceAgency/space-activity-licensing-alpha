@@ -158,7 +158,9 @@ content:
   - text: TIME PASSES
     modifiers: heading-large
   - text: Technical section overview - 4 marked draft
+    url: /operator/operator-eligibility-assessing-approved
   - text: Satellite and mission overview - all filled in and marked ready for submission
+    url: /operator/technical-draft
 
 - contentType: heading
   text: "Front stage technical submission:"
