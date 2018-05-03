@@ -422,8 +422,8 @@ content:
       text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
       modifiers: spacing--single
     updates:
-      url: "/operator/operator-overview-technical-partial-submit"
-      text: Sat op 1 (1) - UKSA (1)
+      url: "/operator/operator-overview-technical"
+      text: Sat op 1 (1) - UKSA (0)
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
@@ -448,7 +448,7 @@ content:
     - contentType: button
       label: Continue
       disabled: true
-      url: "/operator/operator-overview-technical-partial-submit"
+      url: "/operator/operator-overview-technical"
       modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
