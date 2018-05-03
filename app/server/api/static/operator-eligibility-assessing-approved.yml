@@ -407,7 +407,7 @@ content:
         type: p
         modifiers: heading-small
       comment:
-        text: This means your mission is likely to be eligible for a licence, pending succesful completion of your application.
+        text: This means your mission is likely to be eligible for a licence, pending successful completion of your application.
         type: p
   - contentType: tile
     modifiers: column-three-quarters
@@ -447,7 +447,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "4 of 16<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 16<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -459,7 +459,7 @@ content:
     - contentType: button
       label: Continue
       disabled: true
-      url: "/operator/operator-overview-technical-draft"
+      url: "/operator/operator-overview-technical"
       modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>In progress"

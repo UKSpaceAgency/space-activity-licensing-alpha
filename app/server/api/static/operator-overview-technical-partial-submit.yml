@@ -407,7 +407,7 @@ content:
         type: p
         modifiers: heading-small
       comment:
-        text: This means your mission is likely to be eligible for a licence, pending succesful completion of your application.
+        text: This means your mission is likely to be eligible for a licence, pending successful completion of your application.
         type: p
   - contentType: tile
     modifiers: column-three-quarters

@@ -431,7 +431,7 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "4 of 16<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 16<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading

@@ -378,10 +378,10 @@ content:
       text: Eligibility
       type: h3
       modifiers: heading-large spacing-top--flush
-    updates:
-      url: "/operator/operator-overview-technical"
-      text: SAT OP 1 (1) - UKSA (1)
-      modifiers: bg-fuschia badge--fixed badge--top
+    # updates:
+    #   url: "/operator/operator-overview-technical"
+    #   text: SAT OP 1 (1) - UKSA (1)
+    #   modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 10 Questions
@@ -423,15 +423,15 @@ content:
       modifiers: spacing--single
     updates:
       url: "/operator/operator-overview-technical"
-      text: Sat op 1 (1) - UKSA (1)
+      text: Sat op 1 (0) - UKSA (1)
       modifiers: bg-fuschia badge--fixed badge--top
     completion:
       heading:
-        text: 4 questions within the Technical section are 'Ready for submission'
+        text: 4 questions within the Technical section have been submitted.
         type: p
         modifiers: heading-small spacing-top--flush
       comment:
-        text: Would you like to submit these completed questions?
+        text: This is currently being assessed.
         type: p
     grid:
     - contentType: heading

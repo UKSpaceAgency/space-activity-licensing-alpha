@@ -88,11 +88,11 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "4 of 6<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 6<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "0 of 6<br/><span class='quiet'>Ready for submission</span>"
+      text: "4 of 6<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -102,7 +102,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      url: '/operator/operator-submission-ready-email'
+      url: /operator/technical-draft
       label: Continue
       modifiers: button--full-width
     - contentType: heading
