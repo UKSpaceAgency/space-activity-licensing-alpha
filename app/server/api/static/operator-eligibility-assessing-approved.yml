@@ -379,7 +379,7 @@ content:
       modifiers: heading-large spacing-top--flush
     updates:
       url: "/operator/operator-overview-technical"
-      text: SAT OP 1 (0) - UKSA (1)
+      text: "Next actions: Sat op 1 (0) - UKSA (1)"
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
@@ -434,7 +434,7 @@ content:
     #     modifiers: button--full-width button--large
     # updates:
     #   url: "/operator/operator-overview-technical"
-    #   text: Sat op 1 (1) - UKSA (1)
+    #   text: Next actions: Sat op 1 (1) - UKSA (1)
     #   modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
@@ -462,7 +462,7 @@ content:
       url: "/operator/operator-overview-technical"
       modifiers: button--full-width
     - contentType: heading
-      text: "<span class='quiet'>Status </span><br/>In progress"
+      text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile

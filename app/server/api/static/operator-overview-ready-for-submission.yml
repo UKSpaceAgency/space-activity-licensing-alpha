@@ -1,10 +1,11 @@
 ---
 contentType: page
 useComponent: true
-slug: operator-eligibility-assessing
+slug: operator-eligibility-has-been-assessed
+
 head:
   contentType: head
-  title: Eligibility assessing | Operator application overview | UKSA
+  title: Eligibility has been assessed | Operator application overview | UKSA
 masthead:
   utility:
     links:
@@ -379,7 +380,7 @@ content:
       modifiers: heading-large spacing-top--flush
     # updates:
     #   url: "/operator/operator-overview-technical"
-    #   text: "Next actions: Sat op 1 (0) - UKSA (1)"
+    #   text: Next actions: Sat op 1 (1) - UKSA (1)
     #   modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
@@ -394,7 +395,7 @@ content:
       label: View
       modifiers: button--full-width button--secondary
     - contentType: heading
-      text: "<span class='quiet'>Status </span><br/>Being assessed"
+      text: "<span class='quiet'>Status </span><br/>Approved"
       type: p
       modifiers: heading-medium
     completion:
@@ -420,22 +421,10 @@ content:
       contentType: longform
       text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
       modifiers: spacing--single
-    completion:
-      heading:
-        text: 4 questions within the Technical section are 'Ready for submission'
-        type: p
-        modifiers: heading-small spacing-top--flush
-      comment:
-        text: Would you like to submit these completed questions?
-        type: p
-      action:
-        label: Submit
-        url: /operator/operator-overview-technical-partial-submit-2
-        modifiers: button--full-width button--large
-    # updates:
-    #   url: /operator/operator-technical-questions-completed
-    #   text: "Next actions: Sat op 1 (1) - UKSA (0)"
-    #   modifiers: bg-fuschia badge--fixed badge--top
+    updates:
+      url: "/operator/operator-overview-technical"
+      text: Next actions: Sat op 1 (1) - UKSA (1)
+      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 16 Questions
@@ -447,7 +436,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "4 of 16<br/><span class='quiet'>Ready for submission</span>"
+      text: "0 of 16<br/><span class='quiet'>Ready for submission</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -459,10 +448,10 @@ content:
     - contentType: button
       label: Continue
       disabled: true
-      url: /operator/operator-technical-questions-completed
-      modifiers: button--full-width button--secondary
+      url: "/operator/operator-overview-technical"
+      modifiers: button--full-width
     - contentType: heading
-      text: "<span class='quiet'>Status </span><br/>In progress"
+      text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile

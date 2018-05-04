@@ -11,7 +11,7 @@ masthead:
     links:
     - text: Notifications
       url: "/notifications"
-      notification: 3
+      notification: 1
     - text: Settings
       url: "/application-overview/new-member"
 hero:
@@ -36,20 +36,20 @@ hero:
     modifiers: heading-medium float-right
   title:
     contentType: title
-    title: Satellite operator 1
+    title: S EAN multi-beam
     modifiers: spacing-bottom--tight
     # subTitle: this is a smaller bit of content to support the main title
   infoGrid:
   - contentType: heading
-    text: "<span class='quiet'>Satellite number: </span> Gh341211b"
+    text: "<span class='quiet'>Operator: </span><br/>Satellite operator 1"
     type: p
     modifiers: heading-small
   - contentType: heading
-    text: "<span class='quiet'>Submitted: </span>4 June 2017"
+    text: "<span class='quiet'>Submitted: </span><br/>4 June 2017"
     type: p
     modifiers: heading-small
   - contentType: heading
-    text: "<span class='quiet'>Status: </span> Partially Complete"
+    text: "<span class='quiet'>Status: </span><br/>Partially Complete"
     type: p
     modifiers: heading-small
   licenceTypeGrid:
@@ -416,6 +416,41 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
+    heading:
+      contentType: heading
+      text: Technical
+      type: p
+      modifiers: heading-large
+    id: technical
+    updates:
+      url: /application-overview/technical
+      text: 1 update
+      modifiers: bg-fuschia badge--fixed badge--top
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "1<br/><span class='quiet'>Attachment</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/application-overview/technical'
+      label: View
+      modifiers: button--half-width
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
     id: frequency
     heading:
       contentType: heading
@@ -468,41 +503,6 @@ content:
       label: View
       gridModifier: column-full
       modifiers: button--half-width
-    - contentType: divider
-      modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
-      type: p
-      modifiers: heading-medium
-  - contentType: tile
-    heading:
-      contentType: heading
-      text: Technical
-      type: p
-      modifiers: heading-large
-    id: technical
-    updates:
-      url: "#"
-      text: 2 updates
-      modifiers: bg-fuschia badge--fixed badge--top
-    grid:
-    - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "1<br/><span class='quiet'>Attachment</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: button
-      url: '/application-overview/technical'
-      label: View
-      modifiers: button--half-width
-      gridModifier: column-full
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading

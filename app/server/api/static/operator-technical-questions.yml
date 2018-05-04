@@ -199,5 +199,5 @@ content:
   divider: true
 complete:
   label: Save and exit
-  url: "/operator/operator-eligibility-assessed-updated"
+  url: "/operator/operator-overview-technical-draft"
   id: submit

@@ -58,7 +58,7 @@ content:
     modifiers: column-three-quarters
     # updates:
     #   url: "/operator/technical"
-    #   text: Sat op 1 (1) - UKSA (1)
+    #   text: Next actions: Sat op 1 (1) - UKSA (1)
     #   modifiers: bg-fuschia badge--fixed badge--top
     heading:
       contentType: heading

@@ -126,8 +126,13 @@ content:
   - text: Multi-factor authentication
     url: /sign-in/authenticate-operator
   - text: Application overview - Technical section - 4 Q's ready for submission - SUBMIT
+
+    # operator-overview-ready-for-submission
     url: /operator/operator-eligibility-assessed-updated
   - text: Application overview - submission confirmation
+    url: /operator/operator-overview-technical-partial-submit-2
+
+
 - contentType: heading
   text: "Back stage check submission:"
   type: p
@@ -135,6 +140,9 @@ content:
 - contentType: list
   modifiers: list-bullet
   list:
+  - text: SMS notification of submitted questions
+  - text: Email notification of submitted questions
+    url: /operator/email-submission-ready
   - text: SMS notification of submitted questions
   - text: Admin dashboard - 'New update' flag
   - text: Application overview - 'New update' flag on technical
