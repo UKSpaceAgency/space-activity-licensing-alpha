@@ -1269,6 +1269,8 @@ content:
     url: "/pdfs/disposal-discovery.pdf"
     type: .pdf
     supporting: (12mb)
+  references:
+    text: (4) contextural references
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
