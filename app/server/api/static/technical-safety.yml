@@ -1271,6 +1271,7 @@ content:
     supporting: (12mb)
   references:
     text: (4) contextural references
+    url: /machine-learning/
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single

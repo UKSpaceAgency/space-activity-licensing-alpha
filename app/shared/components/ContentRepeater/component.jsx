@@ -13,6 +13,8 @@ import AccordionSection from '../AccordionSection/component.jsx'
 import Textarea from '../Textarea/component.jsx'
 import FileUpload from '../FileUpload/component.jsx'
 import RadioCheck from '../RadioCheck/component.jsx'
+import Grid from '../Grid/component.jsx'
+import GridCol from '../RadioCheck/component.jsx'
 
 const ContentRepeater = props => {
   let classes = classNames(props.className, props.modifiers)
@@ -28,7 +30,7 @@ const ContentRepeater = props => {
       {props.textarea && <Textarea {...props.textarea}/>}
       {props.booleans && <RadioCheck {...props.booleans}/>}
       {props.attachment && <FileUpload {...props.attachment}/>}
-      {props.documents && <List list={props.documents} className='list-inline'/>}
+      {props.documents || props.references && <Grid>{props.documents && <GridCol className='column-half'><List list={props.documents} /></GridCol>}{props.references && <GridCol className='column-half'>hkjghkjgljhgljhgjlhgjhlgl</GridCol>}</Grid>}
       {collapsible}
       {props.backbutton && <div className='text'><a href='#' className='link-back'>Back to top</a></div>}
       {props.divider && <Divider />}
