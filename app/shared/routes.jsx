@@ -91,9 +91,9 @@ let getRoutes = store => {
         <Route path='email-confirmation' component={withFallback(PageFlatImage)} onEnter={getPage} slug='apply-email-confirmation' />
       </Route>
       <Route path='machine-learning'>
-        <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='ml-1' />
-        <Route path='machine-learning-2' component={withFallback(PageContainer)} onEnter={getPage} slug='ml-2' />
-        <Route path='machine-learning-3' component={withFallback(PageContainer)} onEnter={getPage} slug='ml-3' />
+        <IndexRoute component={withFallback(PageFlatImage)} onEnter={getPage} slug='ml-1' />
+        <Route path='machine-learning-2' component={withFallback(PageFlatImage)} onEnter={getPage} slug='ml-2' />
+        <Route path='machine-learning-3' component={withFallback(PageFlatImage)} onEnter={getPage} slug='ml-3' />
       </Route>
       <Route path='operator'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview'/>

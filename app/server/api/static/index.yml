@@ -151,7 +151,9 @@ content:
   - text: Technical section - New update' flag on Satellite and mission overview
     url: /application-overview/technical
   - text: Satellite and mission overview - select status change - CHECKED
+    url: /application-overview/technical/satellite-and-mission-overview
   - text: Share section with Technical
+    url: /application-overview/technical/share
 - contentType: heading
   text: "Back stage engineering:"
   type: p
@@ -180,6 +182,21 @@ content:
   list:
   - text: Email notification - Comment from engineering - section OK - deep link
   - text: Satellite mission and overview - Admin reviews and selects status change to assessed
+
+- contentType: heading
+  text: "Machine learning:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Machine learning - 1
+    url: /machine-learning
+  - text: Machine learning - 2
+    url: /machine-learning/machine-learning-2
+  - text: Machine learning - 3
+    url: /machine-learning/machine-learning-3
+
 
 - contentType: heading
   text: "TIME PASSES"
