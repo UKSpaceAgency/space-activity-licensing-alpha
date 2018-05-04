@@ -108,7 +108,6 @@ let getRoutes = store => {
         <Route path='operator-overview-technical-ready-for-submission' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-ready-for-submission' />
         <Route path='operator-overview-technical-submit' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-submit' />
         <Route path='email-submission-ready' component={withFallback(PageFlatImage)} onEnter={getPage} slug='email-submission-ready' />
-        {/*<Route path='operator-overview-ready-for-submission' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-ready-for-submission' />*/}
         <Route path='technical-eligibility-questions' component={withFallback(PageContainer)} onEnter={getPage} slug='technical-eligibility-questions' />
         <Route path='technical-draft' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions-draft' />
         <Route path='technical' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions' />

@@ -11,7 +11,7 @@ masthead:
     links:
     - text: Notifications
       url: "/notifications"
-      notification: 3
+      notification: 1
     - text: Settings
       url: "/application-overview/new-member"
 hero:
@@ -36,19 +36,19 @@ hero:
     modifiers: heading-small spacing-top--single
   title:
     contentType: title
-    title: Satellite Operator 1
+    title: S EAN multi-beam
     modifiers: heading-xlarge spacing-bottom--tight
   infoGrid:
   - contentType: heading
-    text: "<span class='quiet'>Satellite name: </span> Gh341211b"
+    text: "<span class='quiet'>Operator: </span><br/>Satellite operator 1"
     type: p
     modifiers: heading-small
   - contentType: heading
-    text: "<span class='quiet'>Submitted: </span>4 June 2017"
+    text: "<span class='quiet'>Submitted: </span><br/>4 June 2017"
     type: p
     modifiers: heading-small
   - contentType: heading
-    text: "<span class='quiet'>Status: </span> Partially Complete"
+    text: "<span class='quiet'>Status: </span><br/>Partially Complete"
     type: p
     modifiers: heading-small
   - contentType: heading
@@ -70,6 +70,7 @@ content:
   gridModifier: column-third
   content:
   - contentType: tile
+    modifiers: column-three-quarters
     heading:
       contentType: heading
       text: Satellite and mission overview
@@ -99,6 +100,7 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
+    modifiers: column-three-quarters
     heading:
       contentType: heading
       text: Safety and damage considerations
@@ -132,6 +134,7 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
+    modifiers: column-three-quarters
     heading:
       contentType: heading
       text: Launch information

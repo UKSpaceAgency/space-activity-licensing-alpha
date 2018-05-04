@@ -385,19 +385,19 @@ content:
   columns: 2
   content:
   - contentType: tile
-    id: finance
+    id: Eligibility
     heading:
       contentType: heading
-      text: Finance
+      text: Eligibility
       type: p
       modifiers: heading-large
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "10 of 10<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "3<br/><span class='quiet'>Attachments</span>"
+      text: ""
       type: p
       modifiers: heading-medium
     - contentType: button
@@ -428,7 +428,7 @@ content:
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "4 of 16<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -451,24 +451,24 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    id: frequency
+    id: Applicant information
     heading:
       contentType: heading
-      text: Frequency
+      text: Applicant information
       type: p
       modifiers: heading-large
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "14 of 14<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "2<br/><span class='quiet'>Attachments</span>"
+      text: "12<br/><span class='quiet'>Attachments</span>"
       type: p
       modifiers: heading-medium
     - contentType: button
       fullWidth: true
-      url: '/application-overview/frequency'
+      url: '#'
       label: View
       modifiers: button--half-width
       gridModifier: column-full
@@ -485,13 +485,13 @@ content:
   - contentType: tile
     heading:
       contentType: heading
-      text: Insurance
+      text: Your mission
       type: p
       modifiers: heading-large
-    id: insurance
+    id: Your mission
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "2 of 3<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -516,13 +516,13 @@ content:
   - contentType: tile
     heading:
       contentType: heading
-      text: Legal
+      text: Organisation & finance
       type: p
       modifiers: heading-large
-    id: legal
+    id: Organisation & finance
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "14 of 33<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -548,16 +548,16 @@ content:
   - contentType: tile
     heading:
       contentType: heading
-      text: Political
+      text: Insurance
       icon:
         label: tick
         modifiers: icon-tick-green icon--large
       type: p
       modifiers: heading-large
-    id: political
+    id: Insurance
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "5 of 5<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -582,13 +582,13 @@ content:
   - contentType: tile
     heading:
       contentType: heading
-      text: MOD
+      text: Frequency
       type: p
       modifiers: heading-large
-    id: mod
+    id: Frequency
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "1 of 1<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading

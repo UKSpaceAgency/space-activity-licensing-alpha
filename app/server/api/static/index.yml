@@ -145,8 +145,11 @@ content:
     url: /operator/email-submission-ready
   - text: SMS notification of submitted questions
   - text: Admin dashboard - 'New update' flag
+    url: /applications
   - text: Application overview - 'New update' flag on technical
+    url: /application-overview
   - text: Technical section - New update' flag on Satellite and mission overview
+    url: /application-overview/technical
   - text: Satellite and mission overview - select status change - CHECKED
   - text: Share section with Technical
 - contentType: heading
