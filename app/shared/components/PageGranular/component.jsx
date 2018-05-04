@@ -2,7 +2,7 @@ import React from 'react'
 import Masthead from '../Masthead/component.jsx'
 import Footer from '../Footer/component.jsx'
 import Breadcrumb from '../Breadcrumb/component.jsx'
-import Button from '../Button/component.jsx'
+import Progress from '../Progress/component.jsx'
 import Hero from '../Hero/component.jsx'
 import Grid from '../Grid/component.jsx'
 import GridCol from '../GridCol/component.jsx'
@@ -26,7 +26,7 @@ const PageGranular = props => {
             </GridCol>
             <GridCol className='column-two-thirds'>
               <ContentRepeaterContainer {...props}/>
-              <Button>Complete</Button>
+              {props.progress && <Progress {...props.progress}/>}
             </GridCol>
           </Grid>
         </main>

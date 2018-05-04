@@ -71,6 +71,10 @@ content:
   content:
   - contentType: tile
     modifiers: column-three-quarters
+    updates:
+      url: /application-overview/technical/satellite-and-mission-overview
+      text: 1 update
+      modifiers: bg-fuschia badge--fixed badge--top
     heading:
       contentType: heading
       text: Satellite and mission overview
@@ -78,7 +82,7 @@ content:
       modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "4 of 6<br/><span class='quiet'>Questions completed</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -106,13 +110,9 @@ content:
       text: Safety and damage considerations
       type: p
       modifiers: heading-large spacing-top--flush
-    updates:
-      url: "/updates"
-      text: 2 updates
-      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "0 of 5<br/><span class='quiet'>Questions completed</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -120,7 +120,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: button
-      url: '/application-overview/technical/satellite-and-mission-overview'
+      url: '#'
       label: View
       modifiers: button--full-width
     - contentType: divider
@@ -142,7 +142,7 @@ content:
       modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "0 of 5<br/><span class='quiet'>Questions completed</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
