@@ -126,7 +126,7 @@ content:
   - text: Multi-factor authentication
     url: /sign-in/authenticate-operator
   - text: Application overview - Technical section - 4 Q's ready for submission - SUBMIT
-    url: /operator/operator-eligibility-assessing-approved
+    url: /operator/operator-eligibility-assessed-updated
   - text: Application overview - submission confirmation
 - contentType: heading
   text: "Back stage check submission:"

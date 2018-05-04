@@ -100,10 +100,11 @@ let getRoutes = store => {
         <Route path='operator-overview-technical-partial-submit' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-partial-submit' />
         <Route path='operator-overview-technical-partial-submit-2' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-partial-submit-2' />
         <Route path='operator-technical-questions-completed' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions-completed' />
-
+        <Route path='operator-eligibility-assessed-updated' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-eligibility-assessed-updated' />
         <Route path='operator-overview-unlocked' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-unlocked' />
         <Route path='operator-overview-technical' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical' />
         <Route path='operator-overview-technical-draft' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-draft' />
+        <Route path='operator-overview-technical-ready-for-submission' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-ready-for-submission' />
         <Route path='operator-overview-technical-submit' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview-technical-submit' />
         <Route path='technical-eligibility-questions' component={withFallback(PageContainer)} onEnter={getPage} slug='technical-eligibility-questions' />
         <Route path='technical-draft' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions-draft' />
