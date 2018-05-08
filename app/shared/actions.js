@@ -62,7 +62,11 @@ export function notifyByEmail (userData) {
     dispatch(sendNotification(userData))
     // stuff in test email code - TODO: refactor
     const templateId = '48f862be-c277-428d-8a5c-b4c4627c1753'
-    const personalisation = { 'first_name': userData.firstName }
+    const personalisation = {
+      'first_name': userData.firstName,
+      'last_name': userData.lastName,
+      'registration_number': 'HDJ2123F'
+    }
     notifyClient.sendEmail(templateId, userData.emailAddress, {
       personalisation: personalisation})
     .then(response => {
