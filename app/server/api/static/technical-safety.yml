@@ -617,6 +617,7 @@ content:
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjftt
               value: High priority
+        value: Thank you for your answer, please can you provide some further explanation about your propulsion system - specifically about the exhaust manifold arrangement?
         source:
           legend: Comment source
           fieldsetModifiers: inline
