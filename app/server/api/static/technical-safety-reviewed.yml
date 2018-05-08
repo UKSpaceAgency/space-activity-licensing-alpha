@@ -13,7 +13,7 @@ breadcrumb:
   url: "/application-overview/technical"
   text: Application 11021411
 - contentType: link
-  url: "/application-overview/technical/satellite-and-mission-overview"
+  url: "/application-overview/technical"
   text: Technical
 - contentType: link
   text: Satellite and mission overview

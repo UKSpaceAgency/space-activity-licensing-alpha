@@ -152,6 +152,8 @@ content:
     url: /application-overview/technical
   - text: Satellite and mission overview - select status change - CHECKED
     url: /application-overview/technical/satellite-and-mission-overview
+  - text: Satellite and mission overview - status updated
+    url: /application-overview/technical/satellite-and-mission-overview-reviewed
   - text: Share section with Technical
     url: /application-overview/technical/share
 - contentType: heading
