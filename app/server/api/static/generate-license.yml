@@ -120,7 +120,7 @@ content:
   commentBlock:
     modifiers: spacing-bottom--single
     collapsible: true
-    collapsibleHeading: Application notes (3)
+    collapsibleHeading: Application notes (83)
     tabs:
     - label: Notes to regulator
       id: notes-open
@@ -399,7 +399,7 @@ content:
     modifiers: bordered
     heading:
       contentType: heading
-      text: Eligibility
+      text: "Eligibility <span class='font-xsmall'>Status: <b>Green</b></span>"
       type: p
       modifiers: heading-large heading-special
       icon:
