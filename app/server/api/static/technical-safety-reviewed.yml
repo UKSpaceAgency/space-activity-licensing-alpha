@@ -1799,24 +1799,27 @@ progress:
     text: "Satellite and mission overview status:"
     type: h2
   content:
-  - state: active
+  - state: complete
     title:
       text: 1. Review
+      type: p
+      modifiers: heading-small muted
+    divider:
+      modifiers: divider--thick
+    icon:
+      label: tick
+      modifiers: icon-tick-green icon--large
+  - state: active
+    modifiers: progress--current
+    title:
+      text: 2. Assess
       type: p
       modifiers: heading-small
     divider:
       modifiers: divider--thick divider--green
     button:
       label: Complete
-      url: /application-overview/technical/satellite-and-mission-overview-reviewed
-  - state: incomplete
-    modifiers: progress--current
-    title:
-      text: 2. Assess
-      type: p
-      modifiers: heading-small muted
-    divider:
-      modifiers: divider--thick
+      url:
   - state: incomplete
     title:
       text: 3. Approve
