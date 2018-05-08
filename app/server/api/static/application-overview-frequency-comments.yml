@@ -96,13 +96,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dfgh89dfgh
-              value: Comment
+            - id: 1234d1
+              value: Feedback
               checked: true
-            - id: hjdktlhivm67
-              value: Phone call
-            - id: llojef6
+            - id: 12345d1
+              value: Call log
+            - id: 123456d1
               value: Email
+            - id: 1234567d1
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -218,13 +220,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dfgh89dfghfefeb
-              value: Comment
+            - id: 1234d
+              value: Feedback
               checked: true
-            - id: hjdktlhivm67rwrwrw
-              value: Phone call
-            - id: llojef663687
+            - id: 12345d
+              value: Call log
+            - id: 123456d
               value: Email
+            - id: 1234567d
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking

@@ -1,0 +1,7 @@
+---
+contentType: page
+useComponent: true
+slug: apply-email-confirmation
+image: "/ui/img/content/registration-handshake-email.png"
+href: "/sign-in"
+returnLink: "/"

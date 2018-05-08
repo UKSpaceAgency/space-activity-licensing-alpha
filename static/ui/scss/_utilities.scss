@@ -50,6 +50,10 @@ sup {
   text-align: left;
 }
 
+.align-right {
+  text-align: right;
+}
+
 .block {
   display: block;
   width: 100%;
@@ -171,5 +175,14 @@ sup {
 }
 
 .red {
-  color: $red;
+  color: $red !important;
+}
+
+.green {
+  color: $green !important;
+}
+
+.indented {
+  padding-left: 30px;
+  list-style: none;
 }

@@ -207,5 +207,5 @@ content:
   divider: true
 complete:
   label: Save and exit
-  url: "/operator/operator-eligibility-has-been-assessed"
+  url: /operator/operator-submission-ready-email
   id: submit

@@ -109,14 +109,6 @@ content:
       attr:
         key: pattern
         value: '[0-9]*'
-    - label: Month
-      id: 43563456
-      name: deadline-month
-      modifiers: form-group-month
-      type: number
-      attr:
-        key: pattern
-        value: '[0-9]*'
     - label: Day
       id: 3245
       name: deadline-day
@@ -156,14 +148,6 @@ content:
       id: 32458
       name: deadline-minute
       modifiers: form-group-minute mr-5
-      type: number
-      attr:
-        key: pattern
-        value: '[0-9]*'
-    - label: Month
-      id: 435634568
-      name: deadline-month
-      modifiers: form-group-month
       type: number
       attr:
         key: pattern
@@ -350,7 +334,16 @@ content:
     name: further-comment
     id: further-comment
     modifiers: spacing-bottom--large
-  - contentType: button
-    label: Save and exit
-    url: "/operator/operator-eligibility-assessing"
-    id: further-comment
+
+  - contentType: buttongroup
+    buttons:
+    - contentType: button
+      label: Save and exit
+      url: "/operator/operator-eligibility-assessing"
+      id: further-comment1
+      modifiers: mr-5
+    - contentType: button
+      label: Submit
+      url: "/operator/operator-eligibility-assessing"
+      id: further-comment
+      # modifiers:

@@ -1,0 +1,216 @@
+---
+contentType: page
+useComponent: true
+slug: operator-overview
+# spinner:
+#   label: Time passes....
+#   url: /operator/operator-overview-technical-draft
+#   modifiers: spinner--medium spinner--active spinner--white
+head:
+  contentType: head
+  title: S EAN multi-beam | Satellite Operator 1 | UKSA
+masthead:
+  utility:
+    links:
+    - text: Settings
+      url: "/operator"
+hero:
+  modifiers: bg-dark bg-blue
+  breadcrumb:
+  - contentType: link
+    text: Space Agency UK
+    url: "/"
+  - contentType: link
+    text: My applications
+    url: "/operator/"
+  - contentType: link
+    text: Technical section
+  licenceType:
+  - contentType: heading
+    text: IN-ORBIT LICENCE
+    type: p
+    modifiers: heading-medium badge badge--large bg-pink
+  - contentType: heading
+    text: "<span class='quiet'>Ref: </span> 11021411"
+    type: p
+    modifiers: heading-medium float-right
+  title:
+    contentType: title
+    title: S EAN multi-beam
+    modifiers: spacing-bottom--tight
+  infoGrid:
+  - contentType: heading
+    text: "<span class='quiet'>Started: </span> 4th June "
+    type: p
+    modifiers: heading-small
+content:
+- contentType: heading
+  text: Technical
+  type: h2
+  modifiers: heading-large
+- contentType: infoGrid
+  grid:
+  - contentType: heading
+    text:  "<a class='float-right spacing-bottom--large' href='/operator/technical-share'>Share Section</a><a class='float-right spacing-bottom--large mr-5' href='/operator/link-previous-application'>Link with previous application</a>"
+    type: p
+- contentType: listing
+  columns: 1
+  gridModifier: column-third
+  content:
+  - contentType: tile
+    modifiers: column-three-quarters
+    # updates:
+    #   url: "/operator/technical"
+    #   text: Next actions: Sat op 1 (1) - UKSA (1)
+    #   modifiers: bg-fuschia badge--fixed badge--top
+    heading:
+      contentType: heading
+      text: Satellite and mission overview
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant Information.
+      modifiers: spacing--single
+    # completion:
+    #   heading:
+    #     text: 4 questions within this section are 'Ready for submission'
+    #     type: p
+    #     modifiers: heading-small spacing-top--flush
+    #   comment:
+    #     text: Would you like to submit these completed questions?
+    #     type: p
+    #   action:
+    #     label: Submit
+    #     url: "#"
+    #     modifiers: button--full-width button--large
+    grid:
+    - contentType: heading
+      text: 6 questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "4 of 6<br/><span class='quiet'>Draft answers</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 6<br/><span class='quiet'>Ready for submission</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 6 <br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: button
+      url: /operator/technical-draft
+      label: Continue
+      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Status</span><br/>In progress"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Safety and damage considerations
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Mission.
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: 5 questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 5<br/><span class='quiet'>Draft answers</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 5<br/><span class='quiet'>Ready for submission</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 5 <br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: button
+      url: '/operator/technical'
+      label: Start
+      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Status</span><br/>Not started"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Launch information
+      type: h3
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Organisation & Finance.
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: 5 questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 5<br/><span class='quiet'>Draft answers</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 5<br/><span class='quiet'>Ready for submission</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 5 <br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: button
+      url: '/operator/technical'
+      label: Start
+      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Status</span><br/>Not started"
+      type: p
+      modifiers: heading-medium
+- contentType: heading
+  text: UKSA Contact
+  type: h2
+  modifiers: heading-medium
+- contentType: heading
+  text: "If you require help with your application, please get in touch with your case manager:"
+  type: p
+- contentType: heading
+  text: Rakel Jenson<br/><span class='quiet'>Licensing Manager</span>
+  type: p
+  modifiers: heading-small border bottom-border padding-bottom--single
+- contentType: heading
+  text: "email: <a href='mailto:rakel.jenson@Satellite-operator-1.com'>rakel.jenson@Satellite-operator-1.com</a>"
+  type: p
+  modifiers: spacing-top--single
+- contentType: heading
+  text: "phone: 0117 801735"
+  type: p
+- contentType: heading
+  text: "mobile: +44 7882281628"
+  type: p
+- contentType: heading
+  text: "address: 80 Gloucester Road, London, WC2 2BA"
+  type: p

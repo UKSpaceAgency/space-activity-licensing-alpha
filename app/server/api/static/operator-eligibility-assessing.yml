@@ -2,7 +2,10 @@
 contentType: page
 useComponent: true
 slug: operator-eligibility-assessing
-
+spinner:
+  label: Time passes....
+  url: /operator/operator-eligibility-assessing-approved
+  modifiers: spinner--medium spinner--active spinner--white
 head:
   contentType: head
   title: Eligibility assessing | Operator application overview | UKSA
@@ -380,7 +383,7 @@ content:
       modifiers: heading-large spacing-top--flush
     updates:
       url: "/operator/operator-overview-technical"
-      text: SAT OP 1 (1) - UKSA (1)
+      text: "Next actions: Sat op 1 (0) - UKSA (1)"
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
@@ -419,7 +422,7 @@ content:
       modifiers: spacing--single
     updates:
       url: "/operator/operator-overview-technical"
-      text: Sat op 1 (1) - UKSA (1)
+      text: "Next actions: Sat op 1 (0) - UKSA (1)"
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading

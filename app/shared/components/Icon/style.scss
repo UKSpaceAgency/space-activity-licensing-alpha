@@ -59,6 +59,11 @@ $icon-dims: 16px;
   border-radius: 100%;
   width: $icon-dims * 2;
   height: $icon-dims * 2;
+  text-align: center;
+
+  span {
+    margin-left: -.5em;
+  }
 
   &.circled--blue {
     background-color: $govuk-blue;

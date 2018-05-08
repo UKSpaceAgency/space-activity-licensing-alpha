@@ -33,11 +33,10 @@ content:
 - contentType: longform
   text: "<p>We have sent a confirmation email to the company secretary. They will have to verify that you are the individual responsible for space licensing within the organisation, before you are formally registered.</p><p>In the meantime you will be able to start the initial sections of the application form.</p>"
 - contentType: form
-  # legend: What space activity are you wanting to undertake?
   formAction: "/apply/register"
   formItems:
   - contentType: button
     name: submit
-    url: "/operator/"
-    label: Start application
+    url: "/apply/email-confirmation"
+    label: Start application (go to email confirmation)
     modifiers: spacing--single

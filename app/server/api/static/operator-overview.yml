@@ -378,10 +378,10 @@ content:
       text: Eligibility
       type: h3
       modifiers: heading-large spacing-top--flush
-    updates:
-      url: "/operator/operator-overview-technical"
-      text: SAT OP 1 (1) - UKSA (1)
-      modifiers: bg-fuschia badge--fixed badge--top
+    # updates:
+    #   url: "/operator/operator-overview-technical"
+    #   text: Next actions: Sat op 1 (1) - UKSA (1)
+    #   modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 10 Questions

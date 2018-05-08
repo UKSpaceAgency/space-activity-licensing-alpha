@@ -22,7 +22,7 @@ content:
 - contentType: heading
   text: "You are about to share a section with your organisation colleagues.  "
   type: h2
-  modifiers: lede
+  modifiers: lede spacing-bottom--single
 - contentType: form
   formItems:
   - contentType: fieldSet
@@ -46,8 +46,8 @@ content:
         value: Jakob LeClerk
     - contentType: buttongroup
       buttons:
-      - url: "javascript:window.history.back()"
-        label: Share
+      - url: "/sign-in/log-out"
+        label: Share section
         type: a
         modifiers:
       - url: "javascript:window.history.back()"

@@ -14,109 +14,205 @@ hero:
     subTitle: UKSA Licensing Proof of Concept
 content:
 - contentType: heading
-  text: Pages index
-  type: h2
-  modifiers: heading-large
-- contentType: heading
-  text: Homepage
-  type: p
-  modifiers: spacing--single
-- contentType: list
-  modifiers: list-bullet
-  list:
-  - url: "/homepage"
-    text: UKSA homepage
-  - url: "/homepage/satellite-operator-license"
-    text: Satellite operator license
-
-- contentType: heading
-  text: Backstage and commenting
-  type: p
-  modifiers: spacing--single
-- contentType: list
-  modifiers: list-bullet
-  list:
-  - url: "/applications"
-    text: Applications listing - administrator homescreen
-  - url: "/application-overview"
-    text: Application overview
-  - url: "/application-overview/technical"
-    text: Application overview - Technical
-  - url: "/application-overview/technical/satellite-and-mission-overview"
-    text: Technical applications - internal page
-  - url: "/application-overview/frequency"
-    text: Notes and comments on application page (frequency)
-- contentType: heading
-  text: Share with an assessor
+  text: "Front stage registration:"
   type: p
   modifiers: spacing-top--large spacing-bottom--single
 - contentType: list
   modifiers: list-bullet
   list:
-  - url: "/application-overview/technical/share"
-    text: Share technical aspects of an application with an assessor
-- contentType: heading
-  text: I need to submit a license
-  type: p
-  modifiers: spacing-top--large spacing-bottom--single
-- contentType: list
-  modifiers: list-bullet
-  list:
-  - url: "/apply/"
-    text: Where are you launching?
+  - text: UKSA landing page
+    url: "/homepage"
+  - text: Licence type page - satellite
+    url: "/homepage/satellite-operator-license"
+  - text: Application process
+    url: "/homepage/application-process"
+    modifiers: indented
+  - text: Pre-application - intelligent questions
+    url: "/apply/"
   - url: "/apply/page-2"
     text: Are you using American technology?
+    modifiers: indented
   - url: "/apply/page-4"
     text: Have you got / are getting insurance?
+    modifiers: indented
   - url: "/apply/page-5"
     text: Have you got / are getting your ITU filings?
-  - url: "/apply/your-organisation"
-    text: Add your organisation
-  - url: "/apply/register"
-    text: Registation
-  - url: "/apply/confirmation"
-    text: Registation confirmation
+    modifiers: indented
+  - text: Register your organisation
+    url: "/apply/your-organisation"
+  - text: Register your details
+    url: "/apply/register"
+  - text: Registration confirmation
+    url: "/apply/confirmation"
+  - text: Email - Registration confirmation
+    url: "/apply/email-confirmation"
+  - text: Log in
+    url: "/sign-in"
+  - text: Multi-factor authentication - mobile verification code
+    url: "/sign-in/authenticate"
 
 - contentType: heading
-  text: Operator application overview
+  text: "Backstage - new application:"
   type: p
   modifiers: spacing-top--large spacing-bottom--single
 - contentType: list
   modifiers: list-bullet
   list:
-  - url: "/operator/"
-    text: Operator overview page - first visit
-  - url: "/operator/technical-eligibility-questions"
-    text: Technical eligibility questions
-  - url: "/operator/operator-eligibility-assessing"
-    text: Eligibilty questions under assessment, technical section ready for attention
-  - url: "/operator/operator-overview-technical"
-    text: Technical section (select Satellite and mission overview)
-  - url: "/operator/technical"
-    text: Satellite and mission overview | technical questions
-
-  - url: "/operator/operator-overview-technical-submit"
-    text: Technical - submission
-  - url: "/operator/operator-overview-technical-complete"
-    text: Section completed
-
-  - url: "/operator/operator-eligibility-has-been-assessed"
-    text: Assessed
-
-  - url: "/operator/technical-no-attachments"
-    text: Operator overview - technical - satellite and mission overview - no attachments
+  - text: Admin dashboard - 1 new application
+    url: /applications
 
 - contentType: heading
-  text: Login sequence
+  text: "Front stage logged in:"
   type: p
   modifiers: spacing-top--large spacing-bottom--single
 - contentType: list
   modifiers: list-bullet
   list:
-  - url: "/sign-in/"
-    text: Sign-in page
-  - url: "/sign-in/authenticate"
-    text: authentication step
+  - text: Application overview - locked
+    url: /operator/
+  - text: Eligibility questions - submit
+    url: /operator/technical-eligibility-questions
+  - text: Application overview - unlocked
+    url: /operator/operator-eligibility-assessing
+  - text: TIME PASSES
+  - text: Eligibility section reviewed - GREEN
+    url: /operator/operator-eligibility-has-been-assessed
+  - text: Technical section - share
+    url: /operator/technical-share
+  - text: Share technical section - engineering colleague
+    url: /operator/operator-overview-technical-submit
+  - text: Log out
+    url: /sign-in/log-out
 
+
+- contentType: heading
+  text: "Front stage engineer input:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Email - Shared section with link
+    url: /operator/engineer-email
+  - text: Engineer sign-in
+    url: /sign-in/sign-in-engineer
+    modifiers: indented
+  - text: Engineer authentication
+    url: /sign-in/authenticate-engineer
+    modifiers: indented
+
+  - text: Technical section
+    url: /operator/operator-overview-technical
+  - text: Satellite and mission overview - fills in and marks 4 questions as draft
+    url: /operator/technical
+  - text: TIME PASSES
+    modifiers: heading-large
+  - text: Technical section overview - 4 marked draft
+    url: /operator/operator-eligibility-assessing-approved
+  - text: Satellite and mission overview - all filled in and marked ready for submission
+    url: /operator/technical-draft
+
+- contentType: heading
+  text: "Front stage technical submission:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Operator admin - Emailed - Satellite and mission overview - ready for submission
+    url: /operator/operator-submission-ready-email
+  - text: Log in
+    url: /sign-in/sign-in-operator
+  - text: Multi-factor authentication
+    url: /sign-in/authenticate-operator
+  - text: Application overview - Technical section - 4 Q's ready for submission - SUBMIT
+
+    # operator-overview-ready-for-submission
+    url: /operator/operator-eligibility-assessed-updated
+  - text: Application overview - submission confirmation
+    url: /operator/operator-overview-technical-partial-submit-2
+
+
+- contentType: heading
+  text: "Back stage check submission:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: SMS notification of submitted questions
+  - text: Email notification of submitted questions
+    url: /operator/email-submission-ready
+  - text: SMS notification of submitted questions
+  - text: Admin dashboard - 'New update' flag
+    url: /applications
+  - text: Application overview - 'New update' flag on technical
+    url: /application-overview
+  - text: Technical section - New update' flag on Satellite and mission overview
+    url: /application-overview/technical
+  - text: Satellite and mission overview - select status change - CHECKED
+    url: /application-overview/technical/satellite-and-mission-overview
+  - text: Satellite and mission overview - status updated
+    url: /application-overview/technical/satellite-and-mission-overview-reviewed
+  - text: Share section with Technical
+    url: /application-overview/technical/share
+- contentType: heading
+  text: "Back stage engineering:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Email notification - Technical section shared - deep link to Satellite and mission overview
+    url: /sign-in/technical-section-share-email
+  - text: Satellite and mission overview - review and comment on one answer
+    url: /application-overview/technical/satellite-and-mission-overview-reviewed#question-5
+- contentType: heading
+  text: "Front stage notification of comment - engineering:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Email notification - Comment on technical section, satellite and mission overview Q3 - deep link
+  - text: Satellite and mission overview - reply to comment
+
+- contentType: heading
+  text: "Back stage - admin:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Email notification - Comment from engineering - section OK - deep link
+  - text: Satellite mission and overview - Admin reviews and selects status change to assessed
+
+- contentType: heading
+  text: "Machine learning:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Machine learning - 1
+    url: /machine-learning
+  - text: Machine learning - 2
+    url: /machine-learning/machine-learning-2
+  - text: Machine learning - 3
+    url: /machine-learning/machine-learning-3
+
+
+- contentType: heading
+  text: "TIME PASSES"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single heading-large
+- contentType: heading
+  text: "Back stage - admin:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Application overview - all sections complete - create licence CTA at top of page
 
 
