@@ -29,7 +29,7 @@ hero:
     text: Updated 26th February 2018
     type: p
 sideNavHeading:
-  text: 'Contents <span class="badge bg-dark-grey float-right mr-0">2 Updates</span>'
+  text: 'Contents <span class="badge bg-fuschia float-right mr-0">4 Updates</span>'
   type: p
   modifiers: font-xsmall underline float-left block
 content:
@@ -37,6 +37,7 @@ content:
     text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
     type: h3
     modifiers: heading-medium
+    update: true
   permalink: question-1
   backbutton: true
   divider: true
@@ -154,40 +155,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: file-upload-3sdfgs
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notes-private-1ggf
       commentBlock:
@@ -283,6 +251,7 @@ content:
     text: Q2. Will the space-object dock or rendezvous?
     type: h3
     modifiers: heading-medium
+    update: true
   permalink: question-2
   backbutton: true
   divider: true
@@ -403,40 +372,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: file-upload-3
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notes-private-2ghkhj
       commentBlock:
@@ -614,40 +550,7 @@ content:
       label: Upload attachment
       modifiers: file-upload
       id: file-upload-2
-    comments:
-    - byline:
-        priority:
-          icon:
-            label: High priority
-            modifiers: icon-warning icon-warning--red icon--large
-          content: High priority
-          modifiers: red
-        modifiers: spacing-bottom--single comment-admin
-        name:
-          text: Simon Griffith
-          type: h3
-          modifiers: heading-small
-        url: "/rachel"
-        date:
-          date: 10.04am 22nd March 2018
-          datetime: '2018-03-26T19:34:15+00:00'
-        icon:
-          label: account
-          modifiers: icon-account
-      text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-      documents:
-      - text: Disposal diagram
-        url: "/pdfs/disposal-discovery.pdf"
-        type: .pdf
-        supporting: (12mb)
-      deadline:
-        text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-        type: p
-        modifiers: heading-small
-      assignees:
-        text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-        type: p
-        modifiers: heading-small
+    comments: null
 - title:
     text: Q3. Is it planned that any solid or ionizing or gaseous materials should be released from the object other than as part of a normal propulsion system?
     type: h3
@@ -655,7 +558,7 @@ content:
   permalink: question-3
   backbutton: true
   divider: true
-  text: "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
+  text: "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? </p>"
   heading:
     text: Uploaded supporting documents
     type: h3
@@ -772,40 +675,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: file-upload-3
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notes-private-3yukyuk
       commentBlock:
@@ -983,44 +853,12 @@ content:
       label: Upload attachment
       modifiers: file-upload
       id: file-upload-3
-    comments:
-    - byline:
-        priority:
-          icon:
-            label: High priority
-            modifiers: icon-warning icon-warning--red icon--large
-          content: High priority
-          modifiers: red
-        modifiers: spacing-bottom--single comment-admin
-        name:
-          text: Simon Griffith
-          type: h3
-          modifiers: heading-small
-        url: "/rachel"
-        date:
-          date: 10.04am 22nd March 2018
-          datetime: '2018-03-26T19:34:15+00:00'
-        icon:
-          label: account
-          modifiers: icon-account
-      text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-      documents:
-      - text: Disposal diagram
-        url: "/pdfs/disposal-discovery.pdf"
-        type: .pdf
-        supporting: (12mb)
-      deadline:
-        text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-        type: p
-        modifiers: heading-small
-      assignees:
-        text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-        type: p
-        modifiers: heading-small
+    comments: null
 - title:
     text: Q4. Will the space object carry any radioactive or nuclear material?
     type: h3
     modifiers: heading-medium
+    update: true
   permalink: question-4
   backbutton: true
   divider: true
@@ -1044,7 +882,7 @@ content:
       type: h3
       modifiers: heading-small
     link:
-      text: "<a class='red' href='/machine-learning/'>(4) contextural references</a>"
+      text: "<a class='green' href='/machine-learning/'>(4) contextural references</a>"
       type: p
       modifiers: red
   commentBlock:
@@ -1146,40 +984,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: file-upload-3dfghdfgh
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notes-private-4sdfsdf
       commentBlock:
@@ -1279,31 +1084,17 @@ content:
   permalink: question-5
   backbutton: true
   divider: true
-  text: "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
   heading:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
-  documents:
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
   references:
     heading:
       text: UKSA Knowledge Base
       type: h3
       modifiers: heading-small
     link:
-      text: "<a class='red' href='/machine-learning/'>(4) contextural references</a>"
+      text: "<a class='green' href='/machine-learning/'>(4) contextural references</a>"
       type: p
       modifiers: red
   commentBlock:
@@ -1571,32 +1362,10 @@ content:
   permalink: question-6
   backbutton: true
   divider: true
-  text: "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
   heading:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
-  documents:
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  references:
-    heading:
-      text: UKSA Knowledge Base
-      type: h3
-      modifiers: heading-small
-    link:
-      text: "<a class='red' href='/machine-learning/'>(4) contextural references</a>"
-      type: p
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single

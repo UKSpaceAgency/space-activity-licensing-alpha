@@ -73,7 +73,7 @@ content:
     modifiers: column-three-quarters
     updates:
       url: /application-overview/technical/satellite-and-mission-overview
-      text: 1 update
+      text: 4 updates
       modifiers: bg-fuschia badge--fixed badge--top
     heading:
       contentType: heading
