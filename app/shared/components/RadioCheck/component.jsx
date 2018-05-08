@@ -6,7 +6,7 @@ import Icon from '../Icon/component.jsx'
 const RadioCheck = props => {
   let formClasses = classNames('form-group', props.groupClassName, props.fieldModifiers)
   let classes = classNames('multiple-choice', props.className, props.modifiers)
-  let booleans = props.inputs.map((val, i) => {
+  let booleans = props.inputs && props.inputs.map((val, i) => {
     let checked = val.checked ? {'checked': true} : null
     let data = val.data ? {[val.data.key]: val.data.value} : null
 

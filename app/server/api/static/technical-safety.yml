@@ -1023,6 +1023,15 @@ content:
     url: "/pdfs/disposal-discovery.pdf"
     type: .pdf
     supporting: (12mb)
+  references:
+    heading:
+      text: UKSA Knowledge Base
+      type: h3
+      modifiers: heading-small
+    link:
+      text: "<a class='red' href='/machine-learning/'>(4) contextural references</a>"
+      type: p
+      modifiers: red
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -1270,8 +1279,14 @@ content:
     type: .pdf
     supporting: (12mb)
   references:
-    text: (4) contextural references
-    url: /machine-learning/
+    heading:
+      text: UKSA Knowledge Base
+      type: h3
+      modifiers: heading-small
+    link:
+      text: "<a class='red' href='/machine-learning/'>(4) contextural references</a>"
+      type: p
+      modifiers: red
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -1551,6 +1566,14 @@ content:
     url: "/pdfs/disposal-discovery.pdf"
     type: .pdf
     supporting: (12mb)
+  references:
+    heading:
+      text: UKSA Knowledge Base
+      type: h3
+      modifiers: heading-small
+    link:
+      text: "<a class='red' href='/machine-learning/'>(4) contextural references</a>"
+      type: p
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
