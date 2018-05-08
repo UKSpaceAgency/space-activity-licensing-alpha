@@ -1,0 +1,692 @@
+---
+contentType: page
+useComponent: true
+slug: operator-eligibility-has-been-assessed
+
+head:
+  contentType: head
+  title: Eligibility has been assessed | Operator application overview | UKSA
+masthead:
+  utility:
+    links:
+    - text: Notifications
+      url: "/notifications"
+      notification: 3
+    - text: Settings
+      url: "/operator"
+hero:
+  modifiers: bg-dark bg-blue
+  breadcrumb:
+  - contentType: link
+    text: Space Agency UK
+    url: "/"
+  - contentType: link
+    text: My applications
+    url: "/operator/"
+  - contentType: link
+    text: Satellite operator 1 homepage
+  licenceType:
+  - contentType: heading
+    text: IN-ORBIT LICENCE
+    type: p
+    modifiers: heading-medium badge badge--large bg-pink
+  - contentType: heading
+    text: "<span class='quiet'>Ref: </span> 11021411"
+    type: p
+    modifiers: heading-medium float-right
+  title:
+    contentType: title
+    title: S EAN multi-beam
+    modifiers: spacing-bottom--tight
+  infoGrid:
+  - contentType: heading
+    text: "<span class='quiet'>Started: </span> 4th June "
+    type: p
+    modifiers: heading-small
+  progress:
+    modifiers: progress--inverted
+    heading:
+      text: "Application section status:"
+      type: h2
+      modifiers: heading-small spacing--single
+    content:
+    - modifiers: progress__item--pending
+      title:
+        text: Technical
+        type: p
+      divider:
+        modifiers: divider--flush
+      status:
+        text: Pending
+        type: p
+    - title:
+        text: Applicant info
+        type: p
+      divider:
+        modifiers: divider--flush
+      status:
+        text: Not started
+        type: p
+    - title:
+        text: Mission info
+        type: p
+      divider:
+        modifiers: divider--flush
+      status:
+        text: Not started
+        type: p
+    - title:
+        text: Organisation info
+        type: p
+      divider:
+        modifiers: divider--flush
+      status:
+        text: Not started
+        type: p
+    - title:
+        text: Insurance
+        type: p
+      divider:
+        modifiers: divider--flush
+      status:
+        text: Not started
+        type: p
+    - title:
+        text: Frequency
+        type: p
+      divider:
+        modifiers: divider--flush
+      status:
+        text: Not started
+        type: p
+content:
+- contentType: collapsiblepanel
+  commentBlock:
+    modifiers: spacing-bottom--single
+    collapsible: true
+    collapsibleHeading: Application notes (3)
+    tabs:
+    - label: Notes to regulator
+      id: notes-open
+      commentBlock:
+        modifiers: spacing-bottom--single
+        notice:
+          checkbox:
+            name: priority-level
+            type: checkbox
+            fieldModifiers: baseline d-inline-block
+            inputs:
+            - id: juu7gg4gf33fjjjfjfjfjfjfjf
+              value: High priority
+        source:
+          legend: Comment source
+          fieldsetModifiers: inline
+          items:
+          - contentType: boolean
+            name: second-radio-item
+            type: radio
+            inputs:
+            - id: dfgh89dfgh
+              value: Comment
+              checked: true
+            - id: hjdktlhivm67
+              value: Phone call
+            - id: llojef6
+              value: Email
+        assignees:
+          label: Assign to
+          # supporting: Select multiple by pressing shift and clicking
+          id: assignees-question-3
+          # multiple: true
+          # data: data-assign
+          options:
+          - label: Please select
+            value: ''
+          - label: Joel Harris
+            value: sfkhwer87hkj34h
+            selected: true
+          - label: Luke Wotten
+            value: sfkhwesdtjsdfhgqw
+          - label: Jon Smith
+            value: adwty5nnkv08b
+          - label: Dave Stringer
+            value: jfmfuue67tg3f
+          - label: Aimee Brace
+            value: lvm08jjetffs
+            selected: true
+          - label: Alex Hobbs
+            value: kfj789dbv
+          - label: Tom Foster
+            value: 15rdcsb
+            selected: true
+        deadline:
+          legend: Set deadline
+          calendar: true
+          modifiers: mr-5
+          items:
+          - label: Day
+            id: 3245345
+            name: deadline-day
+            modifiers: form-group-day
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+          - label: Month
+            id: 43563456345345
+            name: deadline-month
+            modifiers: form-group-month
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+          - label: Year
+            id: 45674567345345345
+            name: deadline-year
+            modifiers: form-group-year
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+        button:
+          label: Add comment
+        fileupload:
+          label: Upload attachment
+          modifiers: file-upload
+          id: file-upload-3
+        comments:
+        - byline:
+            priority:
+              icon:
+                label: High priority
+                modifiers: icon-warning icon-warning--red icon-warning--red icon--large
+              content: High priority
+              modifiers: red
+            modifiers: spacing-bottom--single comment-admin
+            name:
+              text: Simon Griffith
+              type: h3
+              modifiers: heading-small
+            url: "/rachel"
+            date:
+              date: 10.04am 22nd March 2018
+              datetime: '2018-03-26T19:34:15+00:00'
+            icon:
+              label: account
+              modifiers: icon-account
+          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
+          documents:
+          - text: Disposal diagram
+            url: "/pdfs/disposal-discovery.pdf"
+            type: .pdf
+            supporting: (12mb)
+          deadline:
+            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+            type: p
+            modifiers: heading-small
+          assignees:
+            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+            type: p
+            modifiers: heading-small
+        - byline:
+            modifiers: spacing-bottom--single comment-admin
+            name:
+              text: Simon Griffith
+              type: h3
+              modifiers: heading-small
+            url: "#"
+            date:
+              date: 10.04am 22nd March 2018
+              datetime: '2018-03-26T19:34:15+00:00'
+            icon:
+              label: account
+              modifiers: icon-account
+          text: "<p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Pugiat quo voluptas nulla pariatur?</p>"
+          documents:
+          - text: Disposal diagram
+            url: "/pdfs/disposal-discovery.pdf"
+            type: .pdf
+            supporting: (12mb)
+          deadline:
+            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+            type: p
+            modifiers: heading-small
+          assignees:
+            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+            type: p
+            modifiers: heading-small
+    - label: My notes
+      id: notes-private
+      commentBlock:
+        modifiers: spacing-bottom--single
+        name:
+          text: Simon Griffith
+          type: h3
+          modifiers: heading-small
+        url: "/rachel"
+        date:
+          date: 10.04am 22nd March 2018
+          datetime: '2018-03-26T19:34:15+00:00'
+        icon:
+          label: account
+          modifiers: icon-account
+        assignees:
+          label: Assign to
+          # supporting: Select multiple by pressing shift and clicking
+          id: assignees-question-2
+          # multiple: true
+          # data: data-assign
+          options:
+          - label: Please select
+            value: ''
+          - label: Joel Harris
+            value: sfkhwer87hkj34h
+            selected: true
+          - label: Luke Wotten
+            value: sfkhwesdtjsdfhgqw
+          - label: Jon Smith
+            value: adwty5nnkv08b
+          - label: Dave Stringer
+            value: jfmfuue67tg3f
+          - label: Aimee Brace
+            value: lvm08jjetffs
+            selected: true
+          - label: Alex Hobbs
+            value: kfj789dbv
+          - label: Tom Foster
+            value: 15rdcsb
+            selected: true
+        deadline:
+          legend: Set deadline
+          calendar: true
+          modifiers: mr-5
+          items:
+          - label: Day
+            id: 3245
+            name: deadline-day
+            modifiers: form-group-day
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+          - label: Month
+            id: 43563456
+            name: deadline-month
+            modifiers: form-group-month
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+          - label: Year
+            id: 45674567
+            name: deadline-year
+            modifiers: form-group-year
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+        button:
+          label: Add comment
+        fileupload:
+          label: Upload attachment
+          modifiers: file-upload
+          id: file-upload-23456
+        comments:
+        - byline:
+            modifiers: spacing-bottom--single comment-admin
+            name:
+              text: Simon Griffith
+              type: h3
+              modifiers: heading-small
+            url: "/rachel"
+            date:
+              date: 10.04am 22nd March 2018
+              datetime: '2018-03-26T19:34:15+00:00'
+            icon:
+              label: account
+              modifiers: icon-account
+          text: "<p>Yes! Perfect</p>"
+          documents:
+          - text: Disposal diagram
+            url: "/pdfs/disposal-discovery.pdf"
+            type: .pdf
+            supporting: (12mb)
+          deadline:
+            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+            type: p
+            modifiers: heading-small
+          assignees:
+            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+            type: p
+            modifiers: heading-small
+- contentType: heading
+  text: Applications sections
+  type: h2
+  modifiers: heading-medium
+- contentType: listing
+  columns: 1
+  gridModifier: column-third
+  content:
+  - contentType: tile
+    modifiers: column-three-quarters
+    summary:
+      contentType: longform
+      text: Before you can submit your application form, you will need to complete  ten technical eligibility questions. These will give us an idea of your  application readiness.
+      modifiers: spacing--single
+    heading:
+      contentType: heading
+      text: Eligibility
+      type: h3
+      modifiers: heading-large spacing-top--flush
+    # updates:
+    #   url: "/operator/operator-overview-technical"
+    #   text: Next actions: Sat op 1 (1) - UKSA (1)
+    #   modifiers: bg-fuschia badge--fixed badge--top
+    grid:
+    - contentType: heading
+      text: 10 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: button
+      url: '/operator/technical-eligibility-questions'
+      label: View
+      modifiers: button--full-width button--secondary
+    - contentType: heading
+      text: "<span class='quiet'>Status </span><br/>Approved"
+      type: p
+      modifiers: heading-medium
+    completion:
+      modifiers: is-green
+      icon:
+        label: tick
+        modifiers: icon-tick icon-tick-white icon--large icon--circled icon--circled-white
+      heading:
+        text: Your eligibility status is green.
+        type: p
+        modifiers: heading-small
+      comment:
+        text: This means your mission is likely to be eligible for a licence, pending successful completion of your application.
+        type: p
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Technical
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
+      modifiers: spacing--single
+    updates:
+      url: "/operator/operator-overview-technical"
+      text: Next actions: Sat op 1 (1) - UKSA (1)
+      modifiers: bg-fuschia badge--fixed badge--top
+    grid:
+    - contentType: heading
+      text: 16 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 16<br/><span class='quiet'>Draft answers</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 16<br/><span class='quiet'>Ready for submission</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 16<br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: button
+      label: Continue
+      disabled: true
+      url: "/operator/operator-overview-technical"
+      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Status </span><br/>Not started"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Applicant information
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant Information.
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: 14 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 14<br/><span class='quiet'>Draft answers</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 14<br/><span class='quiet'>Ready for submission</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 14<br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: button
+      label: Continue
+      disabled: true
+      url: "#"
+      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Status </span><br/>Not started"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Your mission
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Mission.
+      modifiers: spacing--single
+    notice:
+      icon:
+        label: High priority
+        modifiers: icon-warning icon-warning--red icon--large
+      content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
+      modifiers: spacing--single red
+    grid:
+    - contentType: heading
+      text: 23 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 23<br/><span class='quiet'>Draft answers</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 23<br/><span class='quiet'>Ready for submission</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 23<br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: button
+      label: Continue
+      disabled: true
+      url: "#"
+      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Status </span><br/>Not started"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Your Organisation & Finance
+      type: h3
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Organisation & Finance.
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: 33 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 33<br/><span class='quiet'>Draft answers</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 33<br/><span class='quiet'>Ready for submission</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 33<br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: button
+      label: Continue
+      disabled: true
+      url: "#"
+      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Status </span><br/>Not started"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Insurance
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Insurance.
+      modifiers: spacing--single
+    notice:
+      icon:
+        label: High priority
+        modifiers: icon-warning icon-warning--red icon--large
+      content: You said that you did not have insurance, you will need to secure insurance to complete this application.
+      modifiers: spacing--single red
+    grid:
+    - contentType: heading
+      text: 5 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 5<br/><span class='quiet'>Draft answers</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 5<br/><span class='quiet'>Ready for submission</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 5<br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: button
+      label: Continue
+      disabled: true
+      url: "#"
+      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Status </span><br/>Not started"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Frequency
+      type: p
+      modifiers: heading-large spacing-top--flush
+    summary:
+      contentType: longform
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Frequency.
+      modifiers: spacing--single
+    grid:
+    - contentType: heading
+      text: 33 Questions
+      type: p
+      modifiers: heading-medium
+      gridModifier: column-full
+    - contentType: heading
+      text: "0 of 33<br/><span class='quiet'>Draft answers</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 33<br/><span class='quiet'>Ready for submission</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0 of 33<br/><span class='quiet'>Submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: button
+      label: Continue
+      disabled: true
+      url: "#"
+      modifiers: button--full-width
+    - contentType: heading
+      text: "<span class='quiet'>Status </span><br/>Not started"
+      type: p
+      modifiers: heading-medium
+- contentType: heading
+  text: UKSA Contact
+  type: h2
+  modifiers: heading-medium
+- contentType: heading
+  text: "If you require help with your application, please get in touch with your case manager:"
+  type: p
+- contentType: heading
+  text: Rakel Jenson<br/><span class='quiet'>Licensing Manager</span>
+  type: p
+  modifiers: heading-small border bottom-border padding-bottom--single
+- contentType: heading
+  text: "email: <a href='mailto:rakel.jenson@Satellite-operator-1.com'>rakel.jenson@Satellite-operator-1.com</a>"
+  type: p
+  modifiers: spacing-top--single
+- contentType: heading
+  text: "phone: 0117 801735"
+  type: p
+- contentType: heading
+  text: "mobile: +44 7882281628"
+  type: p
+- contentType: heading
+  text: "address: 80 Gloucester Road, London, WC2 2BA"
+  type: p

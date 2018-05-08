@@ -4,7 +4,7 @@ useComponent: true
 slug: technical-safety
 head:
   contentType: head
-  title: Safety and damage considerations
+  title: Satellite and mission overview
 breadcrumb:
 - contentType: link
   text: Space Agency UK
@@ -13,23 +13,23 @@ breadcrumb:
   url: "/application-overview/technical"
   text: Application 11021411
 - contentType: link
-  url: "/application-overview/technical/satellite-and-mission-overview"
+  url: "/application-overview/technical"
   text: Technical
 - contentType: link
-  text: Safety and damage considerations
+  text: Satellite and mission overview
 hero:
   modifiers: bg-dark bg-blue padded
   title:
     contentType: title
     subTitle: Technical
-    title: Safety and damage considerations
+    title: Satellite and mission overview
     modifiers: heading-large
   heading:
     contentType: heading
     text: Updated 26th February 2018
     type: p
 sideNavHeading:
-  text: 'Contents <span class="badge bg-dark-grey float-right mr-0">2 Updates</span>'
+  text: 'Contents <span class="badge bg-fuschia float-right mr-0">4 Updates</span>'
   type: p
   modifiers: font-xsmall underline float-left block
 content:
@@ -63,7 +63,7 @@ content:
     limit: 3
     modifiers: spacing-bottom--single
     heading:
-      text: Comments
+      text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
@@ -88,13 +88,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dfgh89dfghsdfgsdfg
-              value: Comment
+            - id: 1234
+              value: Feedback
               checked: true
-            - id: hjdktlhivm67sdfgsdfgsd
-              value: Phone call
-            - id: llojef6
+            - id: 12345
+              value: Call log
+            - id: 123456
               value: Email
+            - id: 1234567
+              value: Meeting
         assignees:
           label: Assign to
           id: assignees-question-3sdfgsdgsdf
@@ -153,40 +155,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: file-upload-3sdfgs
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notes-private-1ggf
       commentBlock:
@@ -207,13 +176,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dfgh89dfghfefebgb
-              value: Comment
+            - id: 1234a
+              value: Feedback
               checked: true
-            - id: hjdktlhivm67rwrwrwgg
-              value: Phone call
-            - id: llojef663687dfgb
+            - id: 12345a
+              value: Call log
+            - id: 123456a
               value: Email
+            - id: 1234567a
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -280,6 +251,7 @@ content:
     text: Q2. Will the space-object dock or rendezvous?
     type: h3
     modifiers: heading-medium
+    update: true
   permalink: question-2
   backbutton: true
   divider: true
@@ -305,7 +277,7 @@ content:
     limit: 3
     modifiers: spacing-bottom--single
     heading:
-      text: Comments
+      text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
@@ -330,13 +302,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dfgh89dfgh
-              value: Comment
+            - id: 1234b
+              value: Feedback
               checked: true
-            - id: hjdktlhivm67
-              value: Phone call
-            - id: llojef6
+            - id: 12345b
+              value: Call log
+            - id: 123456b
               value: Email
+            - id: 1234567b
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -398,40 +372,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: file-upload-3
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notes-private-2ghkhj
       commentBlock:
@@ -452,13 +393,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dfgh89dfghfefebdfgh
-              value: Comment
+            - id: 1234c
+              value: Feedback
               checked: true
-            - id: hjdktlhivm67rwrwrwdfgh
-              value: Phone call
-            - id: llojef663687dfghdfgh
+            - id: 12345c
+              value: Call log
+            - id: 123456c
               value: Email
+            - id: 1234567c
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -537,13 +480,15 @@ content:
         name: second-radio-item
         type: radio
         inputs:
-        - id: dfgh89dfghfghjfg
-          value: Comment
+        - id: 1234d
+          value: Feedback
           checked: true
-        - id: hjdktlhivm67fghjfghj
-          value: Phone call
-        - id: llojef6fghj
+        - id: 12345d
+          value: Call log
+        - id: 123456d
           value: Email
+        - id: 1234567d
+          value: Meeting
     assignees:
       label: Assign to
       # supporting: Select multiple by pressing shift and clicking
@@ -646,29 +591,16 @@ content:
   permalink: question-3
   backbutton: true
   divider: true
-  text: "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
+  text: "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? </p>"
   heading:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
-  documents:
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
     heading:
-      text: Comments
+      text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
@@ -685,6 +617,7 @@ content:
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjftt
               value: High priority
+        value: Thank you for your answer, please can you provide some further explanation about your propulsion system - specifically about the exhaust manifold arrangement?
         source:
           legend: Comment source
           fieldsetModifiers: inline
@@ -693,13 +626,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dfgh89dfgh345t
-              value: Comment
+            - id: 1234e
+              value: Feedback
               checked: true
-            - id: hjdktlhivm67345t
-              value: Phone call
-            - id: llojef6wert
+            - id: 12345e
+              value: Call log
+            - id: 123456e
               value: Email
+            - id: 1234567e
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -761,40 +696,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: file-upload-3
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notes-private-3yukyuk
       commentBlock:
@@ -815,13 +717,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dfgh89dfghfefebyukyukyk
-              value: Comment
+            - id: 1234f
+              value: Feedback
               checked: true
-            - id: hjdktlhivm67rwrwrwyukyuk
-              value: Phone call
-            - id: llojef663687yukyuk
+            - id: 12345f
+              value: Call log
+            - id: 123456f
               value: Email
+            - id: 1234567f
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -900,13 +804,15 @@ content:
         name: second-radio-item
         type: radio
         inputs:
-        - id: dfgh89dfghfghjfghjtyuktyu
-          value: Comment
+        - id: 1234g
+          value: Feedback
           checked: true
-        - id: hjdktlhivm67tyuktyuk
-          value: Phone call
-        - id: llojef6fghjfghttyuk
+        - id: 12345g
+          value: Call log
+        - id: 123456g
           value: Email
+        - id: 1234567g
+          value: Meeting
     assignees:
       label: Assign to
       # supporting: Select multiple by pressing shift and clicking
@@ -1006,6 +912,7 @@ content:
     text: Q4. Will the space object carry any radioactive or nuclear material?
     type: h3
     modifiers: heading-medium
+    update: true
   permalink: question-4
   backbutton: true
   divider: true
@@ -1023,11 +930,19 @@ content:
     url: "/pdfs/disposal-discovery.pdf"
     type: .pdf
     supporting: (12mb)
+  references:
+    heading:
+      text: UKSA Knowledge Base
+      type: h3
+      modifiers: heading-small
+    link:
+      text: "<a class='green' href='/machine-learning/'>(4) contextural references</a>"
+      type: p
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
     heading:
-      text: Comments
+      text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
@@ -1052,13 +967,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dfgh89dfghdfgh
-              value: Comment
+            - id: 1234h
+              value: Feedback
               checked: true
-            - id: hjdktlhivm67dfgh
-              value: Phone call
-            - id: llojef6dfgh
+            - id: 12345h
+              value: Call log
+            - id: 123456h
               value: Email
+            - id: 1234567h
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -1174,13 +1091,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dfgh89dfghfefebsdfsf
-              value: Comment
+            - id: 1234i
+              value: Feedback
               checked: true
-            - id: hjdktlhivm67rwrwrwsdfsdf
-              value: Phone call
-            - id: llojef663687sdfsdf
+            - id: 12345i
+              value: Call log
+            - id: 123456i
               value: Email
+            - id: 1234567i
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -1251,29 +1170,15 @@ content:
   permalink: question-5
   backbutton: true
   divider: true
-  text: "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
   heading:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
-  documents:
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
     heading:
-      text: Comments
+      text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
@@ -1298,13 +1203,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dsdfgfgh89dfgh
-              value: Comment
+            - id: 1234k
+              value: Feedback
               checked: true
-            - id: hjdktlhsdfgivm67
-              value: Phone call
-            - id: llosdfgjef6
+            - id: 12345k
+              value: Call log
+            - id: 123456k
               value: Email
+            - id: 1234567k
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -1366,40 +1273,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: file-upload-3dsfsdfgsdfgsdfgs
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notes-priasdfvate-5
       commentBlock:
@@ -1421,13 +1295,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dfgasdh89dfgh
-              value: Comment
+            - id: 1234l
+              value: Feedback
               checked: true
-            - id: hjdkasdftlhivm67
-              value: Phone call
-            - id: lloasdfjef6
+            - id: 12345l
+              value: Call log
+            - id: 123456l
               value: Email
+            - id: 1234567l
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -1489,40 +1365,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: filsdae-upload-3asfa
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
 - title:
     text: Q6. At what radio frequencies and at what powers will the space object transmit during its planned mission? Are there additional frequencies or transmit powers which can be invoked?
     type: h3
@@ -1530,29 +1373,15 @@ content:
   permalink: question-6
   backbutton: true
   divider: true
-  text: "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
   heading:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
-  documents:
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
     heading:
-      text: Comments
+      text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
@@ -1577,13 +1406,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: df567igh89dfgh
-              value: Comment
+            - id: 1234m
+              value: Feedback
               checked: true
-            - id: hjd567iktlhivm67
-              value: Phone call
-            - id: ll567iojef6
+            - id: 12345m
+              value: Call log
+            - id: 123456m
               value: Email
+            - id: 1234567m
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -1645,40 +1476,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: asdfafile-upload-3
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notwertes-pwertrivate-6
       commentBlock:
@@ -1699,13 +1497,15 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: dwertfgh89dfghfefeb
-              value: Comment
+            - id: 1234n
+              value: Feedback
               checked: true
-            - id: hwertjdktwerlhivm67rwrwrw
-              value: Phone call
-            - id: llowertjef6wert63687
+            - id: 12345n
+              value: Call log
+            - id: 123456n
               value: Email
+            - id: 1234567n
+              value: Meeting
         assignees:
           label: Assign to
           # supporting: Select multiple by pressing shift and clicking
@@ -1768,3 +1568,33 @@ content:
           modifiers: file-upload
           id: fwertwile-upload-23456
         comments: null
+progress:
+  heading:
+    text: "Satellite and mission overview status:"
+    type: h2
+  content:
+  - state: active
+    title:
+      text: 1. Review
+      type: p
+      modifiers: heading-small
+    divider:
+      modifiers: divider--thick divider--green
+    button:
+      label: Complete
+      url: /application-overview/technical/satellite-and-mission-overview-reviewed
+  - state: incomplete
+    modifiers: progress--current
+    title:
+      text: 2. Assess
+      type: p
+      modifiers: heading-small muted
+    divider:
+      modifiers: divider--thick
+  - state: incomplete
+    title:
+      text: 3. Approve
+      type: p
+      modifiers: heading-small muted
+    divider:
+      modifiers: divider--thick

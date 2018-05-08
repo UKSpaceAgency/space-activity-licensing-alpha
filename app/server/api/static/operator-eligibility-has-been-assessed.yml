@@ -378,10 +378,10 @@ content:
       text: Eligibility
       type: h3
       modifiers: heading-large spacing-top--flush
-    updates:
-      url: "/operator/operator-overview-technical"
-      text: SAT OP 1 (1) - UKSA (1)
-      modifiers: bg-fuschia badge--fixed badge--top
+    # updates:
+    #   url: "/operator/operator-overview-technical"
+    #   text: Next actions: Sat op 1 (1) - UKSA (1)
+    #   modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 10 Questions
@@ -408,7 +408,7 @@ content:
         type: p
         modifiers: heading-small
       comment:
-        text: This means your mission is likely to be eligible for a licence, pending succesful completion of your application.
+        text: This means your mission is likely to be eligible for a licence, pending successful completion of your application.
         type: p
   - contentType: tile
     modifiers: column-three-quarters
@@ -422,8 +422,8 @@ content:
       text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
       modifiers: spacing--single
     updates:
-      url: "/operator/operator-overview-technical-partial-submit"
-      text: Sat op 1 (1) - UKSA (1)
+      url: "/operator/operator-overview-technical"
+      text: "Next actions: Sat op 1 (1) - UKSA (1)"
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
@@ -432,7 +432,7 @@ content:
       modifiers: heading-medium
       gridModifier: column-full
     - contentType: heading
-      text: "4 of 16<br/><span class='quiet'>Draft answers</span>"
+      text: "0 of 16<br/><span class='quiet'>Draft answers</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -448,7 +448,7 @@ content:
     - contentType: button
       label: Continue
       disabled: true
-      url: "/operator/operator-overview-technical-partial-submit"
+      url: "/operator/operator-overview-technical"
       modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"

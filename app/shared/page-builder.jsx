@@ -14,7 +14,9 @@ import InfoGrid from './components/InfoGrid/component.jsx'
 import NoticePanel from './components/NoticePanel/component.jsx'
 import Button from './components/Button/component.jsx'
 import ButtonGroup from './components/ButtonGroup/component.jsx'
+import Divider from './components/Divider/component.jsx'
 import ProgressList from './components/ProgressList/component.jsx'
+import Spinner from './components/Spinner/component.jsx'
 //  import Pagination from './components/Pagination/component.jsx'
 
 export function pageBuilder (pageData) {
@@ -68,6 +70,9 @@ export function pageBuilder (pageData) {
       case 'collapsible':
         reactComponent = <Collapsible {...item} key={i} />
         break
+      case 'divider':
+        reactComponent = <Divider {...item} key={i} />
+        break
       case 'form':
         reactComponent = <Form {...item} key={i} />
         break
@@ -82,6 +87,9 @@ export function pageBuilder (pageData) {
         break
       case 'pagination':
         reactComponent = <Pagination {...item} key={i} />
+        break
+      case 'spinner':
+        reactComponent = <Spinner {...item} key={i} />
         break
       case 'progressList':
         reactComponent = <ProgressList {...item} key={i} />

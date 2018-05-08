@@ -4,10 +4,12 @@ import Footer from '../Footer/component.jsx'
 import Breadcrumb from '../Breadcrumb/component.jsx'
 import Hero from '../Hero/component.jsx'
 import Banner from '../Banner/component.jsx'
+import Spinner from '../Spinner/component.jsx'
 
 const Page = props => {
   return (
     <React.Fragment>
+      {props.spinner && <Spinner {...props.spinner}/>}
       <Masthead {...props.masthead}/>
       {props.hero && <React.Fragment><Banner {...props.banner}/><Hero {...props.hero} /></React.Fragment>}
       {!props.hero && <React.Fragment><div id='global-header-bar' /><Banner {...props.banner}/></React.Fragment>}

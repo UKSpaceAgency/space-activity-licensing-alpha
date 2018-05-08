@@ -11,7 +11,7 @@ masthead:
     links:
     - text: Notifications
       url: "/notifications"
-      notification: 3
+      notification: 1
     - text: Settings
       url: "/application-overview/new-member"
 hero:
@@ -36,19 +36,19 @@ hero:
     modifiers: heading-small spacing-top--single
   title:
     contentType: title
-    title: Satellite Operator 1
+    title: S EAN multi-beam
     modifiers: heading-xlarge spacing-bottom--tight
   infoGrid:
   - contentType: heading
-    text: "<span class='quiet'>Satellite name: </span> Gh341211b"
+    text: "<span class='quiet'>Operator: </span><br/>Satellite operator 1"
     type: p
     modifiers: heading-small
   - contentType: heading
-    text: "<span class='quiet'>Submitted: </span>4 June 2017"
+    text: "<span class='quiet'>Submitted: </span><br/>4 June 2017"
     type: p
     modifiers: heading-small
   - contentType: heading
-    text: "<span class='quiet'>Status: </span> Partially Complete"
+    text: "<span class='quiet'>Status: </span><br/>Partially Complete"
     type: p
     modifiers: heading-small
   - contentType: heading
@@ -70,6 +70,11 @@ content:
   gridModifier: column-third
   content:
   - contentType: tile
+    modifiers: column-three-quarters
+    updates:
+      url: /application-overview/technical/satellite-and-mission-overview
+      text: 4 updates
+      modifiers: bg-fuschia badge--fixed badge--top
     heading:
       contentType: heading
       text: Satellite and mission overview
@@ -77,7 +82,7 @@ content:
       modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "4 of 6<br/><span class='quiet'>Questions completed</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -99,18 +104,15 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
+    modifiers: column-three-quarters
     heading:
       contentType: heading
       text: Safety and damage considerations
       type: p
       modifiers: heading-large spacing-top--flush
-    updates:
-      url: "/updates"
-      text: 2 updates
-      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "0 of 5<br/><span class='quiet'>Questions completed</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -118,7 +120,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: button
-      url: '/application-overview/technical/satellite-and-mission-overview'
+      url: '#'
       label: View
       modifiers: button--full-width
     - contentType: divider
@@ -132,6 +134,7 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
+    modifiers: column-three-quarters
     heading:
       contentType: heading
       text: Launch information
@@ -139,7 +142,7 @@ content:
       modifiers: heading-large spacing-top--flush
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "0 of 5<br/><span class='quiet'>Questions completed</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading

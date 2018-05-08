@@ -30,28 +30,10 @@ hero:
     modifiers: float-right
 listing:
 - heading:
-    text: New (2)
+    text: New (1)
     type: h2
     modifiers: heading-large
   list:
-  - status:
-      label: New
-      modifiers: bg-orange dark
-    heading:
-      text: Satellite operator 2
-      type: h3
-      modifiers: heading-medium spacing-top--flush
-    items:
-    - text: Applicant name
-      value: Dave Branson
-    appStatus: Awaiting Action
-    url: "/application-overview"
-    reference: 62dsffg7238djuju4756
-    updated: 10th March 2018
-    updater: John Terry
-    label:
-      tag: In-orbit
-      class: bg-orange
   - status:
       label: New
       modifiers: bg-pink dark
@@ -63,12 +45,12 @@ listing:
     - text: Applicant name
       value: Richard Branson
     appStatus: Awaiting Action
-    url: "/application-overview"
+    url: "/operator"
     reference: 62dsffg7238djuju4756
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: In-orbit
+      tag: Satellite
       class: bg-pink
 - heading:
     text: Your applications (2 with updates)

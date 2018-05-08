@@ -10,7 +10,7 @@ const ProgressList = props => {
       <Grid key={i} className='column-three-quarters'>
         <Divider />
         <div className='media spacing--single'>
-          <div className='media__item circled circled--blue ml-4'>{v.index}</div>
+          <div className='media__item circled circled--blue ml-4'><span>{v.index}</span></div>
           <div className='media__content'>
             <Heading {...v.heading} />
             <Longform {...v.content}/>

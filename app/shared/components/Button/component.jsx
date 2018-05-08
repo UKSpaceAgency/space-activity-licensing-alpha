@@ -19,7 +19,7 @@ export default class Button extends React.Component {
     let component
     let { children, url, label, type, modifiers } = this.props
     let classes = classNames('button', this.props.className, modifiers, {
-      'loading': this.props.disabled
+      'loading': this.props.disabled && this.props.loading
     })
 
     let data = this.props.data ? {[this.props.data]: true} : null

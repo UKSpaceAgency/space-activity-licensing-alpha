@@ -11,7 +11,7 @@ masthead:
     links:
     - text: Notifications
       url: "/notifications"
-      notification: 3
+      notification: 1
     - text: Settings
       url: "/application-overview/new-member"
 hero:
@@ -36,20 +36,20 @@ hero:
     modifiers: heading-medium float-right
   title:
     contentType: title
-    title: Satellite operator 1
+    title: S EAN multi-beam
     modifiers: spacing-bottom--tight
     # subTitle: this is a smaller bit of content to support the main title
   infoGrid:
   - contentType: heading
-    text: "<span class='quiet'>Satellite number: </span> Gh341211b"
+    text: "<span class='quiet'>Operator: </span><br/>Satellite operator 1"
     type: p
     modifiers: heading-small
   - contentType: heading
-    text: "<span class='quiet'>Submitted: </span>4 June 2017"
+    text: "<span class='quiet'>Submitted: </span><br/>4 June 2017"
     type: p
     modifiers: heading-small
   - contentType: heading
-    text: "<span class='quiet'>Status: </span> Partially Complete"
+    text: "<span class='quiet'>Status: </span><br/>Partially Complete"
     type: p
     modifiers: heading-small
   licenceTypeGrid:
@@ -385,19 +385,19 @@ content:
   columns: 2
   content:
   - contentType: tile
-    id: finance
+    id: Eligibility
     heading:
       contentType: heading
-      text: Finance
+      text: Eligibility
       type: p
       modifiers: heading-large
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "10 of 10<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "3<br/><span class='quiet'>Attachments</span>"
+      text: ""
       type: p
       modifiers: heading-medium
     - contentType: button
@@ -405,69 +405,6 @@ content:
       label: View
       modifiers: button--half-width
       gridModifier: column-full
-    - contentType: divider
-      modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
-      type: p
-      modifiers: heading-medium
-  - contentType: tile
-    id: frequency
-    heading:
-      contentType: heading
-      text: Frequency
-      type: p
-      modifiers: heading-large
-    grid:
-    - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "2<br/><span class='quiet'>Attachments</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: button
-      fullWidth: true
-      url: '/application-overview/frequency'
-      label: View
-      modifiers: button--half-width
-      gridModifier: column-full
-    - contentType: divider
-      modifiers: border border-bottom
-    - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
-      type: p
-      modifiers: heading-medium
-  - contentType: tile
-    heading:
-      contentType: heading
-      text: Insurance
-      type: p
-      modifiers: heading-large
-    id: insurance
-    grid:
-    - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: heading
-      text: "2<br/><span class='quiet'>Attachments</span>"
-      type: p
-      modifiers: heading-medium
-    - contentType: button
-      url: '#'
-      label: View
-      gridModifier: column-full
-      modifiers: button--half-width
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
@@ -486,12 +423,12 @@ content:
       modifiers: heading-large
     id: technical
     updates:
-      url: "#"
-      text: 2 updates
+      url: /application-overview/technical
+      text: 1 update
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "4 of 16<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -514,15 +451,78 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
+    id: Applicant information
     heading:
       contentType: heading
-      text: Legal
+      text: Applicant information
       type: p
       modifiers: heading-large
-    id: legal
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "14 of 14<br/><span class='quiet'>Answers submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "12<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      fullWidth: true
+      url: '#'
+      label: View
+      modifiers: button--half-width
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Your mission
+      type: p
+      modifiers: heading-large
+    id: Your mission
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Answers submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "2<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '#'
+      label: View
+      gridModifier: column-full
+      modifiers: button--half-width
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Organisation & finance
+      type: p
+      modifiers: heading-large
+    id: Organisation & finance
+    grid:
+    - contentType: heading
+      text: "14 of 33<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -548,16 +548,16 @@ content:
   - contentType: tile
     heading:
       contentType: heading
-      text: Political
+      text: Insurance
       icon:
         label: tick
         modifiers: icon-tick-green icon--large
       type: p
       modifiers: heading-large
-    id: political
+    id: Insurance
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "5 of 5<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -582,13 +582,13 @@ content:
   - contentType: tile
     heading:
       contentType: heading
-      text: MOD
+      text: Frequency
       type: p
       modifiers: heading-large
-    id: mod
+    id: Frequency
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Questions completed</span>"
+      text: "1 of 1<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading

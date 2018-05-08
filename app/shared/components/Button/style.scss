@@ -21,6 +21,15 @@
   &.button--secondary {
     background-color: $govuk-blue;
   }
+
+  .bg-dark {
+    :link,
+    :visited,
+    :hover {
+      color: $govuk-blue;
+    }
+  }
+
 }
 
 .button-group {
