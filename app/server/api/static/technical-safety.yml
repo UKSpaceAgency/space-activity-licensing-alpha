@@ -63,7 +63,7 @@ content:
     limit: 3
     modifiers: spacing-bottom--single
     heading:
-      text: Comments
+      text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
@@ -305,7 +305,7 @@ content:
     limit: 3
     modifiers: spacing-bottom--single
     heading:
-      text: Comments
+      text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
@@ -668,7 +668,7 @@ content:
     limit: 3
     modifiers: spacing-bottom--single
     heading:
-      text: Comments
+      text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
@@ -1036,7 +1036,7 @@ content:
     limit: 3
     modifiers: spacing-bottom--single
     heading:
-      text: Comments
+      text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
@@ -1291,7 +1291,7 @@ content:
     limit: 3
     modifiers: spacing-bottom--single
     heading:
-      text: Comments
+      text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
@@ -1578,7 +1578,7 @@ content:
     limit: 3
     modifiers: spacing-bottom--single
     heading:
-      text: Comments
+      text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
@@ -1801,7 +1801,7 @@ progress:
   content:
   - state: complete
     title:
-      text: 1. Reviewed
+      text: 1. Review
       type: p
       modifiers: heading-small muted
     divider:
@@ -1812,13 +1812,14 @@ progress:
   - state: active
     modifiers: progress--current
     title:
-      text: 2. Assessed
+      text: 2. Assess
       type: p
       modifiers: heading-small
     divider:
       modifiers: divider--thick divider--green
     button:
       label: Complete
+      url:
   - state: incomplete
     title:
       text: 3. Approve
