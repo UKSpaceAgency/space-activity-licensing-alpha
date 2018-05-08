@@ -6,14 +6,6 @@
   min-height: $diameter + 20px;
   padding-right: $diameter * 4;
 
-  &.spinner--medium {
-    $diameter: 50px;
-    position: relative;
-    min-height: 0;
-    padding-right: 0;
-    padding-top: $diameter * 1.5;
-  }
-
   &::after {
     transition: 2.5s opacity linear;
     opacity: 0;
@@ -33,6 +25,23 @@
     overflow: hidden;
     animation: spinner .6s infinite linear;
   }
+
+
+  &.spinner--medium {
+    $diameter: 50px;
+    position: relative;
+    min-height: 0;
+    padding-right: 0;
+    padding-top: $diameter * 1.5;
+
+    &::after {
+      width: $diameter;
+      height: $diameter;
+      right: ($diameter / 2);
+      margin-top: -($diameter - 3);
+    }
+  }
+
 
   &.spinner--white {
     position: relative;
