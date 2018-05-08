@@ -110,10 +110,10 @@ license:
   heading:
     text: "Application is complete:"
     type: h2
-    modifiers: heading-large d-inline-block spacing--flush mr-5
+    modifiers: heading-medium d-inline-block spacing--flush mr-5 middle
   cta:
     label: Generate license
-    modifiers: button--large
+    modifiers: button--large middle
     url: "#"
 content:
 - contentType: collapsiblepanel
