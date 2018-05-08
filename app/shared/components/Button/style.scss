@@ -22,6 +22,10 @@
     background-color: $govuk-blue;
   }
 
+  &.button--large {
+    font-size: 140%;
+  }
+
   .bg-dark {
     :link,
     :visited,
