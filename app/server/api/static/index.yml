@@ -214,5 +214,5 @@ content:
   modifiers: list-bullet
   list:
   - text: Application overview - all sections complete - create licence CTA at top of page
-
+    url: /generate-license
 
