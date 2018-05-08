@@ -58,6 +58,7 @@ let getRoutes = store => {
         <Route path='new-member' component={withFallback(PageFlatImage)} onEnter={getPage} slug='new-member' />
         <Route path='technical'>
           <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview-technical'/>
+          <Route path='no-updates' component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview-technical-no-updates' />
           <Route path='satellite-and-mission-overview' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety' />
           <Route path='satellite-and-mission-overview-reviewed' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety-reviewed' />
           <Route path='share' component={withFallback(PageContainer)} onEnter={getPage} slug='technical-share' />
@@ -75,6 +76,7 @@ let getRoutes = store => {
         <Route path='authenticate-engineer' component={withFallback(PageContainer)} onEnter={getPage} slug='authenticate-engineer' />
         <Route path='sign-in-operator' component={withFallback(PageContainer)} onEnter={getPage} slug='sign-in-operator' />
         <Route path='authenticate-operator' component={withFallback(PageContainer)} onEnter={getPage} slug='authenticate-operator' />
+        <Route path='technical-section-share-email' component={withFallback(PageFlatImage)} onEnter={getPage} slug='technical-section-share-email' />
       </Route>
       <Route path='homepage'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='homepage' />
@@ -99,6 +101,8 @@ let getRoutes = store => {
       <Route path='operator'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview'/>
         <Route path='engineer-email' component={withFallback(PageFlatImage)} onEnter={getPage} slug='engineer-email-technical' />
+
+
         <Route path='operator-eligibility-assessing' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-eligibility-assessing' />
         <Route path='operator-eligibility-has-been-assessed' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-eligibility-has-been-assessed' />
         <Route path='operator-eligibility-assessing-approved' component={withFallback(PageContainer)} onEnter={getPage} slug='operator-eligibility-assessing-approved' />

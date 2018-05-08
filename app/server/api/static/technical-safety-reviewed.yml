@@ -10,10 +10,10 @@ breadcrumb:
   text: Space Agency UK
   url: "/"
 - contentType: link
-  url: "/application-overview/technical"
+  url: "/application-overview/technical/no-updates"
   text: Application 11021411
 - contentType: link
-  url: "/application-overview/technical"
+  url: "/application-overview/technical/no-updates"
   text: Technical
 - contentType: link
   text: Satellite and mission overview
@@ -37,7 +37,6 @@ content:
     text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
     type: h3
     modifiers: heading-medium
-    update: true
   permalink: question-1
   backbutton: true
   divider: true
@@ -1817,9 +1816,9 @@ progress:
       modifiers: heading-small
     divider:
       modifiers: divider--thick divider--green
-    button:
-      label: Complete
-      url:
+    # button:
+    #   label: Complete
+    #   url:
   - state: incomplete
     title:
       text: 3. Approve
