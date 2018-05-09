@@ -443,10 +443,10 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    id: Applicant information
+    id: Applicant details
     heading:
       contentType: heading
-      text: Applicant information
+      text: Applicant details
       type: p
       modifiers: heading-large
     grid:

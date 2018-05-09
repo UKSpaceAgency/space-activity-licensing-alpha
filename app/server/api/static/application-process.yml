@@ -31,9 +31,9 @@ content:
       modifiers: heading-small spacing--tight
     links:
       list:
-      - url: "/homepage/application-guidance"
+      - url: /homepage/guidance-for-applicants
         text: Application guidance
-      - url: "/homepage/satellite-operator-license"
+      - url: /homepage/satellite-operator-license
         text: Register for a space  activity licence
 - contentType: progressList
   list:

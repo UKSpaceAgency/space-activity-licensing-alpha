@@ -38,6 +38,10 @@ sup {
   vertical-align: bottom;
 }
 
+.middle {
+  vertical-align: middle;
+}
+
 .relative {
   position: relative;
 }
@@ -158,7 +162,10 @@ sup {
 
 .bordered {
   border: 1px solid $green;
-  float: left;
+
+  &.is-green {
+    float: left;  // tiny bit smelly - just needed it not floated and QUICK
+  }
 }
 
 .constrained {

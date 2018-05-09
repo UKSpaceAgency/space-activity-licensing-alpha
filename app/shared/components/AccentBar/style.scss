@@ -1,0 +1,10 @@
+.accent-bar {
+  background-color: $grey-4;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+
+  @include media(desktop) {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+}

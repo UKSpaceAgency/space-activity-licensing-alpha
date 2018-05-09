@@ -46,7 +46,6 @@ $text-max-width: 65rem;
 @import '../../../app/shared/components/Byline/style';
 @import '../../../app/shared/components/Spinner/style';
 @import '../../../app/shared/components/Select/style';
-//@import '../../../app/shared/components/Tags/style';
 @import '../../../app/shared/components/Progress/style';
 @import '../../../app/shared/components/Tab/style';
 @import '../../../app/shared/components/Accordion/style';
@@ -54,5 +53,6 @@ $text-max-width: 65rem;
 @import '../../../app/shared/components/Pagination/style';
 @import '../../../app/shared/components/Tile/style';
 @import '../../../app/shared/components/Autocomplete/style';
-@import '../../../app/shared/components/GridCol/style'; // adding a sixth
+@import '../../../app/shared/components/GridCol/style';
 @import '../../../app/shared/components/Media/style';
+@import '../../../app/shared/components/AccentBar/style';

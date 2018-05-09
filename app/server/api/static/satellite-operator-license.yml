@@ -31,10 +31,10 @@ content:
       modifiers: heading-small spacing--tight
     links:
       list:
-      - url: "/homepage/application-guidance"
-        text: Application guidance
-      - url: "/homepage/application-process"
+      - url: /homepage/application-process
         text: Application process
+      - url: /homepage/guidance-for-applicants
+        text: Application guidance
   cta:
     name: submit
     id: submit
