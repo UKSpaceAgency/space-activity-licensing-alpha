@@ -140,17 +140,15 @@ content:
             - id: llojef6
               value: Email
         assignees:
-          label: Assign to
-          # supporting: Select multiple by pressing shift and clicking
+          label: Assign user and action
           id: assignees-question-3
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -159,12 +157,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -289,17 +285,15 @@ content:
             - id: llojef663687
               value: Email
         assignees:
-          label: Assign to
-          # supporting: Select multiple by pressing shift and clicking
+          label: Assign user and action
           id: assignees-question-2
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -308,12 +302,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -451,10 +443,10 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    id: Applicant information
+    id: Applicant details
     heading:
       contentType: heading
-      text: Applicant information
+      text: Applicant details
       type: p
       modifiers: heading-large
     grid:

@@ -106,7 +106,7 @@ content:
             - id: 1234567d1
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-3
           # multiple: true
@@ -114,9 +114,10 @@ content:
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -125,12 +126,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -230,7 +229,7 @@ content:
             - id: 1234567d
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-2
           # multiple: true
@@ -238,9 +237,10 @@ content:
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -249,12 +249,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true

@@ -133,7 +133,7 @@ content:
             - id: llojef6
               value: Email
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-3
           # multiple: true
@@ -141,9 +141,10 @@ content:
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -152,12 +153,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -270,7 +269,7 @@ content:
           label: account
           modifiers: icon-account
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-2
           # multiple: true
@@ -278,9 +277,10 @@ content:
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -289,12 +289,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -469,12 +467,12 @@ content:
     modifiers: column-three-quarters
     heading:
       contentType: heading
-      text: Applicant information
+      text: Applicant details
       type: p
       modifiers: heading-large spacing-top--flush
     summary:
       contentType: longform
-      text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant Information.
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant details.
       modifiers: spacing--single
     grid:
     - contentType: heading
