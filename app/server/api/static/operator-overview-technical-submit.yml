@@ -63,7 +63,7 @@ content:
       modifiers: heading-large spacing-top--flush
     summary:
       contentType: longform
-      text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant Information.
+      text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant details.
       modifiers: spacing--single
     updates:
       url: "#"
