@@ -45,8 +45,8 @@ let getRoutes = store => {
   }
 
   const notifyData = {
-    emailAddress: 'dave.martin@cxpartners.co.uk',
-    phoneNumber: '07970948986',
+    emailAddress: config.WHITE_LISTED_EMAIL,
+    phoneNumber: config.DEMO_PHONE_NUMBER,
     personalisation: {
       operatorEngineer: 'Operator Engineer',
       operatorAdmin: 'Operator Admin',
