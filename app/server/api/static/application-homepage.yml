@@ -50,7 +50,7 @@ listing:
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: Satellite
+      tag: In-orbit license
       class: bg-pink
 - heading:
     text: Your applications (2 with updates)
@@ -91,8 +91,8 @@ listing:
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: Range
-      class: bg-green
+      tag: In-orbit license
+      class: bg-pink
   - status:
       label: 4 updates
       modifiers: bg-fuschia
@@ -111,8 +111,8 @@ listing:
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: Launch
-      class: bg-orange
+      tag: In-orbit license
+      class: bg-pink
   - heading:
       text: Satellite operator 1
       type: h3
@@ -126,7 +126,7 @@ listing:
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: In-orbit
+      tag: In-orbit license
       class: bg-pink
   - heading:
       text: Satellite operator 3
@@ -141,8 +141,8 @@ listing:
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: Launch
-      class: bg-orange
+      tag: In-orbit license
+      class: bg-pink
   - heading:
       text: Satellite operator 3
       type: h3
@@ -156,5 +156,5 @@ listing:
     updated: 10th March 2018
     updater: Dave Francis
     label:
-      tag: Space port
-      class: bg-brown
+      tag: In-orbit license
+      class: bg-pink
