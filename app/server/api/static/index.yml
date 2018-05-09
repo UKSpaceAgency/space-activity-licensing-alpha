@@ -21,35 +21,38 @@ content:
   modifiers: list-bullet
   list:
   - text: UKSA landing page
-    url: "/homepage"
+    url: /homepage
   - text: Licence type page - satellite
-    url: "/homepage/satellite-operator-license"
+    url: /homepage/satellite-operator-license
   - text: Application process
     url: "/homepage/application-process"
     modifiers: indented
+  - text: Guidance for applicants
+    url: /homepage/guidance-for-applicants
+    modifiers: indented
   - text: Pre-application - intelligent questions
-    url: "/apply/"
-  - url: "/apply/page-2"
+    url: /apply/
+  - url: /apply/page-2
     text: Are you using American technology?
     modifiers: indented
-  - url: "/apply/page-4"
+  - url: /apply/page-4
     text: Have you got / are getting insurance?
     modifiers: indented
-  - url: "/apply/page-5"
+  - url: /apply/page-5
     text: Have you got / are getting your ITU filings?
     modifiers: indented
   - text: Register your organisation
-    url: "/apply/your-organisation"
+    url: /apply/your-organisation
   - text: Register your details
-    url: "/apply/register"
+    url: /apply/register
   - text: Registration confirmation
-    url: "/apply/confirmation"
+    url: /apply/confirmation
   - text: Email - Registration confirmation
-    url: "/apply/email-confirmation"
+    url: /apply/email-confirmation
   - text: Log in
-    url: "/sign-in"
+    url: /sign-in
   - text: Multi-factor authentication - mobile verification code
-    url: "/sign-in/authenticate"
+    url: /sign-in/authenticate
 
 - contentType: heading
   text: "Backstage - new application:"
