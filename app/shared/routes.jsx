@@ -124,6 +124,9 @@ let getRoutes = store => {
         <Route path='link-section-summaries' component={withFallback(PageFlatImage)} onEnter={getPage} slug='link-section-summaries' />
         <Route path='technical-section-linked' component={withFallback(PageFlatImage)} onEnter={getPage} slug='technical-section-linked' />
       </Route>
+      <Route path='generate-license'>
+        <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='generate-license' />
+      </Route>
       <Route path='*' component={withFallback(PageContainer)} onEnter={getPage} slug='no-match' />
     </Route>
   )

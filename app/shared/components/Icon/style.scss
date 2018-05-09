@@ -57,8 +57,8 @@ $icon-dims: 16px;
   padding-left: .5em;
   padding-top: .5em;
   border-radius: 100%;
-  width: $icon-dims * 2;
-  height: $icon-dims * 2;
+  width: ($icon-dims * 2) - 5px;
+  height: ($icon-dims * 2) - 5px;
   text-align: center;
 
   span {
@@ -75,16 +75,21 @@ $icon-dims: 16px;
 .icon--circled {
   border-radius: 100%;
   border: 3px solid $green;
-  padding: 5px;
-  background-size: $icon-dims * 2;
+  padding: 3px;
+  background-size: ($icon-dims * 2) - 5px;
   background-position: center;
 
   @include media(tablet) {
-    padding: 10px;
+    padding: 5px;
   }
 
   &.icon--circled-white {
     border-color: $white;
+  }
+
+  &.icon--circled-green {
+    border: 0;
+    background-color: $button-colour;
   }
 }
 
