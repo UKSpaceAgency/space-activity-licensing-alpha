@@ -166,7 +166,7 @@ content:
   - text: Email notification - Technical section shared - deep link to Satellite and mission overview
     url: /sign-in/technical-section-share-email
   - text: Satellite and mission overview - review and comment on one answer
-    url: /application-overview/technical/satellite-and-mission-overview-reviewed#question-5
+    url: /application-overview/technical/satellite-and-mission-overview-reviewed#question-3
 - contentType: heading
   text: "Front stage notification of comment - engineering:"
   type: p
