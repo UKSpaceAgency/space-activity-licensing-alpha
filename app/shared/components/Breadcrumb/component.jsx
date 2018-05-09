@@ -19,7 +19,7 @@ const Breadcrumb = props => {
   })
 
   return (
-    <nav className={'breadcrumbs ' + props.className}>
+    <nav className='breadcrumbs constrained'>
       <ol>
         {navigationComponents}
       </ol>

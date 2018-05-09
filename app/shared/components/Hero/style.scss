@@ -7,6 +7,15 @@
     padding-bottom: 45px;
   }
 
+  // @todo @refactor - remove white top area more pleasantly
+  & + .accent-bar {
+    margin-top: -25px;
+
+    @include media(desktop) {
+      margin-top: -30px;
+    }
+  }
+
   .hero-intro {
     margin: 0 15px;
 
@@ -42,7 +51,6 @@
 
   // overrides for the hero area
   &.bg-dark {
-
     color: $white;
 
     .button:link,

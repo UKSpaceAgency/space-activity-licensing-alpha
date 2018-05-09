@@ -120,6 +120,7 @@ let getRoutes = store => {
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='homepage' />
         <Route path='satellite-operator-license' component={withFallback(PageContainer)} onEnter={getPage} slug='satellite-operator-license' />
         <Route path='application-process' component={withFallback(PageContainer)} onEnter={getPage} slug='application-process' />
+        <Route path='guidance-for-applicants' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='guidance-for-applicants' />
       </Route>
       <Route path='apply'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-1'/>
@@ -160,6 +161,9 @@ let getRoutes = store => {
         <Route path='link-previous-application' component={withFallback(PageFlatImage)} onEnter={getPage} slug='link-previous-application' />
         <Route path='link-section-summaries' component={withFallback(PageFlatImage)} onEnter={getPage} slug='link-section-summaries' />
         <Route path='technical-section-linked' component={withFallback(PageFlatImage)} onEnter={getPage} slug='technical-section-linked' />
+      </Route>
+      <Route path='generate-license'>
+        <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='generate-license' />
       </Route>
       <Route path='*' component={withFallback(PageContainer)} onEnter={getPage} slug='no-match' />
     </Route>

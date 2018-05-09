@@ -98,14 +98,15 @@ content:
             - id: 1234567
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           id: assignees-question-3sdfgsdgsdf
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -114,12 +115,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -186,17 +185,16 @@ content:
             - id: 1234567a
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-2dfgbdfg
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -205,12 +203,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -312,17 +308,16 @@ content:
             - id: 1234567b
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-3567
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -331,12 +326,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -403,17 +396,16 @@ content:
             - id: 1234567c
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-2wertt
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -422,12 +414,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -490,17 +480,16 @@ content:
         - id: 1234567d
           value: Meeting
     assignees:
-      label: Assign to
+      label: Assign user and action
       # supporting: Select multiple by pressing shift and clicking
       id: assignees-question-2
-      # multiple: true
-      # data: data-assign
       options:
       - label: Please select
         value: ''
+      - label: No action
+        value: no action
       - label: Joel Harris
         value: sfkhwer87hkj34h
-        selected: true
       - label: Luke Wotten
         value: sfkhwesdtjsdfhgqw
       - label: Jon Smith
@@ -509,12 +498,10 @@ content:
         value: jfmfuue67tg3f
       - label: Aimee Brace
         value: lvm08jjetffs
-        selected: true
       - label: Alex Hobbs
         value: kfj789dbv
       - label: Tom Foster
         value: 15rdcsb
-        selected: true
     deadline:
       legend: Set deadline
       calendar: true
@@ -615,17 +602,16 @@ content:
             - id: 1234567e
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-334534t
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -634,12 +620,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -734,17 +718,16 @@ content:
             - id: 1234567f
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-2yukyukyuk
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -753,12 +736,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -821,17 +802,16 @@ content:
         - id: 1234567h
           value: Meeting
     assignees:
-      label: Assign to
+      label: Assign user and action
       # supporting: Select multiple by pressing shift and clicking
       id: assignees-question-3
-      # multiple: true
-      # data: data-assign
       options:
       - label: Please select
         value: ''
+      - label: No action
+        value: no action
       - label: Joel Harris
         value: sfkhwer87hkj34h
-        selected: true
       - label: Luke Wotten
         value: sfkhwesdtjsdfhgqw
       - label: Jon Smith
@@ -840,12 +820,10 @@ content:
         value: jfmfuue67tg3f
       - label: Aimee Brace
         value: lvm08jjetffs
-        selected: true
       - label: Alex Hobbs
         value: kfj789dbv
       - label: Tom Foster
         value: 15rdcsb
-        selected: true
     deadline:
       legend: Set deadline
       calendar: true
@@ -952,17 +930,16 @@ content:
             - id: 1234567j
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-3dfghdfgh
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -971,12 +948,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -1043,17 +1018,16 @@ content:
             - id: 1234567k
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-2sdfsdf
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -1062,12 +1036,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -1164,17 +1136,16 @@ content:
             - id: 1234567l
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-3
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -1183,12 +1154,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -1289,17 +1258,16 @@ content:
             - id: 1234567m
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assignasdees-question-3as
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -1308,12 +1276,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -1433,17 +1399,16 @@ content:
             - id: 1234567n
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: assig567i56inees-question-3
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -1452,12 +1417,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true
@@ -1557,17 +1520,16 @@ content:
             - id: 1234567o
               value: Meeting
         assignees:
-          label: Assign to
+          label: Assign user and action
           # supporting: Select multiple by pressing shift and clicking
           id: aswertwertsignees-question-2
-          # multiple: true
-          # data: data-assign
           options:
           - label: Please select
             value: ''
+          - label: No action
+            value: no action
           - label: Joel Harris
             value: sfkhwer87hkj34h
-            selected: true
           - label: Luke Wotten
             value: sfkhwesdtjsdfhgqw
           - label: Jon Smith
@@ -1576,12 +1538,10 @@ content:
             value: jfmfuue67tg3f
           - label: Aimee Brace
             value: lvm08jjetffs
-            selected: true
           - label: Alex Hobbs
             value: kfj789dbv
           - label: Tom Foster
             value: 15rdcsb
-            selected: true
         deadline:
           legend: Set deadline
           calendar: true

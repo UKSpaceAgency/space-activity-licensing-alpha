@@ -1,0 +1,77 @@
+---
+contentType: page
+useComponent: true
+slug: test
+head:
+  contentType: head
+  title:  Guidance for applicants | UKSA
+breadcrumb:
+  - contentType: link
+    text: Space Agency UK
+    url: "/homepage"
+  - contentType: link
+    text: Guidance for applicants
+sideNavHeading:
+  text: Contents
+  type: p
+  modifiers: font-xsmall underline float-left block
+  flush: true
+heading:
+  text: Guidance for applicants
+  type: h1
+  modifiers: heading-xlarge spacing-bottom--single
+intro:
+  text: Please note that the application should be made as soon as possible, ideally at least six months in advance of any plans for launch or operation of a space system (see notes below). Delays in making the application could result in the project having to be delayed.
+  type: p
+  modifiers: lede
+content:
+- title:
+    text: Introduction & background
+    type: h2
+    modifiers: heading-medium
+  permalink: question-1
+  text: "<p>The Outer Space Act 1986 (the Act) is the legal basis for the regulation of activities in outer space carried out by organisations or individuals established in the United Kingdom or one of its Overseas Territories (OTs) or Crown Dependencies (CDs).</p><p>The Act confers licensing and other powers on the Secretary of State for Business, Innovation and Skills, who carries these powers out through the UK Space Agency. The Act seeks to ensure compliance with the UK’s obligations under international treaties and principles covering the use of outer space, including liability for damage caused by space objects, the registration of objects launched into outer space and the principles for the remote sensing of the Earth.</p><p>Download a copy of the Outer Space Act 1986, plus the amendments made to the Act by section 12 of the Deregulation Act 2015. Applicants are strongly advised to make themselves familiar with its provisions, before completing the application form.</p>"
+- title:
+    text: Do I need a licence?
+    type: h2
+    modifiers: heading-medium
+  permalink: question-2
+  text: "<p>The Outer Space Act 1986 applies to United Kingdom nationals (as defined in the Act), Scottish firms, and bodies incorporated under the law of any part of the United Kingdom, the Bailiwick of Guernsey, the Bailiwick of Jersey, or the Isle of Man. carrying out the following activities in the United Kingdom or elsewhere:</p><ul class='list-bullet'><li>launching or procuring the launch of a space object</li><li>operating a space object</li><li>any activity in outer space</li></ul><p>The following activities do not in our view require a licence:</p><ul class='list-bullet'><li>the leasing of space segment satellite capacity (transponders) from international inter-governmental satellite organisations or privately owned entities for use by the lessee or by a person sub-letting the capacity;</li><li>the utilisation of space segment capacity (transponders) using earth stations for either transmission or reception purposes. N.B. This exception does not apply to persons involved in telemetry, tracking and control of satellites in orbit.</li></ul><h3 class='heading-medium'>Notes:</h3><ul class='list-bullet'><li>Applicants should consult UK Space Agency (contact details may be found at the end of these notes) if they are in any doubt as to whether they need a licence. The Agency encourages applicants to contact them as early as possible to discuss the best way forward for their mission.</li><li>Applications should be submitted at least six months in advance of any plans for launch or operation. In certain circumstances it may be possible to process an application in a reduced timescale (in some cases in as little as three months), although we are unable to guarantee this. Please contact us in plenty of time to discuss if a reduced timescale would be possible and the steps you would have to take.</li><li>Applicants from one of the UK’s Overseas Territories to which the Act has been extended (Cayman Islands, Gibraltar, Bermuda) will need to apply to their own Governor’s office for an OSA licence.</li><li>Applicants from one of the UK’s Overseas Territories to which the Act has not been extended should approach the Government of the Overseas Territory, which would then liaise with the Foreign and Commonwealth Office (FCO) and UK Space Agency over whether it was appropriate to extend the Act to that territory. If decided upon, extension of the Act would be by Order in Council. This is a lengthy process and could take many months.</li></ul>"
+- title:
+    text: Obligations of licensees
+    type: h2
+    modifiers: heading-medium
+  permalink: question-3
+  text: "<p>It is an offence for a person to whom the Act applies to carry on a licensable activity without a valid licence.</p><p>Under section 10 of the Act, all persons to whom the Act applies must indemnify the UK Government against any claims for damage or loss arising out of licensable activities.</p><p>Licences for space activity granted onwards of 1 October 2015 under the Outer Space Act include a cap on the liability imposed on licensees (see Annex B for full details). Please note, currently the liability cap does not apply in the Crown Dependencies and Overseas Territories to which the Outer Space Act has been extended.</p><p>In addition, the Secretary of State has discretion to attach conditions to the grant of a licence. Download a copy of a typical licence, which includes our standard conditions.</p><p>UK Space Agency standard insurance requirement (at clause 6 of the attached sample licence) is that licensees must insure themselves against third party liabilities arising from each licensed activity (i.e. the launch and in-orbit phases of the mission). For each licence application, a risk assessment will be performed to consider the potential risks posed by the mission and a commensurate level of insurance cover will be determined. In the majority of cases, involving single satellite missions employing established launchers, satellite platforms and operational profiles, this insurance cover would be limited to €60 Million. The UK Government must be named as an additional insured party and in the case of applications from companies in the Overseas Territories and Crown Dependencies, the relevant territorial Government should also be named.</p><p>Additional conditions may be imposed, depending on the circumstances of each application.</p>"
+- title:
+    text: Application for a licence
+    type: h2
+    modifiers: heading-medium
+  permalink: question-4
+  text: "<p>Applications for licences under the Outer Space Act may be made either in hard copy or electronically (e.g. a .pdf of the signed application form), using the application form. Other supporting material as requested on the application form or that the applicant sees fit to include should be submitted at the same time.</p><p>The following information will be required as a minimum:</p><ul class='list-bullet'><li>the nature of the space activity the applicant is proposing to carry out;</li><li>the relationship of the applicant with other parts of the corporate group (if applicable);</li><li>the applicant’s financial standing (including certified accounts for the two most recent years,</li><li>accounts information for parent companies may also be required if the applicant is a subsidiary); If you are unable to provide two years of accounts alternatives can be explored (please contact us for details).</li><li>mission costs;</li><li>insurance arrangements for launch (if applicable) and in-orbit phase of the mission (including</li><li>copies of all certificates and policies);</li><li>technical details of the mission (including copies of the launch services contract, satellite supply</li><li>contract and technical specifications and ground station specification);</li><li>plans for disposal of space object at end of life;</li><li>emergency procedures;</li><li>radio frequencies and powers used during the mission;</li><li>orbital location information.</li></ul><p>Applicants should also attach the additional information listed at Annex A.</p>"
+- title:
+    text: Licence fee
+    type: h2
+    modifiers: heading-medium
+  permalink: question-5
+  text: "<p>The application should be accompanied by a non-refundable fee of £6,500 in the form of a cheque or banker’s order made payable to: UK Space Agency. Electronic payment details can be provided upon request.</p><p>Please contact us if you are applying to launch a constellation of satellites as we may not need to charge a fee for every satellite.</p><p>Note: Recognised educational institutions carrying on an activity to which the Act applies for the purpose of scientific research or teaching are not required to pay the fee.</p>"
+- title:
+    text: UK Space Agency licensing procedure under the Outer Space Act
+    type: h2
+    modifiers: heading-medium
+  permalink: question-7
+  text: "<p>The information provided with the initial application is assessed and UK Space Agency may need to seek further information or clarification of particular points from the applicant in the course of assessing the application. UK Space Agency will normally seek a meeting with the applicants at an early opportunity to help us to understand the activity to be licensed. In particular, we will wish to ascertain whether there are any novel or special circumstances that might have a bearing on the licence. At all stages of the licensing process, UK Space Agency will keep the applicants informed and explain the reasons for any decisions or additional requests for information.</p><p>Normally, the main stages of the licensing process are:</p><ul class='list-bullet'><li>identification of whether a licence is required and initial contact /consultation: to explain the licensing process to the applicant and for UK Space Agency to learn whether there are any special circumstances related to the mission (Stage 0);</li><li>completed application form and initial information, together with fee received by UK Space Agency (Stage 1);</li><li>suitability of applicant’s insurance cover: to ensure that the cover for the mission provides appropriate cover for the UK Government under the conditions of the licence (Stage 2);</li><li>applicant’s financial status: to ensure that the applicants have adequate resources to carry out the proposed activity and to meet and maintain their obligations under the licence (e.g. continuing to meet insurance premium payments) and that the applicant is sufficiently sound to enable a licence to be issued (bearing in mind (i) the UK Government’s potential liabilities for the activity under international treaties, and (ii) the statutory indemnity in favour of the Government from everyone to whom the OSA applies and which is contained in the OSA) (Stage 2);</li><li>technical assessment: to ensure that the launch and operation of the space object conform with international treaties (e.g. the requirements on liability and registration) and law and that they do not pose a risk to lives or property (Stage 2);</li><li>checks with OFCOM to ensure that correct ITU filings have been made (i.e. that the frequencies used will not cause interference issues) (Stage 2);</li><li>licence application review - political and legal: UK Space Agency liaise as appropriate with other Government Departments and partners (e.g. MoD, PPARC, NERC) to ensure that the licensed activity does not affect Government activities (Stage 2);</li><li>final decision: UK Space Agency ensures that all checks are complete and decides whether or not to issue the licence. Licence prepared, adding conditions where necessary (e.g. in response to advice from any of the above process) (Stage 3);</li><li>final meeting with applicant to explain any conditions in the licence (Stage 3);</li><li>licence issued or refused (Stage 4).</li></ul>"
+- title:
+    text: Conditions for the grant of the licence
+    type: h2
+    modifiers: heading-medium
+  permalink: question-8
+  text: "<p>Before a licence can be granted UK Space Agency must be satisfied that the proposed activities will not jeopardise public health, the safety of persons or property, or national security. UK Space Agency will also wish to be satisfied that the proposed activities will not compromise the UK’s ability to carry out its obligations under the various international treaties and agreements that govern space activities.</p><p>During the licensing process set out above, UK Space Agency and its advisors will assess any information submitted. Should special conditions be required for a particular licence (e.g. a parent guarantee to be in place when a licence is granted to a subsidiary company), these will be explained to the applicant.</p>"
+
+
+
+
+
+
+
+
