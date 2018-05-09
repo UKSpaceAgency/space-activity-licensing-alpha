@@ -131,7 +131,7 @@ content:
   - text: Application overview - Technical section - 4 Q's ready for submission - SUBMIT
 
     # operator-overview-ready-for-submission
-    url: /operator/operator-eligibility-assessed-updated
+    url: /operator/operator-overview-technical-partial-submit
   - text: Application overview - submission confirmation
     url: /operator/operator-overview-technical-partial-submit-2
 
