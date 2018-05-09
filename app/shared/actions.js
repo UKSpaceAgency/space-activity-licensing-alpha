@@ -61,14 +61,9 @@ export function notifyByEmail (userData) {
   return dispatch => {
     dispatch(sendNotification(userData))
     // stuff in test email code - TODO: refactor
-    const templateId = '48f862be-c277-428d-8a5c-b4c4627c1753'
-    const personalisation = {
-      'first_name': userData.firstName,
-      'last_name': userData.lastName,
-      'registration_number': 'HDJ2123F'
-    }
+    const templateId = 'eefa4b4e-03c1-4e83-b3db-47637e5abda1'
     notifyClient.sendEmail(templateId, userData.emailAddress, {
-      personalisation: personalisation})
+      personalisation: userData.personalisation})
     .then(response => {
       console.log(response)
     })
@@ -82,10 +77,9 @@ export function notifyBySms (userData) {
   return dispatch => {
     dispatch(sendNotification(userData))
     // stuff in test SMS code - TODO: refactor
-    const templateId = '8b97b04f-8461-4f30-958d-a392c109ed1c'
-    const personalisation = { 'first_name': userData.firstName }
+    const templateId = '7129b47a-77cf-4931-94a5-d52d05fc8f1f'
     notifyClient.sendSms(templateId, userData.phoneNumber, {
-      personalisation: personalisation})
+      personalisation: userData.personalisation})
     .then(response => {
       console.log(response)
     })
