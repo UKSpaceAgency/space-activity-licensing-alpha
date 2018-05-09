@@ -16,6 +16,7 @@ const PageGranularTwoCol = props => {
   return (
     <React.Fragment>
       <Masthead {...props.masthead}/>
+      {!props.hero && <div id='global-header-bar' />}
       <Banner {...props.banner}/>
       {props.breadcrumb && <Breadcrumb breadcrumb={props.breadcrumb} />}
       {props.hero && <Hero {...props.hero} />}
