@@ -10,6 +10,7 @@ const ContentRepeaterContainer = props => {
   return (
     <div className={props.modifiers || ''}>
       {props.heading && <Heading {...props.heading}/>}
+      {props.intro && <Heading {...props.intro}/>}
       {content}
     </div>
   )

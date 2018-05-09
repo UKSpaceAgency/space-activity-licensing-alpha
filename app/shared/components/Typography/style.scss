@@ -13,6 +13,14 @@ strong {
 
 .long-form {
   margin-bottom: 1em;
+
+  .list-bullet {
+    margin-bottom: 30px;
+
+    > li {
+      margin-bottom: 15px;
+    }
+  }
 }
 
 .muted {
