@@ -605,7 +605,7 @@ content:
       modifiers: heading-medium
     tabs:
     - label: Satellite operator 1
-      id: notes-open-3ertert
+      id: notes-open-question-3
       commentBlock:
         limit: 3
         modifiers: spacing-bottom--single

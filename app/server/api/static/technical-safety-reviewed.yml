@@ -585,7 +585,7 @@ content:
       modifiers: heading-medium
     tabs:
     - label: Satellite operator 1
-      id: notes-open-3ertert
+      id: notes-open-question-3
       commentBlock:
         limit: 3
         modifiers: spacing-bottom--single
@@ -1116,15 +1116,6 @@ content:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
-  references:
-    heading:
-      text: UKSA Knowledge Base
-      type: h3
-      modifiers: heading-small
-    link:
-      text: "<a class='green' href='/machine-learning/'>(4) contextural references</a>"
-      type: p
-      modifiers: red
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -1224,40 +1215,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: file-upload-3dsfsdfgsdfgsdfgs
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notes-priasdfvate-5
       commentBlock:
@@ -1349,40 +1307,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: filsdae-upload-3asfa
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
 - title:
     text: Q6. At what radio frequencies and at what powers will the space object transmit during its planned mission? Are there additional frequencies or transmit powers which can be invoked?
     type: h3
@@ -1493,40 +1418,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: asdfafile-upload-3
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notwertes-pwertrivate-6
       commentBlock:
