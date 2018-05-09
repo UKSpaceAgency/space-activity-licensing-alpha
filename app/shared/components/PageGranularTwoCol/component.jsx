@@ -9,13 +9,16 @@ import SidenavContainer from '../../containers/SidenavContainer/component.jsx'
 import ContentRepeaterContainer from '../../containers/ContentRepeaterContainer/component.jsx'
 import Progress from '../Progress/component.jsx'
 import Banner from '../Banner/component.jsx'
+import Breadcrumb from '../Breadcrumb/component.jsx'
+import Heading from '../Heading/component.jsx'
 
 const PageGranularTwoCol = props => {
   return (
     <React.Fragment>
       <Masthead {...props.masthead}/>
       <Banner {...props.banner}/>
-      <Hero {...props.hero} />
+      {props.breadcrumb && <Breadcrumb breadcrumb={props.breadcrumb} />}
+      {props.hero && <Hero {...props.hero} />}
       <div className='site-wrapper'>
         <main id='content' role='main'>
           <Grid>
