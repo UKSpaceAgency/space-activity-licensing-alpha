@@ -15,6 +15,7 @@ sideNavHeading:
   text: Contents
   type: p
   modifiers: font-xsmall underline float-left block
+  flush: true
 heading:
   text: Guidance for applicants
   type: h1
