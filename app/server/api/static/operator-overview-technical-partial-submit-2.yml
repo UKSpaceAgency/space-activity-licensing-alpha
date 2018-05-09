@@ -146,19 +146,19 @@ content:
           - label: No action
             value: no action
           - label: Joel Harris
-            value: sfkhwer87hkj34h
+            value: Joel Harris
           - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
+            value: Luke Wotten
           - label: Jon Smith
-            value: adwty5nnkv08b
+            value: Jon Smith
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -280,19 +280,19 @@ content:
           - label: No action
             value: no action
           - label: Joel Harris
-            value: sfkhwer87hkj34h
+            value: Joel Harris
           - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
+            value: Luke Wotten
           - label: Jon Smith
-            value: adwty5nnkv08b
+            value: Jon Smith
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true

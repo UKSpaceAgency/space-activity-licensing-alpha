@@ -188,6 +188,7 @@ content:
   modifiers: list-bullet
   list:
   - text: Email notification - Comment from engineering - section OK - deep link
+    url: /sign-in/backstage-to-frontstage-comment-email
   - text: Satellite mission and overview - Admin reviews and selects status change to assessed
 
 - contentType: heading
