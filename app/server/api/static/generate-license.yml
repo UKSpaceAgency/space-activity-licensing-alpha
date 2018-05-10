@@ -158,11 +158,11 @@ content:
           options:
           - label: Please select
             value: ''
-          - label: Joel Harris
-            value: Joel Harris
+          - label: Operator Engineer
+            value: Operator Engineer
             selected: true
-          - label: Luke Wotten
-            value: Luke Wotten
+          - label: Regulator Engineer
+            value: Regulator Engineer
           - label: Jon Smith
             value: Jon Smith
           - label: Dave Stringer
@@ -307,11 +307,11 @@ content:
           options:
           - label: Please select
             value: ''
-          - label: Joel Harris
-            value: Joel Harris
+          - label: Operator Engineer
+            value: Operator Engineer
             selected: true
-          - label: Luke Wotten
-            value: Luke Wotten
+          - label: Regulator Engineer
+            value: Regulator Engineer
           - label: Jon Smith
             value: Jon Smith
           - label: Dave Stringer
