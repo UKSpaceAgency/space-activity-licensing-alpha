@@ -68,6 +68,7 @@ hero:
       inputs:
       - id: ieurhferf
         value: Operations
+        checked: true
       - id: ieurhferf12
         value: Emergency operations
       - id: ieurhferf21
@@ -417,10 +418,6 @@ content:
       type: p
       modifiers: heading-large
     id: technical
-    updates:
-      url: /application-overview/technical
-      text: 4 updates
-      modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: "4 of 16<br/><span class='quiet'>Answers submitted</span>"
