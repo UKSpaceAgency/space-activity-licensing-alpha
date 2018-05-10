@@ -107,7 +107,7 @@ content:
   commentBlock:
     modifiers: spacing-bottom--single
     collapsible: true
-    collapsibleHeading: Application notes (3)
+    collapsibleHeading: Application notes (0)
     tabs:
     - label: Notes to regulator
       id: notes-open
@@ -504,7 +504,7 @@ content:
         label: High priority
         modifiers: icon-warning icon-warning--red icon--large
       content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
-      modifiers: spacing--single
+      modifiers: spacing--single red
     grid:
     - contentType: heading
       text: 23 Questions
@@ -590,7 +590,7 @@ content:
         label: High priority
         modifiers: icon-warning icon-warning--red icon--large
       content: You said that you did not have insurance, you will need to secure insurance to complete this application.
-      modifiers: spacing--single
+      modifiers: spacing--single red
     grid:
     - contentType: heading
       text: 5 Questions

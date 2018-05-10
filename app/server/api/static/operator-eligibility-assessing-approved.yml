@@ -103,7 +103,7 @@ content:
   commentBlock:
     modifiers: spacing-bottom--single
     collapsible: true
-    collapsibleHeading: Application notes (3)
+    collapsibleHeading: Application notes (0)
     tabs:
     - label: Notes to regulator
       id: notes-open
