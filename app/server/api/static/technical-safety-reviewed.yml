@@ -247,7 +247,6 @@ content:
     text: Q2. Will the space-object dock or rendezvous?
     type: h3
     modifiers: heading-medium
-    update: true
   permalink: question-2
   backbutton: true
   divider: true
@@ -542,6 +541,7 @@ content:
     text: Q3. Is it planned that any solid or ionizing or gaseous materials should be released from the object other than as part of a normal propulsion system?
     type: h3
     modifiers: heading-medium
+    update: true
   permalink: question-3
   backbutton: true
   divider: true
@@ -1080,7 +1080,6 @@ content:
     text: Q5. Will the space object carry any form of animal life?
     type: h3
     modifiers: heading-medium
-    update: true
   permalink: question-5
   backbutton: true
   divider: true
@@ -1278,6 +1277,7 @@ content:
     text: Q6. At what radio frequencies and at what powers will the space object transmit during its planned mission? Are there additional frequencies or transmit powers which can be invoked?
     type: h3
     modifiers: heading-medium
+    update: true
   permalink: question-6
   backbutton: true
   divider: true

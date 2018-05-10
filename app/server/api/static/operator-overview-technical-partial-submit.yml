@@ -56,7 +56,7 @@ hero:
       divider:
         modifiers: divider--flush
       status:
-        text: Pending
+        text: In progress
         type: p
     - title:
         text: Applicant info
@@ -366,6 +366,7 @@ content:
       contentType: longform
       text: Before you can submit your application form, you will need to complete  ten technical eligibility questions. These will give us an idea of your  application readiness.
       modifiers: spacing--single
+    id: one
     heading:
       contentType: heading
       text: Eligibility
@@ -405,6 +406,7 @@ content:
         type: p
   - contentType: tile
     modifiers: column-three-quarters
+    id: two
     heading:
       contentType: heading
       text: Technical
@@ -424,7 +426,7 @@ content:
         type: p
       action:
         label: Submit
-        url: /operator/operator-overview-technical-partial-submit-2
+        url: /operator/operator-overview-technical-partial-submit-2#one
         modifiers: button--full-width button--large
     # updates:
     #   url: /operator/operator-technical-questions-completed
@@ -461,6 +463,7 @@ content:
       modifiers: heading-medium
   - contentType: tile
     modifiers: column-three-quarters
+    id: three
     heading:
       contentType: heading
       text: Applicant details

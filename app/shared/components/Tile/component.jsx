@@ -43,7 +43,7 @@ const Tile = props => {
   })
 
   return (
-    <div className={wrapper}>
+    <div className={wrapper} id={'box_' + props.id}>
       <div className={boxClasses} {...id}>
         {props.updates && <Badge {...props.updates}/>}
         <Heading {...props.heading}/>

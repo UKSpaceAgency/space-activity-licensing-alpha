@@ -8,7 +8,7 @@ spinner:
   modifiers: spinner--medium spinner--active spinner--white
 head:
   contentType: head
-  title: Technical submissionpartially ready | Operator application overview | UKSA
+  title: Technical submission partially ready | Operator application overview | UKSA
 masthead:
   utility:
     links:
@@ -365,6 +365,7 @@ content:
   gridModifier: column-third
   content:
   - contentType: tile
+    id: one
     modifiers: column-three-quarters
     summary:
       contentType: longform
@@ -409,6 +410,7 @@ content:
         type: p
   - contentType: tile
     modifiers: column-three-quarters
+    id: two
     heading:
       contentType: heading
       text: Technical
@@ -460,6 +462,7 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
+    id: three
     modifiers: column-three-quarters
     heading:
       contentType: heading
