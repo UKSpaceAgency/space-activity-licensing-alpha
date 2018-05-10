@@ -3,7 +3,7 @@ import { config } from 'config'
 const express = require('express')
 const yaml = require('js-yaml')
 const fs = require('fs')
-
+const bodyParser = require('body-parser')
 const router = express.Router()
 
 const NotifyClient = require('notifications-node-client').NotifyClient
@@ -13,6 +13,12 @@ const emailAddress = config.WHITE_LISTED_EMAIL
 const phoneNumber = config.DEMO_PHONE_NUMBER
 
 let templateId = ''
+
+/**
+ * Add middleware to parse json
+ */
+
+router.use(bodyParser.json())
 
 /**
  * Get page data
@@ -39,7 +45,8 @@ router.get('/pages/:slug', (req, res, next) => {
  * Get notify
  */
 router.all('/notify/:slug', (req, res) => {
-  const genericData = { message: 'message', subject: 'subject' }
+  const genericData = req.body
+
   const sendEmail = (templateId, data) => {
     notifyClient.sendEmail(templateId, emailAddress, { personalisation: data })
     .then(response => {
@@ -91,7 +98,7 @@ router.all('/notify/:slug', (req, res) => {
       sendSms(templateId, genericData)
       break
     default:
-      res.send('why!?')
+      res.sendStatus(404).send('slug not found')
       break
   }
 })
