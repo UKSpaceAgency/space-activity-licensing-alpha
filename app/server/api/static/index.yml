@@ -109,7 +109,6 @@ content:
   - text: Satellite and mission overview - fills in and marks 4 questions as draft
     url: /operator/technical
   - text: TIME PASSES
-    modifiers: heading-large
   - text: Technical section overview - 4 marked draft
     url: /operator/operator-eligibility-assessing-approved
   - text: Satellite and mission overview - all filled in and marked ready for submission
