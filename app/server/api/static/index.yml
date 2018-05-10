@@ -191,9 +191,9 @@ content:
   modifiers: list-bullet
   list:
   - text: Email notification - Comment from engineering - section OK - deep link
-
+    url: /sign-in/frontstage-to-backstage-comment-email
   - text: Satellite mission and overview - Admin reviews and selects status change to assessed
-    url: /application-overview/technical/satellite-and-mission-overview-assessed
+    url: /application-overview/technical/satellite-and-mission-overview-assessed#notes-open-question-3
 - contentType: heading
   text: "Machine learning:"
   type: p
