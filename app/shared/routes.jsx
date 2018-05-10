@@ -44,20 +44,8 @@ let getRoutes = store => {
       })
   }
 
-  const notifyData = {
-    emailAddress: config.WHITE_LISTED_EMAIL,
-    phoneNumber: config.DEMO_PHONE_NUMBER,
-    personalisation: {
-      operatorEngineer: 'Operator Engineer',
-      operatorAdmin: 'Operator Admin',
-      registrationNumber: 'HDJ2123F',
-      emailLink: config.api + '/operator/operator-submission-ready-email',
-      smsLink: config.api + '/operator/email-submission-ready'
-    }
-  }
-
   function getPageAndEmail (nextState, replace, callback) {
-    store.dispatch(notifyByEmail(notifyData))
+    store.dispatch(notifyByEmail())
     store.dispatch(fetchPage(this.slug))
       .then(() => {
         callback()
@@ -69,7 +57,7 @@ let getRoutes = store => {
   }
 
   function getPageAndSms (nextState, replace, callback) {
-    store.dispatch(notifyBySms(notifyData))
+    store.dispatch(notifyBySms())
     store.dispatch(fetchPage(this.slug))
       .then(() => {
         callback()

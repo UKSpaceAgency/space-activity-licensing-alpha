@@ -34,10 +34,10 @@ function receivePage (pageData) {
   }
 }
 
-function sendNotification (userData) {
+function sendNotification (notifyData) {
   return {
     type: SEND_NOTIFICATION,
-    userData
+    notifyData
   }
 }
 
@@ -57,34 +57,36 @@ export function fetchPage (slug, type = 'pages') {
   }
 }
 
-export function notifyByEmail (userData) {
+export function notifyByEmail (slug = 'demo-email', type = 'notify') {
   return dispatch => {
-    dispatch(sendNotification(userData))
+    dispatch(sendNotification())
     // stuff in test email code - TODO: refactor
-    const templateId = 'eefa4b4e-03c1-4e83-b3db-47637e5abda1'
-    notifyClient.sendEmail(templateId, userData.emailAddress, {
-      personalisation: userData.personalisation})
-    .then(response => {
-      console.log(response)
-    })
-    .catch(err => {
-      console.error(err)
-    })
+    let lookupUrl = apiHost + '/api/v1/' + type + '/' + slug
+    return axios.get(lookupUrl)
+      .then(res => {
+        dispatch(receivePage(res.data))
+      })
+      .catch(err => {
+        let status = err.code === 'ETIMEDOUT' ? 500 : err.response.status
+        dispatch(receivePageError(status))
+        return Promise.reject(err)
+      })
   }
 }
 
-export function notifyBySms (userData) {
+export function notifyBySms (slug = 'demo-sms', type = 'notify') {
   return dispatch => {
-    dispatch(sendNotification(userData))
+    dispatch(sendNotification())
     // stuff in test SMS code - TODO: refactor
-    const templateId = '7129b47a-77cf-4931-94a5-d52d05fc8f1f'
-    notifyClient.sendSms(templateId, userData.phoneNumber, {
-      personalisation: userData.personalisation})
-    .then(response => {
-      console.log(response)
-    })
-    .catch(err => {
-      console.error(err)
-    })
+    let lookupUrl = apiHost + '/api/v1/' + type + '/' + slug
+    return axios.get(lookupUrl)
+      .then(res => {
+        dispatch(receivePage(res.data))
+      })
+      .catch(err => {
+        let status = err.code === 'ETIMEDOUT' ? 500 : err.response.status
+        dispatch(receivePageError(status))
+        return Promise.reject(err)
+      })
   }
 }
