@@ -21,7 +21,7 @@ content:
     title: Sign in
     modifiers: spacing-bottom--single
 - contentType: heading
-  text: Enter your Goverment Gateway credentials to sign in. You received these when you created your HMRC online account.
+  text: Enter your email address and password to sign in to your account.
   type: p
   modifiers: lede spacing-top--flush
 - contentType: form

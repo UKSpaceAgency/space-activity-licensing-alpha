@@ -69,6 +69,10 @@ content:
   content:
   - contentType: tile
     modifiers: column-three-quarters
+    updates:
+      url: /application-overview/technical/satellite-and-mission-overview
+      text: 4 updates
+      modifiers: bg-fuschia badge--fixed badge--top
     heading:
       contentType: heading
       text: Satellite and mission overview

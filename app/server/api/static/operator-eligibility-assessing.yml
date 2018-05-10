@@ -415,10 +415,10 @@ content:
       contentType: longform
       text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
       modifiers: spacing--single
-    updates:
-      url: "/operator/operator-overview-technical"
-      text: "Next actions: Sat op 1 (0) - UKSA (1)"
-      modifiers: bg-fuschia badge--fixed badge--top
+    # updates:
+    #   url: "/operator/operator-overview-technical"
+    #   text: "Next actions: Sat op 1 (0) - UKSA (1)"
+    #   modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 16 Questions

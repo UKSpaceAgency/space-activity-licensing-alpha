@@ -5,6 +5,11 @@ slug: technical-safety
 head:
   contentType: head
   title: Satellite and mission overview
+spinner:
+  label: Time passes....
+  url: /generate-license
+  modifiers: spinner--medium spinner--active spinner--white
+  hidden: true
 breadcrumb:
 - contentType: link
   text: Space Agency UK
