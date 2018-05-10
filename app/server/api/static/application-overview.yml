@@ -151,8 +151,8 @@ content:
             value: Operator Engineer
           - label: Regulator Engineer
             value: Regulator Engineer
-          - label: Jon Smith
-            value: Jon Smith
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -296,8 +296,8 @@ content:
             value: Operator Engineer
           - label: Regulator Engineer
             value: Regulator Engineer
-          - label: Jon Smith
-            value: Jon Smith
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -416,7 +416,7 @@ content:
     id: technical
     updates:
       url: /application-overview/technical
-      text: 1 update
+      text: 4 updates
       modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
