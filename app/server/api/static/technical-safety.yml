@@ -7,7 +7,7 @@ head:
   title: Satellite and mission overview
 spinner:
   label: Time passes....
-  url: /application-overview/technical/satellite-and-mission-overview-reviewed
+  url: /sign-in/backstage-to-frontstage-comment-email
   modifiers: spinner--medium spinner--active spinner--white
   hidden: true
 breadcrumb:
@@ -1488,33 +1488,33 @@ content:
           modifiers: file-upload
           id: fwertwile-upload-23456
         comments: null
-progress:
-  heading:
-    text: "Satellite and mission overview status:"
-    type: h2
-  content:
-  - state: active
-    title:
-      text: 1. Review
-      type: p
-      modifiers: heading-small
-    divider:
-      modifiers: divider--thick divider--green
-    button:
-      label: Complete
-      url: /application-overview/technical/satellite-and-mission-overview-reviewed
-  - state: incomplete
-    modifiers: progress--current
-    title:
-      text: 2. Assess
-      type: p
-      modifiers: heading-small muted
-    divider:
-      modifiers: divider--thick
-  - state: incomplete
-    title:
-      text: 3. Approve
-      type: p
-      modifiers: heading-small muted
-    divider:
-      modifiers: divider--thick
+# progress:
+#   heading:
+#     text: "Satellite and mission overview status:"
+#     type: h2
+#   content:
+#   - state: active
+#     title:
+#       text: 1. Review
+#       type: p
+#       modifiers: heading-small
+#     divider:
+#       modifiers: divider--thick divider--green
+#     button:
+#       label: Complete
+#       url: /application-overview/technical/satellite-and-mission-overview-reviewed
+#   - state: incomplete
+#     modifiers: progress--current
+#     title:
+#       text: 2. Assess
+#       type: p
+#       modifiers: heading-small muted
+#     divider:
+#       modifiers: divider--thick
+#   - state: incomplete
+#     title:
+#       text: 3. Approve
+#       type: p
+#       modifiers: heading-small muted
+#     divider:
+#       modifiers: divider--thick
