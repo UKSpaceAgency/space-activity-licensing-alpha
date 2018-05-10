@@ -386,7 +386,7 @@ content:
       label: View
       modifiers: button--full-width button--secondary
     - contentType: heading
-      text: "<span class='quiet'>Status </span><br/>Being assessed"
+      text: "<span class='quiet'>Status </span><br/>Assessed"
       type: p
       modifiers: heading-medium
     completion:
@@ -497,7 +497,7 @@ content:
         label: High priority
         modifiers: icon-warning icon-warning--red icon--large
       content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
-      modifiers: spacing--single
+      modifiers: spacing--single red
     grid:
     - contentType: heading
       text: 23 Questions
@@ -583,7 +583,7 @@ content:
         label: High priority
         modifiers: icon-warning icon-warning--red icon--large
       content: You said that you did not have insurance, you will need to secure insurance to complete this application.
-      modifiers: spacing--single
+      modifiers: spacing--single red
     grid:
     - contentType: heading
       text: 5 Questions

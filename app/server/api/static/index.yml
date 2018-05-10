@@ -16,7 +16,7 @@ content:
 - contentType: heading
   text: "Front stage registration:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -57,7 +57,7 @@ content:
 - contentType: heading
   text: "Backstage - new application:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -67,7 +67,7 @@ content:
 - contentType: heading
   text: "Front stage logged in:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -91,7 +91,7 @@ content:
 - contentType: heading
   text: "Front stage engineer input:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -118,7 +118,7 @@ content:
 - contentType: heading
   text: "Front stage technical submission:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -139,7 +139,7 @@ content:
 - contentType: heading
   text: "Back stage check submission:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -162,7 +162,7 @@ content:
 - contentType: heading
   text: "Back stage engineering:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -174,7 +174,7 @@ content:
 - contentType: heading
   text: "Front stage notification of comment - engineering:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -186,7 +186,7 @@ content:
 - contentType: heading
   text: "Back stage - admin:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -197,7 +197,7 @@ content:
 - contentType: heading
   text: "Machine learning:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -212,11 +212,11 @@ content:
 - contentType: heading
   text: "TIME PASSES"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single heading-large
+  modifiers: spacing-top--large spacing-bottom--single heading-medium heading-large
 - contentType: heading
   text: "Back stage - admin:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
