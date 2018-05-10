@@ -46,6 +46,7 @@ content:
     - contentType: select
       name: select-item
       label: Who is providing launch services?
+      selected: ariane-reveal
       data:
         key: data-target
         value: ariane-reveal
