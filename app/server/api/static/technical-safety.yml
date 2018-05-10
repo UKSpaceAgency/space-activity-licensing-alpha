@@ -7,7 +7,7 @@ head:
   title: Satellite and mission overview
 spinner:
   label: Time passes....
-  url: /generate-license
+  url: /application-overview/technical/satellite-and-mission-overview-reviewed
   modifiers: spinner--medium spinner--active spinner--white
   hidden: true
 breadcrumb:

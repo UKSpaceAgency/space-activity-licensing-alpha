@@ -17,6 +17,11 @@ breadcrumb:
   text: Technical
 - contentType: link
   text: Satellite and mission overview
+spinner:
+  label: Time passes....
+  url: /application-overview/technical/satellite-and-mission-overview-assessed
+  modifiers: spinner--medium spinner--active spinner--white
+  hidden: true
 hero:
   modifiers: bg-dark bg-blue padded
   title:
@@ -585,6 +590,7 @@ content:
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjftt
               value: High priority
+        from: Operator Engineer
         source:
           legend: Comment source
           fieldsetModifiers: inline
@@ -669,7 +675,7 @@ content:
               modifiers: red
             modifiers: spacing-bottom--single comment-admin
             name:
-              text: Bill McEvitt
+              text: Regulator Engineer
               type: h3
               modifiers: heading-small
             url: "#"
@@ -685,7 +691,7 @@ content:
             type: p
             modifiers: heading-small
           assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+            text: "<span class='quiet'>Assigned to</span><br/>Operator Engineer"
             type: p
             modifiers: heading-small
     - label: Private notes
