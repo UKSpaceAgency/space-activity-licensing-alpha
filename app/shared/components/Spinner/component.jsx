@@ -2,9 +2,9 @@ import React from 'react'
 import classNames from 'classnames'
 
 const Spinner = props => {
-	let classes = classNames('loading fixed', {
-	 'hidden': props.hidden
-	})
+  let classes = classNames('loading fixed', {
+    'hidden': props.hidden
+  })
 
   return (
     <aside className={classes} id='spinner'>
