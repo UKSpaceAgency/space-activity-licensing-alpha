@@ -59,6 +59,7 @@ let getRoutes = store => {
         <Route path='technical'>
           <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview-technical'/>
           <Route path='no-updates' component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview-technical-no-updates' />
+          <Route path='ready-for-admin' component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview-technical-ready-for-admin' />
           <Route path='satellite-and-mission-overview' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety' />
           <Route path='satellite-and-mission-overview-reviewed' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety-reviewed' />
           <Route path='satellite-and-mission-overview-assessed' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety-assessed' />
@@ -79,6 +80,7 @@ let getRoutes = store => {
         <Route path='authenticate-operator' component={withFallback(PageContainer)} onEnter={getPage} slug='authenticate-operator' />
         <Route path='technical-section-share-email' component={withFallback(PageFlatImage)} onEnter={getPage} slug='technical-section-share-email' />
         <Route path='backstage-to-frontstage-comment-email' component={withFallback(PageFlatImage)} onEnter={getPage} slug='backstage-to-frontstage-comment-email' />
+        <Route path='frontstage-to-backstage-comment-email' component={withFallback(PageFlatImage)} onEnter={getPage} slug='frontstage-to-backstage-comment-email' />
       </Route>
       <Route path='homepage'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='homepage' />

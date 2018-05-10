@@ -169,7 +169,8 @@ content:
   - text: Email notification - Technical section shared - deep link to Satellite and mission overview
     url: /sign-in/technical-section-share-email
   - text: Satellite and mission overview - review and comment on one answer
-    url: /application-overview/technical/satellite-and-mission-overview-reviewed#question-3
+    url: /application-overview/technical/satellite-and-mission-overview
+
 - contentType: heading
   text: "Front stage notification of comment - engineering:"
   type: p
@@ -178,7 +179,9 @@ content:
   modifiers: list-bullet
   list:
   - text: Email notification - Comment on technical section, satellite and mission overview Q3 - deep link
+    url: /sign-in/backstage-to-frontstage-comment-email
   - text: Satellite and mission overview - reply to comment
+    url: /application-overview/technical/satellite-and-mission-overview-reviewed#question-3
 
 - contentType: heading
   text: "Back stage - admin:"
@@ -188,9 +191,9 @@ content:
   modifiers: list-bullet
   list:
   - text: Email notification - Comment from engineering - section OK - deep link
-    url: /sign-in/backstage-to-frontstage-comment-email
-  - text: Satellite mission and overview - Admin reviews and selects status change to assessed
 
+  - text: Satellite mission and overview - Admin reviews and selects status change to assessed
+    url: /application-overview/technical/satellite-and-mission-overview-assessed
 - contentType: heading
   text: "Machine learning:"
   type: p

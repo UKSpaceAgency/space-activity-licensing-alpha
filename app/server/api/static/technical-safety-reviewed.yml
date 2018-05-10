@@ -576,7 +576,7 @@ content:
       commentBlock:
         limit: 3
         modifiers: spacing-bottom--single
-        value: Hello - yes of course. I will get back to you with the full technical specification as soon as possible, I will be conferring with my colleagues and should be in touch within the week.
+        value: Certainly - please find attached the documentation for the primary propulsion system and the schema for the exhaust manifold. If you have any questions please let me know and I'll refer them to our rocket scientist / engineer / person
         notice:
           checkbox:
             name: priority-level

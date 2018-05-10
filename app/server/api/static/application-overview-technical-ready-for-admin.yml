@@ -1,0 +1,162 @@
+---
+contentType: page
+useComponent: true
+slug: test
+spinner:
+  label: Time passes....
+  url: /generate-license
+  modifiers: spinner--medium spinner--active spinner--white
+head:
+  contentType: head
+  title: Ready for assessor | Admin overview | UKSA
+masthead:
+  utility:
+    links:
+    - text: Notifications
+      url: "/notifications"
+      notification: 1
+hero:
+  modifiers: bg-dark bg-blue
+  breadcrumb:
+  - contentType: link
+    text: Space Agency UK
+    url: "/"
+  - contentType: link
+    text: Applications
+    url: "/application-overview/"
+  - contentType: link
+    text: Application 11021411
+  licenceType:
+  - contentType: heading
+    text: Orbital licence
+    type: p
+    modifiers: heading-small badge bg-pink-40
+  - contentType: heading
+    text: "<span class='quiet'>Ref: </span> 11021411"
+    type: p
+    modifiers: heading-small spacing-top--single
+  title:
+    contentType: title
+    title: S EAN multi-beam
+    modifiers: heading-xlarge spacing-bottom--tight
+  infoGrid:
+  - contentType: heading
+    text: "<span class='quiet'>Operator: </span><br/>Satellite operator 1"
+    type: p
+    modifiers: heading-small
+  - contentType: heading
+    text: "<span class='quiet'>Submitted: </span><br/>4 June 2017"
+    type: p
+    modifiers: heading-small
+  - contentType: heading
+    text: "<span class='quiet'>Status: </span><br/>Partially Complete"
+    type: p
+    modifiers: heading-small
+  - contentType: heading
+    text: "<span class='quiet'>Launch Date</span><br/>4 June 2018"
+    type: p
+    modifiers: badge bg-pink-40 heading-small spacing-top--flush
+  synopsisCollapsible:
+    contentType: heading
+    text: "<a href='/application-overview/technical/all-attachments'>View all attachments</a>"
+    type: p
+    modifiers: spacing-top--single
+content:
+- contentType: heading
+  text: 'Technical <a class="float-right quiet heading-small" href="/application-overview/technical/share">Share section with assessor</a>'
+  type: h2
+  modifiers: heading-xlarge spacing-top--flush
+- contentType: listing
+  columns: 1
+  gridModifier: column-third
+  content:
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Satellite and mission overview
+      type: p
+      modifiers: heading-large spacing-top--flush
+    grid:
+    - contentType: heading
+      text: "4 of 6<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "3<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/application-overview/technical/satellite-and-mission-overview'
+      label: View
+      modifiers: button--full-width
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Safety and damage considerations
+      type: p
+      modifiers: heading-large spacing-top--flush
+    grid:
+    - contentType: heading
+      text: "0 of 5<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "3<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '#'
+      label: View
+      modifiers: button--full-width
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    modifiers: column-three-quarters
+    heading:
+      contentType: heading
+      text: Launch information
+      type: p
+      modifiers: heading-large spacing-top--flush
+    grid:
+    - contentType: heading
+      text: "0 of 5<br/><span class='quiet'>Questions completed</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "5<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/application-overview/insurance'
+      label: View
+      modifiers: button--full-width
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Updated on</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
