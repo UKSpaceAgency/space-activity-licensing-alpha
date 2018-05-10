@@ -221,7 +221,7 @@ content:
 - contentType: heading
   text: "TIME PASSES"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single heading-medium heading-large
+  modifiers: spacing-top--large spacing-bottom--single
 - contentType: heading
   text: "Back stage - admin:"
   type: p

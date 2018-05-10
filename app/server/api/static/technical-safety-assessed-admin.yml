@@ -1576,7 +1576,7 @@ progress:
       modifiers: divider--thick divider--green
     button:
       label: Complete
-      url: /application-overview/technical/ready-for-admin
+      url: /application-overview/time-passes
   - state: incomplete
     title:
       text: 3. Approve

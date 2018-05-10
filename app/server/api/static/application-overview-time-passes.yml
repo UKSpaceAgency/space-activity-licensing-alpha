@@ -1,0 +1,631 @@
+---
+contentType: page
+useComponent: true
+slug: application-overview
+head:
+  contentType: head
+  title: Application overview
+spinner:
+  label: Much time passes....
+  url: /generate-license
+  modifiers: spinner--medium spinner--active spinner--white
+masthead:
+  utility:
+    links:
+    - text: Notifications
+      url: "/notifications"
+      notification: 1
+    - text: Settings
+      url: "/application-overview/new-member"
+hero:
+  modifiers: bg-dark bg-blue
+  breadcrumb:
+  - contentType: link
+    text: Space Agency UK
+    url: "/"
+  - contentType: link
+    text: Applications
+    url: "/application-overview/"
+  - contentType: link
+    text: Application 11021411
+  licenceType:
+  - contentType: heading
+    text: IN-ORBIT LICENCE
+    type: p
+    modifiers: heading-medium badge badge--large bg-pink
+  - contentType: heading
+    text: "<span class='quiet'>Ref: </span> 11021411"
+    type: p
+    modifiers: heading-medium float-right
+  title:
+    contentType: title
+    title: S EAN multi-beam
+    modifiers: spacing-bottom--tight
+    # subTitle: this is a smaller bit of content to support the main title
+  infoGrid:
+  - contentType: heading
+    text: "<span class='quiet'>Operator: </span><br/>Satellite operator 1"
+    type: p
+    modifiers: heading-small
+  - contentType: heading
+    text: "<span class='quiet'>Submitted: </span><br/>4 June 2017"
+    type: p
+    modifiers: heading-small
+  - contentType: heading
+    text: "<span class='quiet'>Status: </span><br/>Partially Complete"
+    type: p
+    modifiers: heading-small
+  licenceTypeGrid:
+    heading:
+      text: Licence type
+      type: p
+      modifiers: heading-small padding-bottom--tight spacing-bottom--single border bottom-border mr-5
+    items:
+    - contentType: boolean
+      name: license-type
+      type: checkbox
+      modifiers: multiple-choice--inline
+      inputs:
+      - id: ieurhferf
+        value: Operations
+      - id: ieurhferf12
+        value: Emergency operations
+      - id: ieurhferf21
+        value: Temporary operations
+  heroLinks:
+    links:
+      modifiers: list-arrow list-arrow--dark
+      list:
+      - url: "#finance"
+        text: Finance
+      - url: "/application-overview/frequency"
+        text: Frequency
+      - url: "#insurance"
+        text: Insurance
+      - url: "/application-overview/technical"
+        text: Technical
+      - url: "#legal"
+        text: Legal
+      - url: "#political"
+        text: Political
+        icon:
+          label: tick
+          modifiers: icon-tick-white
+      - url: "#mod"
+        text: MOD
+    notice:
+      contentType: heading
+      text: "<span class='quiet'>Launch Date</span> <br/>4 June 2018"
+      type: h2
+      modifiers: badge bg-pink-40 heading-small
+    heading:
+      contentType: heading
+      text: License overview
+      type: h2
+      modifiers: heading-small spacing-top--tight
+  synopsisCollapsible:
+    contentType: heading
+    text: "<a href='/application-overview/technical/all-attachments'>View all attachments</a>"
+    type: p
+    modifiers: spacing-top--single
+content:
+- contentType: collapsiblepanel
+  commentBlock:
+    modifiers: spacing-bottom--single
+    collapsible: true
+    collapsibleHeading: Application notes (3)
+    tabs:
+    - label: Notes to regulator
+      id: notes-open
+      commentBlock:
+        modifiers: spacing-bottom--single
+        notice:
+          checkbox:
+            name: priority-level
+            type: checkbox
+            fieldModifiers: baseline d-inline-block
+            inputs:
+            - id: juu7gg4gf33fjjjfjfjfjfjfjf
+              value: High priority
+        source:
+          legend: Comment source
+          fieldsetModifiers: inline
+          items:
+          - contentType: boolean
+            name: second-radio-item
+            type: radio
+            inputs:
+            - id: dfgh89dfgh
+              value: Comment
+              checked: true
+            - id: hjdktlhivm67
+              value: Phone call
+            - id: llojef6
+              value: Email
+        assignees:
+          label: Assign user and action
+          id: assignees-question-3
+          options:
+          - label: Please select
+            value: ''
+          - label: No action
+            value: no action
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
+          - label: Dave Stringer
+            value: Dave Stringer
+          - label: Aimee Brace
+            value: Aimee Brace
+          - label: Alex Hobbs
+            value: Alex Hobbs
+          - label: Tom Foster
+            value: Tom Foster
+        deadline:
+          legend: Set deadline
+          calendar: true
+          modifiers: mr-5
+          items:
+          - label: Day
+            id: 3245345
+            name: deadline-day
+            modifiers: form-group-day
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+          - label: Month
+            id: 43563456345345
+            name: deadline-month
+            modifiers: form-group-month
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+          - label: Year
+            id: 45674567345345345
+            name: deadline-year
+            modifiers: form-group-year
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+        button:
+          label: Add comment
+        fileupload:
+          label: Upload attachment
+          modifiers: file-upload
+          id: file-upload-3
+        comments:
+        - byline:
+            priority:
+              icon:
+                label: High priority
+                modifiers: icon-warning icon-warning--red icon--large
+              content: High priority
+              modifiers: red
+            modifiers: spacing-bottom--single comment-admin
+            name:
+              text: Simon Griffith
+              type: h3
+              modifiers: heading-small
+            url: "/rachel"
+            date:
+              date: 10.04am 22nd March 2018
+              datetime: '2018-03-26T19:34:15+00:00'
+            icon:
+              label: account
+              modifiers: icon-account
+          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
+          documents:
+          - text: Disposal diagram
+            url: "/pdfs/disposal-discovery.pdf"
+            type: .pdf
+            supporting: (12mb)
+          deadline:
+            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+            type: p
+            modifiers: heading-small
+          assignees:
+            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+            type: p
+            modifiers: heading-small
+        - byline:
+            modifiers: spacing-bottom--single comment-admin
+            name:
+              text: Simon Griffith
+              type: h3
+              modifiers: heading-small
+            url: "/rachel"
+            date:
+              date: 10.04am 22nd March 2018
+              datetime: '2018-03-26T19:34:15+00:00'
+            icon:
+              label: account
+              modifiers: icon-account
+          text: "<p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Pugiat quo voluptas nulla pariatur?</p>"
+          documents:
+          - text: Disposal diagram
+            url: "/pdfs/disposal-discovery.pdf"
+            type: .pdf
+            supporting: (12mb)
+          deadline:
+            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+            type: p
+            modifiers: heading-small
+          assignees:
+            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+            type: p
+            modifiers: heading-small
+    - label: My notes
+      id: notes-private
+      commentBlock:
+        modifiers: spacing-bottom--single
+        notice:
+          checkbox:
+            name: priority-level
+            type: checkbox
+            fieldModifiers: baseline d-inline-block
+            inputs:
+            - id: juu7gg4gf33f234234
+              value: High priority
+        source:
+          legend: Comment source
+          fieldsetModifiers: inline
+          items:
+          - contentType: boolean
+            name: second-radio-item
+            type: radio
+            inputs:
+            - id: dfgh89dfghfefeb
+              value: Comment
+              checked: true
+            - id: hjdktlhivm67rwrwrw
+              value: Phone call
+            - id: llojef663687
+              value: Email
+        assignees:
+          label: Assign user and action
+          id: assignees-question-2
+          options:
+          - label: Please select
+            value: ''
+          - label: No action
+            value: no action
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
+          - label: Dave Stringer
+            value: Dave Stringer
+          - label: Aimee Brace
+            value: Aimee Brace
+          - label: Alex Hobbs
+            value: Alex Hobbs
+          - label: Tom Foster
+            value: Tom Foster
+        deadline:
+          legend: Set deadline
+          calendar: true
+          modifiers: mr-5
+          items:
+          - label: Day
+            id: 3245
+            name: deadline-day
+            modifiers: form-group-day
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+          - label: Month
+            id: 43563456
+            name: deadline-month
+            modifiers: form-group-month
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+          - label: Year
+            id: 45674567
+            name: deadline-year
+            modifiers: form-group-year
+            type: number
+            attr:
+              key: pattern
+              value: '[0-9]*'
+        button:
+          label: Add comment
+        fileupload:
+          label: Upload attachment
+          modifiers: file-upload
+          id: file-upload-23456
+        comments:
+        - byline:
+            modifiers: spacing-bottom--single comment-admin
+            name:
+              text: Simon Griffith
+              type: h3
+              modifiers: heading-small
+            url: "/rachel"
+            date:
+              date: 10.04am 22nd March 2018
+              datetime: '2018-03-26T19:34:15+00:00'
+            icon:
+              label: account
+              modifiers: icon-account
+          text: "<p>Yes! Perfect</p>"
+          documents:
+          - text: Disposal diagram
+            url: "/pdfs/disposal-discovery.pdf"
+            type: .pdf
+            supporting: (12mb)
+          deadline:
+            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+            type: p
+            modifiers: heading-small
+          assignees:
+            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+            type: p
+            modifiers: heading-small
+- contentType: heading
+  text: Applications sections
+  type: h2
+  modifiers: heading-large
+- contentType: listing
+  columns: 2
+  content:
+  - contentType: tile
+    id: Eligibility
+    heading:
+      contentType: heading
+      text: Eligibility
+      type: p
+      modifiers: heading-large
+    grid:
+    - contentType: heading
+      text: "10 of 10<br/><span class='quiet'>Answers submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: ""
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '#'
+      label: View
+      modifiers: button--half-width
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Technical
+      type: p
+      modifiers: heading-large
+    id: technical
+    updates:
+      url: /application-overview/technical
+      text: 4 updates
+      modifiers: bg-fuschia badge--fixed badge--top
+    grid:
+    - contentType: heading
+      text: "4 of 16<br/><span class='quiet'>Answers submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "1<br/><span class='quiet'>Attachment</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '/application-overview/technical'
+      label: View
+      modifiers: button--half-width
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    id: Applicant details
+    heading:
+      contentType: heading
+      text: Applicant details
+      type: p
+      modifiers: heading-large
+    grid:
+    - contentType: heading
+      text: "14 of 14<br/><span class='quiet'>Answers submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "12<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      fullWidth: true
+      url: '#'
+      label: View
+      modifiers: button--half-width
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Your mission
+      type: p
+      modifiers: heading-large
+    id: Your mission
+    grid:
+    - contentType: heading
+      text: "2 of 3<br/><span class='quiet'>Answers submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "2<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '#'
+      label: View
+      gridModifier: column-full
+      modifiers: button--half-width
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Organisation & finance
+      type: p
+      modifiers: heading-large
+    id: Organisation & finance
+    grid:
+    - contentType: heading
+      text: "14 of 33<br/><span class='quiet'>Answers submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "8<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      fullWidth: true
+      url: '#'
+      label: View
+      modifiers: button--half-width
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Insurance
+      icon:
+        label: tick
+        modifiers: icon-tick-green icon--large
+      type: p
+      modifiers: heading-large
+    id: Insurance
+    grid:
+    - contentType: heading
+      text: "5 of 5<br/><span class='quiet'>Answers submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "6<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '#'
+      label: View
+      gridModifier: column-full
+      modifiers: button--half-width
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
+  - contentType: tile
+    heading:
+      contentType: heading
+      text: Frequency
+      type: p
+      modifiers: heading-large
+    id: Frequency
+    grid:
+    - contentType: heading
+      text: "1 of 1<br/><span class='quiet'>Answers submitted</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "0<br/><span class='quiet'>Attachments</span>"
+      type: p
+      modifiers: heading-medium
+    - contentType: button
+      url: '#'
+      label: View
+      modifiers: button--half-width
+      gridModifier: column-full
+    - contentType: divider
+      modifiers: border border-bottom
+    - contentType: heading
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      type: p
+      modifiers: heading-medium
+    - contentType: heading
+      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      type: p
+      modifiers: heading-medium
+- contentType: heading
+  text: UKSA Contact
+  type: h2
+  modifiers: heading-medium
+- contentType: heading
+  text: "If you require help with your application, please get in touch with your case manager:"
+  type: p
+- contentType: heading
+  text: Rakel Jenson<br/><span class='quiet'>Licensing Manager</span>
+  type: p
+  modifiers: heading-small border bottom-border padding-bottom--single
+- contentType: heading
+  text: "email: <a href='mailto:rakel.jenson@Satellite-operator-1.com'>rakel.jenson@Satellite-operator-1.com</a>"
+  type: p
+  modifiers: spacing-top--single
+- contentType: heading
+  text: "phone: 0117 801735"
+  type: p
+- contentType: heading
+  text: "mobile: +44 7882281628"
+  type: p
+- contentType: heading
+  text: "address: 80 Gloucester Road, London, WC2 2BA"
+  type: p
