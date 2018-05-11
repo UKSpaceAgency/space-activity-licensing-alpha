@@ -51,6 +51,18 @@ content:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
+  references:
+    heading:
+      text: UKSA Knowledge Base
+      type: h3
+      modifiers: heading-small
+    link:
+      text: "<a class='green' href='/machine-learning/machine-learning-2'>(4) contextural references</a>"
+      type: p
+      modifiers: red
+    tags:
+    - label: Operator 1
+    - label: Operator 2
   documents:
   - text: Disposal diagram
     url: "/pdfs/disposal-discovery.pdf"
@@ -888,15 +900,6 @@ content:
     url: "/pdfs/disposal-discovery.pdf"
     type: .pdf
     supporting: (12mb)
-  references:
-    heading:
-      text: UKSA Knowledge Base
-      type: h3
-      modifiers: heading-small
-    link:
-      text: "<a class='green' href='/machine-learning/'>(4) contextural references</a>"
-      type: p
-      modifiers: red
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -1476,36 +1479,36 @@ content:
           modifiers: file-upload
           id: fwertwile-upload-23456
         comments: null
-# progress:
-#   heading:
-#     text: "Satellite and mission overview status:"
-#     type: h2
-#   content:
-#   - state: complete
-#     title:
-#       text: 1. Review
-#       type: p
-#       modifiers: heading-small muted
-#     divider:
-#       modifiers: divider--thick
-#     icon:
-#       label: tick
-#       modifiers: icon-tick-green icon--large
-#   - state: active
-#     modifiers: progress--current
-#     title:
-#       text: 2. Assess
-#       type: p
-#       modifiers: heading-small
-#     divider:
-#       modifiers: divider--thick divider--green
-#     # button:
-#     #   label: Complete
-#     #   url:
-#   - state: incomplete
-#     title:
-#       text: 3. Approve
-#       type: p
-#       modifiers: heading-small muted
-#     divider:
-#       modifiers: divider--thick
+progress:
+  heading:
+    text: "Satellite and mission overview status:"
+    type: h2
+  content:
+  - state: complete
+    title:
+      text: 1. Review
+      type: p
+      modifiers: heading-small muted
+    divider:
+      modifiers: divider--thick
+    icon:
+      label: tick
+      modifiers: icon-tick-green icon--large
+  - state: active
+    modifiers: progress--current
+    title:
+      text: 2. Assess
+      type: p
+      modifiers: heading-small
+    divider:
+      modifiers: divider--thick divider--green
+    button:
+      label: Complete
+      url: "#"
+  - state: incomplete
+    title:
+      text: 3. Approve
+      type: p
+      modifiers: heading-small muted
+    divider:
+      modifiers: divider--thick

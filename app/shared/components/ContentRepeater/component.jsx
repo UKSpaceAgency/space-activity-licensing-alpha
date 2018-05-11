@@ -15,6 +15,7 @@ import FileUpload from '../FileUpload/component.jsx'
 import RadioCheck from '../RadioCheck/component.jsx'
 import Grid from '../Grid/component.jsx'
 import GridCol from '../GridCol/component.jsx'
+import Tags from '../Tags/component.jsx'
 
 const ContentRepeater = props => {
   let classes = classNames(props.className, props.modifiers)
@@ -31,7 +32,7 @@ const ContentRepeater = props => {
       {props.textarea && <Textarea {...props.textarea}/>}
       {props.booleans && <RadioCheck {...props.booleans}/>}
       {props.attachment && <FileUpload {...props.attachment}/>}
-      <Grid>{props.documents && <GridCol className='column-half'>{props.heading && <Heading {...props.heading}/>}<List list={props.documents} /></GridCol>}{props.references && <GridCol className='column-half align-right'><Heading {...props.references.heading}/><Heading {...props.references.link}/></GridCol>}</Grid>
+      <Grid>{props.documents && <GridCol className='column-half'>{props.heading && <Heading {...props.heading}/>}<List list={props.documents} /></GridCol>}{props.references && <GridCol className='column-half align-right'><Heading {...props.references.heading}/><Heading {...props.references.link}/>{props.references.tags && <Tags tags={props.references.tags}/>}</GridCol>}</Grid>
       {collapsible}
       {props.backbutton && <div className='text'><a href='#' className='link-back'>Back to top</a></div>}
       {props.divider && <Divider />}

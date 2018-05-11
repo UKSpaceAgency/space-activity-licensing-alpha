@@ -65,10 +65,10 @@ content:
       contentType: longform
       text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant details.
       modifiers: spacing--single
-    updates:
-      url: "#"
-      text: "Action: Satellite operator 1"
-      modifiers: bg-fuschia badge--fixed badge--top
+    # updates:
+    #   url: "#"
+    #   text: "Action: Satellite operator 1"
+    #   modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 6 questions

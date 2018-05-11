@@ -59,9 +59,6 @@ content:
     link:
       text: "<a class='green' href='/machine-learning/machine-learning-2'>(4) contextural references</a>"
       type: p
-    tags:
-    - label: Operator 1
-    - label: Operator 2
   documents:
   - text: Disposal diagram
     url: "/pdfs/disposal-discovery.pdf"

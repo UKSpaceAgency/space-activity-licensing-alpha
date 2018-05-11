@@ -72,7 +72,7 @@ content:
   - contentType: tile
     modifiers: column-three-quarters
     updates:
-      url: /application-overview/technical/satellite-and-mission-overview
+      url: /application-overview/technical/satellite-and-mission-overview-pre
       text: 4 updates
       modifiers: bg-fuschia badge--fixed badge--top
     heading:
@@ -90,7 +90,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: button
-      url: '/application-overview/technical/satellite-and-mission-overview'
+      url: '/application-overview/technical/satellite-and-mission-overview-pre'
       label: View
       modifiers: button--full-width
     - contentType: divider
