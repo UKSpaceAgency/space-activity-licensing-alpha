@@ -45,15 +45,16 @@ let getRoutes = store => {
   }
 
   function getPageAndEmail (nextState, replace, callback) {
-    store.dispatch(notifyByEmail())
-    store.dispatch(fetchPage(this.slug))
-      .then(() => {
-        callback()
-      }).catch(err => {
-        console.log(err)
-        // error pushed to state
-        callback()
-      })
+    let p1 = store.dispatch(notifyByEmail())
+    let p2 = store.dispatch(fetchPage(this.slug))
+
+    Promise.all([p1, p2]).then(() => {
+      callback()
+    }).catch(err => {
+      console.log(err)
+      // error pushed to state
+      callback()
+    })
   }
 
   function getPageAndSms (nextState, replace, callback) {
