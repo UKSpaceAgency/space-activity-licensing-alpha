@@ -12,7 +12,7 @@ import Icon from '../Icon/component.jsx'
 
 const Tile = props => {
   let wrapper = classNames(props.completion ? props.completion.modifiers : null, {
-    'bordered': props.completion,
+    'bordered has-state': props.completion,
     'spacing-bottom--large': props.completion
   })
   let classes = classNames(props.gridModifier, 'spacing-bottom--single', {
@@ -43,7 +43,7 @@ const Tile = props => {
   })
 
   return (
-    <div className={wrapper}>
+    <div className={wrapper} id={'box_' + props.id}>
       <div className={boxClasses} {...id}>
         {props.updates && <Badge {...props.updates}/>}
         <Heading {...props.heading}/>

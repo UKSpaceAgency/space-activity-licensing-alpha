@@ -103,7 +103,7 @@ content:
   commentBlock:
     modifiers: spacing-bottom--single
     collapsible: true
-    collapsibleHeading: Application notes (3)
+    collapsibleHeading: Application notes (0)
     tabs:
     - label: Notes to regulator
       id: notes-open
@@ -141,20 +141,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -273,20 +273,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -369,10 +369,10 @@ content:
       text: Eligibility
       type: h3
       modifiers: heading-large spacing-top--flush
-    updates:
-      url: "/operator/operator-overview-technical"
-      text: "Next actions: Sat op 1 (0) - UKSA (1)"
-      modifiers: bg-fuschia badge--fixed badge--top
+    # updates:
+    #   url: "/operator/operator-overview-technical"
+    #   text: "Next actions: Sat op 1 (0) - UKSA (1)"
+    #   modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 10 Questions
@@ -386,7 +386,7 @@ content:
       label: View
       modifiers: button--full-width button--secondary
     - contentType: heading
-      text: "<span class='quiet'>Status </span><br/>Being assessed"
+      text: "<span class='quiet'>Status </span><br/>Assessed"
       type: p
       modifiers: heading-medium
     completion:
@@ -497,7 +497,7 @@ content:
         label: High priority
         modifiers: icon-warning icon-warning--red icon--large
       content: You stated that you do not have an export licence, please note this is vital to your mission and therefore will need prioritization
-      modifiers: spacing--single
+      modifiers: spacing--single red
     grid:
     - contentType: heading
       text: 23 Questions
@@ -583,7 +583,7 @@ content:
         label: High priority
         modifiers: icon-warning icon-warning--red icon--large
       content: You said that you did not have insurance, you will need to secure insurance to complete this application.
-      modifiers: spacing--single
+      modifiers: spacing--single red
     grid:
     - contentType: heading
       text: 5 Questions

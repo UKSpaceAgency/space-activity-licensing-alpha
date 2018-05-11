@@ -16,7 +16,7 @@ content:
 - contentType: heading
   text: "Front stage registration:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -57,7 +57,7 @@ content:
 - contentType: heading
   text: "Backstage - new application:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -67,7 +67,7 @@ content:
 - contentType: heading
   text: "Front stage logged in:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -91,7 +91,7 @@ content:
 - contentType: heading
   text: "Front stage engineer input:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -109,7 +109,6 @@ content:
   - text: Satellite and mission overview - fills in and marks 4 questions as draft
     url: /operator/technical
   - text: TIME PASSES
-    modifiers: heading-large
   - text: Technical section overview - 4 marked draft
     url: /operator/operator-eligibility-assessing-approved
   - text: Satellite and mission overview - all filled in and marked ready for submission
@@ -118,7 +117,7 @@ content:
 - contentType: heading
   text: "Front stage technical submission:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -139,7 +138,7 @@ content:
 - contentType: heading
   text: "Back stage check submission:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
@@ -162,41 +161,12 @@ content:
 - contentType: heading
   text: "Back stage engineering:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:
   - text: Email notification - Technical section shared - deep link to Satellite and mission overview
     url: /sign-in/technical-section-share-email
-  - text: Satellite and mission overview - review and comment on one answer
-    url: /application-overview/technical/satellite-and-mission-overview-reviewed#question-5
-- contentType: heading
-  text: "Front stage notification of comment - engineering:"
-  type: p
-  modifiers: spacing-top--large spacing-bottom--single
-- contentType: list
-  modifiers: list-bullet
-  list:
-  - text: Email notification - Comment on technical section, satellite and mission overview Q3 - deep link
-  - text: Satellite and mission overview - reply to comment
-
-- contentType: heading
-  text: "Back stage - admin:"
-  type: p
-  modifiers: spacing-top--large spacing-bottom--single
-- contentType: list
-  modifiers: list-bullet
-  list:
-  - text: Email notification - Comment from engineering - section OK - deep link
-  - text: Satellite mission and overview - Admin reviews and selects status change to assessed
-
-- contentType: heading
-  text: "Machine learning:"
-  type: p
-  modifiers: spacing-top--large spacing-bottom--single
-- contentType: list
-  modifiers: list-bullet
-  list:
   - text: Machine learning - 1
     url: /machine-learning
   - text: Machine learning - 2
@@ -204,15 +174,57 @@ content:
   - text: Machine learning - 3
     url: /machine-learning/machine-learning-3
 
+  - text: Satellite and mission overview - review and comment on one answer
+    url: /application-overview/technical/satellite-and-mission-overview
+
+- contentType: heading
+  text: "Front stage notification of comment - engineering:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Email notification - Comment on technical section, satellite and mission overview Q3 - deep link
+    url: /sign-in/backstage-to-frontstage-comment-email
+  - text: Satellite and mission overview - reply to comment
+    url: /application-overview/technical/satellite-and-mission-overview-reviewed#question-3
+
+- contentType: heading
+  text: "Back stage - admin:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Email notification - Comment from engineering - section OK - deep link
+    url: /sign-in/frontstage-to-backstage-comment-email
+  - text: Satellite mission and overview - Admin reviews and selects status change to assessed
+    url: /application-overview/technical/satellite-and-mission-overview-assessed#notes-open-question-3
+
+
+# - contentType: heading
+#   text: "Machine learning:"
+#   type: p
+#   modifiers: spacing-top--large spacing-bottom--single heading-medium
+# - contentType: list
+#   modifiers: list-bullet
+#   list:
+#   - text: Machine learning - 1
+#     url: /machine-learning
+#   - text: Machine learning - 2
+#     url: /machine-learning/machine-learning-2
+#   - text: Machine learning - 3
+#     url: /machine-learning/machine-learning-3
+
 
 - contentType: heading
   text: "TIME PASSES"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single heading-large
+  modifiers: spacing-top--large spacing-bottom--single
 - contentType: heading
   text: "Back stage - admin:"
   type: p
-  modifiers: spacing-top--large spacing-bottom--single
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
 - contentType: list
   modifiers: list-bullet
   list:

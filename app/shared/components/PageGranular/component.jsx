@@ -9,10 +9,12 @@ import GridCol from '../GridCol/component.jsx'
 import SidenavContainer from '../../containers/SidenavContainer/component.jsx'
 import ContentRepeaterContainer from '../../containers/ContentRepeaterContainer/component.jsx'
 import Banner from '../Banner/component.jsx'
+import Spinner from '../Spinner/component.jsx'
 
 const PageGranular = props => {
   return (
     <React.Fragment>
+      {props.spinner && <Spinner {...props.spinner}/>}
       <Masthead {...props.masthead}/>
       <div id='global-header-bar' />
       <Banner {...props.banner}/>
