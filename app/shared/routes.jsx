@@ -57,15 +57,16 @@ let getRoutes = store => {
   }
 
   function getPageAndSms (nextState, replace, callback) {
-    store.dispatch(notifyBySms())
-    store.dispatch(fetchPage(this.slug))
-      .then(() => {
-        callback()
-      }).catch(err => {
-        console.log(err)
-        // error pushed to state
-        callback()
-      })
+    let p1 = store.dispatch(notifyBySms())
+    let p2 = store.dispatch(fetchPage(this.slug))
+
+    Promise.all([p1, p2]).then(() => {
+      callback()
+    }).catch(err => {
+      console.log(err)
+      // error pushed to state
+      callback()
+    })
   }
 
   function noMatchError (nextState, replace, callback) {
