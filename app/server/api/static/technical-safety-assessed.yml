@@ -52,6 +52,17 @@ content:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
+  references:
+    heading:
+      text: UKSA Knowledge Base
+      type: h3
+      modifiers: heading-small
+    link:
+      text: "<a class='green' href='/machine-learning/'>(4) contextural references</a>"
+      type: p
+    tags:
+    - label: Operator 1
+    - label: Operator 2
   documents:
   - text: Disposal diagram
     url: "/pdfs/disposal-discovery.pdf"
@@ -569,14 +580,6 @@ content:
     url: "/pdfs/disposal-discovery.pdf"
     type: .pdf
     supporting: (12mb)
-  references:
-    heading:
-      text: UKSA Knowledge Base
-      type: h3
-      modifiers: heading-small
-    link:
-      text: "<a class='green' href='/machine-learning/'>(4) contextural references</a>"
-      type: p
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
