@@ -167,8 +167,8 @@ content:
   list:
   - text: Email notification - Technical section shared - deep link to Satellite and mission overview
     url: /sign-in/technical-section-share-email
-  # - text: Satellite and mission overview page
-  #   url: /application-overview/technical/satellite-and-mission-overview-pre
+  - text: Satellite and mission overview page
+    url: /application-overview/technical/satellite-and-mission-overview-pre
   - text: UKSA knowledge base - adding two references
     url: /machine-learning/machine-learning-2
   - text: Satellite and mission overview - review and comment on one answer
@@ -197,23 +197,6 @@ content:
     url: /sign-in/frontstage-to-backstage-comment-email
   - text: Satellite mission and overview - Admin reviews and selects status change to assessed
     url: /application-overview/technical/satellite-and-mission-overview-assessed#notes-open-question-3
-
-
-# - contentType: heading
-#   text: "Machine learning:"
-#   type: p
-#   modifiers: spacing-top--large spacing-bottom--single heading-medium
-# - contentType: list
-#   modifiers: list-bullet
-#   list:
-#   - text: Machine learning - 1
-#     url: /machine-learning
-#   - text: Machine learning - 2
-#     url: /machine-learning/machine-learning-2
-#   - text: Machine learning - 3
-#     url: /machine-learning/machine-learning-3
-
-
 - contentType: heading
   text: "TIME PASSES"
   type: p
