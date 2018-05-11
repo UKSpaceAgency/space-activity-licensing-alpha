@@ -49,14 +49,13 @@ hero:
       type: h2
       modifiers: heading-small spacing--single
     content:
-    - modifiers: progress__item--pending
-      title:
+    - title:
         text: Technical
         type: p
       divider:
         modifiers: divider--flush
       status:
-        text: Pending
+        text: Not started
         type: p
     - title:
         text: Applicant info
