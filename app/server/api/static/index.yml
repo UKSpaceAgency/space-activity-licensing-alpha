@@ -169,9 +169,8 @@ content:
     url: /sign-in/technical-section-share-email
   # - text: Satellite and mission overview page
   #   url: /application-overview/technical/satellite-and-mission-overview-pre
-  - text: Machine learning - 2
+  - text: UKSA knowledge base - adding two references
     url: /machine-learning/machine-learning-2
-
   - text: Satellite and mission overview - review and comment on one answer
     url: /application-overview/technical/satellite-and-mission-overview
 
