@@ -58,7 +58,7 @@ content:
       type: h3
       modifiers: heading-small
     link:
-      text: "<a class='green' href='/machine-learning/'>(4) contextural references</a>"
+      text: "<a class='green' href='/machine-learning/machine-learning-2'>(4) contextural references</a>"
       type: p
     tags:
     - label: Operator 1
@@ -946,7 +946,7 @@ content:
       type: h3
       modifiers: heading-small
     link:
-      text: "<a class='green' href='/machine-learning/'>(4) contextural references</a>"
+      text: "<a class='green' href='/machine-learning/machine-learning-2'>(4) contextural references</a>"
       type: p
   commentBlock:
     limit: 3

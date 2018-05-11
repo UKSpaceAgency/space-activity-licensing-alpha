@@ -62,6 +62,7 @@ let getRoutes = store => {
           <Route path='no-updates' component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview-technical-no-updates' />
           <Route path='ready-for-admin' component={withFallback(PageContainer)} onEnter={getPage} slug='application-overview-technical-ready-for-admin' />
           <Route path='satellite-and-mission-overview' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety' />
+          <Route path='satellite-and-mission-overview-pre' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety-pre' />
           <Route path='satellite-and-mission-overview-reviewed' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety-reviewed' />
           <Route path='satellite-and-mission-overview-assessed' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety-assessed' />
           <Route path='satellite-and-mission-overview-assessed-admin' component={withFallback(PageGranularContainer)} onEnter={getPage} slug='technical-safety-assessed-admin' />
