@@ -47,7 +47,6 @@ let getRoutes = store => {
   function getPageAndEmail (nextState, replace, callback) {
     let p1 = store.dispatch(notifyByEmail())
     let p2 = store.dispatch(fetchPage(this.slug))
-
     Promise.all([p1, p2]).then(() => {
       callback()
     }).catch(err => {

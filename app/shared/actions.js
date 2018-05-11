@@ -59,16 +59,14 @@ export function fetchPage (slug, type = 'pages') {
 
 export function notifyByEmail (slug = 'demo-email', type = 'notify') {
   return dispatch => {
-    dispatch(sendNotification())
     // stuff in test email code - TODO: refactor
     let lookupUrl = apiHost + '/api/v1/' + type + '/' + slug
     return axios.get(lookupUrl)
       .then(res => {
-        dispatch(receivePage(res.data))
+        dispatch(sendNotification())
       })
       .catch(err => {
         let status = err.code === 'ETIMEDOUT' ? 500 : err.response.status
-        dispatch(receivePageError(status))
         return Promise.reject(err)
       })
   }
@@ -76,16 +74,14 @@ export function notifyByEmail (slug = 'demo-email', type = 'notify') {
 
 export function notifyBySms (slug = 'demo-sms', type = 'notify') {
   return dispatch => {
-    dispatch(sendNotification())
     // stuff in test SMS code - TODO: refactor
     let lookupUrl = apiHost + '/api/v1/' + type + '/' + slug
     return axios.get(lookupUrl)
       .then(res => {
-        dispatch(receivePage(res.data))
+        dispatch(sendNotification())
       })
       .catch(err => {
         let status = err.code === 'ETIMEDOUT' ? 500 : err.response.status
-        dispatch(receivePageError(status))
         return Promise.reject(err)
       })
   }
