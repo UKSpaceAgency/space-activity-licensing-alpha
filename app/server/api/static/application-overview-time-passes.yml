@@ -408,7 +408,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -439,19 +439,23 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
     id: Applicant details
+    # modifiers: bordered
     heading:
       contentType: heading
       text: Applicant details
       type: p
       modifiers: heading-large
+      # icon:
+      #   label: tick
+      #   modifiers: icon-tick-green icon--large
     grid:
     - contentType: heading
-      text: "14 of 14<br/><span class='quiet'>Answers submitted</span>"
+      text: "11 of 14<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -471,7 +475,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -502,7 +506,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -534,7 +538,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -549,7 +553,7 @@ content:
     id: Insurance
     grid:
     - contentType: heading
-      text: "5 of 5<br/><span class='quiet'>Answers submitted</span>"
+      text: "4 of 5<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -568,7 +572,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -599,7 +603,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
 - contentType: heading

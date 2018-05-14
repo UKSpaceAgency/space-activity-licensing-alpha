@@ -97,7 +97,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -127,7 +127,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -157,6 +157,6 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium

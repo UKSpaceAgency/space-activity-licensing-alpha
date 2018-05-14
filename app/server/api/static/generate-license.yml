@@ -9,11 +9,11 @@ head:
 masthead:
   utility:
     links:
-    - text: Notifications
-      url: "/notifications"
-      notification: 1
-    - text: Settings
-      url: "/application-overview/new-member"
+    # - text: Notifications
+    #   url: "/notifications"
+    #   notification: 1
+    - text: UKSA
+      url: "/"
 hero:
   modifiers: bg-dark bg-blue
   breadcrumb:
