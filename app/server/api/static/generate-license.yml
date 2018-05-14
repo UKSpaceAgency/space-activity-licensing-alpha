@@ -158,13 +158,13 @@ content:
           options:
           - label: Please select
             value: ''
-          - label: Operator Engineer
-            value: Operator Engineer
+          - label: Jerry engineer
+            value: Jerry engineer
             selected: true
-          - label: Regulator Engineer
-            value: Regulator Engineer
-          - label: Regulator Admin
-            value: Regulator Admin
+          - label: Andy assessor
+            value: Andy assessor
+          - label: Laura licensing
+            value: Laura licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -307,13 +307,13 @@ content:
           options:
           - label: Please select
             value: ''
-          - label: Operator Engineer
-            value: Operator Engineer
+          - label: Jerry engineer
+            value: Jerry engineer
             selected: true
-          - label: Regulator Engineer
-            value: Regulator Engineer
-          - label: Regulator Admin
-            value: Regulator Admin
+          - label: Andy assessor
+            value: Andy assessor
+          - label: Laura licensing
+            value: Laura licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace

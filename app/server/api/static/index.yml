@@ -121,7 +121,7 @@ content:
 - contentType: list
   modifiers: list-bullet
   list:
-  - text: Operator admin - Emailed - Satellite and mission overview - ready for submission
+  - text: Arthur applicant - Emailed - Satellite and mission overview - ready for submission
     url: /operator/operator-submission-ready-email
   - text: Log in
     url: /sign-in/sign-in-operator
