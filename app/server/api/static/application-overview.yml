@@ -65,6 +65,7 @@ hero:
       inputs:
       - id: ieurhferf
         value: Operations
+        checked: true
       - id: ieurhferf12
         value: Emergency operations
       - id: ieurhferf21
@@ -443,7 +444,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
