@@ -409,7 +409,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
+      text: "<span class='quiet'>By</span><br/>Laura Licensing"
       type: p
       modifiers: heading-medium
   - contentType: tile

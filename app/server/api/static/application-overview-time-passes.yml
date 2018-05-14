@@ -382,11 +382,15 @@ content:
   content:
   - contentType: tile
     id: Eligibility
+    modifiers: bordered
     heading:
       contentType: heading
-      text: Eligibility
+      text: "Eligibility <span class='font-xsmall'>Status: <b>Green</b></span>"
       type: p
-      modifiers: heading-large
+      modifiers: heading-large heading-special
+      icon:
+        label: tick
+        modifiers: icon-tick icon-tick-white icon--large icon--circled icon--circled-green
     grid:
     - contentType: heading
       text: "10 of 10<br/><span class='quiet'>Answers submitted</span>"
@@ -399,7 +403,7 @@ content:
     - contentType: button
       url: '#'
       label: View
-      modifiers: button--half-width
+      modifiers: button--half-width button--secondary
       gridModifier: column-full
     - contentType: divider
       modifiers: border border-bottom
@@ -408,7 +412,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
+      text: "<span class='quiet'>By</span><br/>Laura licensing"
       type: p
       modifiers: heading-medium
   - contentType: tile

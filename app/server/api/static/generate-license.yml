@@ -444,7 +444,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Authur applicant"
+      text: "<span class='quiet'>By</span><br/>Laura licensing"
       type: p
       modifiers: heading-medium
   - contentType: tile
