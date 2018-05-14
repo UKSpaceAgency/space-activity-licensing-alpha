@@ -34,10 +34,10 @@ function receivePage (pageData) {
   }
 }
 
-function sendNotification (notifyData) {
+function sendNotification (userData) {
   return {
     type: SEND_NOTIFICATION,
-    notifyData
+    userData
   }
 }
 
@@ -57,32 +57,36 @@ export function fetchPage (slug, type = 'pages') {
   }
 }
 
-export function notifyByEmail (slug = 'demo-email', type = 'notify') {
+export function notifyByEmail (userData) {
   return dispatch => {
+    dispatch(sendNotification(userData))
     // stuff in test email code - TODO: refactor
-    let lookupUrl = apiHost + '/api/v1/' + type + '/' + slug
-    return axios.get(lookupUrl)
-      .then(res => {
-        dispatch(sendNotification())
-      })
-      .catch(err => {
-        let status = err.code === 'ETIMEDOUT' ? 500 : err.response.status
-        return Promise.reject(err)
-      })
+    const templateId = '48f862be-c277-428d-8a5c-b4c4627c1753'
+    const personalisation = { 'first_name': userData.firstName }
+    notifyClient.sendEmail(templateId, userData.emailAddress, {
+      personalisation: personalisation})
+    .then(response => {
+      console.log(response)
+    })
+    .catch(err => {
+      console.error(err)
+    })
   }
 }
 
-export function notifyBySms (slug = 'demo-sms', type = 'notify') {
+export function notifyBySms (userData) {
   return dispatch => {
+    dispatch(sendNotification(userData))
     // stuff in test SMS code - TODO: refactor
-    let lookupUrl = apiHost + '/api/v1/' + type + '/' + slug
-    return axios.get(lookupUrl)
-      .then(res => {
-        dispatch(sendNotification())
-      })
-      .catch(err => {
-        let status = err.code === 'ETIMEDOUT' ? 500 : err.response.status
-        return Promise.reject(err)
-      })
+    const templateId = '8b97b04f-8461-4f30-958d-a392c109ed1c'
+    const personalisation = { 'first_name': userData.firstName }
+    notifyClient.sendSms(templateId, userData.phoneNumber, {
+      personalisation: personalisation})
+    .then(response => {
+      console.log(response)
+    })
+    .catch(err => {
+      console.error(err)
+    })
   }
 }
