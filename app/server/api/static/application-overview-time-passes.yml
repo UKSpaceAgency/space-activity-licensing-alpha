@@ -448,15 +448,11 @@ content:
       modifiers: heading-medium
   - contentType: tile
     id: Applicant details
-    # modifiers: bordered
     heading:
       contentType: heading
       text: Applicant details
       type: p
       modifiers: heading-large
-      # icon:
-      #   label: tick
-      #   modifiers: icon-tick-green icon--large
     grid:
     - contentType: heading
       text: "11 of 14<br/><span class='quiet'>Answers submitted</span>"
@@ -549,9 +545,6 @@ content:
     heading:
       contentType: heading
       text: Insurance
-      icon:
-        label: tick
-        modifiers: icon-tick-green icon--large
       type: p
       modifiers: heading-large
     id: Insurance
