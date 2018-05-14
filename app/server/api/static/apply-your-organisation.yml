@@ -6,10 +6,10 @@ head:
   title: Your organisation | pre-application | UKSA
 masthead:
   logo: Govuk pattern
-  utility:
-    links:
-    - text: Settings
-      url: "/application-overview/new-member"
+  # utility:
+  #   links:
+  #   - text: Settings
+  #     url: "/application-overview/new-member"
 hero:
   modifiers: padding-top--single spacing-bottom--flush
   title:
