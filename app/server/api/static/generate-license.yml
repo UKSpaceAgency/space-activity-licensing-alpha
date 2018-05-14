@@ -444,7 +444,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Authur applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -460,7 +460,7 @@ content:
     id: technical
     grid:
     - contentType: heading
-      text: "4 of 16<br/><span class='quiet'>Answers submitted</span>"
+      text: "16 of 16<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -479,7 +479,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Authur applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -515,7 +515,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Authur applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -531,7 +531,7 @@ content:
     id: Your mission
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Answers submitted</span>"
+      text: "3 of 3<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -550,7 +550,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Authur applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -566,7 +566,7 @@ content:
     id: Organisation & finance
     grid:
     - contentType: heading
-      text: "14 of 33<br/><span class='quiet'>Answers submitted</span>"
+      text: "33 of 33<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -586,7 +586,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Authur applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -621,7 +621,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Authur applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -656,7 +656,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Authur applicant"
       type: p
       modifiers: heading-medium
 - contentType: heading
