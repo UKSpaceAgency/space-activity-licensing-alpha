@@ -158,22 +158,22 @@ content:
           options:
           - label: Please select
             value: ''
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
+          - label: Operator Engineer
+            value: Operator Engineer
             selected: true
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
             selected: true
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
             selected: true
         deadline:
           legend: Set deadline
@@ -307,22 +307,22 @@ content:
           options:
           - label: Please select
             value: ''
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
+          - label: Operator Engineer
+            value: Operator Engineer
             selected: true
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
             selected: true
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
             selected: true
         deadline:
           legend: Set deadline

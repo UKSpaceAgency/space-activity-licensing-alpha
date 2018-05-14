@@ -143,6 +143,13 @@
       if ($controls.is(':checked')) {
         $controls.filter(':checked').each(deferred)
       }
+
+      if (select) {
+        if ($controls.val() !== '') {
+          $controls.each(deferred)
+        }
+      }
+
     }
 
     // Get event selectors for all radio groups

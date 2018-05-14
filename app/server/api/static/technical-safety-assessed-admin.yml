@@ -5,23 +5,23 @@ slug: technical-safety
 head:
   contentType: head
   title: Satellite and mission overview
-spinner:
-  label: Time passes....
-  url: /sign-in/backstage-to-frontstage-comment-email
-  modifiers: spinner--medium spinner--active spinner--white
-  hidden: true
 breadcrumb:
 - contentType: link
   text: Space Agency UK
   url: "/"
 - contentType: link
-  url: "/application-overview/technical"
+  url: "/application-overview/technical/ready-for-admin"
   text: Application 11021411
 - contentType: link
-  url: "/application-overview/technical"
+  url: "/application-overview/technical/ready-for-admin"
   text: Technical
 - contentType: link
   text: Satellite and mission overview
+spinner:
+  label: Time passes....
+  url: /sign-in/backstage-to-backstage-admin-email
+  modifiers: spinner--medium spinner--active spinner--white
+  hidden: true
 hero:
   modifiers: bg-dark bg-blue padded
   title:
@@ -34,7 +34,8 @@ hero:
     text: Updated 26th February 2018
     type: p
 sideNavHeading:
-  text: 'Contents <span class="badge bg-fuschia float-right mr-0">4 Updates</span>'
+  # text: 'Contents <span class="badge bg-fuschia float-right mr-0">4 Updates</span>'
+  text: 'Contents'
   type: p
   modifiers: font-xsmall underline float-left block
 content:
@@ -42,7 +43,7 @@ content:
     text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
     type: h3
     modifiers: heading-medium
-    update: true
+    # update: true
   permalink: question-1
   backbutton: true
   divider: true
@@ -51,17 +52,6 @@ content:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
-  references:
-    heading:
-      text: UKSA Knowledge Base
-      type: h3
-      modifiers: heading-small
-    link:
-      text: "<a class='green' href='/machine-learning/machine-learning-2'>(4) contextural references</a>"
-      type: p
-    tags:
-    - label: Operator 1
-    - label: Operator 2
   documents:
   - text: Disposal diagram
     url: "/pdfs/disposal-discovery.pdf"
@@ -271,6 +261,19 @@ content:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
+  documents:
+  - text: Disposal diagram
+    url: "/pdfs/disposal-discovery.pdf"
+    type: .pdf
+    supporting: (12mb)
+  - text: Disposal diagram
+    url: "/pdfs/disposal-discovery.pdf"
+    type: .pdf
+    supporting: (12mb)
+  - text: Disposal diagram
+    url: "/pdfs/disposal-discovery.pdf"
+    type: .pdf
+    supporting: (12mb)
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -543,8 +546,8 @@ content:
 - title:
     text: Q3. Is it planned that any solid or ionizing or gaseous materials should be released from the object other than as part of a normal propulsion system?
     type: h3
-    update: true
     modifiers: heading-medium
+    update: true
   permalink: question-3
   backbutton: true
   divider: true
@@ -553,6 +556,27 @@ content:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
+  documents:
+  - text: Disposal diagram
+    url: "/pdfs/disposal-discovery.pdf"
+    type: .pdf
+    supporting: (12mb)
+  - text: Disposal diagram
+    url: "/pdfs/disposal-discovery.pdf"
+    type: .pdf
+    supporting: (12mb)
+  - text: Disposal diagram
+    url: "/pdfs/disposal-discovery.pdf"
+    type: .pdf
+    supporting: (12mb)
+  references:
+    heading:
+      text: UKSA Knowledge Base
+      type: h3
+      modifiers: heading-small
+    link:
+      text: "<a class='green' href='/machine-learning/machine-learning-2'>(4) contextural references</a>"
+      type: p
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -566,7 +590,6 @@ content:
       commentBlock:
         limit: 3
         modifiers: spacing-bottom--single
-        from: Regulator Engineer
         notice:
           checkbox:
             name: priority-level
@@ -575,7 +598,7 @@ content:
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjftt
               value: High priority
-        value: Thank you for your answer, please can you provide some further explanation about your propulsion system - specifically about the exhaust manifold arrangement?
+        from: Regulator Engineer
         source:
           legend: Comment source
           fieldsetModifiers: inline
@@ -595,7 +618,6 @@ content:
               value: Meeting
         assignees:
           label: Assign user and action
-          # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-334534t
           options:
           - label: Please select
@@ -651,7 +673,104 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: file-upload-3
-        comments: null
+        comments:
+        - byline:
+            # priority:
+            #   icon:
+            #     label: High priority
+            #     modifiers: icon-warning icon-warning--red icon--large
+            #   content: High priority
+            #   modifiers: red
+            modifiers: spacing-bottom--single comment-admin
+            name:
+              text: Regulator Engineer
+              type: h3
+              modifiers: heading-small
+            url: "#"
+            date:
+              date: 10.04am 22nd March 2018
+              datetime: '2018-03-26T19:34:15+00:00'
+            icon:
+              label: account
+              modifiers: icon-account
+          text: "<p>That is great, thank you for that - it all looks in order.</p>"
+          deadline:
+            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+            type: p
+            modifiers: heading-small
+          assignees:
+            text: "<span class='quiet'>Assigned to</span><br/>Regulator Admin"
+            type: p
+            modifiers: heading-small
+        - byline:
+            priority:
+              icon:
+                label: High priority
+                modifiers: icon-warning icon-warning--red icon--large
+              content: High priority
+              modifiers: red
+            modifiers: spacing-bottom--single comment-admin
+            name:
+              text: Operator Engineer
+              type: h3
+              modifiers: heading-small
+            url: "#"
+            date:
+              date: 10.04am 22nd March 2018
+              datetime: '2018-03-26T19:34:15+00:00'
+            icon:
+              label: account
+              modifiers: icon-account
+          text: "<p>Certainly - please find attached the documentation for the primary propulsion system and the schema for the exhaust manifold. If you have any questions please let me know and I'll refer them to our rocket scientist / engineer / person</p>"
+          documents:
+          - text: Exhaust port manifold
+            url: "#"
+            type: .pdf
+            supporting: (12mb)
+          - text: Propulsion system
+            url: "#"
+            type: .pdf
+            supporting: (1.3mb)
+          - text: ROCKETS!
+            url: "#"
+            type: .pdf
+            supporting: (0.3mb)
+          deadline:
+            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+            type: p
+            modifiers: heading-small
+          assignees:
+            text: "<span class='quiet'>Assigned to</span><br/>Regulator Engineer"
+            type: p
+            modifiers: heading-small
+        - byline:
+            priority:
+              icon:
+                label: High priority
+                modifiers: icon-warning icon-warning--red icon--large
+              content: High priority
+              modifiers: red
+            modifiers: spacing-bottom--single comment-admin
+            name:
+              text: Regulator Engineer
+              type: h3
+              modifiers: heading-small
+            url: "#"
+            date:
+              date: 10.04am 22nd March 2018
+              datetime: '2018-03-26T19:34:15+00:00'
+            icon:
+              label: account
+              modifiers: icon-account
+          text: "<p>Thank you for your answer, please can you provide some further explanation about your propulsion system - specifically about the exhaust manifold arrangement?</p>"
+          deadline:
+            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
+            type: p
+            modifiers: heading-small
+          assignees:
+            text: "<span class='quiet'>Assigned to</span><br/>Operator Engineer"
+            type: p
+            modifiers: heading-small
     - label: Private notes
       id: notes-private-3yukyuk
       commentBlock:
@@ -756,14 +875,14 @@ content:
         name: second-radio-item
         type: radio
         inputs:
-        - id: 1234g
+        - id: 1234h
           value: Feedback
           checked: true
-        - id: 12345g
+        - id: 12345h
           value: Call log
-        - id: 123456g
+        - id: 123456h
           value: Email
-        - id: 1234567g
+        - id: 1234567h
           value: Meeting
     assignees:
       label: Assign user and action
@@ -823,45 +942,11 @@ content:
       label: Upload attachment
       modifiers: file-upload
       id: file-upload-3
-    comments:
-    - byline:
-        priority:
-          icon:
-            label: High priority
-            modifiers: icon-warning icon-warning--red icon--large
-          content: High priority
-          modifiers: red
-        modifiers: spacing-bottom--single comment-admin
-        name:
-          text: Simon Griffith
-          type: h3
-          modifiers: heading-small
-        url: "/rachel"
-        date:
-          date: 10.04am 22nd March 2018
-          datetime: '2018-03-26T19:34:15+00:00'
-        icon:
-          label: account
-          modifiers: icon-account
-      text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-      documents:
-      - text: Disposal diagram
-        url: "/pdfs/disposal-discovery.pdf"
-        type: .pdf
-        supporting: (12mb)
-      deadline:
-        text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-        type: p
-        modifiers: heading-small
-      assignees:
-        text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-        type: p
-        modifiers: heading-small
+    comments: null
 - title:
     text: Q4. Will the space object carry any radioactive or nuclear material?
     type: h3
     modifiers: heading-medium
-    update: true
   permalink: question-4
   backbutton: true
   divider: true
@@ -879,6 +964,14 @@ content:
     url: "/pdfs/disposal-discovery.pdf"
     type: .pdf
     supporting: (12mb)
+  references:
+    heading:
+      text: UKSA Knowledge Base
+      type: h3
+      modifiers: heading-small
+    link:
+      text: "<a class='green' href='/machine-learning/machine-learning-2'>(4) contextural references</a>"
+      type: p
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -908,14 +1001,14 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: 1234h
+            - id: 1234j
               value: Feedback
               checked: true
-            - id: 12345h
+            - id: 12345j
               value: Call log
-            - id: 123456h
+            - id: 123456j
               value: Email
-            - id: 1234567h
+            - id: 1234567j
               value: Meeting
         assignees:
           label: Assign user and action
@@ -975,40 +1068,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: file-upload-3dfghdfgh
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notes-private-4sdfsdf
       commentBlock:
@@ -1029,14 +1089,14 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: 1234i
+            - id: 1234k
               value: Feedback
               checked: true
-            - id: 12345i
+            - id: 12345k
               value: Call log
-            - id: 123456i
+            - id: 123456k
               value: Email
-            - id: 1234567i
+            - id: 1234567k
               value: Meeting
         assignees:
           label: Assign user and action
@@ -1137,14 +1197,14 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: 1234k
+            - id: 1234l
               value: Feedback
               checked: true
-            - id: 12345k
+            - id: 12345l
               value: Call log
-            - id: 123456k
+            - id: 123456l
               value: Email
-            - id: 1234567k
+            - id: 1234567l
               value: Meeting
         assignees:
           label: Assign user and action
@@ -1226,14 +1286,14 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: 1234l
+            - id: 1234m
               value: Feedback
               checked: true
-            - id: 12345l
+            - id: 12345m
               value: Call log
-            - id: 123456l
+            - id: 123456m
               value: Email
-            - id: 1234567l
+            - id: 1234567m
               value: Meeting
         assignees:
           label: Assign user and action
@@ -1297,8 +1357,8 @@ content:
 - title:
     text: Q6. At what radio frequencies and at what powers will the space object transmit during its planned mission? Are there additional frequencies or transmit powers which can be invoked?
     type: h3
-    update: true
     modifiers: heading-medium
+    update: true
   permalink: question-6
   backbutton: true
   divider: true
@@ -1335,14 +1395,14 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: 1234m
+            - id: 1234n
               value: Feedback
               checked: true
-            - id: 12345m
+            - id: 12345n
               value: Call log
-            - id: 123456m
+            - id: 123456n
               value: Email
-            - id: 1234567m
+            - id: 1234567n
               value: Meeting
         assignees:
           label: Assign user and action
@@ -1423,14 +1483,14 @@ content:
             name: second-radio-item
             type: radio
             inputs:
-            - id: 1234n
+            - id: 1234o
               value: Feedback
               checked: true
-            - id: 12345n
+            - id: 12345o
               value: Call log
-            - id: 123456n
+            - id: 123456o
               value: Email
-            - id: 1234567n
+            - id: 1234567o
               value: Meeting
         assignees:
           label: Assign user and action
@@ -1496,24 +1556,27 @@ progress:
     text: "Satellite and mission overview status:"
     type: h2
   content:
-  - state: active
+  - state: complete
     title:
       text: 1. Review
+      type: p
+      modifiers: heading-small muted
+    divider:
+      modifiers: divider--thick
+    icon:
+      label: tick
+      modifiers: icon-tick-green icon--large
+  - state: active
+    modifiers: progress--current
+    title:
+      text: 2. Assess
       type: p
       modifiers: heading-small
     divider:
       modifiers: divider--thick divider--green
     button:
       label: Complete
-      url: /application-overview/technical/satellite-and-mission-overview-reviewed
-  - state: incomplete
-    modifiers: progress--current
-    title:
-      text: 2. Assess
-      type: p
-      modifiers: heading-small muted
-    divider:
-      modifiers: divider--thick
+      url: /application-overview/time-passes
   - state: incomplete
     title:
       text: 3. Approve

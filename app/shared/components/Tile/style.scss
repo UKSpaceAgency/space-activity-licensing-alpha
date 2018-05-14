@@ -1,4 +1,6 @@
 .has-state {
+  float: left;
+
   .is-green & {
     color: $white;
   }

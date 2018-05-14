@@ -17,6 +17,11 @@ breadcrumb:
   text: Technical
 - contentType: link
   text: Satellite and mission overview
+spinner:
+  label: Time passes....
+  url: /sign-in/frontstage-to-backstage-comment-email
+  modifiers: spinner--medium spinner--active spinner--white
+  hidden: true
 hero:
   modifiers: bg-dark bg-blue padded
   title:
@@ -46,6 +51,18 @@ content:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
+  references:
+    heading:
+      text: UKSA Knowledge Base
+      type: h3
+      modifiers: heading-small
+    link:
+      text: "<a class='green' href='/machine-learning/machine-learning-2'>(4) contextural references</a>"
+      type: p
+      modifiers: red
+    tags:
+    - label: Operator 1
+    - label: Operator 2
   documents:
   - text: Disposal diagram
     url: "/pdfs/disposal-discovery.pdf"
@@ -105,20 +122,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -193,20 +210,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -247,7 +264,6 @@ content:
     text: Q2. Will the space-object dock or rendezvous?
     type: h3
     modifiers: heading-medium
-    update: true
   permalink: question-2
   backbutton: true
   divider: true
@@ -316,20 +332,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -404,20 +420,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -488,20 +504,20 @@ content:
         value: ''
       - label: No action
         value: no action
-      - label: Joel Harris
-        value: sfkhwer87hkj34h
-      - label: Luke Wotten
-        value: sfkhwesdtjsdfhgqw
-      - label: Jon Smith
-        value: adwty5nnkv08b
+      - label: Operator Engineer
+        value: Operator Engineer
+      - label: Regulator Engineer
+        value: Regulator Engineer
+      - label: Regulator Admin
+        value: Regulator Admin
       - label: Dave Stringer
-        value: jfmfuue67tg3f
+        value: Dave Stringer
       - label: Aimee Brace
-        value: lvm08jjetffs
+        value: Aimee Brace
       - label: Alex Hobbs
-        value: kfj789dbv
+        value: Alex Hobbs
       - label: Tom Foster
-        value: 15rdcsb
+        value: Tom Foster
     deadline:
       legend: Set deadline
       calendar: true
@@ -542,6 +558,7 @@ content:
     text: Q3. Is it planned that any solid or ionizing or gaseous materials should be released from the object other than as part of a normal propulsion system?
     type: h3
     modifiers: heading-medium
+    update: true
   permalink: question-3
   backbutton: true
   divider: true
@@ -572,10 +589,11 @@ content:
       modifiers: heading-medium
     tabs:
     - label: Satellite operator 1
-      id: notes-open-3ertert
+      id: notes-open-question-3
       commentBlock:
         limit: 3
         modifiers: spacing-bottom--single
+        value: Certainly - please find attached the documentation for the primary propulsion system and the schema for the exhaust manifold. If you have any questions please let me know and I'll refer them to our rocket scientist / engineer / person
         notice:
           checkbox:
             name: priority-level
@@ -584,6 +602,7 @@ content:
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjftt
               value: High priority
+        from: Operator Engineer
         source:
           legend: Comment source
           fieldsetModifiers: inline
@@ -603,27 +622,26 @@ content:
               value: Meeting
         assignees:
           label: Assign user and action
-          # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-334534t
           options:
           - label: Please select
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -669,10 +687,10 @@ content:
               modifiers: red
             modifiers: spacing-bottom--single comment-admin
             name:
-              text: Simon Griffith
+              text: Regulator Engineer
               type: h3
               modifiers: heading-small
-            url: "/rachel"
+            url: "#"
             date:
               date: 10.04am 22nd March 2018
               datetime: '2018-03-26T19:34:15+00:00'
@@ -685,7 +703,7 @@ content:
             type: p
             modifiers: heading-small
           assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
+            text: "<span class='quiet'>Assigned to</span><br/>Operator Engineer"
             type: p
             modifiers: heading-small
     - label: Private notes
@@ -726,20 +744,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -810,20 +828,20 @@ content:
         value: ''
       - label: No action
         value: no action
-      - label: Joel Harris
-        value: sfkhwer87hkj34h
-      - label: Luke Wotten
-        value: sfkhwesdtjsdfhgqw
-      - label: Jon Smith
-        value: adwty5nnkv08b
+      - label: Operator Engineer
+        value: Operator Engineer
+      - label: Regulator Engineer
+        value: Regulator Engineer
+      - label: Regulator Admin
+        value: Regulator Admin
       - label: Dave Stringer
-        value: jfmfuue67tg3f
+        value: Dave Stringer
       - label: Aimee Brace
-        value: lvm08jjetffs
+        value: Aimee Brace
       - label: Alex Hobbs
-        value: kfj789dbv
+        value: Alex Hobbs
       - label: Tom Foster
-        value: 15rdcsb
+        value: Tom Foster
     deadline:
       legend: Set deadline
       calendar: true
@@ -882,15 +900,6 @@ content:
     url: "/pdfs/disposal-discovery.pdf"
     type: .pdf
     supporting: (12mb)
-  references:
-    heading:
-      text: UKSA Knowledge Base
-      type: h3
-      modifiers: heading-small
-    link:
-      text: "<a class='green' href='/machine-learning/'>(4) contextural references</a>"
-      type: p
-      modifiers: red
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -938,20 +947,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -1026,20 +1035,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -1080,7 +1089,6 @@ content:
     text: Q5. Will the space object carry any form of animal life?
     type: h3
     modifiers: heading-medium
-    update: true
   permalink: question-5
   backbutton: true
   divider: true
@@ -1088,15 +1096,6 @@ content:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
-  references:
-    heading:
-      text: UKSA Knowledge Base
-      type: h3
-      modifiers: heading-small
-    link:
-      text: "<a class='green' href='/machine-learning/'>(4) contextural references</a>"
-      type: p
-      modifiers: red
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -1144,20 +1143,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -1193,40 +1192,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: file-upload-3dsfsdfgsdfgsdfgs
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notes-priasdfvate-5
       commentBlock:
@@ -1266,20 +1232,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -1315,44 +1281,12 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: filsdae-upload-3asfa
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
 - title:
     text: Q6. At what radio frequencies and at what powers will the space object transmit during its planned mission? Are there additional frequencies or transmit powers which can be invoked?
     type: h3
     modifiers: heading-medium
+    update: true
   permalink: question-6
   backbutton: true
   divider: true
@@ -1407,20 +1341,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -1456,40 +1390,7 @@ content:
           label: Upload attachment
           modifiers: file-upload
           id: asdfafile-upload-3
-        comments:
-        - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
-            modifiers: spacing-bottom--single comment-admin
-            name:
-              text: Simon Griffith
-              type: h3
-              modifiers: heading-small
-            url: "/rachel"
-            date:
-              date: 10.04am 22nd March 2018
-              datetime: '2018-03-26T19:34:15+00:00'
-            icon:
-              label: account
-              modifiers: icon-account
-          text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
-          deadline:
-            text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
-            type: p
-            modifiers: heading-small
-          assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Joel Hobbs"
-            type: p
-            modifiers: heading-small
+        comments: null
     - label: Private notes
       id: notwertes-pwertrivate-6
       commentBlock:
@@ -1528,20 +1429,20 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Joel Harris
-            value: sfkhwer87hkj34h
-          - label: Luke Wotten
-            value: sfkhwesdtjsdfhgqw
-          - label: Jon Smith
-            value: adwty5nnkv08b
+          - label: Operator Engineer
+            value: Operator Engineer
+          - label: Regulator Engineer
+            value: Regulator Engineer
+          - label: Regulator Admin
+            value: Regulator Admin
           - label: Dave Stringer
-            value: jfmfuue67tg3f
+            value: Dave Stringer
           - label: Aimee Brace
-            value: lvm08jjetffs
+            value: Aimee Brace
           - label: Alex Hobbs
-            value: kfj789dbv
+            value: Alex Hobbs
           - label: Tom Foster
-            value: 15rdcsb
+            value: Tom Foster
         deadline:
           legend: Set deadline
           calendar: true
@@ -1601,9 +1502,9 @@ progress:
       modifiers: heading-small
     divider:
       modifiers: divider--thick divider--green
-    # button:
-    #   label: Complete
-    #   url:
+    button:
+      label: Complete
+      url: "#"
   - state: incomplete
     title:
       text: 3. Approve

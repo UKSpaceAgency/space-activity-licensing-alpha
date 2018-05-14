@@ -3,5 +3,5 @@ contentType: page
 useComponent: true
 slug: engineer-email-technical
 image: "/ui/img/content/ml-2.png"
-href: "/machine-learning/machine-learning-3"
+href: /application-overview/technical/satellite-and-mission-overview
 returnLink: "/"
