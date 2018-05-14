@@ -5,15 +5,14 @@ $(document).ready(function () {
 
   var accordion = $('[data-accordion]');
   var commentTarget = $('[data-comment]');
-  var tabs = $('[data-tab]');
 
   if (commentTarget) {
+    var tabs = $('[data-tab]');
     commentTarget.each(function(i, target) {
       var comment = new Comment(target, tabs);
       comment.init();
     })
   }
-
 
   // Where .multiple-choice uses the data-target attribute
   // to toggle hidden content
