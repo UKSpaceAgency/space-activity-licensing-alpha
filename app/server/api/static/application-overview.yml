@@ -73,20 +73,23 @@ hero:
     links:
       modifiers: list-arrow list-arrow--dark
       list:
-      - url: "#finance"
-        text: Finance
-      - url: "/application-overview/frequency"
-        text: Frequency
-      - url: "#insurance"
-        text: Insurance
+      - url: "#"
+        text: Eligibility
+        icon:
+          label: tick
+          modifiers: icon-tick-white
       - url: "/application-overview/technical"
         text: Technical
-      - url: "#legal"
-        text: Legal
-      - url: "#political"
-        text: Political
-      - url: "#mod"
-        text: MOD
+      - url: "#"
+        text: Applicant details
+      - url: "#"
+        text: Your mission
+      - url: "#"
+        text: Organisation & finance
+      - url: "#"
+        text: Insurance
+      - url: "#"
+        text: Frequency
     notice:
       contentType: heading
       text: "<span class='quiet'>Launch Date</span> <br/>4 June 2018"
