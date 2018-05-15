@@ -16,7 +16,7 @@ breadcrumb:
   url: "/"
 - contentType: link
   url: "/application-overview/technical"
-  text: Application 11021411
+  text: Application HDJ2123F
 - contentType: link
   url: "/application-overview/technical"
   text: Technical
@@ -63,18 +63,10 @@ content:
     - label: Operator 1
     - label: Operator 2
   documents:
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
+  - text: ""
+    url: ""
     type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
+    supporting: ""
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -121,8 +113,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -209,8 +201,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -317,8 +309,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -405,8 +397,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -489,8 +481,8 @@ content:
         value: ''
       - label: No action
         value: no action
-      - label: Jerry engineer
-        value: Jerry engineer
+      - label: Jerry Engineer
+        value: Jerry Engineer
       - label: Andy assessor
         value: Andy assessor
       - label: Laura licensing
@@ -601,8 +593,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -689,8 +681,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -773,8 +765,8 @@ content:
         value: ''
       - label: No action
         value: no action
-      - label: Jerry engineer
-        value: Jerry engineer
+      - label: Jerry Engineer
+        value: Jerry Engineer
       - label: Andy assessor
         value: Andy assessor
       - label: Laura licensing
@@ -869,15 +861,7 @@ content:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
-  documents:
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
+
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -925,8 +909,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -995,11 +979,7 @@ content:
               label: account
               modifiers: icon-account
           text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
+
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
             type: p
@@ -1046,8 +1026,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1154,8 +1134,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1243,8 +1223,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1353,8 +1333,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1441,8 +1421,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing

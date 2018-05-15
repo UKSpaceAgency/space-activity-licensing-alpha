@@ -28,7 +28,7 @@ hero:
     type: p
     modifiers: heading-medium badge badge--large bg-pink
   - contentType: heading
-    text: "<span class='quiet'>Ref: </span> 11021411"
+    text: "<span class='quiet'>Ref: </span> HDJ2123F"
     type: p
     modifiers: heading-medium float-right
   title:
@@ -183,7 +183,7 @@ content:
   type: p
   modifiers: heading-small border bottom-border padding-bottom--single
 - contentType: heading
-  text: "email: <a href='mailto:rakel.jenson@Satellite-operator-1.com'>rakel.jenson@Satellite-operator-1.com</a>"
+  text: "email: <a href='mailto:rakel.jenson@ukspaceagency.gov.uk'>rakel.jenson@ukspaceagency.gov.uk</a>"
   type: p
   modifiers: spacing-top--single
 - contentType: heading

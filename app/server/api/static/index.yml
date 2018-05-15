@@ -121,7 +121,7 @@ content:
 - contentType: list
   modifiers: list-bullet
   list:
-  - text: Arthur applicant - Emailed - Satellite and mission overview - ready for submission
+  - text: Arthur Applicant - Emailed - Satellite and mission overview - ready for submission
     url: /operator/operator-submission-ready-email
   - text: Log in
     url: /sign-in/sign-in-operator
@@ -145,9 +145,6 @@ content:
   - text: SMS notification of submitted questions
   - text: Email notification of submitted questions
     url: /operator/email-submission-ready
-  - text: SMS notification of submitted questions
-  # - text: Admin dashboard - 'New update' flag
-  #   url: /applications
   - text: Application overview - 'New update' flag on technical
     url: /application-overview
   - text: Technical section - New update' flag on Satellite and mission overview

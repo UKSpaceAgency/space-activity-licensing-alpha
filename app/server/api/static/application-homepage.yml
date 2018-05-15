@@ -43,7 +43,7 @@ listing:
       modifiers: heading-medium spacing-top--flush
     items:
     - text: Applicant name
-      value: Richard Branson
+      value: Arthur Applicant
     appStatus: Awaiting Action
     url: "/operator"
     reference: 62dsffg7238djuju4756
@@ -82,7 +82,7 @@ listing:
       modifiers: heading-medium spacing-top--flush
     items:
     - text: Applicant name
-      value: Richard Branson
+      value: Arthur Applicant
     - text: Launch Name
       value: LM1256
     appStatus: Awaiting Action
@@ -102,7 +102,7 @@ listing:
       modifiers: heading-medium spacing-top--flush
     items:
     - text: Applicant name
-      value: Richard Branson
+      value: Arthur Applicant
     - text: Launch Name
       value: LM1256
     appStatus: Awaiting Action
@@ -119,7 +119,7 @@ listing:
       modifiers: heading-medium spacing-top--flush
     items:
     - text: Applicant name
-      value: Richard Branson
+      value: Arthur Applicant
     appStatus: Awaiting Action
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
@@ -134,7 +134,7 @@ listing:
       modifiers: heading-medium spacing-top--flush
     items:
     - text: Applicant name
-      value: Richard Branson
+      value: Arthur Applicant
     appStatus: Awaiting Action
     url: "/application-overview"
     reference: 62dsffg7238djuju4756
@@ -149,7 +149,7 @@ listing:
       modifiers: heading-medium spacing-top--flush
     items:
     - text: Applicant name
-      value: Richard Branson
+      value: Arthur Applicant
     appStatus: Awaiting Action
     url: "/application-overview"
     reference: 62dsffg7238djuju4756

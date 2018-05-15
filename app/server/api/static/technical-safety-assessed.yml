@@ -11,7 +11,7 @@ breadcrumb:
   url: "/"
 - contentType: link
   url: "/application-overview/technical/ready-for-admin"
-  text: Application 11021411
+  text: Application HDJ2123F
 - contentType: link
   url: "/application-overview/technical/ready-for-admin"
   text: Technical
@@ -34,8 +34,8 @@ hero:
     text: Updated 26th February 2018
     type: p
 sideNavHeading:
-  # text: 'Contents <span class="badge bg-fuschia float-right mr-0">4 Updates</span>'
-  text: 'Contents'
+  text: 'Contents <span class="badge bg-fuschia float-right mr-0">4 Updates</span>'
+  # text: 'Contents'
   type: p
   modifiers: font-xsmall underline float-left block
 content:
@@ -43,7 +43,7 @@ content:
     text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
     type: h3
     modifiers: heading-medium
-    # update: true
+    update: true
   permalink: question-1
   backbutton: true
   divider: true
@@ -52,6 +52,11 @@ content:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
+  documents:
+  - text: ""
+    url: ""
+    type: .pdf
+    supporting: ""
   references:
     heading:
       text: UKSA Knowledge Base
@@ -63,19 +68,6 @@ content:
     tags:
     - label: Operator 1
     - label: Operator 2
-  documents:
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -122,8 +114,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -210,8 +202,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -318,8 +310,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -406,8 +398,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -490,8 +482,8 @@ content:
         value: ''
       - label: No action
         value: no action
-      - label: Jerry engineer
-        value: Jerry engineer
+      - label: Jerry Engineer
+        value: Jerry Engineer
       - label: Andy assessor
         value: Andy assessor
       - label: Laura licensing
@@ -553,19 +545,7 @@ content:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
-  documents:
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
+
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -614,8 +594,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -673,7 +653,7 @@ content:
               modifiers: red
             modifiers: spacing-bottom--single comment-admin
             name:
-              text: Jerry engineer
+              text: Jerry Engineer
               type: h3
               modifiers: heading-small
             url: "#"
@@ -730,7 +710,7 @@ content:
             type: p
             modifiers: heading-small
           assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Jerry engineer"
+            text: "<span class='quiet'>Assigned to</span><br/>Jerry Engineer"
             type: p
             modifiers: heading-small
     - label: Private notes
@@ -771,8 +751,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -855,8 +835,8 @@ content:
         value: ''
       - label: No action
         value: no action
-      - label: Jerry engineer
-        value: Jerry engineer
+      - label: Jerry Engineer
+        value: Jerry Engineer
       - label: Andy assessor
         value: Andy assessor
       - label: Laura licensing
@@ -909,6 +889,7 @@ content:
     text: Q4. Will the space object carry any radioactive or nuclear material?
     type: h3
     modifiers: heading-medium
+    update: true
   permalink: question-4
   backbutton: true
   divider: true
@@ -917,23 +898,15 @@ content:
     text: Uploaded supporting documents
     type: h3
     modifiers: heading-small
-  documents:
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  references:
-    heading:
-      text: UKSA Knowledge Base
-      type: h3
-      modifiers: heading-small
-    link:
-      text: "<a class='green' href='/machine-learning/machine-learning-2'>(4) contextural references</a>"
-      type: p
+
+  # references:
+  #   heading:
+  #     text: UKSA Knowledge Base
+  #     type: h3
+  #     modifiers: heading-small
+  #   link:
+  #     text: "<a class='green' href='/machine-learning/machine-learning-2'>(4) contextural references</a>"
+  #     type: p
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -981,8 +954,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1069,8 +1042,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1177,8 +1150,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1266,8 +1239,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1375,8 +1348,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1463,8 +1436,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1513,36 +1486,36 @@ content:
           modifiers: file-upload
           id: fwertwile-upload-23456
         comments: null
-# progress:
-#   heading:
-#     text: "Satellite and mission overview status:"
-#     type: h2
-#   content:
-#   - state: complete
-#     title:
-#       text: 1. Review
-#       type: p
-#       modifiers: heading-small muted
-#     divider:
-#       modifiers: divider--thick
-#     icon:
-#       label: tick
-#       modifiers: icon-tick-green icon--large
-#   - state: active
-#     modifiers: progress--current
-#     title:
-#       text: 2. Assess
-#       type: p
-#       modifiers: heading-small
-#     divider:
-#       modifiers: divider--thick divider--green
-#     button:
-#       label: Complete
-#       url: /application-overview/technical/ready-for-admin
-#   - state: incomplete
-#     title:
-#       text: 3. Approve
-#       type: p
-#       modifiers: heading-small muted
-#     divider:
-#       modifiers: divider--thick
+progress:
+  heading:
+    text: "Satellite and mission overview status:"
+    type: h2
+  content:
+  - state: complete
+    title:
+      text: 1. Review
+      type: p
+      modifiers: heading-small muted
+    divider:
+      modifiers: divider--thick
+    icon:
+      label: tick
+      modifiers: icon-tick-green icon--large
+  - state: active
+    modifiers: progress--current
+    title:
+      text: 2. Assess
+      type: p
+      modifiers: heading-small
+    divider:
+      modifiers: divider--thick divider--green
+    # button:
+    #   label: Complete
+    #   url: /application-overview/technical/ready-for-admin
+  - state: incomplete
+    title:
+      text: 3. Approve
+      type: p
+      modifiers: heading-small muted
+    divider:
+      modifiers: divider--thick
