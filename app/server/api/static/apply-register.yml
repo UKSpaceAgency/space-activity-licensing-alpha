@@ -68,7 +68,7 @@ content:
         key: pattern
         value: '[0-9]*'
   - contentType: heading
-    text: Organisation details
+    text: Personal details
     type: h3
     modifiers: heading-medium
   - contentType: formGroup

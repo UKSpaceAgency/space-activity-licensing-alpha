@@ -16,14 +16,14 @@ hero:
     text: Applications
     url: "/application-overview/"
   - contentType: link
-    text: Application 11021411
+    text: Application HDJ2123F
   licenceType:
   - contentType: heading
     text: Orbital licence
     type: p
     modifiers: heading-small badge bg-pink-40
   - contentType: heading
-    text: "<span class='quiet'>Ref: </span> 11021411"
+    text: "<span class='quiet'>Ref: </span> HDJ2123F"
     type: p
     modifiers: heading-small spacing-top--single
   title:
@@ -70,7 +70,7 @@ content:
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
-    collapsibleHeading: Application notes (3)
+    collapsibleHeading: Application notes (0)
     heading:
       text: Comments
       type: h3
@@ -116,8 +116,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -186,11 +186,6 @@ content:
               label: account
               modifiers: icon-account
           text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
             type: p
@@ -239,8 +234,8 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing

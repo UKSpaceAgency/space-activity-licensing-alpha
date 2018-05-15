@@ -24,14 +24,14 @@ hero:
     text: Applications
     url: "/application-overview/"
   - contentType: link
-    text: Application 11021411
+    text: Application HDJ2123F
   licenceType:
   - contentType: heading
     text: IN-ORBIT LICENCE
     type: p
     modifiers: heading-medium badge badge--large bg-pink
   - contentType: heading
-    text: "<span class='quiet'>Ref: </span> 11021411"
+    text: "<span class='quiet'>Ref: </span> HDJ2123F"
     type: p
     modifiers: heading-medium float-right
   title:
@@ -176,8 +176,8 @@ content:
           options:
           - label: Please select
             value: ''
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
             selected: true
           - label: Andy assessor
             value: Andy assessor
@@ -249,11 +249,7 @@ content:
               label: account
               modifiers: icon-account
           text: "<p>Sed ut perspiciatis unde omnis iste natus error sm eum fugiat quo voluptas nulla pariatur?</p><p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
+
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
             type: p
@@ -276,11 +272,7 @@ content:
               label: account
               modifiers: icon-account
           text: "<p>Nemo enim ipsam voluptatem quia voluptas sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Pugiat quo voluptas nulla pariatur?</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
+
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
             type: p
@@ -325,8 +317,8 @@ content:
           options:
           - label: Please select
             value: ''
-          - label: Jerry engineer
-            value: Jerry engineer
+          - label: Jerry Engineer
+            value: Jerry Engineer
             selected: true
           - label: Andy assessor
             value: Andy assessor
@@ -392,11 +384,7 @@ content:
               label: account
               modifiers: icon-account
           text: "<p>Yes! Perfect</p>"
-          documents:
-          - text: Disposal diagram
-            url: "/pdfs/disposal-discovery.pdf"
-            type: .pdf
-            supporting: (12mb)
+
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
             type: p
@@ -440,7 +428,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2020"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -475,7 +463,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2020"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -511,7 +499,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2020"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -546,7 +534,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2020"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -582,7 +570,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2020"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -617,7 +605,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2020"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -652,7 +640,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: heading
-      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2014"
+      text: "<span class='quiet'>Last updated</span><br/>10<sup>th</sup>March 2020"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -671,7 +659,7 @@ content:
   type: p
   modifiers: heading-small border bottom-border padding-bottom--single
 - contentType: heading
-  text: "email: <a href='mailto:rakel.jenson@Satellite-operator-1.com'>rakel.jenson@Satellite-operator-1.com</a>"
+  text: "email: <a href='mailto:rakel.jenson@ukspaceagency.gov.uk'>rakel.jenson@ukspaceagency.gov.uk</a>"
   type: p
   modifiers: spacing-top--single
 - contentType: heading

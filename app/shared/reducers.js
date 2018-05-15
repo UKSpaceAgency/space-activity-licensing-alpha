@@ -3,9 +3,6 @@ import * as actions from './actions'
 const initialState = {
   pageData: {},
   userData: {},
-  interviews: {
-    results: []
-  },
   loading: false,
   error: false
 }

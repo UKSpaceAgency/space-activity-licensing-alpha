@@ -50,7 +50,7 @@ router.all('/notify/:slug', (req, res) => {
   const sendEmail = (templateId, data) => {
     notifyClient.sendEmail(templateId, emailAddress, { personalisation: data })
     .then(response => {
-      console.log(response)
+      // console.log(response)
       res.sendStatus(200)
     })
     .catch(err => {
@@ -61,7 +61,7 @@ router.all('/notify/:slug', (req, res) => {
   const sendSms = (templateId, data) => {
     notifyClient.sendSms(templateId, phoneNumber, { personalisation: data })
     .then(response => {
-      console.log(response)
+      // console.log(response)
       res.sendStatus(200)
     })
     .catch(err => {
