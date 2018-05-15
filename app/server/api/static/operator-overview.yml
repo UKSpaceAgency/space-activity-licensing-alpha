@@ -9,9 +9,9 @@ head:
 masthead:
   utility:
     links:
-    - text: Notifications
-      url: "/notifications"
-      notification: 3
+    # - text: Notifications
+    #   url: "/notifications"
+    #   notification: 3
     - text: Settings
       url: "/operator"
 hero:
