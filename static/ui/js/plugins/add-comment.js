@@ -37,7 +37,8 @@ function Comment(element, tabs) {
   var submitButton = el.find(options.buttonSubmit);
   var select = el.find(options.select);
   var textarea = el.find(options.textarea);
-  var tab = tabs.filter((i, v) => {
+
+  var tab = tabs.filter(function(i, v) {
     return v.getAttribute('data-tab') === el.data('comment')
   })
 
