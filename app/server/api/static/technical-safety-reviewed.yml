@@ -1276,6 +1276,7 @@ content:
   permalink: question-6
   backbutton: true
   divider: true
+  text: "<p>Every NASA mission has a communications system to receive commands and other information sent from Earth to the spacecraft, and to return scientific data from the spacecraft to Earth. The vast majority of deep space missions never return to Earth. Thus, after launch, a spacecraft’s tracking and communications systems is the only means with which to interact with it. </p>"
   heading:
     text: Uploaded supporting documents
     type: h3

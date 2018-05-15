@@ -4,7 +4,7 @@ useComponent: true
 slug: operator-eligibility-assessing
 spinner:
   label: Time passes....
-  url: /operator/operator-eligibility-assessing-approved
+  url: /operator/operator-eligibility-assessing-approved#content
   modifiers: spinner--medium spinner--active spinner--white
 head:
   contentType: head
