@@ -142,8 +142,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
-          - label: Andy assessor
-            value: Andy assessor
+          - label: Andy Assessor
+            value: Andy Assessor
           - label: Laura licensing
             value: Laura licensing
           - label: Dave Stringer
@@ -266,8 +266,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
-          - label: Andy assessor
-            value: Andy assessor
+          - label: Andy Assessor
+            value: Andy Assessor
           - label: Laura licensing
             value: Laura licensing
           - label: Dave Stringer

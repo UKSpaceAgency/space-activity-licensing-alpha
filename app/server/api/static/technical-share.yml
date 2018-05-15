@@ -44,7 +44,7 @@ content:
       # supporting: This is a short section of guidance text
       inputs:
       - id: Richard-Crowther-123
-        value: Andy assessor
+        value: Andy Assessor
         checked: true
       - id: Toby-Harris-123
         value: Toby Harris
