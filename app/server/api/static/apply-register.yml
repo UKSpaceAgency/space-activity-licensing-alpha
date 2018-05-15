@@ -43,6 +43,7 @@ content:
     - label: Day
       id: 3245
       name: deadline-day
+      value: 4
       modifiers: form-group-day
       type: number
       attr:
@@ -51,6 +52,7 @@ content:
     - label: Month
       id: 43563456
       name: deadline-month
+      value: "06"
       modifiers: form-group-month
       type: number
       attr:
@@ -59,6 +61,7 @@ content:
     - label: Year
       id: 45674567
       name: deadline-year
+      value: 2020
       modifiers: form-group-year
       type: number
       attr:
