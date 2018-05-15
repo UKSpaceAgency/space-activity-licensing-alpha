@@ -852,19 +852,19 @@ content:
   backbutton: true
   divider: true
   text: "<p>Nuclear propulsion includes a wide variety of propulsion methods that fulfill the promise of the Atomic Age by using some form of nuclear reaction as their primary power source. The idea of using nuclear material for propulsion dates back to the beginning of the 20th century. In 1903 it was hypothesised that radioactive material, radium, might be a suitable fuel for engines to propel cars, boats, and planes.[1] H. G. Wells picked up this idea in his 1914 fiction work The World Set Free.</p>"
-  heading:
-    text: Uploaded supporting documents
-    type: h3
-    modifiers: heading-small
-  documents:
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
-  - text: Disposal diagram
-    url: "/pdfs/disposal-discovery.pdf"
-    type: .pdf
-    supporting: (12mb)
+  # heading:
+  #   text: Uploaded supporting documents
+  #   type: h3
+  #   modifiers: heading-small
+  # documents:
+  # - text: Disposal diagram
+  #   url: "/pdfs/disposal-discovery.pdf"
+  #   type: .pdf
+  #   supporting: (12mb)
+  # - text: Disposal diagram
+  #   url: "/pdfs/disposal-discovery.pdf"
+  #   type: .pdf
+  #   supporting: (12mb)
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
