@@ -44,7 +44,7 @@ hero:
     type: p
     modifiers: heading-small
   - contentType: heading
-    text: "<span class='quiet'>Launch Date</span><br/>4 June 2018"
+    text: "<span class='quiet'>Launch Date</span><br/>4 June 2020"
     type: p
     modifiers: badge bg-pink-40 heading-small spacing-top--flush
   synopsisCollapsible:
@@ -116,12 +116,12 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Operator Engineer
-            value: Operator Engineer
-          - label: Regulator Engineer
-            value: Regulator Engineer
-          - label: Regulator Admin
-            value: Regulator Admin
+          - label: Jerry engineer
+            value: Jerry engineer
+          - label: Andy assessor
+            value: Andy assessor
+          - label: Laura licensing
+            value: Laura licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -239,12 +239,12 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Operator Engineer
-            value: Operator Engineer
-          - label: Regulator Engineer
-            value: Regulator Engineer
-          - label: Regulator Admin
-            value: Regulator Admin
+          - label: Jerry engineer
+            value: Jerry engineer
+          - label: Andy assessor
+            value: Andy assessor
+          - label: Laura licensing
+            value: Laura licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace

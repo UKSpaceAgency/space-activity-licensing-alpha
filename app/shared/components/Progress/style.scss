@@ -42,9 +42,27 @@
       }
     }
 
+    p {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-right: 15px;
+
+      @include media(tablet) {
+        display: block;
+        margin-bottom: 1.25em;
+        margin-right: 0;
+      }
+
+    }
+
     .divider {
       background-color: $white;
       opacity: .4;
+      top: 100%;
+
+      @include media(tablet) {
+        top: auto;
+      }
     }
   }
 

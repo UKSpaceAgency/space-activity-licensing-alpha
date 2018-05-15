@@ -121,7 +121,7 @@ content:
 - contentType: list
   modifiers: list-bullet
   list:
-  - text: Operator admin - Emailed - Satellite and mission overview - ready for submission
+  - text: Arthur applicant - Emailed - Satellite and mission overview - ready for submission
     url: /operator/operator-submission-ready-email
   - text: Log in
     url: /sign-in/sign-in-operator
@@ -210,4 +210,23 @@ content:
   list:
   - text: Application overview - all sections complete - create licence CTA at top of page
     url: /generate-license
+
+- divider: true
+- contentType: heading
+  text: Pages outside of the 'happy path'
+  type: h2
+  modifiers: spacing-top--large spacing-bottom--single heading-large
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Notifications page
+    url: /notifications
+  - text: Activity page
+    url: /activity
+  - text: New member
+    url: /application-overview/new-member
+  - text: All attachments
+    url: /application-overview/technical/all-attachments
+
+
 

@@ -26,14 +26,61 @@ content:
   # legend: WHat space activity are you wanting to undertake?
   formAction: "/apply/register"
   formItems:
+  - contentType: heading
+    text: Mission details
+    type: h3
+    modifiers: heading-medium
+  - contentType: formGroup
+    label: Mission name
+    value: S EAN multi-beam
+    name: mission-name
+    id: mission-name
+    input: text
+  - contentType: date
+    legend: Suggested launch date
+    supporting: (if you are not sure of this, leave this blank)
+    items:
+    - label: Day
+      id: 3245
+      name: deadline-day
+      value: 4
+      modifiers: form-group-day
+      type: number
+      attr:
+        key: pattern
+        value: '[0-9]*'
+    - label: Month
+      id: 43563456
+      name: deadline-month
+      value: "06"
+      modifiers: form-group-month
+      type: number
+      attr:
+        key: pattern
+        value: '[0-9]*'
+    - label: Year
+      id: 45674567
+      name: deadline-year
+      value: 2020
+      modifiers: form-group-year
+      type: number
+      attr:
+        key: pattern
+        value: '[0-9]*'
+  - contentType: heading
+    text: Organisation details
+    type: h3
+    modifiers: heading-medium
   - contentType: formGroup
     label: First name
+    value: Arthur
     name: first-name
     id: first-name
     input: text
   - contentType: formGroup
     label: Last name
     name: last-name
+    value: Applicant
     id: last-name
     input: text
   - contentType: formGroup
@@ -47,9 +94,6 @@ content:
     name: mobile-phone-number
     id: mobile-phone-number
     input: password
-    attr:
-      key: data-reveal-password
-      value: true
   - contentType: formGroup
     label: Repeat password
     name: mobile-phone-number-repeat

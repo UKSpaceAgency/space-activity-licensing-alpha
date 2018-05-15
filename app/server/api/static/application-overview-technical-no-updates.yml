@@ -50,7 +50,7 @@ hero:
     type: p
     modifiers: heading-small
   - contentType: heading
-    text: "<span class='quiet'>Launch Date</span><br/>4 June 2018"
+    text: "<span class='quiet'>Launch Date</span><br/>4 June 2020"
     type: p
     modifiers: badge bg-pink-40 heading-small spacing-top--flush
   synopsisCollapsible:
@@ -98,7 +98,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -128,7 +128,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -158,6 +158,6 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium

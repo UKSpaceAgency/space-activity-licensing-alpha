@@ -3,7 +3,7 @@ import React from 'react'
 const Scripts = () => {
   return (
     <React.Fragment>
-      <script src='/ui/js/vendor/jquery.3.3.1.min.js'/>
+      <script src='/ui/js/vendor/jquery.1.11.0.min.js'/>
       <script src='/ui/js/vendor/mustache.js'/>
       <script src='/ui/js/vendor/autocomplete.js'/>
       <script src='/ui/js/vendor/tabs.js'/>

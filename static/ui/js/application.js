@@ -6,6 +6,14 @@ $(document).ready(function () {
   var accordion = $('[data-accordion]');
   var commentTarget = $('[data-comment]');
 
+  if (commentTarget) {
+    var tabs = $('[data-tab]');
+    commentTarget.each(function(i, target) {
+      var comment = new Comment(target, tabs);
+      comment.init();
+    })
+  }
+
   // Where .multiple-choice uses the data-target attribute
   // to toggle hidden content
   var showHideContent = new GOVUK.ShowHideContent()
@@ -37,12 +45,5 @@ $(document).ready(function () {
     }
   });
 
-  if (commentTarget) {
-    var tabs = $('[data-tab]');
-    commentTarget.each(function(i, target) {
-      var comment = new Comment(target, tabs);
-      comment.init();
-    })
-  }
 
 })

@@ -6,10 +6,10 @@ head:
   title: Your organisation | pre-application | UKSA
 masthead:
   logo: Govuk pattern
-  utility:
-    links:
-    - text: Settings
-      url: "/application-overview/new-member"
+  # utility:
+  #   links:
+  #   - text: Settings
+  #     url: "/application-overview/new-member"
 hero:
   modifiers: padding-top--single spacing-bottom--flush
   title:
@@ -38,11 +38,11 @@ content:
     content:
     - contentType: heading
       type: h3
-      text: "<a href='#'>SATELLITE GLOBAL PLC</a>"
+      text: "<a href='#'>SATELLITE OPERATOR 1 PLC</a>"
       modifiers: heading-medium
     - contentType: panel
       modifiers: spacing--single
-      content: "<p>Matching previous names:<br/><strong>SATELLITE GLOBAL</strong> GROUP HOLDINGS</p>"
+      content: "<p>Matching previous names:<br/><strong>SATELLITE OPERATOR 1</strong> GROUP HOLDINGS</p>"
     - contentType: longform
       text: "17438293 - Incorporated on 12 September 1990<br/>Tenth Floor 4 College Square Sail Road, Bristol, England, BS1 4UW"
       modifiers: spacing-bottom--large

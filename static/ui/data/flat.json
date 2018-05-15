@@ -1,5 +1,5 @@
 [
-  {"title":"SATELLITE GLOBAL PLC", "id":1, "target": "#satellite-global-plc"},
-  {"title":"Operator 5", "id":2},
-  {"title":"SAUK", "id":3}
+  {"title":"SATELLITE OPERATOR 1 PLC", "id":1, "target": "#satellite-global-plc"},
+  {"title":"SPACE CO 1", "id":2},
+  {"title":"AN OTHER OPERATOR", "id":3}
 ]

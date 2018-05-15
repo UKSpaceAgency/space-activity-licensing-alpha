@@ -65,6 +65,7 @@ hero:
       inputs:
       - id: ieurhferf
         value: Operations
+        checked: true
       - id: ieurhferf12
         value: Emergency operations
       - id: ieurhferf21
@@ -73,26 +74,26 @@ hero:
     links:
       modifiers: list-arrow list-arrow--dark
       list:
-      - url: "#finance"
-        text: Finance
-      - url: "/application-overview/frequency"
-        text: Frequency
-      - url: "#insurance"
-        text: Insurance
-      - url: "/application-overview/technical"
-        text: Technical
-      - url: "#legal"
-        text: Legal
-      - url: "#political"
-        text: Political
+      - url: "#"
+        text: Eligibility
         icon:
           label: tick
           modifiers: icon-tick-white
-      - url: "#mod"
-        text: MOD
+      - url: "/application-overview/technical"
+        text: Technical
+      - url: "#"
+        text: Applicant details
+      - url: "#"
+        text: Your mission
+      - url: "#"
+        text: Organisation & finance
+      - url: "#"
+        text: Insurance
+      - url: "#"
+        text: Frequency
     notice:
       contentType: heading
-      text: "<span class='quiet'>Launch Date</span> <br/>4 June 2018"
+      text: "<span class='quiet'>Launch Date</span> <br/>4 June 2020"
       type: h2
       modifiers: badge bg-pink-40 heading-small
     heading:
@@ -147,12 +148,12 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Operator Engineer
-            value: Operator Engineer
-          - label: Regulator Engineer
-            value: Regulator Engineer
-          - label: Regulator Admin
-            value: Regulator Admin
+          - label: Jerry engineer
+            value: Jerry engineer
+          - label: Andy assessor
+            value: Andy assessor
+          - label: Laura licensing
+            value: Laura licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -292,12 +293,12 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Operator Engineer
-            value: Operator Engineer
-          - label: Regulator Engineer
-            value: Regulator Engineer
-          - label: Regulator Admin
-            value: Regulator Admin
+          - label: Jerry engineer
+            value: Jerry engineer
+          - label: Andy assessor
+            value: Andy assessor
+          - label: Laura licensing
+            value: Laura licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -378,11 +379,15 @@ content:
   content:
   - contentType: tile
     id: Eligibility
+    modifiers: bordered
     heading:
       contentType: heading
-      text: Eligibility
+      text: "Eligibility <span class='font-xsmall'>Status: <b>Green</b></span>"
       type: p
-      modifiers: heading-large
+      modifiers: heading-large heading-special
+      icon:
+        label: tick
+        modifiers: icon-tick icon-tick-white icon--large icon--circled icon--circled-green
     grid:
     - contentType: heading
       text: "10 of 10<br/><span class='quiet'>Answers submitted</span>"
@@ -395,7 +400,7 @@ content:
     - contentType: button
       url: '#'
       label: View
-      modifiers: button--half-width
+      modifiers: button--half-width button--secondary
       gridModifier: column-full
     - contentType: divider
       modifiers: border border-bottom
@@ -404,7 +409,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Laura Licensing"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -439,19 +444,23 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
     id: Applicant details
+    # modifiers: bordered
     heading:
       contentType: heading
       text: Applicant details
       type: p
       modifiers: heading-large
+      # icon:
+      #   label: tick
+      #   modifiers: icon-tick-green icon--large
     grid:
     - contentType: heading
-      text: "14 of 14<br/><span class='quiet'>Answers submitted</span>"
+      text: "11 of 14<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -471,7 +480,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -502,7 +511,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -534,22 +543,23 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
+    # modifiers: bordered
     heading:
       contentType: heading
       text: Insurance
-      icon:
-        label: tick
-        modifiers: icon-tick-green icon--large
+      # icon:
+      #   label: tick
+      #   modifiers: icon-tick-green icon--large
       type: p
       modifiers: heading-large
     id: Insurance
     grid:
     - contentType: heading
-      text: "5 of 5<br/><span class='quiet'>Answers submitted</span>"
+      text: "4 of 5<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -568,15 +578,19 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
   - contentType: tile
+    # modifiers: bordered
     heading:
       contentType: heading
       text: Frequency
       type: p
       modifiers: heading-large
+      # icon:
+      #   label: tick
+      #   modifiers: icon-tick-green icon--large
     id: Frequency
     grid:
     - contentType: heading
@@ -599,7 +613,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Arthur Applicant"
       type: p
       modifiers: heading-medium
 - contentType: heading

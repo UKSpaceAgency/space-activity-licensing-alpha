@@ -35,7 +35,7 @@ content:
       type: checkbox
       inputs:
       - id: Richard-Crowther-123
-        value: Operator Engineer
+        value: Jerry engineer
       - id: Aimee123
         value: Aimee Hobbs
       - id: jj3

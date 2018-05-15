@@ -12,7 +12,7 @@ const Page = props => {
     <React.Fragment>
       {props.spinner && <Spinner {...props.spinner}/>}
       <Masthead {...props.masthead}/>
-      {props.hero && <React.Fragment><Banner {...props.banner}/><Hero {...props.hero} /></React.Fragment>}
+      {props.hero && <React.Fragment><Banner className='phase-banner--top-border' {...props.banner}/><Hero {...props.hero} /></React.Fragment>}
       {!props.hero && <React.Fragment><div id='global-header-bar' /><Banner {...props.banner}/></React.Fragment>}
       {props.license && <AccentBar {...props.license}/>}
       <div className='site-wrapper'>

@@ -15,7 +15,7 @@ const FormGroup = props => {
       <label className='form-label' htmlFor={props.id}>{props.label}
         {props.supporting && <FormHint>{props.supporting}</FormHint>}
       </label>
-      <input className='form-control' id={props.id} name={props.name} type={props.type || 'text'} {...attrs}/>
+      <input className='form-control' id={props.id} name={props.name} type={props.type || 'text'} {...attrs} value={props.value || ''}/>
     </div>
   )
 }

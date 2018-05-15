@@ -43,7 +43,7 @@ hero:
     modifiers: spacing-bottom--tight
   infoGrid:
   - contentType: heading
-    text: "<span class='quiet'>Started: </span> 4th June "
+    text: "<span class='quiet'>Started: </span> 4th June 2018 "
     type: p
     modifiers: heading-small
   progress:
@@ -53,14 +53,13 @@ hero:
       type: h2
       modifiers: heading-small spacing--single
     content:
-    - modifiers: progress__item--pending
-      title:
+    - title:
         text: Technical
         type: p
       divider:
         modifiers: divider--flush
       status:
-        text: Pending
+        text: Not started
         type: p
     - title:
         text: Applicant info
@@ -145,12 +144,12 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Operator Engineer
-            value: Operator Engineer
-          - label: Regulator Engineer
-            value: Regulator Engineer
-          - label: Regulator Admin
-            value: Regulator Admin
+          - label: Jerry engineer
+            value: Jerry engineer
+          - label: Andy assessor
+            value: Andy assessor
+          - label: Laura licensing
+            value: Laura licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -280,12 +279,12 @@ content:
             value: ''
           - label: No action
             value: no action
-          - label: Operator Engineer
-            value: Operator Engineer
-          - label: Regulator Engineer
-            value: Regulator Engineer
-          - label: Regulator Admin
-            value: Regulator Admin
+          - label: Jerry engineer
+            value: Jerry engineer
+          - label: Andy assessor
+            value: Andy assessor
+          - label: Laura licensing
+            value: Laura licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace

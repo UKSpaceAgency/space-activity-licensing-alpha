@@ -9,11 +9,11 @@ head:
 masthead:
   utility:
     links:
-    - text: Notifications
-      url: "/notifications"
-      notification: 1
-    - text: Settings
-      url: "/application-overview/new-member"
+    # - text: Notifications
+    #   url: "/notifications"
+    #   notification: 1
+    - text: UKSA
+      url: "/"
 hero:
   modifiers: bg-dark bg-blue
   breadcrumb:
@@ -74,26 +74,44 @@ hero:
     links:
       modifiers: list-arrow list-arrow--dark
       list:
-      - url: "#finance"
-        text: Finance
-      - url: "/application-overview/frequency"
-        text: Frequency
-      - url: "#insurance"
-        text: Insurance
-      - url: "/application-overview/technical"
-        text: Technical
-      - url: "#legal"
-        text: Legal
-      - url: "#political"
-        text: Political
+      - url: "#"
+        text: Eligibility
         icon:
           label: tick
           modifiers: icon-tick-white
-      - url: "#mod"
-        text: MOD
+      - url: "/application-overview/technical"
+        text: Technical
+        icon:
+          label: tick
+          modifiers: icon-tick-white
+      - url: "#"
+        text: Applicant details
+        icon:
+          label: tick
+          modifiers: icon-tick-white
+      - url: "#"
+        text: Your mission
+        icon:
+          label: tick
+          modifiers: icon-tick-white
+      - url: "#"
+        text: Organisation & finance
+        icon:
+          label: tick
+          modifiers: icon-tick-white
+      - url: "#"
+        text: Insurance
+        icon:
+          label: tick
+          modifiers: icon-tick-white
+      - url: "#"
+        text: Frequency
+        icon:
+          label: tick
+          modifiers: icon-tick-white
     notice:
       contentType: heading
-      text: "<span class='quiet'>Launch Date</span> <br/>4 June 2018"
+      text: "<span class='quiet'>Launch Date</span> <br/>4 June 2020"
       type: h2
       modifiers: badge bg-pink-40 heading-small
     heading:
@@ -158,13 +176,13 @@ content:
           options:
           - label: Please select
             value: ''
-          - label: Operator Engineer
-            value: Operator Engineer
+          - label: Jerry engineer
+            value: Jerry engineer
             selected: true
-          - label: Regulator Engineer
-            value: Regulator Engineer
-          - label: Regulator Admin
-            value: Regulator Admin
+          - label: Andy assessor
+            value: Andy assessor
+          - label: Laura licensing
+            value: Laura licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -307,13 +325,13 @@ content:
           options:
           - label: Please select
             value: ''
-          - label: Operator Engineer
-            value: Operator Engineer
+          - label: Jerry engineer
+            value: Jerry engineer
             selected: true
-          - label: Regulator Engineer
-            value: Regulator Engineer
-          - label: Regulator Admin
-            value: Regulator Admin
+          - label: Andy assessor
+            value: Andy assessor
+          - label: Laura licensing
+            value: Laura licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -426,7 +444,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Laura licensing"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -442,7 +460,7 @@ content:
     id: technical
     grid:
     - contentType: heading
-      text: "4 of 16<br/><span class='quiet'>Answers submitted</span>"
+      text: "16 of 16<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -461,7 +479,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Laura Licensing"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -497,7 +515,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Laura Licensing"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -513,7 +531,7 @@ content:
     id: Your mission
     grid:
     - contentType: heading
-      text: "2 of 3<br/><span class='quiet'>Answers submitted</span>"
+      text: "3 of 3<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -532,7 +550,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Laura Licensing"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -548,7 +566,7 @@ content:
     id: Organisation & finance
     grid:
     - contentType: heading
-      text: "14 of 33<br/><span class='quiet'>Answers submitted</span>"
+      text: "33 of 33<br/><span class='quiet'>Answers submitted</span>"
       type: p
       modifiers: heading-medium
     - contentType: heading
@@ -568,7 +586,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Laura Licensing"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -603,7 +621,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Laura Licensing"
       type: p
       modifiers: heading-medium
   - contentType: tile
@@ -638,7 +656,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Dave Francis"
+      text: "<span class='quiet'>By</span><br/>Laura Licensing"
       type: p
       modifiers: heading-medium
 - contentType: heading
