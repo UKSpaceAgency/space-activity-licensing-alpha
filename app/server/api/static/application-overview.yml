@@ -93,7 +93,7 @@ hero:
         text: Frequency
     notice:
       contentType: heading
-      text: "<span class='quiet'>Launch Date</span> <br/>4 June 2018"
+      text: "<span class='quiet'>Launch Date</span> <br/>4 June 2020"
       type: h2
       modifiers: badge bg-pink-40 heading-small
     heading:
