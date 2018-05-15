@@ -32,7 +32,7 @@ sideNavHeading:
   modifiers: font-xsmall underline float-left block
 content:
 - title:
-    text: Q1. Please give a technical account of the satellite or space activity, the payload, mission and launch means
+    text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
     type: h3
     modifiers: heading-medium quiet
   permalink: question-1
@@ -63,16 +63,13 @@ content:
     text: "<p>The description of the proposed activity, requested at Question 13, should cover the design and construction of the satellite, the launch arrangements, TT&C facilities, operation, in-orbit functioning and arrangements for final disposal. All relevant documents, in addition to those requested in the application form, should be supplied to UK Space Agency with the application form.</p>"
   divider: true
 - title:
-    text: Q2. Copies of Launch Services contract
+    text: Q2. Will the space-object dock or rendezvous?
     type: h3
     modifiers: heading-medium quiet
   permalink: question-2
   textarea:
     name: answer-2
     id: answer-2
-    data: data-textarea
-    rows: 8
-    value: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
   attachment:
     id: attachment-answer-2
     label: + Add attachment(s)
@@ -93,7 +90,7 @@ content:
     text: "<p>Please attach the Launch Service Contract</p>"
   divider: true
 - title:
-    text: Q3. The satellite technical specification
+    text: Q3. Is it planned that any solid or ionizing or gaseous materials should be released from the object other than as part of a normal propulsion system?
     type: h3
     modifiers: heading-medium quiet
   permalink: question-3
@@ -102,7 +99,7 @@ content:
     id: answer-3
     data: data-textarea
     rows: 8
-    value: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    value: An ion thruster or ion drive is a form of electric propulsion used for spacecraft propulsion. It creates thrust by accelerating positive ions with electricity. The term refers strictly to gridded electrostatic ion thrusters, and is often incorrectly loosely applied to all electric propulsion systems including electromagnetic plasma thrusters. An ion thruster ionizes a neutral gas by extracting some electrons out of atoms, creating a cloud of positive ions.
   attachment:
     id: attachment-answer-3
     label: + Add attachment(s)
@@ -124,7 +121,7 @@ content:
     text: "<p>Please attach satellite contract</p>"
     divider: true
 - title:
-    text: Q4. The satellite contract and conditions
+    text: Q4. Will the space object carry any radioactive or nuclear material?
     type: h3
     modifiers: heading-medium quiet
   permalink: question-4
@@ -133,7 +130,7 @@ content:
     id: answer-4
     data: data-textarea
     rows: 8
-    value: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    value: Nuclear propulsion includes a wide variety of propulsion methods that fulfill the promise of the Atomic Age by using some form of nuclear reaction as their primary power source. The idea of using nuclear material for propulsion dates back to the beginning of the 20th century. In 1903 it was hypothesised that radioactive material, radium, might be a suitable fuel for engines to propel cars, boats, and planes.[1] H. G. Wells picked up this idea in his 1914 fiction work The World Set Free.
   attachment:
     id: attachment-answer-4
     label: + Add attachment(s)
@@ -148,14 +145,13 @@ content:
     - id: complete-no-4
       value: Draft
     - id: complete-yes-4
-      checked: true
       value: Ready for submission
   supporting:
     modifiers: form-hint
     text: "<p>Please attach satellite contracts</p>"
   divider: true
 - title:
-    text: Q5. The Ground Station specification
+    text: Q5. Will the space object carry any form of animal life?
     type: h3
     modifiers: heading-medium quiet
   permalink: question-5
@@ -164,7 +160,6 @@ content:
     id: answer-5
     rows: 8
     data: data-textarea
-    value: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
   attachment:
     id: attachment-answer-5
     label: + Add attachment(s)
@@ -183,17 +178,16 @@ content:
       value: Ready for submission
   divider: true
 - title:
-    text: Q6. If this is a remote sensing mission, you should include details of your plans to share data to address the UK's obligations under the UN's Remote Sensing Principles
+    text: Q6. At what radio frequencies and at what powers will the space object transmit during its planned mission? Are there additional frequencies or transmit powers which can be invoked?
     type: h3
     modifiers: heading-medium quiet
   permalink: question-6
   textarea:
     name: answer-6
     id: answer-6
-    rows: 14
+    rows: 8
     data: data-textarea
-    value: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    value: Every NASA mission has a communications system to receive commands and other information sent from Earth to the spacecraft, and to return scientific data from the spacecraft to Earth. The vast majority of deep space missions never return to Earth. Thus, after launch, a spacecraft’s tracking and communications systems is the only means with which to interact with it.
   attachment:
     id: attachment-answer-6
     label: + Add attachment(s)
