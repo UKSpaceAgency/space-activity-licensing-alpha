@@ -1,9 +1,9 @@
 ---
 contentType: page
-slug: apply-page-4
+slug: apply-page-1
 head:
   contentType: head
-  title: Have you got / are getting insurance?
+  title: Pre application checks
 
 masthead:
   logo: Govuk pattern
@@ -15,46 +15,42 @@ hero:
   modifiers: padding-top--single spacing-bottom--flush
   title:
     contentType: title
-    subTitle: Question 4 of 5
-    supporting: This is important
-    title: Have you got / are getting insurance?
+    subTitle: Question 2 of 5
+    title: Do you have an export license?
     modifiers: spacing-bottom--flush
 content:
-- contentType: heading
-  type: p
-  text: It may well be that this is the last thing to come through, please get this section started early in the venture
-  modifiers: lede
 - contentType: form
-  formAction: "/apply/page-4"
+  legend: Pick your launch
+  formAction: "/apply/page-1"
   formItems:
   - contentType: boolean
-    name: insurance
+    name: do-you-have-an-export-licence
     type: radio
-    label: Do you have insurance?
+    label: Do you have an export license?
     inputs:
-    - id: insurance-yes
+    - id: export-licence-yes
       value: Yes
-    - id: insurance-in-progress
-      value: In progress
-      data:
-        key: data-target
-        value: insurance-no-reveal
-    - id: insurance-no
+    - id: export-licence-no
       value: No
       data:
         key: data-target
-        value: insurance-no-reveal
-    - id: insurance-dunno
+        value: export-licence-no-reveal
+    - id: export-licence-in-progress
+      value: In progress
+      data:
+        key: data-target
+        value: export-licence-no-reveal
+    - id: export-licence-dunno
       value: I don't know
       data:
         key: data-target
-        value: insurance-no-reveal
+        value: export-licence-no-reveal
   - contentType: reveal
-    id: insurance-no-reveal
+    id: export-licence-no-reveal
     content:
     - contentType: panel
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
   - contentType: button
     name: submit
-    url: "/apply/page-5"
+    url: "/apply/page-2"
     label: Continue

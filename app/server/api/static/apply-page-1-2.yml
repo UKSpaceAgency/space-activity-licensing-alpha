@@ -16,12 +16,12 @@ hero:
   title:
     contentType: title
     # subTitle: Question 1 of 5
-    title: Where are you launching?
+    title: I AM NOT SURE WHAT THE TITLE FOR THIS ONE IS
     modifiers: spacing-bottom--flush
 content:
 - contentType: heading
   type: p
-  text: Where do you want to launch your service from?
+  text: What is this one called now that it is a sub section
   modifiers: lede
 - contentType: form
   legend: Pick your launch
@@ -33,11 +33,17 @@ content:
     inputs:
     - id: french-guyana
       value: French Guyana
+      data:
+        key: data-target
+        value: french-guyana-reveal
     - id: american-technology-no
       value: New Zealand
-    - id: germany
-      value: Germany
+    - id: american-technology-dunno
+      value: I don't know
+      data:
+        key: data-target
+        value: american-technology-no-reveal
   - contentType: button
     name: submit
-    url: "/apply/page-1-2"
+    url: "/apply/page-1-1"
     label: Continue

@@ -122,6 +122,8 @@ let getRoutes = store => {
       <Route path='apply'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-1'/>
         <Route path='register' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-register' />
+        <Route path='page-1-1' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-1-1' />
+        <Route path='page-1-2' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-1-2' />
         <Route path='page-2' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-2' />
         <Route path='page-4' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-4' />
         <Route path='page-5' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-5' />

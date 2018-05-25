@@ -14,6 +14,7 @@ masthead:
 hero:
   modifiers: padding-top--single spacing-bottom--flush
   title:
+    subTitle: Question 3 of 5
     contentType: title
     title: Are you using American technology?
     modifiers: spacing-bottom--flush
@@ -49,26 +50,11 @@ content:
   - contentType: reveal
     id: american-technology-no-reveal
     content:
-    - contentType: button
-      name: submit
-      url: "/apply/page-4"
-      label: Continue
     - contentType: reveal
       id: itar-compliant-no-reveal1
       content:
       - contentType: panel
         content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-      - contentType: button
-        name: submit
-        url: "/apply/page-4"
-        label: Continue
-    - contentType: reveal
-      id: itar-compliant-yes-reveal
-      content:
-      - contentType: button
-        name: submit
-        url: "/apply/page-4"
-        label: Continue
   - contentType: reveal
     id: american-technology-yes-reveal
     content:
@@ -79,9 +65,6 @@ content:
       inputs:
       - id: itar-compliant-yes
         value: Yes
-        data:
-          key: data-target
-          value: itar-compliant-yes-reveal1
       - id: itar-compliant-no
         value: No
         data:
@@ -93,18 +76,11 @@ content:
           key: data-target
           value: itar-compliant-no-reveal
     - contentType: reveal
-      id: itar-compliant-yes-reveal1
-      content:
-      - contentType: button
-        name: submit
-        url: "/apply/page-4"
-        label: Continue
-    - contentType: reveal
       id: itar-compliant-no-reveal
       content:
       - contentType: panel
         content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-      - contentType: button
-        name: submit
-        url: "/apply/page-4"
-        label: Continue
+  - contentType: button
+    name: submit
+    url: "/apply/page-4"
+    label: Continue
