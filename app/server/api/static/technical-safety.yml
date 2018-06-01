@@ -39,7 +39,7 @@ sideNavHeading:
   modifiers: font-xsmall underline float-left block
 content:
 - title:
-    text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
+    text: Q1. Are there plans for disposal at the end of the space object’s life (e.g. re-orbit, de orbit, retrieval) and if so, what effect will this have on airspace?
     type: h3
     modifiers: heading-medium
     update: true

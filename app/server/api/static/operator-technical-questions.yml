@@ -38,7 +38,7 @@ sideNavHeading:
   flush: true
 content:
 - title:
-    text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
+    text: Q1. Are there plans for disposal at the end of the space object’s life (e.g. re-orbit, de orbit, retrieval) and if so, what effect will this have on airspace?
     type: h3
     modifiers: heading-medium quiet
   permalink: question-1
@@ -63,7 +63,7 @@ content:
       value: Ready for submission
   supporting:
     modifiers: form-hint
-    text: "<p>The description of the proposed activity, requested at Question 13, should cover the design and construction of the satellite, the launch arrangements, TT&C facilities, operation, in-orbit functioning and arrangements for final disposal. All relevant documents, in addition to those requested in the application form, should be supplied to UK Space Agency with the application form.</p>"
+    text: ""
   divider: true
 - title:
     text: Q2. Will the space-object dock or rendezvous?
