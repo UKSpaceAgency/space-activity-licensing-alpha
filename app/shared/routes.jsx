@@ -134,6 +134,12 @@ let getRoutes = store => {
         <Route path='machine-learning-2' component={withFallback(PageFlatImage)} onEnter={getPage} slug='ml-2' />
         <Route path='machine-learning-3' component={withFallback(PageFlatImage)} onEnter={getPage} slug='ml-3' />
       </Route>
+
+      <Route path='caa'>
+        <IndexRoute component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions' />
+
+      </Route>
+
       <Route path='operator'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview'/>
         <Route path='engineer-email' component={withFallback(PageFlatImage)} onEnter={getPage} slug='engineer-email-technical' />
