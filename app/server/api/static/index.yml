@@ -153,7 +153,7 @@ content:
     url: /application-overview/technical/satellite-and-mission-overview-pre
   - text: Satellite and mission overview - status updated
     url: /application-overview/technical/satellite-and-mission-overview-reviewed
-  - text: Share section with Technical
+  - text: Share section with Cyril CAA
     url: /application-overview/technical/share
 - contentType: heading
   text: "Back stage engineering:"
@@ -207,6 +207,18 @@ content:
   list:
   - text: Application overview - all sections complete - create licence CTA at top of page
     url: /generate-license
+
+- divider: true
+- contentType: heading
+  text: CAA testing loop
+  type: h2
+  modifiers: spacing-top--large spacing-bottom--single heading-large
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Entry into CAA commenting loop
+    url: /caa
+
 
 - divider: true
 - contentType: heading
