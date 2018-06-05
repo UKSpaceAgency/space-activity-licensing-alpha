@@ -174,7 +174,7 @@ content:
               modifiers: red
             modifiers: spacing-bottom--single comment-admin
             name:
-              text: Jerry Engineer
+              text: Clara CAA
               type: h3
               modifiers: heading-small
             url: "#"
@@ -190,7 +190,7 @@ content:
             type: p
             modifiers: heading-small
           assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Clara CAA"
+            text: "<span class='quiet'>Assigned to</span><br/>Jerry Engineer"
             type: p
             modifiers: heading-small
     - label: Private notes
