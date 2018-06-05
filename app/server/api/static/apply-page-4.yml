@@ -15,13 +15,12 @@ hero:
   modifiers: padding-top--single spacing-bottom--flush
   title:
     contentType: title
-    supporting: This is important
-    title: Have you got / are getting insurance?
+    title: Have you got / are you getting insurance for your operation?
     modifiers: spacing-bottom--flush
 content:
 - contentType: heading
   type: p
-  text: It may well be that this is the last thing to come through, please get this section started early in the venture
+  text: You will need insurance for your satellite and launch as part of the mission you are undertaking. This can be one of the longest parts of the process when getting a licence.
   modifiers: lede
 - contentType: form
   formAction: "/apply/page-4"
@@ -33,37 +32,13 @@ content:
     inputs:
     - id: insurance-yes
       value: Yes
-      data:
-        key: data-target
-        value: insurance-yes-reveal
     - id: insurance-in-progress
       value: In progress
-      data:
-        key: data-target
-        value: insurance-no-reveal
     - id: insurance-no
       value: No
-      data:
-        key: data-target
-        value: insurance-no-reveal
     - id: insurance-dunno
       value: I don't know
-      data:
-        key: data-target
-        value: insurance-no-reveal
-  - contentType: reveal
-    id: insurance-yes-reveal
-    content:
-    - contentType: button
-      name: submit
-      url: "/apply/page-5"
-      label: Continue
-  - contentType: reveal
-    id: insurance-no-reveal
-    content:
-    - contentType: panel
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-    - contentType: button
-      name: submit
-      url: "/apply/page-5"
-      label: Continue
+  - contentType: button
+    name: submit
+    url: "/apply/page-5"
+    label: Continue

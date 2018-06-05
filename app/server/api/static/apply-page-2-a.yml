@@ -1,0 +1,57 @@
+---
+contentType: page
+slug: apply-page-2
+head:
+  contentType: head
+  title: Are you using American technology?
+
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Settings
+      url: "/application-overview/new-member"
+hero:
+  modifiers: padding-top--single spacing-bottom--flush
+  title:
+    contentType: title
+    title: Are you ITAR and/or EAR compliant?
+    modifiers: spacing-bottom--flush
+content:
+- contentType: form
+  legend: Pick your launch
+  formAction: "/apply/page-3"
+  formItems:
+  - contentType: boolean
+    name: itar-compliant
+    type: radio
+    inputs:
+    - id: itar-compliant-yes
+      value: Yes
+      data:
+        key: data-target
+        value: itar-compliant-yes-reveal1
+    - id: itar-compliant-no
+      value: No
+      data:
+        key: data-target
+        value: itar-compliant-no-reveal
+    - id: itar-compliant-progress
+      value: In progress
+      data:
+        key: data-target
+        value: itar-compliant-no-reveal
+    - id: itar-compliant-no
+      value: I don't know
+      data:
+        key: data-target
+        value: itar-compliant-no-reveal
+  - contentType: reveal
+    id: itar-compliant-no-reveal
+    content:
+    - contentType: panel
+      content: The International Traffic in Arms Regulations (ITAR) and the Export Administration Regulations (EAR) are two important United States export control laws that affect the manufacturing, sales and distribution of technology. If your satellite contains sensitive US technology or IP, <a href='#'>you will need to make sure you are compliant</a>.
+  - contentType: button
+    name: submit
+    url: "/apply/page-2-a"
+    label: Continue

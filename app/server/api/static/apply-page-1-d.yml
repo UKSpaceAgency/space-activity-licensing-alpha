@@ -1,0 +1,56 @@
+---
+contentType: page
+slug: apply-page-1
+head:
+  contentType: head
+  title: Pre application checks
+
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Settings
+      url: "/application-overview/new-member"
+hero:
+  modifiers: padding-top--single spacing-bottom--flush
+  title:
+    contentType: title
+    title: Do you have an export licence for your satellite?
+    modifiers: spacing-bottom--flush
+content:
+- contentType: form
+  formAction: "/apply/page-1"
+  formItems:
+  - contentType: boolean
+    name: do-you-have-a-launch-agreement
+    type: radio
+    inputs:
+    - id: launch-agreement-yes
+      value: Yes
+      data:
+        key: data-target
+        value: launch-agreement-yes-reveal
+    - id: launch-agreement-no
+      value: No
+      data:
+        key: data-target
+        value: launch-agreement-no-reveal
+    - id: launch-agreement-in-progress
+      value: In progress
+      data:
+        key: data-target
+        value: launch-agreement-no-reveal
+    - id: launch-agreement-dunno
+      value: I don't know
+      data:
+        key: data-target
+        value: launch-agreement-no-reveal
+  - contentType: reveal
+    id: launch-agreement-no-reveal
+    content:
+    - contentType: panel
+      content: If you are launching a satellite overseas in an international launch state, then you will require an <a href='#'>export licence</a> to be able to transport your platform and payload to that country.
+  - contentType: button
+    name: submit
+    url: "/apply/page-2"
+    label: Continue
