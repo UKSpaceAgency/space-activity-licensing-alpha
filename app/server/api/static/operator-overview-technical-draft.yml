@@ -59,10 +59,6 @@ content:
   content:
   - contentType: tile
     modifiers: column-three-quarters
-    # updates:
-    #   url: "/operator/technical"
-    #   text: Next actions: Sat op 1 (1) - UKSA (1)
-    #   modifiers: bg-fuschia badge--fixed badge--top
     heading:
       contentType: heading
       text: Satellite and mission overview
@@ -72,18 +68,6 @@ content:
       contentType: longform
       text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant details.
       modifiers: spacing--single
-    # completion:
-    #   heading:
-    #     text: 4 questions within this section are 'Ready for submission'
-    #     type: p
-    #     modifiers: heading-small spacing-top--flush
-    #   comment:
-    #     text: Would you like to submit these completed questions?
-    #     type: p
-    #   action:
-    #     label: Submit
-    #     url: "#"
-    #     modifiers: button--full-width button--large
     grid:
     - contentType: heading
       text: 6 questions

@@ -46,6 +46,7 @@ content:
     name: answer-1
     id: answer-1
     data: data-textarea
+    value: "The ABC-1 will undergo a controlled de-orbit manoeuvre and be passivated. Atmospheric drag will then cause ABC-1 to re-enter and create small amounts of debris, simulations predict up to 288 pieces of debris. Simulations predict the size of debris to range between 100g and 5 kg mass and 10cm3 to 500cm3 volume reaching the surface. The predicted date time for re-entry is between 12:00UTC and 15:00UTC on 1st April 2000. A hazard area for the debris returning to the surface is predicted within the North Atlantic region. The dangerous zone ZD, which concerns the European airspace, corresponds to the falling area of the third stage elements of ABC-1 (Cap-Z). The impacted FIR are EGGX Shanwick Oceanic and LPPO Santa Maria Oceanic. The ZD zone is delimited as follows: 4822N01107W 4752N01037W 4507N01606W 4535N01638W"
   attachment:
     id: attachment-answer-1
     label: + Add attachment(s)
