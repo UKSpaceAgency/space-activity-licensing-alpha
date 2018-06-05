@@ -54,3 +54,8 @@ content:
     name: submit
     url: "/apply/page-1-d"
     label: Continue
+  - contentType: button
+    name: submit
+    modifiers: button--link
+    url: "/apply/page-1-b"
+    label: Previous question

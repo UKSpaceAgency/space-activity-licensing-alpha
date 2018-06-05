@@ -51,25 +51,15 @@ content:
       data:
         key: data-target
         value: itu-filings-no-reveal
-  - contentType: reveal
-    id: itu-filings-yes-reveal
-    content:
-    - contentType: longform
-      text: Thank you for completing these questions, to be able to save your responses and formally start your application, please register.
-      modifiers: spacing--single
-    - contentType: button
-      name: submit
-      url: "/apply/your-organisation"
-      label: Save and register
-  - contentType: reveal
-    id: itu-filings-no-reveal
-    content:
-    - contentType: panel
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-    - contentType: longform
-      text: Thank you for completing these questions, to be able to save your responses and formally start your application, please register.
-      modifiers: spacing--single
-    - contentType: button
-      name: submit
-      url: "/apply/your-organisation"
-      label: Save and register
+  - contentType: longform
+    text: Thank you for completing these questions, to be able to save your responses and formally start your application, please register.
+    modifiers: spacing--single
+  - contentType: button
+    name: submit
+    url: "/apply/your-organisation"
+    label: Save and register
+  - contentType: button
+    name: submit
+    modifiers: button--link
+    url: "/apply/page-4"
+    label: Previous question

@@ -28,3 +28,8 @@ content:
     name: submit
     url: "/apply/page-1-c"
     label: Continue
+  - contentType: button
+    name: submit
+    modifiers: button--link
+    url: "/apply/"
+    label: Previous question

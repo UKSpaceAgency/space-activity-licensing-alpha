@@ -400,7 +400,7 @@ content:
       modifiers: heading-large spacing-top--flush
     summary:
       contentType: longform
-      text: You will need to complete the Technical Eligibility questions before viewing and completing Technical Information.
+      text: This is the largest part of the application form. You should expect feedback on your answers and to submit more information as you go.
       modifiers: spacing--single
     # updates:
     #   url: "/operator/operator-overview-technical"
@@ -444,7 +444,7 @@ content:
       modifiers: heading-large spacing-top--flush
     summary:
       contentType: longform
-      text: You will need to complete the Technical Eligibility questions, before viewing and completing Applicant details.
+      text: This is information about you and the key members of your organisation involved in applying for a licence.
       modifiers: spacing--single
     grid:
     - contentType: heading
@@ -484,7 +484,7 @@ content:
       modifiers: heading-large spacing-top--flush
     summary:
       contentType: longform
-      text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Mission.
+      text: Provide information and an overview of the type of Spaceflight mission you want to undertake and how you are going to conduct it.
       modifiers: spacing--single
     notice:
       icon:
@@ -530,7 +530,7 @@ content:
       modifiers: heading-large spacing-top--flush
     summary:
       contentType: longform
-      text: You will need to complete the Technical Eligibility questions, before viewing and completing Your Organisation & Finance.
+      text: You need to provide your company’s annual report and any information that showcases your financial security to be able to cover the missions costs.
       modifiers: spacing--single
     grid:
     - contentType: heading
@@ -570,7 +570,7 @@ content:
       modifiers: heading-large spacing-top--flush
     summary:
       contentType: longform
-      text: You will need to complete the Technical Eligibility questions, before viewing and completing Insurance.
+      text: To be able to send a satellite to space you will need to pay a premium and gain cover for for your mission.
       modifiers: spacing--single
     notice:
       icon:
@@ -616,7 +616,7 @@ content:
       modifiers: heading-large spacing-top--flush
     summary:
       contentType: longform
-      text: You will need to complete the Technical Eligibility questions, before viewing and completing Frequency.
+      text: Include your ITU filings as part of your application to prove you have registered your frequency band/s.
       modifiers: spacing--single
     grid:
     - contentType: heading

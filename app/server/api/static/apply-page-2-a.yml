@@ -53,5 +53,10 @@ content:
       content: The International Traffic in Arms Regulations (ITAR) and the Export Administration Regulations (EAR) are two important United States export control laws that affect the manufacturing, sales and distribution of technology. If your satellite contains sensitive US technology or IP, <a href='#'>you will need to make sure you are compliant</a>.
   - contentType: button
     name: submit
-    url: "/apply/page-2-a"
+    url: "/apply/page-4"
     label: Continue
+  - contentType: button
+    name: submit
+    modifiers: button--link
+    url: "/apply/page-2"
+    label: Previous question
