@@ -85,6 +85,8 @@ content:
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjfsdfgsdfgf
               value: High priority
+        from: Clara CAA
+        value: Thank you for the information. The CAA would like to understand more about how the predicted hazard area was simulated. We are specifically interested in your solar radiation models and how changes to Earth’s atmosphere expected in the period due to high irradiation patterns could affect the drag calculations. We are concerned that this would create a larger delimited area which would encroach on Class C airspace and Terminal Control Areas around BRS.
         source:
           legend: Comment source
           fieldsetModifiers: inline
@@ -113,7 +115,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -203,7 +205,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -313,7 +315,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -403,7 +405,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -601,7 +603,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -691,7 +693,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -921,7 +923,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1040,7 +1042,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1150,7 +1152,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1241,7 +1243,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1353,7 +1355,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1443,7 +1445,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
