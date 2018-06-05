@@ -15,13 +15,9 @@ hero:
   modifiers: padding-top--single spacing-bottom--flush
   title:
     contentType: title
-    title: Where are you launching
+    title: Where do you want to launch your service from?
     modifiers: spacing-bottom--flush
 content:
-- contentType: heading
-  type: p
-  text: Where do you want to launch your service from?
-  modifiers: lede
 - contentType: form
   legend: Pick your launch
   formAction: "/apply/page-1"
@@ -45,7 +41,7 @@ content:
     content:
     - contentType: select
       name: select-item
-      label: Who is providing launch services?
+      label: Who is providing the launch services?
       selected: ariane-reveal
       data:
         key: data-target
@@ -64,7 +60,8 @@ content:
       - contentType: boolean
         name: do-you-have-a-launch-agreement
         type: radio
-        label: Do you have a launch service agreement?
+        label: Do you have a launch service agreement (LSA)?
+        supporting: This is a contract that confirms you have procured a space on or a whole launch from a launch service provider (this may have been brokered by a third party).
         inputs:
         - id: launch-agreement-yes
           value: Yes
