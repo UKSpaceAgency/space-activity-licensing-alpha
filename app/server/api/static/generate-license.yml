@@ -178,6 +178,8 @@ content:
             value: ''
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA      
             selected: true
           - label: Andy assessor
             value: Andy assessor
@@ -319,6 +321,8 @@ content:
             value: ''
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA      
             selected: true
           - label: Andy assessor
             value: Andy assessor

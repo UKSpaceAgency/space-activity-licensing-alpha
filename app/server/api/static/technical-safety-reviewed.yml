@@ -89,6 +89,8 @@ content:
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjfsdfgsdfgf
               value: High priority
+        value: Thank you for the information. The CAA would like to understand more about how the predicted hazard area was simulated. We are specifically interested in your solar radiation models and how changes to Earth’s atmosphere expected in the period due to high irradiation patterns could affect the drag calculations. We are concerned that this would create a larger delimited area which would encroach on Class C airspace and Terminal Control Areas around BRS.
+        from: Clara CAA
         source:
           legend: Comment source
           fieldsetModifiers: inline
@@ -116,6 +118,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -204,6 +208,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -312,6 +318,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -400,6 +408,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -595,6 +605,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -711,6 +723,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -852,19 +866,7 @@ content:
   backbutton: true
   divider: true
   text: "<p>Nuclear propulsion includes a wide variety of propulsion methods that fulfill the promise of the Atomic Age by using some form of nuclear reaction as their primary power source. The idea of using nuclear material for propulsion dates back to the beginning of the 20th century. In 1903 it was hypothesised that radioactive material, radium, might be a suitable fuel for engines to propel cars, boats, and planes.[1] H. G. Wells picked up this idea in his 1914 fiction work The World Set Free.</p>"
-  # heading:
-  #   text: Uploaded supporting documents
-  #   type: h3
-  #   modifiers: heading-small
-  # documents:
-  # - text: Disposal diagram
-  #   url: "/pdfs/disposal-discovery.pdf"
-  #   type: .pdf
-  #   supporting: (12mb)
-  # - text: Disposal diagram
-  #   url: "/pdfs/disposal-discovery.pdf"
-  #   type: .pdf
-  #   supporting: (12mb)
+
   commentBlock:
     limit: 3
     modifiers: spacing-bottom--single
@@ -914,6 +916,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1002,6 +1006,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1110,6 +1116,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1199,6 +1207,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1309,6 +1319,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1397,6 +1409,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
