@@ -20,6 +20,8 @@ content:
 - contentType: list
   modifiers: list-bullet
   list:
+  - text: UKSA homepage
+    url: /uksa-homepage
   - text: UKSA landing page
     url: /homepage
   - text: Licence type page - satellite
