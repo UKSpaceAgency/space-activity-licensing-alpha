@@ -178,10 +178,10 @@ content:
 - contentType: list
   modifiers: list-bullet
   list:
-  - text: Email notification - Comment on technical section, satellite and mission overview Q3 - deep link
+  - text: Email notification - Comment on technical section, satellite and mission overview Q1 - deep link
     url: /sign-in/backstage-to-frontstage-comment-email
   - text: Satellite and mission overview - reply to comment
-    url: /application-overview/technical/satellite-and-mission-overview-reviewed#question-3
+    url: /application-overview/technical/satellite-and-mission-overview-reviewed#question-1
 
 - contentType: heading
   text: "Back stage - admin:"
@@ -193,7 +193,7 @@ content:
   - text: Email notification - Comment from engineering - section OK - deep link
     url: /sign-in/frontstage-to-backstage-comment-email
   - text: Satellite mission and overview - Admin reviews and selects status change to assessed
-    url: /application-overview/technical/satellite-and-mission-overview-assessed#notes-open-question-3
+    url: /application-overview/technical/satellite-and-mission-overview-assessed#notes-open-question-1
 - contentType: heading
   text: "TIME PASSES"
   type: p
