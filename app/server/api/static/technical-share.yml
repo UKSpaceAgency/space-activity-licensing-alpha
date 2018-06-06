@@ -45,9 +45,9 @@ content:
       inputs:
       - id: Richard-Crowther-123
         value: Andy assessor
-        checked: true
       - id: Toby-Harris-123
-        value: Toby Harris
+        value: Clara CAA
+        checked: true
       - id: Andy-Radcliffe-123
         value: Simon Barnes
       - id: James-Brown-123

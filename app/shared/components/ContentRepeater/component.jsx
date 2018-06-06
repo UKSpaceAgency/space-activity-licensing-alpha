@@ -28,7 +28,6 @@ const ContentRepeater = props => {
       {props.title && <Heading {...props.title}/>}
       <Longform {...props}/>
       {props.supporting && <Longform {...props.supporting}/>}
-
       {props.textarea && <Textarea {...props.textarea}/>}
       {props.booleans && <RadioCheck {...props.booleans}/>}
       {props.attachment && <FileUpload {...props.attachment}/>}
