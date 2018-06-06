@@ -39,14 +39,14 @@ sideNavHeading:
   modifiers: font-xsmall underline float-left block
 content:
 - title:
-    text: Q1. Are there plans for disposal at the end of the space object's life (e.g. re-orbit, de orbit, retrieval)?
+    text: Q1. Are there plans for disposal at the end of the space object’s life (e.g. re-orbit, de orbit, retrieval) and if so, what effect will this have on airspace?
     type: h3
     modifiers: heading-medium
     update: true
   permalink: question-1
   backbutton: true
   divider: true
-  text: "<p>All current spacecraft use chemical rockets (bipropellant or solid-fuel) for launch, though some (such as the Pegasus rocket and SpaceShipOne) have used air-breathing engines on their first stage. Most satellites have simple reliable chemical thrusters (often monopropellant rockets) or resistojet rockets for orbital station-keeping and some use momentum wheels for attitude control. </p>"
+  text: "<p>The ABC-1  will undergo a controlled de-orbit manoeuvre and be passivated. Atmospheric drag will then cause ABC-1 to re-enter and create small amounts of debris, simulations predict up to 288 pieces of debris. Simulations predict the size of debris to range between 100g and 5 kg mass and 10cm3 to 500cm3 volume reaching the surface.<br /><br />The predicted date time for re-entry is between 12:00UTC and 15:00UTC on 1st April 2000. A hazard area for the debris returning to the surface is predicted within the North Atlantic region.<br /><br />The dangerous zone ZD, which concerns the European airspace, corresponds to the falling area of the third stage elements of ABC-1 (Cap-Z). The impacted FIR are EGGX Shanwick Oceanic and LPPO Santa Maria Oceanic.<br /><br />The ZD zone is delimited as follows: 4822N01107W 4752N01037W 4507N01606W 4535N01638W</p>"
   heading:
     text: Uploaded supporting documents
     type: h3
@@ -85,6 +85,8 @@ content:
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjfsdfgsdfgf
               value: High priority
+        from: Clara CAA
+        value: Thank you for the information. The CAA would like to understand more about how the predicted hazard area was simulated. We are specifically interested in your solar radiation models and how changes to Earth’s atmosphere expected in the period due to high irradiation patterns could affect the drag calculations. We are concerned that this would create a larger delimited area which would encroach on Class C airspace and Terminal Control Areas around BRS.
         source:
           legend: Comment source
           fieldsetModifiers: inline
@@ -112,6 +114,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -200,6 +204,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -308,6 +314,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -396,6 +404,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -592,6 +602,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -680,6 +692,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -908,6 +922,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1025,6 +1041,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1133,6 +1151,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1222,6 +1242,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1332,6 +1354,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
@@ -1420,6 +1444,8 @@ content:
             value: no action
           - label: Jerry Engineer
             value: Jerry Engineer
+          - label: Clara CAA
+            value: Clara CAA
           - label: Andy assessor
             value: Andy assessor
           - label: Laura licensing
