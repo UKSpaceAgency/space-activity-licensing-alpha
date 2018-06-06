@@ -15,28 +15,21 @@ hero:
   modifiers: padding-top--single spacing-bottom--flush
   title:
     contentType: title
-    title: Where do you want to launch your service from?
+    title: Who is providing the launch services?
     modifiers: spacing-bottom--flush
 content:
 - contentType: form
-  legend: Pick your launch
   formAction: "/apply/page-1"
   formItems:
-  - contentType: select
-    name: select-item
-    label: Where are you launching from?
-    data:
-      key: data-target
-      value: french-guyana-reveal
-    options:
-    - label: Select one
-      value: " "
-    - label: French Guyana
-      value: french-guyana-reveal
-    - label: New Zealand
-      value: new-zealand
-      modifiers: disabled
+  - contentType: formGroup
+    name: lalalalalalalal
+    label: ""
   - contentType: button
     name: submit
-    url: "/apply/page-1-b"
+    url: "/apply/page-1-c"
     label: Continue
+  - contentType: button
+    name: submit
+    modifiers: button--link
+    url: "/apply/"
+    label: Previous question

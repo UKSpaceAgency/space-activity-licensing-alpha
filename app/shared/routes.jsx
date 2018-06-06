@@ -77,6 +77,7 @@ let getRoutes = store => {
   return (
     <Route path='/'>
       <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='index'/>
+      <Route path='uksa-homepage' component={withFallback(PageFlatImage)} onEnter={getPage} slug='uksa-homepage' />
       <Route path='applications' component={withFallback(PageTwoColContainer)} onEnter={getPage} slug='application-homepage' />
       <Route path='notifications' component={withFallback(PageFlatImage)} onEnter={getPage} slug='notifications' />
       <Route path='activity' component={withFallback(PageFlatImage)} onEnter={getPage} slug='activity' />
@@ -122,7 +123,11 @@ let getRoutes = store => {
       <Route path='apply'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-1'/>
         <Route path='register' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-register' />
+        <Route path='page-1-b' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-1-b' />
+        <Route path='page-1-c' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-1-c' />
+        <Route path='page-1-d' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-1-d' />
         <Route path='page-2' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-2' />
+        <Route path='page-2-a' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-2-a' />
         <Route path='page-4' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-4' />
         <Route path='page-5' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-page-5' />
         <Route path='your-organisation' component={withFallback(PageContainer)} onEnter={getPage} slug='apply-your-organisation' />
@@ -134,6 +139,12 @@ let getRoutes = store => {
         <Route path='machine-learning-2' component={withFallback(PageFlatImage)} onEnter={getPage} slug='ml-2' />
         <Route path='machine-learning-3' component={withFallback(PageFlatImage)} onEnter={getPage} slug='ml-3' />
       </Route>
+
+      <Route path='caa'>
+        <IndexRoute component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions' />
+
+      </Route>
+
       <Route path='operator'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview'/>
         <Route path='engineer-email' component={withFallback(PageFlatImage)} onEnter={getPage} slug='engineer-email-technical' />

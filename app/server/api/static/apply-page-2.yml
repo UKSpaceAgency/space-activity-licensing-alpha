@@ -33,78 +33,16 @@ content:
     inputs:
     - id: american-technology-yes
       value: Yes
-      data:
-        key: data-target
-        value: american-technology-yes-reveal
     - id: american-technology-no
       value: No
-      data:
-        key: data-target
-        value: american-technology-no-reveal
     - id: american-technology-dunno
       value: I don't know
-      data:
-        key: data-target
-        value: american-technology-no-reveal
-  - contentType: reveal
-    id: american-technology-no-reveal
-    content:
-    - contentType: button
-      name: submit
-      url: "/apply/page-4"
-      label: Continue
-    - contentType: reveal
-      id: itar-compliant-no-reveal1
-      content:
-      - contentType: panel
-        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-      - contentType: button
-        name: submit
-        url: "/apply/page-4"
-        label: Continue
-    - contentType: reveal
-      id: itar-compliant-yes-reveal
-      content:
-      - contentType: button
-        name: submit
-        url: "/apply/page-4"
-        label: Continue
-  - contentType: reveal
-    id: american-technology-yes-reveal
-    content:
-    - contentType: boolean
-      name: itar-compliant
-      type: radio
-      label: Are you ITAR compliant?
-      inputs:
-      - id: itar-compliant-yes
-        value: Yes
-        data:
-          key: data-target
-          value: itar-compliant-yes-reveal1
-      - id: itar-compliant-no
-        value: No
-        data:
-          key: data-target
-          value: itar-compliant-no-reveal
-      - id: itar-compliant-no
-        value: I don't know
-        data:
-          key: data-target
-          value: itar-compliant-no-reveal
-    - contentType: reveal
-      id: itar-compliant-yes-reveal1
-      content:
-      - contentType: button
-        name: submit
-        url: "/apply/page-4"
-        label: Continue
-    - contentType: reveal
-      id: itar-compliant-no-reveal
-      content:
-      - contentType: panel
-        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-      - contentType: button
-        name: submit
-        url: "/apply/page-4"
-        label: Continue
+  - contentType: button
+    name: submit
+    url: "/apply/page-2-a"
+    label: Continue
+  - contentType: button
+    name: submit
+    modifiers: button--link
+    url: "/apply/page-1-d"
+    label: Previous question
