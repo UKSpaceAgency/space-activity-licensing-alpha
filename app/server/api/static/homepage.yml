@@ -18,7 +18,7 @@ content:
 - contentType: hero
   modifiers: spacing-bottom--flush
   title:
-    title: Need to register for a space  activity licence?
+    title: Apply for a spaceflight activity licence
   synopsis:
     text: "<p>Driven by the UK Government’s commitment to space industry growth, the UK will become a launching state by 2020. As part of this the UK Space Agency has developed a digital service for space operators to apply for space activity licences online.</p><p>Applications can be made by clicking the ‘Start now’ button below. Or continue to read more about licensing.</p>"
   heroLinks:
