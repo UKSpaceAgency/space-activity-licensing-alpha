@@ -181,10 +181,10 @@ content:
           - label: Clara CAA
             value: Clara CAA      
             selected: true
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -324,10 +324,10 @@ content:
           - label: Clara CAA
             value: Clara CAA      
             selected: true
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -436,7 +436,7 @@ content:
       type: p
       modifiers: heading-medium
     - contentType: heading
-      text: "<span class='quiet'>By</span><br/>Laura licensing"
+      text: "<span class='quiet'>By</span><br/>Laura Licensing"
       type: p
       modifiers: heading-medium
   - contentType: tile
