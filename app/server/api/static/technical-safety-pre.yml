@@ -116,10 +116,10 @@ content:
             value: Jerry Engineer
           - label: Clara CAA
             value: Clara CAA
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -206,10 +206,10 @@ content:
             value: Jerry Engineer
           - label: Clara CAA
             value: Clara CAA
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -316,10 +316,10 @@ content:
             value: Jerry Engineer
           - label: Clara CAA
             value: Clara CAA
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -406,10 +406,10 @@ content:
             value: Jerry Engineer
           - label: Clara CAA
             value: Clara CAA
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -490,10 +490,10 @@ content:
         value: no action
       - label: Jerry Engineer
         value: Jerry Engineer
-      - label: Andy assessor
-        value: Andy assessor
-      - label: Laura licensing
-        value: Laura licensing
+      - label: Andy Assessor
+        value: Andy Assessor
+      - label: Laura Licensing
+        value: Laura Licensing
       - label: Dave Stringer
         value: Dave Stringer
       - label: Aimee Brace
@@ -564,7 +564,7 @@ content:
       commentBlock:
         limit: 3
         modifiers: spacing-bottom--single
-        from: Andy assessor
+        from: Andy Assessor
         notice:
           checkbox:
             name: priority-level
@@ -604,10 +604,10 @@ content:
             value: Jerry Engineer
           - label: Clara CAA
             value: Clara CAA
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -694,10 +694,10 @@ content:
             value: Jerry Engineer
           - label: Clara CAA
             value: Clara CAA
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -778,10 +778,10 @@ content:
         value: no action
       - label: Jerry Engineer
         value: Jerry Engineer
-      - label: Andy assessor
-        value: Andy assessor
-      - label: Laura licensing
-        value: Laura licensing
+      - label: Andy Assessor
+        value: Andy Assessor
+      - label: Laura Licensing
+        value: Laura Licensing
       - label: Dave Stringer
         value: Dave Stringer
       - label: Aimee Brace
@@ -924,10 +924,10 @@ content:
             value: Jerry Engineer
           - label: Clara CAA
             value: Clara CAA
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -1043,10 +1043,10 @@ content:
             value: Jerry Engineer
           - label: Clara CAA
             value: Clara CAA
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -1153,10 +1153,10 @@ content:
             value: Jerry Engineer
           - label: Clara CAA
             value: Clara CAA
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -1244,10 +1244,10 @@ content:
             value: Jerry Engineer
           - label: Clara CAA
             value: Clara CAA
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -1356,10 +1356,10 @@ content:
             value: Jerry Engineer
           - label: Clara CAA
             value: Clara CAA
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
@@ -1446,10 +1446,10 @@ content:
             value: Jerry Engineer
           - label: Clara CAA
             value: Clara CAA
-          - label: Andy assessor
-            value: Andy assessor
-          - label: Laura licensing
-            value: Laura licensing
+          - label: Andy Assessor
+            value: Andy Assessor
+          - label: Laura Licensing
+            value: Laura Licensing
           - label: Dave Stringer
             value: Dave Stringer
           - label: Aimee Brace
