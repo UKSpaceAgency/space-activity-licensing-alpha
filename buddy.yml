@@ -60,7 +60,7 @@
       authentication_mode: "PRIVATE_KEY"
       server_key: "${id_rsa}"
       archive: true
-      delete_extra_files: true
+      delete_extra_files: false
       compress: true
       deployment_excludes:
       - "/.git/"
