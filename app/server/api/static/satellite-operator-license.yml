@@ -109,7 +109,7 @@ content:
 - contentType: heading
   type: h2
   text: What you will need to secure during your application
-  modifiers: heading-large spacing-bottom--single
+  modifiers: heading-large spacing-bottom--single spacing-top--large
 - contentType: longform
   text: These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.
 - contentType: list
