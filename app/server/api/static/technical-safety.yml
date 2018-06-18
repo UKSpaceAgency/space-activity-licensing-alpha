@@ -283,6 +283,7 @@ content:
     tabs:
     - label: Operator & Regulator
       id: notes-open-2567
+      newComment: comment--new
       commentBlock:
         limit: 3
         notice:
