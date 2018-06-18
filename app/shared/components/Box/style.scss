@@ -22,13 +22,20 @@
   }
 
   &.comment-admin {
-    background-color: lighten($light-blue-25, 5%);
+    background-color: lighten($light-blue-25, 5%) !important;
   }
 
   &.box--muted {
     background-color: lighten($grey-4, 2%);
-
     color: $grey-1;
+  }
+
+  &.box--flat {
+    background-color: $white;
+
+    & + .box--flat {
+      margin-top: 30px;
+    }
   }
 
   // naming things can be hard.

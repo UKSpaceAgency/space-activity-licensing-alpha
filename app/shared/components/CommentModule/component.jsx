@@ -23,8 +23,8 @@ const CommentModule = props => {
   return (
     <section className={classes} id={props.id} data-comment={props.id}>
       {comments}
-      <p className='font-xsmall d-block'>Only post comments that are relevant to the application - do not include personal opinions or information. <a href='#'>Read more in our privacy guidelines</a>.</p>
-      <div className='comment-add spacing-top--single' data-comment-add={props.from || 'tsesrsersersers'}>
+      <div className='comment-add spacing-top--single' data-comment-add={props.from || 'Admin'}>
+        <p className='font-xsmall d-block'>Only post comments that are relevant to the application - do not include personal opinions or information. <a href='#'>Read more in our privacy guidelines</a>.</p>
         <Textarea data='data-textarea' className='form-control-full' value={props.value || ''}/>
         {props.subject && <FormGroup {...props.subject}/>}
         {props.source && <Fieldset {...props.source}/>}

@@ -21,9 +21,29 @@
       display: block;
     }
   }
+
+  &.comments--new {
+    position: relative;
+
+    &:before {
+      content: '';
+      width: 6px;
+      background-color: $govuk-blue;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+    }
+  }
 }
 
 .comments-header {
   overflow: hidden;
   padding: 15px 0 30px;
+}
+
+.hide-subject {
+  .multi-hidden {
+    display: none;
+  }
 }

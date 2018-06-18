@@ -73,6 +73,7 @@ content:
       text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
+    from: Andy Assessor
     tabs:
     - label: Operator & Regulator
       id: notes-open-1
@@ -86,12 +87,14 @@ content:
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjfsdfgsdfgf
               value: High priority
+        from: Andy Assessor
         subject:
           label: Subject
           value: Disposal costs
           name: disposal-costs
           id: disposal-costs
           input: text
+          modifiers: multi-hidden
           attr:
             key: data-subject
             value: true

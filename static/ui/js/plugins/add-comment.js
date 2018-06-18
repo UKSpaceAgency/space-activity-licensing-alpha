@@ -24,7 +24,7 @@ function Comment(element, tabs) {
     commentBlock: '[data-comment-block]',
     file: '[data-file]',
     textarea: '[data-textarea]',
-    template: '<article class="box box--padded has-byline comment-admin" data-comment-block="true"><div class="grid-row"><div class="byline column-half spacing-bottom--single"><i class="icon icon--byline icon-account"><span class="visually-hidden">account</span></i><h3 class="heading-small"><span>{{by}}</span></h3><time class="time" datetime="2018-03-26T19:34:15+00:00">10.04am 22nd March 2018</time></div>{{#high}}<div class="column-half"><div class="notice"><i class="icon icon-warning icon-warning--red icon--large"><span class="visually-hidden">High priority</span></i><strong class="bold-small red">High priority</strong></div></div>{{/high}}</div><article>{{#subject}}<h3>{{subject}}</h3>{{/subject}}<div class="long-form">{{text}}</div></article><div class="grid-row"><div class="column-half"><p class="heading-small"><span><span class="quiet">Deadline</span><br>4 June 2018</span></p></div><div class="column-half"><p class="heading-small"><span><span class="quiet">Assigned to</span><br>{{assigned}}</span></p></div></div><div class="grid-row spacing-top--single"><div class="column-full">{{#file}}<p><strong>Comment attachments</strong></p><p><a href="/pdfs/disposal-discovery.pdf">{{file}}</a></p>{{/file}}</div></div></article>'
+    template: '<article class="box box--flat has-byline {{extra}}" data-comment-block="true"><div class="grid-row"><div class="byline column-half spacing-bottom--single"><i class="icon icon--byline icon-account"><span class="visually-hidden">account</span></i><h3 class="heading-small"><span>{{by}}</span></h3><time class="time" datetime="2018-03-26T19:34:15+00:00">10.04am 22nd March 2018</time></div>{{#high}}<div class="column-half"><div class="notice"><i class="icon icon-warning icon-warning--red icon--large"><span class="visually-hidden">High priority</span></i><strong class="bold-small red">High priority</strong></div></div>{{/high}}</div><article>{{#subject}}<h3 class="heading-small spacing-bottom--single">{{subject}}</h3>{{/subject}}<div class="long-form">{{text}}</div></article><div class="grid-row"><div class="column-half"><p class="heading-small"><span><span class="quiet">Deadline</span><br>4 June 2018</span></p></div><div class="column-half"><p class="heading-small"><span><span class="quiet">Assigned to</span><br>{{assigned}}</span></p></div></div><div class="grid-row spacing-top--single"><div class="column-full">{{#file}}<p><strong>Comment attachments</strong></p><p><a href="/pdfs/disposal-discovery.pdf">{{file}}</a></p>{{/file}}</div></div></article>'
   }
 
 
@@ -88,6 +88,7 @@ function Comment(element, tabs) {
     tab.find('[data-tab-count]').text('(' + len + ')')
     if (len > 0) {
       addButton.text('Reply')
+      el.addClass('hide-subject')
     }
   }
 
@@ -104,13 +105,15 @@ function Comment(element, tabs) {
 
   function post() {
     var sel = select.val()
+    var person = el.find(options.addCommentBlock).data('comment-add')
     var commentObject = {
       text: textarea.val(),
       file: fileUpload.getValue(),
       date: new Date(Date.now()).toLocaleString(),
-      by: el.find(options.addCommentBlock).data('comment-add') || 'Admin',
+      by: person || 'Admin',
       subject: el.find(options.subject).val() || null,
       high: checked(),
+      extra: person === 'Andy Assessor' ? '' : 'comment-admin',
       assigned: sel !== '' ? sel : 'No action'
     }
 
