@@ -92,6 +92,9 @@ content:
           name: disposal-costs
           id: disposal-costs
           input: text
+          attr:
+            key: data-subject
+            value: true
         source:
           legend: Comment source
           fieldsetModifiers: inline
