@@ -12,9 +12,6 @@
     margin-top: 30px;
   }
 
-  &.has-byline {
-    padding-left: 60px;
-  }
 
   [class*='heading-'] {
     margin-top: .2em;
@@ -22,6 +19,7 @@
   }
 
   &.comment-admin {
+    padding: 15px !important;
     background-color: lighten($light-blue-25, 5%) !important;
   }
 
@@ -32,6 +30,7 @@
 
   &.box--flat {
     background-color: $white;
+    padding: 0;
 
     & + .box--flat {
       margin-top: 30px;
@@ -49,4 +48,8 @@
   .grid-row {
     margin-top: 15px;
   }
+}
+
+.has-byline {
+  padding-left: 60px;
 }
