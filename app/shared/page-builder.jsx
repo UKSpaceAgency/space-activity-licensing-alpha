@@ -17,6 +17,7 @@ import ButtonGroup from './components/ButtonGroup/component.jsx'
 import Divider from './components/Divider/component.jsx'
 import ProgressList from './components/ProgressList/component.jsx'
 import Spinner from './components/Spinner/component.jsx'
+import AccordionBlock from './components/AccordionBlock/component.jsx'
 //  import Pagination from './components/Pagination/component.jsx'
 
 export function pageBuilder (pageData) {
@@ -45,6 +46,9 @@ export function pageBuilder (pageData) {
         break
       case 'longform':
         reactComponent = <Longform {...item} key={i} />
+        break
+      case 'accordion':
+        reactComponent = <AccordionBlock {...item} key={i} />
         break
       case 'listing':
         reactComponent = <Listing {...item} key={i} />

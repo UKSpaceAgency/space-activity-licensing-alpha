@@ -79,6 +79,35 @@ content:
   - text: Emergency operations, if you need to move your satellite to avoid collision
 - contentType: heading
   type: h2
+  text: Application form categories
+  modifiers: heading-large spacing-bottom--single
+- contentType: longform
+  text: These are the categories you will need to complete as part of the application process. Please find out more information below.
+- contentType: accordion
+  list:
+  - heading: Eligibility
+    content: These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.
+    className: heading-small
+  - heading: Technical
+    content: These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.
+    className: heading-small
+  - heading: Applicant details
+    content: These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.
+    className: heading-small
+  - heading: Your mission
+    content: These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.
+    className: heading-small
+  - heading: Your organisation & Finance
+    content: These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.
+    className: heading-small
+  - heading: Insurance
+    content: These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.
+    className: heading-small
+  - heading: Frequency
+    content: These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.
+    className: heading-small
+- contentType: heading
+  type: h2
   text: What you will need to secure during your application
   modifiers: heading-large spacing-bottom--single
 - contentType: longform
