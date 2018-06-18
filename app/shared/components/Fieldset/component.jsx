@@ -12,7 +12,7 @@ const Fieldset = props => {
     <fieldset className={classes}>
       {props.legend &&
       <legend className={legendClasses}>
-        <span className='heading-medium'>
+        <span className='heading-small'>
           {props.legend}
           {props.supporting && <FormHint>{props.supporting}</FormHint>}
         </span>

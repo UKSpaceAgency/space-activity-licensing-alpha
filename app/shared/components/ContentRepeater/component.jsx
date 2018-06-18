@@ -26,13 +26,15 @@ const ContentRepeater = props => {
   return (
     <section className={classes} id={props.permalink}>
       {props.title && <Heading {...props.title}/>}
-      <Longform {...props}/>
-      {props.supporting && <Longform {...props.supporting}/>}
-      {props.textarea && <Textarea {...props.textarea}/>}
-      {props.booleans && <RadioCheck {...props.booleans}/>}
-      {props.attachment && <FileUpload {...props.attachment}/>}
-      <Grid>{props.documents && <GridCol className='column-half'>{props.heading && <Heading {...props.heading}/>}<List list={props.documents} /></GridCol>}{props.references && <GridCol className='column-half align-right'><Heading {...props.references.heading}/><Heading {...props.references.link}/>{props.references.tags && <Tags tags={props.references.tags}/>}</GridCol>}</Grid>
-      {collapsible}
+      <div className='answer'>
+        <Longform {...props}/>
+        {props.supporting && <Longform {...props.supporting}/>}
+        {props.textarea && <Textarea {...props.textarea}/>}
+        {props.booleans && <RadioCheck {...props.booleans}/>}
+        {props.attachment && <FileUpload {...props.attachment}/>}
+        <Grid>{props.documents && <GridCol className='column-half'>{props.heading && <Heading {...props.heading}/>}<List list={props.documents} /></GridCol>}{props.references && <GridCol className='column-half align-right'><Heading {...props.references.heading}/><Heading {...props.references.link}/>{props.references.tags && <Tags tags={props.references.tags}/>}</GridCol>}</Grid>
+        {collapsible}
+      </div>
       {props.backbutton && <div className='text'><a href='#' className='link-back'>Back to top</a></div>}
       {props.divider && <Divider />}
     </section>

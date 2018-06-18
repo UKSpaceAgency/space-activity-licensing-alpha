@@ -1,7 +1,7 @@
 'use strict'
 
 var $ = window.$
-var mustache = window.Mustache;
+var mustache = window.Mustache
 
 /**
  * Helper function to reveal commenting system and mock
@@ -28,68 +28,72 @@ function Comment(element, tabs) {
 
 
   // Private variables
-  var open = false;
-  var el = $(element);
-  var file = el.find(options.file);
-  var check = el.find(options.checkbox);
-  var total = el.find(options.totalComments);
-  var addButton = el.find(options.addComment);
-  var submitButton = el.find(options.buttonSubmit);
-  var select = el.find(options.select);
-  var textarea = el.find(options.textarea);
+  var open = false
+  var el = $(element)
+  var file = el.find(options.file)
+  var check = el.find(options.checkbox)
+  var total = el.find(options.totalComments)
+  var addButton = el.find(options.addComment)
+  var submitButton = el.find(options.buttonSubmit)
+  var select = el.find(options.select)
+  var textarea = el.find(options.textarea)
 
   var tab = tabs.filter(function(i, v) {
     return v.getAttribute('data-tab') === el.data('comment')
   })
 
-  var fileUpload = new Fileupload(file);
-  fileUpload.init();
+  var fileUpload = new Fileupload(file)
+  fileUpload.init()
 
   // base setup
   function init() {
-    calculateComments();
+    calculateComments()
 
     addButton.on('click', function() {
       if (!open) {
-        this.classList.add(options.buttonHideClass);
-        el.addClass(options.activeClass);
-        open = !!open;
-        textarea.focus();
+        this.classList.add(options.buttonHideClass)
+        el.addClass(options.activeClass)
+        open = !!open
+        textarea.focus()
       }
     })
 
     submitButton.on('click', function(event) {
-      comment();
+      comment()
     })
 
     el.find(options.buttonDiscard).on('click', function(event) {
-      discard();
+      discard()
     })
   }
 
   function discard() {
-    fileUpload.clearText();
-    textarea.val('');
-    var newInput = file.clone(true);
-    addButton.removeClass(options.buttonHideClass);
-    file.replaceWith(newInput).val('');
-    fileUpload = new Fileupload(file);
-    fileUpload.init();
-    check.prop('checked', false);
+    fileUpload.clearText()
+    textarea.val('')
+    var newInput = file.clone(true)
+    addButton.removeClass(options.buttonHideClass)
+    file.replaceWith(newInput).val('')
+    fileUpload = new Fileupload(file)
+    fileUpload.init()
+    check.prop('checked', false)
 
-    open = false;
-    el.removeClass(options.activeClass);
+    open = false
+    el.removeClass(options.activeClass)
   }
 
   function calculateComments() {
-    var comments = el.find(options.commentBlock);
-    tab.find('[data-tab-count]').text('(' + comments.length + ')');
+    var comments = el.find(options.commentBlock)
+    var len = comments.length
+    tab.find('[data-tab-count]').text('(' + len + ')')
+    if (len > 0) {
+      addButton.text('Reply')
+    }
   }
 
   function comment() {
     if (textarea.val() !== '') {
-      submitButton.addClass('spinner spinner--active');
-      post();
+      submitButton.addClass('spinner spinner--active')
+      post()
     }
   }
 
@@ -98,7 +102,7 @@ function Comment(element, tabs) {
   }
 
   function post() {
-    var sel = select.val();
+    var sel = select.val()
     var commentObject = {
       text: textarea.val(),
       file: fileUpload.getValue(),
@@ -106,22 +110,22 @@ function Comment(element, tabs) {
       by: el.find(options.addCommentBlock).data('comment-add') || 'Admin',
       high: checked(),
       assigned: sel !== '' ? sel : 'No action'
-    };
+    }
 
     // populate the template in the absence of using React client side...
-    var post = $(Mustache.render(options.template, commentObject));
+    var post = $(Mustache.render(options.template, commentObject))
 
     // fake a 1 second loading period
     setTimeout(function () {
-      submitButton.removeClass('spinner spinner--active');
-      el.find(options.addCommentBlock).after(post);
-      calculateComments();
-      discard();
+      submitButton.removeClass('spinner spinner--active')
+      el.find(options.addCommentBlock).before(post)
+      calculateComments()
+      discard()
 
       setTimeout(function() {
-        $('#spinner').removeClass('hidden');
-      }, 1000);
-    }, 1000);
+        $('#spinner').removeClass('hidden')
+      }, 1000)
+    }, 1000)
 
   }
 
@@ -130,8 +134,8 @@ function Comment(element, tabs) {
    */
   var self = {
     init: init
-  };
+  }
 
-  return self;
+  return self
 
 }

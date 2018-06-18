@@ -48,7 +48,7 @@ content:
   divider: true
   text: "<p>All current spacecraft use chemical rockets (bipropellant or solid-fuel) for launch, though some (such as the Pegasus rocket and SpaceShipOne) have used air-breathing engines on their first stage. Most satellites have simple reliable chemical thrusters (often monopropellant rockets) or resistojet rockets for orbital station-keeping and some use momentum wheels for attitude control. Soviet bloc satellites have used electric propulsion for decades, and newer Western geo-orbiting spacecraft are starting to use them for north-south stationkeeping and orbit raising. Interplanetary vehicles mostly use chemical rockets as well, although a few have used ion thrusters and Hall effect thrusters (two different types of electric propulsion) to great success.</p>"
   heading:
-    text: Uploaded supporting documents
+    text: ""
     type: h3
     modifiers: heading-small
   references:
@@ -69,17 +69,15 @@ content:
     supporting: ""
   commentBlock:
     limit: 3
-    modifiers: spacing-bottom--single
     heading:
       text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-1
       commentBlock:
         limit: 3
-        modifiers: spacing-bottom--single
         notice:
           checkbox:
             name: priority-level
@@ -88,6 +86,12 @@ content:
             inputs:
             - id: juu7gg4gf33fjjjfjfjfjfjfjfsdfgsdfgf
               value: High priority
+        subject:
+          label: Subject
+          value: Disposal costs
+          name: disposal-costs
+          id: disposal-costs
+          input: text
         source:
           legend: Comment source
           fieldsetModifiers: inline
@@ -168,7 +172,6 @@ content:
     - label: Private notes
       id: notes-private-1ggf
       commentBlock:
-        modifiers: spacing-bottom--single
         notice:
           checkbox:
             name: priority-level
@@ -196,7 +199,6 @@ content:
               value: Meeting
         assignees:
           label: Assign user and action
-          # supporting: Select multiple by pressing shift and clicking
           id: assignees-question-2dfgbdfg
           options:
           - label: Please select
@@ -268,17 +270,15 @@ content:
     modifiers: heading-small
   commentBlock:
     limit: 3
-    modifiers: spacing-bottom--single
     heading:
       text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-2567
       commentBlock:
         limit: 3
-        modifiers: spacing-bottom--single
         notice:
           checkbox:
             name: priority-level
@@ -368,7 +368,6 @@ content:
     - label: Private notes
       id: notes-private-2ghkhj
       commentBlock:
-        modifiers: spacing-bottom--single
         notice:
           checkbox:
             name: priority-level
@@ -554,17 +553,15 @@ content:
     modifiers: heading-small
   commentBlock:
     limit: 3
-    modifiers: spacing-bottom--single
     heading:
       text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-question-3
       commentBlock:
         limit: 3
-        modifiers: spacing-bottom--single
         from: Andy Assessor
         notice:
           checkbox:
@@ -656,7 +653,6 @@ content:
     - label: Private notes
       id: notes-private-3yukyuk
       commentBlock:
-        modifiers: spacing-bottom--single
         notice:
           checkbox:
             name: priority-level
@@ -876,17 +872,15 @@ content:
 
   commentBlock:
     limit: 3
-    modifiers: spacing-bottom--single
     heading:
       text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-4sasdf
       commentBlock:
         limit: 3
-        modifiers: spacing-bottom--single
         notice:
           checkbox:
             name: priority-level
@@ -1005,7 +999,6 @@ content:
     - label: Private notes
       id: notes-private-4sdfsdf
       commentBlock:
-        modifiers: spacing-bottom--single
         notice:
           checkbox:
             name: priority-level
@@ -1105,17 +1098,15 @@ content:
     modifiers: heading-small
   commentBlock:
     limit: 3
-    modifiers: spacing-bottom--single
     heading:
       text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-5
       commentBlock:
         limit: 3
-        modifiers: spacing-bottom--single
         notice:
           checkbox:
             name: priority-level
@@ -1206,7 +1197,6 @@ content:
       id: notes-priasdfvate-5
       commentBlock:
         limit: 3
-        modifiers: spacing-bottom--single
         notice:
           checkbox:
             name: priority-level
@@ -1308,17 +1298,15 @@ content:
     modifiers: heading-small
   commentBlock:
     limit: 3
-    modifiers: spacing-bottom--single
     heading:
       text: Answer feedback & amendments
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: no567ites-open-6
       commentBlock:
         limit: 3
-        modifiers: spacing-bottom--single
         notice:
           checkbox:
             name: priority-level
@@ -1408,7 +1396,6 @@ content:
     - label: Private notes
       id: notwertes-pwertrivate-6
       commentBlock:
-        modifiers: spacing-bottom--single
         notice:
           checkbox:
             name: priority-level

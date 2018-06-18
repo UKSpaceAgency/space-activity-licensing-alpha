@@ -73,7 +73,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-1
       commentBlock:
         limit: 3
@@ -302,7 +302,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-2567
       commentBlock:
         limit: 3
@@ -588,7 +588,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-question-3
       commentBlock:
         limit: 3
@@ -900,7 +900,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-4sasdf
       commentBlock:
         limit: 3
@@ -1100,7 +1100,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-5
       commentBlock:
         limit: 3
@@ -1303,7 +1303,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: no567ites-open-6
       commentBlock:
         limit: 3
