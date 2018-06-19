@@ -19,7 +19,7 @@ import Tags from '../Tags/component.jsx'
 
 const ContentRepeater = props => {
   let classes = classNames(props.className, props.modifiers)
-  let tabs = props.commentBlock && props.commentBlock.tabs ? <div className='comment-wrapper'>{props.commentBlock.heading && <Heading {...props.commentBlock.heading}/>}<Tablist>{props.commentBlock.tabs.map((v, i) => <Tab key={i} id={v.id}>{v.label}</Tab>)}</Tablist>{props.commentBlock.tabs.map((v, i) => <TabPanel key={i} id={v.id}>{v.commentBlock && <CommentModule id={v.id} {...v.commentBlock}/>}</TabPanel>)}</div> : null
+  let tabs = props.commentBlock && props.commentBlock.tabs ? <div className='comment-wrapper'>{props.commentBlock.heading && <Heading {...props.commentBlock.heading}/>}<Tablist>{props.commentBlock.tabs.map((v, i) => <Tab key={i} id={v.id} newComment={v.newComment || null}>{v.label}</Tab>)}</Tablist>{props.commentBlock.tabs.map((v, i) => <TabPanel key={i} id={v.id}>{v.commentBlock && <CommentModule id={v.id} {...v.commentBlock}/>}</TabPanel>)}</div> : null
   // @todo @refactor - this is a bit loooong - pare this back a little
   let collapsible = props.commentBlock && props.commentBlock.collapsible && props.commentBlock.tabs ? (<Accordion><AccordionSection heading={props.commentBlock.collapsibleHeading || ''}>{tabs}</AccordionSection></Accordion>) : tabs
 
