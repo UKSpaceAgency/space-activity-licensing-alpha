@@ -6,7 +6,7 @@ const AccordionBlock = props => {
   return (
     <Accordion>
       {props.list && props.list.map((v, i) => {
-      	return <AccordionSection key={i} {...v}/>
+        return <AccordionSection key={i} {...v}/>
       })}
     </Accordion>
   )
