@@ -18,11 +18,6 @@
     margin-bottom: .15em;
   }
 
-  &.comment-admin {
-    padding: 15px !important;
-    background-color: lighten($light-blue-25, 5%) !important;
-  }
-
   &.box--muted {
     background-color: lighten($grey-4, 2%);
     color: $grey-1;
@@ -34,6 +29,12 @@
 
     & + .box--flat {
       margin-top: 30px;
+    }
+
+    &.comment-admin,
+    &:nth-child(even) {
+      padding: 15px !important;
+      background-color: lighten($light-blue-25, 5%) !important;
     }
   }
 
