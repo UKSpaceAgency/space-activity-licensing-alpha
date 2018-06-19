@@ -19,20 +19,22 @@ import Tags from '../Tags/component.jsx'
 
 const ContentRepeater = props => {
   let classes = classNames(props.className, props.modifiers)
-  let tabs = props.commentBlock && props.commentBlock.tabs ? <div className='comment-wrapper'>{props.commentBlock.heading && <Heading {...props.commentBlock.heading}/>}<Tablist>{props.commentBlock.tabs.map((v, i) => <Tab key={i} id={v.id}>{v.label}</Tab>)}</Tablist>{props.commentBlock.tabs.map((v, i) => <TabPanel key={i} id={v.id}>{v.commentBlock && <CommentModule id={v.id} {...v.commentBlock}/>}</TabPanel>)}</div> : null
+  let tabs = props.commentBlock && props.commentBlock.tabs ? <div className='comment-wrapper'>{props.commentBlock.heading && <Heading {...props.commentBlock.heading}/>}<Tablist>{props.commentBlock.tabs.map((v, i) => <Tab key={i} id={v.id} newComment={v.newComment || null}>{v.label}</Tab>)}</Tablist>{props.commentBlock.tabs.map((v, i) => <TabPanel key={i} id={v.id}>{v.commentBlock && <CommentModule id={v.id} {...v.commentBlock}/>}</TabPanel>)}</div> : null
   // @todo @refactor - this is a bit loooong - pare this back a little
   let collapsible = props.commentBlock && props.commentBlock.collapsible && props.commentBlock.tabs ? (<Accordion><AccordionSection heading={props.commentBlock.collapsibleHeading || ''}>{tabs}</AccordionSection></Accordion>) : tabs
 
   return (
     <section className={classes} id={props.permalink}>
       {props.title && <Heading {...props.title}/>}
-      <Longform {...props}/>
-      {props.supporting && <Longform {...props.supporting}/>}
-      {props.textarea && <Textarea {...props.textarea}/>}
-      {props.booleans && <RadioCheck {...props.booleans}/>}
-      {props.attachment && <FileUpload {...props.attachment}/>}
-      <Grid>{props.documents && <GridCol className='column-half'>{props.heading && <Heading {...props.heading}/>}<List list={props.documents} /></GridCol>}{props.references && <GridCol className='column-half align-right'><Heading {...props.references.heading}/><Heading {...props.references.link}/>{props.references.tags && <Tags tags={props.references.tags}/>}</GridCol>}</Grid>
-      {collapsible}
+      <div className={props.transparent ? null : 'comment-answer'}>
+        <Longform {...props}/>
+        {props.supporting && <Longform {...props.supporting}/>}
+        {props.textarea && <Textarea {...props.textarea}/>}
+        {props.booleans && <RadioCheck {...props.booleans}/>}
+        {props.attachment && <FileUpload {...props.attachment}/>}
+        <Grid>{props.documents && <GridCol className='column-half'>{props.heading && <Heading {...props.heading}/>}<List list={props.documents} /></GridCol>}{props.references && <GridCol className='column-half align-right'><Heading {...props.references.heading}/><Heading {...props.references.link}/>{props.references.tags && <Tags tags={props.references.tags}/>}</GridCol>}</Grid>
+        {collapsible}
+      </div>
       {props.backbutton && <div className='text'><a href='#' className='link-back'>Back to top</a></div>}
       {props.divider && <Divider />}
     </section>

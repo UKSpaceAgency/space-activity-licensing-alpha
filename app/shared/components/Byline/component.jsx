@@ -11,7 +11,7 @@ const Byline = props => {
   let classes = classNames('byline column-half', props.className, props.modifiers)
 
   return (
-    <Grid>
+    <Grid className='has-byline'>
       <GridCol className={classes}>
         <Icon {...props.icon} className='icon--byline'/>
         <Heading {...props.name}/>

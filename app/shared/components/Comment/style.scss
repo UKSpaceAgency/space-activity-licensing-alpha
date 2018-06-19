@@ -5,16 +5,46 @@
 
 .comments {
   padding: 15px;
-  border-style: solid;
-  border-width: 0 1px 1px;
-  border-color: $govuk-blue;
+  margin: 0 15px 15px;
+  background-color: $white;
 
   @include media(tablet) {
     padding: 30px;
+  }
+
+  .comment-add {
+    display: none;
+  }
+
+  &.comments--active {
+    .comment-add {
+      display: block;
+    }
+  }
+}
+
+.comments--new {
+  position: relative;
+  margin-left: 30px;
+
+  &:before {
+    content: '';
+    width: 6px;
+    background-color: $govuk-blue;
+    top: 0;
+    bottom: 0;
+    left: -30px;
+    position: absolute;
   }
 }
 
 .comments-header {
   overflow: hidden;
   padding: 15px 0 30px;
+}
+
+.hide-subject {
+  .multi-hidden {
+    display: none;
+  }
 }

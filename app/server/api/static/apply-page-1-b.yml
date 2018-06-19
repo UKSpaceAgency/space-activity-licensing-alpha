@@ -21,9 +21,17 @@ content:
 - contentType: form
   formAction: "/apply/page-1"
   formItems:
+  - contentType: longform
+    text: These are the categories you will need to complete as part of the application process. Please find out more information below.
   - contentType: formGroup
     name: lalalalalalalal
     label: ""
+  - contentType: boolean
+    name: where
+    type: checkbox
+    inputs:
+    - id: launch-dunno
+      value: I don't know
   - contentType: button
     name: submit
     url: "/apply/page-1-c"

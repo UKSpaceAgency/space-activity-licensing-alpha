@@ -12,23 +12,30 @@
     margin-top: 30px;
   }
 
-  &.has-byline {
-    padding-left: 60px;
-  }
 
   [class*='heading-'] {
     margin-top: .2em;
     margin-bottom: .15em;
   }
 
-  &.comment-admin {
-    background-color: lighten($light-blue-25, 5%);
-  }
-
   &.box--muted {
     background-color: lighten($grey-4, 2%);
-
     color: $grey-1;
+  }
+
+  &.box--flat {
+    background-color: $white;
+    padding: 0;
+
+    & + .box--flat {
+      margin-top: 30px;
+    }
+
+    &.comment-admin,
+    &:nth-child(even) {
+      padding: 15px !important;
+      background-color: lighten($light-blue-25, 5%) !important;
+    }
   }
 
   // naming things can be hard.
@@ -42,4 +49,8 @@
   .grid-row {
     margin-top: 15px;
   }
+}
+
+.has-byline {
+  padding-left: 60px;
 }

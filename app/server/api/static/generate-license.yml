@@ -9,9 +9,6 @@ head:
 masthead:
   utility:
     links:
-    # - text: Notifications
-    #   url: "/notifications"
-    #   notification: 1
     - text: UKSA
       url: "/"
 hero:
@@ -135,6 +132,7 @@ license:
     url: "#"
 content:
 - contentType: collapsiblepanel
+  transparent: true
   commentBlock:
     modifiers: spacing-bottom--single
     collapsible: true
@@ -179,7 +177,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
             selected: true
           - label: Andy Assessor
             value: Andy Assessor
@@ -322,7 +320,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
             selected: true
           - label: Andy Assessor
             value: Andy Assessor

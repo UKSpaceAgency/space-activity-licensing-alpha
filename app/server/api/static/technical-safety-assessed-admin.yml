@@ -72,8 +72,9 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-1
+      newComment: alerted
       commentBlock:
         limit: 3
         modifiers: spacing-bottom--single
@@ -181,13 +182,17 @@ content:
             icon:
               label: account
               modifiers: icon-account
-          text: "<p>Dear Jerry Engineer, thank you for that - the documentation looks to be in good order. I will forward this to the appropriate person and get their views too.</p>"
+          subject:
+            text: Disposal costs
+            type: h3
+            modifiers: heading-small spacing-bottom--tight
+          text: "<p>Thank you for the information. The CAA would like to understand more about how the predicted hazard area was simulated. We are specifically interested in your solar radiation models and how changes to Earth’s atmosphere expected in the period due to high irradiation patterns could affect the drag calculations. We are concerned that this would create a larger delimited area which would encroach on Class C airspace and Terminal Control Areas around BRS.</p>"
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
             type: p
             modifiers: heading-small
           assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Laura Licensing"
+            text: "<span class='quiet'>Assigned to</span><br/>Jerry Engineer"
             type: p
             modifiers: heading-small
         - byline:
@@ -250,13 +255,14 @@ content:
             icon:
               label: account
               modifiers: icon-account
-          text: "<p>Thank you for the information. The CAA would like to understand more about how the predicted hazard area was simulated. We are specifically interested in your solar radiation models and how changes to Earth’s atmosphere expected in the period due to high irradiation patterns could affect the drag calculations. We are concerned that this would create a larger delimited area which would encroach on Class C airspace and Terminal Control Areas around BRS.</p>"
+          newComment: comments--new
+          text: "<p>Dear Jerry Engineer, thank you for that - the documentation looks to be in good order. I will forward this to the appropriate person and get their views too.</p>"
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
             type: p
             modifiers: heading-small
           assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Jerry Engineer"
+            text: "<span class='quiet'>Assigned to</span><br/>Laura Licensing"
             type: p
             modifiers: heading-small
     - label: Private notes
@@ -368,7 +374,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-2567
       commentBlock:
         limit: 3
@@ -654,7 +660,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-question-3
       commentBlock:
         limit: 3
@@ -746,12 +752,12 @@ content:
           id: file-upload-3
         comments:
         - byline:
-            # priority:
-            #   icon:
-            #     label: High priority
-            #     modifiers: icon-warning icon-warning--red icon--large
-            #   content: High priority
-            #   modifiers: red
+            priority:
+              icon:
+                label: High priority
+                modifiers: icon-warning icon-warning--red icon--large
+              content: High priority
+              modifiers: red
             modifiers: spacing-bottom--single comment-admin
             name:
               text: Andy Assessor
@@ -764,13 +770,17 @@ content:
             icon:
               label: account
               modifiers: icon-account
-          text: "<p>That is great, thank you for that - it all looks in order.</p>"
+          subject:
+            text: Disposal costs
+            type: h3
+            modifiers: heading-small spacing-bottom--tight
+          text: "<p>Thank you for your answer, please can you provide some further explanation about your propulsion system - specifically about the exhaust manifold arrangement?</p>"
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
             type: p
             modifiers: heading-small
           assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Laura Licensing"
+            text: "<span class='quiet'>Assigned to</span><br/>Jerry Engineer"
             type: p
             modifiers: heading-small
         - byline:
@@ -815,12 +825,6 @@ content:
             type: p
             modifiers: heading-small
         - byline:
-            priority:
-              icon:
-                label: High priority
-                modifiers: icon-warning icon-warning--red icon--large
-              content: High priority
-              modifiers: red
             modifiers: spacing-bottom--single comment-admin
             name:
               text: Andy Assessor
@@ -833,13 +837,13 @@ content:
             icon:
               label: account
               modifiers: icon-account
-          text: "<p>Thank you for your answer, please can you provide some further explanation about your propulsion system - specifically about the exhaust manifold arrangement?</p>"
+          text: "<p>That is great, thank you for that - it all looks in order.</p>"
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
             type: p
             modifiers: heading-small
           assignees:
-            text: "<span class='quiet'>Assigned to</span><br/>Jerry Engineer"
+            text: "<span class='quiet'>Assigned to</span><br/>Laura Licensing"
             type: p
             modifiers: heading-small
     - label: Private notes
@@ -1033,7 +1037,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-4sasdf
       commentBlock:
         limit: 3
@@ -1233,7 +1237,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-5
       commentBlock:
         limit: 3
@@ -1435,7 +1439,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: no567ites-open-6
       commentBlock:
         limit: 3

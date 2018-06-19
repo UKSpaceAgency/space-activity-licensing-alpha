@@ -73,8 +73,9 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-1
+      newComment: alerted
       commentBlock:
         limit: 3
         modifiers: spacing-bottom--single
@@ -184,7 +185,12 @@ content:
             icon:
               label: account
               modifiers: icon-account
+          subject:
+            text: Disposal costs
+            type: h3
+            modifiers: heading-small spacing-bottom--tight
           text: "<p>Thank you for the information. The CAA would like to understand more about how the predicted hazard area was simulated. We are specifically interested in your solar radiation models and how changes to Earth’s atmosphere expected in the period due to high irradiation patterns could affect the drag calculations. We are concerned that this would create a larger delimited area which would encroach on Class C airspace and Terminal Control Areas around BRS.</p>"
+          newComment: comments--new
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
             type: p
@@ -302,7 +308,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-2567
       commentBlock:
         limit: 3
@@ -588,7 +594,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-question-3
       commentBlock:
         limit: 3
@@ -708,6 +714,10 @@ content:
             text: "<span class='quiet'>Assigned to</span><br/>Jerry Engineer"
             type: p
             modifiers: heading-small
+          subject:
+            text: Disposal costs
+            type: h3
+            modifiers: heading-small spacing-bottom--tight
     - label: Private notes
       id: notes-private-3yukyuk
       commentBlock:
@@ -900,7 +910,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-4sasdf
       commentBlock:
         limit: 3
@@ -1100,7 +1110,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: notes-open-5
       commentBlock:
         limit: 3
@@ -1303,7 +1313,7 @@ content:
       type: h3
       modifiers: heading-medium
     tabs:
-    - label: Satellite operator 1
+    - label: Operator & Regulator
       id: no567ites-open-6
       commentBlock:
         limit: 3

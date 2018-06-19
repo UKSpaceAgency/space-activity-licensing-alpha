@@ -21,6 +21,8 @@ content:
 - contentType: form
   formAction: "/apply/page-1"
   formItems:
+  - contentType: longform
+    text: If you are launching a satellite overseas in an international launch state, then you will require an <a href='#'>export licence</a> to be able to transport your platform and payload to that country.
   - contentType: boolean
     name: do-you-have-a-launch-agreement
     type: radio
