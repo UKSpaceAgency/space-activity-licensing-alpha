@@ -21,23 +21,22 @@
       display: block;
     }
   }
-
-  &.comments--new {
-    position: relative;
-
-    &:before {
-      content: '';
-      width: 6px;
-      background-color: $govuk-blue;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      position: absolute;
-    }
-  }
-
 }
 
+.comments--new {
+  position: relative;
+  margin-left: 30px;
+
+  &:before {
+    content: '';
+    width: 6px;
+    background-color: $govuk-blue;
+    top: 0;
+    bottom: 0;
+    left: -30px;
+    position: absolute;
+  }
+}
 
 .comments-header {
   overflow: hidden;

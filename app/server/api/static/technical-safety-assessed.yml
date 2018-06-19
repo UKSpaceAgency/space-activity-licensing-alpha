@@ -221,6 +221,7 @@ content:
               label: account
               modifiers: icon-account
           text: "<p>Certainly - please find attached the additional documentation - hopefully it should all be in good order. <br/><br/>Thank you</p>"
+          newComment: comments--new
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
             type: p

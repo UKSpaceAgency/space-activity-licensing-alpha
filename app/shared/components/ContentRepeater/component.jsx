@@ -26,7 +26,7 @@ const ContentRepeater = props => {
   return (
     <section className={classes} id={props.permalink}>
       {props.title && <Heading {...props.title}/>}
-      <div className='answer'>
+      <div className='comment-answer'>
         <Longform {...props}/>
         {props.supporting && <Longform {...props.supporting}/>}
         {props.textarea && <Textarea {...props.textarea}/>}

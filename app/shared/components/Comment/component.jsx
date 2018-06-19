@@ -8,7 +8,9 @@ import Grid from '../Grid/component.jsx'
 import GridCol from '../GridCol/component.jsx'
 
 const Comment = props => {
-  let classes = classNames('box box--flat', props.className, props.modifiers)
+  let classes = classNames('box box--flat', props.className, props.modifiers, {
+    'comments--new': props.newComment
+  })
 
   return (
     <article className={classes} id={props.id} data-comment-block>
