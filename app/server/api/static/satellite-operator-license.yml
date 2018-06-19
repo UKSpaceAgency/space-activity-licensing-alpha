@@ -35,36 +35,6 @@ content:
         text: Application process
       - url: /homepage/guidance-for-applicants
         text: Application guidance
-  # cta:
-  #   name: submit
-  #   id: submit
-  #   url: "/apply/"
-  #   label: Start now
-  #   modifiers: button-start spacing-bottom--large
-  # progress:
-  #   gridModifiers: column-three-quarters
-  #   modifiers: align-left
-  #   heading:
-  #     text: Satellite statistics
-  #     type: h3
-  #     modifiers: heading-small
-  #   content:
-  #   - title:
-  #       text: "<span class='heading-large'>25</span> <br/>Satellites"
-  #       type: p
-  #     divider:
-  #       modifiers: divider--thick divider--blue
-  #   - modifiers: progress--current
-  #     title:
-  #       text: "<span class='heading-large'>112</span> <br/>UK launches"
-  #       type: p
-  #     divider:
-  #       modifiers: divider--thick divider--blue
-  #   - title:
-  #       text: "<span class='heading-large'>2345</span> <br/>In-orbit"
-  #       type: p
-  #     divider:
-  #       modifiers: divider--thick divider--blue
 - contentType: heading
   type: h2
   text: What activity it will cover
