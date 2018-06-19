@@ -132,6 +132,7 @@ license:
     url: "#"
 content:
 - contentType: collapsiblepanel
+  transparent: true
   commentBlock:
     modifiers: spacing-bottom--single
     collapsible: true
