@@ -101,6 +101,7 @@ hero:
         type: p
 content:
 - contentType: collapsiblepanel
+  transparent: true
   commentBlock:
     modifiers: spacing-bottom--single
     collapsible: true
@@ -145,7 +146,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy Assessor
             value: Andy Assessor
           - label: Laura Licensing
@@ -272,7 +273,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy Assessor
             value: Andy Assessor
           - label: Laura Licensing
