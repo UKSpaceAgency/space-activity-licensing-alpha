@@ -74,6 +74,7 @@ content:
     tabs:
     - label: Operator & Regulator
       id: notes-open-1
+      newComment: alerted
       commentBlock:
         limit: 3
         modifiers: spacing-bottom--single
