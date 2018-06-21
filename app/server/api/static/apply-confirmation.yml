@@ -31,7 +31,7 @@ content:
     type: p
     modifiers: heading-medium spacing-top--flush
 - contentType: longform
-  text: "<p>We have sent a confirmation email to the company secretary. They will have to verify that you are the individual responsible for space licensing within the organisation, before you are formally registered.</p><p>In the meantime you will be able to start the initial sections of the application form.</p>"
+  text: "<p>We have sent a confirmation email to the senior representative of your organisation. They will have to verify that you are the individual responsible for space licensing within the organisation, before you are formally registered.</p><p>In the meantime you will be able to start the initial sections of the application form.</p>"
 - contentType: form
   formAction: "/apply/register"
   formItems:

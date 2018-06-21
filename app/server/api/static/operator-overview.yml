@@ -364,10 +364,6 @@ content:
       text: Eligibility
       type: h3
       modifiers: heading-large spacing-top--flush
-    # updates:
-    #   url: "/operator/operator-overview-technical"
-    #   text: Next actions: Sat op 1 (1) - UKSA (1)
-    #   modifiers: bg-fuschia badge--fixed badge--top
     grid:
     - contentType: heading
       text: 10 Questions
@@ -385,7 +381,7 @@ content:
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
       text: Technical <span class='badge badge--border float-right heading-small'>Locked</span>
@@ -417,14 +413,13 @@ content:
       modifiers: border border-bottom
     - contentType: button
       label: Start
-      disabled: true
-      modifiers: button--full-width button--disabled
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
       text: Applicant details <span class='badge badge--border float-right heading-small'>Locked</span>
@@ -456,14 +451,13 @@ content:
       modifiers: border border-bottom
     - contentType: button
       label: Start
-      disabled: true
-      modifiers: button--full-width button--disabled
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
       text: Your mission <span class='badge badge--border float-right heading-small'>Locked</span>
@@ -501,14 +495,13 @@ content:
       modifiers: border border-bottom
     - contentType: button
       label: Start
-      disabled: true
-      modifiers: button--full-width button--disabled
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
       text: Your Organisation & Finance <span class='badge badge--border float-right heading-small'>Locked</span>
@@ -540,14 +533,13 @@ content:
       modifiers: border border-bottom
     - contentType: button
       label: Start
-      disabled: true
-      modifiers: button--full-width button--disabled
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
       text: Insurance <span class='badge badge--border float-right heading-small'>Locked</span>
@@ -585,14 +577,13 @@ content:
       modifiers: border border-bottom
     - contentType: button
       label: Start
-      disabled: true
-      modifiers: button--full-width button--disabled
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p
       modifiers: heading-medium
   - contentType: tile
-    modifiers: column-three-quarters box--muted
+    modifiers: column-three-quarters
     heading:
       contentType: heading
       text: Frequency <span class='badge badge--border float-right heading-small'>Locked</span>
@@ -624,8 +615,7 @@ content:
       modifiers: border border-bottom
     - contentType: button
       label: Start
-      disabled: true
-      modifiers: button--full-width button--disabled
+      modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
       type: p

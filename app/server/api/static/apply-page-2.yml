@@ -29,14 +29,24 @@ content:
   - contentType: boolean
     name: american-technology
     type: radio
-    label: Are you using American technology?
     inputs:
     - id: american-technology-yes
       value: Yes
     - id: american-technology-no
       value: No
+      data:
+        key: data-target
+        value: american-technology-no-reveal
     - id: american-technology-dunno
       value: I don't know
+      data:
+        key: data-target
+        value: american-technology-no-reveal
+  - contentType: reveal
+    id: american-technology-no-reveal
+    content:
+    - contentType: panel
+      content: You will need to get this in place to make sure you can get a licence
   - contentType: button
     name: submit
     url: "/apply/page-2-a"

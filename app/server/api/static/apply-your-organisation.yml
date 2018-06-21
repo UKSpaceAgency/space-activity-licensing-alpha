@@ -27,7 +27,7 @@ content:
   formItems:
   - contentType: formGroup
     name: autocomplete
-    label: Are you a UK company?
+    label: Are you a UK Company, Institution or Charity?
     supporting: Enter your company name / id below
     id: autocomplete
     attr:

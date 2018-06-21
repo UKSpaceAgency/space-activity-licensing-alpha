@@ -24,7 +24,8 @@ content:
   formItems:
   - contentType: select
     name: select-item
-    label: Please tell us the country/nation that you willl be launching from.
+    label: Please tell us the country/nation that you will be launching from.
+    labelModifiers: spacing-bottom--tight
     data:
       key: data-target
       value: french-guyana-reveal
