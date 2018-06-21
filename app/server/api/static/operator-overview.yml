@@ -412,7 +412,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      label: Start
+      label: View
       modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
@@ -450,7 +450,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      label: Start
+      label: View
       modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
@@ -494,7 +494,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      label: Start
+      label: View
       modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
@@ -532,7 +532,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      label: Start
+      label: View
       modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
@@ -576,7 +576,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      label: Start
+      label: View
       modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
@@ -614,7 +614,7 @@ content:
     - contentType: divider
       modifiers: border border-bottom
     - contentType: button
-      label: Start
+      label: View
       modifiers: button--full-width
     - contentType: heading
       text: "<span class='quiet'>Status </span><br/>Not started"
