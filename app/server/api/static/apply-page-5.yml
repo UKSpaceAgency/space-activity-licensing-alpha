@@ -29,7 +29,6 @@ content:
   - contentType: boolean
     name: itu-filings
     type: radio
-    label: Do you have all your ITU filings?
     inputs:
     - id: itu-filings-yes
       value: Yes
@@ -51,6 +50,11 @@ content:
       data:
         key: data-target
         value: itu-filings-no-reveal
+  - contentType: reveal
+    id: itu-filings-no-reveal
+    content:
+    - contentType: panel
+      content: You will need to get this in place to make sure you can get a licence
   - contentType: longform
     text: Thank you for completing these questions, to be able to save your responses and formally start your application, please register.
     modifiers: spacing--single

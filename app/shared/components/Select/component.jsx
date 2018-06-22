@@ -10,10 +10,11 @@ const Select = props => {
   let classes = classNames('form-group', props.modifiers)
   let multiple = props.multiple ? {'multiple': true, 'size': props.options.length} : null
   let data = props.data ? {[props.data.key]: props.data.value} : null
+  let labelClasses = classNames('form-label', props.labelModifiers)
 
   return (
     <div className={classes} {...data}>
-      <label className='form-label' htmlFor={props.id}>{props.label}{props.supporting && <FormHint>{props.supporting}</FormHint>}</label>
+      <label className={labelClasses} htmlFor={props.id}>{props.label}{props.supporting && <FormHint>{props.supporting}</FormHint>}</label>
       <select className='form-control' id={props.id} name={props.name} value={props.selected || ''} {...multiple}>
         {options}
       </select>

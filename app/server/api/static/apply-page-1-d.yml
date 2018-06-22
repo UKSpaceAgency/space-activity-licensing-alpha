@@ -51,7 +51,7 @@ content:
     id: launch-agreement-no-reveal
     content:
     - contentType: panel
-      content: If you are launching a satellite overseas in an international launch state, then you will require an <a href='#'>export licence</a> to be able to transport your platform and payload to that country.
+      content: You will need to get this in place to make sure you can get a licence
   - contentType: button
     name: submit
     url: "/apply/page-2"

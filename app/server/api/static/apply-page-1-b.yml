@@ -22,7 +22,7 @@ content:
   formAction: "/apply/page-1"
   formItems:
   - contentType: longform
-    text: These are the categories you will need to complete as part of the application process. Please find out more information below.
+    text: This is the organisation who will be providing & operating the launch vehicle as part of the initial phases of the mission.
   - contentType: formGroup
     name: lalalalalalalal
     label: ""
