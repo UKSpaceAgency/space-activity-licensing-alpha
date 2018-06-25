@@ -346,9 +346,12 @@ content:
             type: p
             modifiers: heading-small
 - contentType: heading
-  text: Applications sections
+  text: Application sections
   type: h2
   modifiers: heading-medium
+- contentType: longform
+  text: You may now start your application form. Only the Eligibility section will be open for you to complete. You have to submit this before you can start the other sections. However, you may view the question sets in each section.
+  modifiers: spacing-bottom--large
 - contentType: listing
   columns: 1
   gridModifier: column-third

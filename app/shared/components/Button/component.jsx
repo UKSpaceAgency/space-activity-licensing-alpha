@@ -23,7 +23,7 @@ export default class Button extends React.Component {
     })
 
     let data = this.props.data ? {[this.props.data]: true} : null
-
+    let id = this.props.id ? {'id': [this.props.id]} : null
     let disabled = !!this.props.disabled
 
     if (url || type === 'a') {
@@ -32,6 +32,7 @@ export default class Button extends React.Component {
           className={classes}
           role='button'
           {...data}
+          {...id}
           onClick={event => this.onClick(event)}>
           {children}{label}</a>
       )
@@ -40,6 +41,7 @@ export default class Button extends React.Component {
         <button
           disabled={disabled}
           {...data}
+          {...id}
           onClick={event => this.onClick(event)}
           className={classes} type={type}>
           {children}{label}
