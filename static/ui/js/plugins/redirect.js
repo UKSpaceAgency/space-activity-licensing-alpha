@@ -19,9 +19,9 @@ function Redirect(element) {
   // base setup
   function init() {
     data = el.data('redirect').split(',');
+    var input = el.find('input');
     action = $(data[0]);
     initialLink = action.prop('href');
-    var input = el.find('input');
     input.on('click', function(e) {
       if ($(e.target).is(':checked')) {
         action.prop('href', data[1]);
