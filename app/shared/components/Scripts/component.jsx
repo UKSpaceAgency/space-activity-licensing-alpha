@@ -11,6 +11,7 @@ const Scripts = () => {
       <script src='/ui/js/plugins/file-upload-shim.js'/>
       <script src='/ui/js/plugins/show-hide-content.js'/>
       <script src='/ui/js/plugins/add-comment.js'/>
+      <script src='/ui/js/plugins/redirect.js'/>
       <script src='/ui/js/application.js'/>
     </React.Fragment>
   )

@@ -5,6 +5,14 @@ $(document).ready(function () {
 
   var accordion = $('[data-accordion]');
   var commentTarget = $('[data-comment]');
+  var redirect = $('[data-redirect]');
+
+  if (redirect) {
+    redirect.each(function(i, target) {
+      var re = new Redirect(target);
+      re.init();
+    })
+  }
 
   if (commentTarget) {
     var tabs = $('[data-tab]');
@@ -30,7 +38,6 @@ $(document).ready(function () {
     maxItems: 7,
     showNoResults: true,
     onSelect: function(el, val) {
-      console.log(val)
       if (val === null) {
         $('.results').html('All results for "' + $(this).val() + '"" would go here');
       }
