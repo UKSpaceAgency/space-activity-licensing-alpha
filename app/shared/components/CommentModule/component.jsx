@@ -23,7 +23,7 @@ const CommentModule = props => {
   return (
     <section className={classes} id={props.id} data-comment={props.id}>
       {comments}
-      <div className='comment-add spacing-top--single' data-comment-add={props.from || 'Admin'}>
+      {!props.hideCommenting && <div className='comment-add spacing-top--single' data-comment-add={props.from || 'Admin'}>
         <p className='font-xsmall d-block'>Only post comments that are relevant to the application - do not include personal opinions or information. <a href='#'>Read more in our privacy guidelines</a>.</p>
         <Textarea data='data-textarea' className='form-control-full' value={props.value || ''}/>
         {props.subject && <FormGroup {...props.subject}/>}
@@ -36,11 +36,11 @@ const CommentModule = props => {
           <Button data='data-comment-add-submit' className='button--secondary'>Post comment</Button>
           <Button data='data-comment-add-discard' className='button--link'>Discard</Button>
         </ButtonGroup>
-        <Divider/>
-      </div>
-      <div className='comments-header'>
+      </div>}
+      <Divider/>
+      {!props.hideCommenting && <div className='comments-header'>
         <Button data='data-comment-add-comment' className='button--secondary'>Add comment</Button>
-      </div>
+      </div>}
     </section>
   )
 }

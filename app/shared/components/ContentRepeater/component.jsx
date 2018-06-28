@@ -28,6 +28,7 @@ const ContentRepeater = props => {
       {props.title && <Heading {...props.title}/>}
       <div className={props.transparent ? null : 'comment-answer'}>
         <Longform {...props}/>
+        {props.condition && <Textarea {...props.condition}/>}
         {props.supporting && <Longform {...props.supporting}/>}
         {props.textarea && <Textarea {...props.textarea}/>}
         {props.booleans && <RadioCheck {...props.booleans}/>}

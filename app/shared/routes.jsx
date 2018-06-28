@@ -173,6 +173,7 @@ let getRoutes = store => {
       </Route>
       <Route path='generate-license'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='generate-license' />
+        <Route path='add-condition' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='generate-license-add-condition' />
       </Route>
       <Route path='*' component={withFallback(PageContainer)} onEnter={getPage} slug='no-match' />
     </Route>
