@@ -15,7 +15,7 @@ hero:
   modifiers: padding-top--single spacing-bottom--flush
   title:
     contentType: title
-    title: Who is providing the launch services?
+    title: Who is providing the launch vehicle and services?
     modifiers: spacing-bottom--flush
 content:
 - contentType: form
