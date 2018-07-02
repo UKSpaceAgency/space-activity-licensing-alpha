@@ -78,6 +78,7 @@ content:
       commentBlock:
         limit: 3
         modifiers: spacing-bottom--single
+        blockModifier: comments--new
         notice:
           checkbox:
             name: priority-level
