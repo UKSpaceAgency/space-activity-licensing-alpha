@@ -1,0 +1,46 @@
+---
+contentType: page
+slug: sign-in
+head:
+  contentType: head
+  title: Create your license | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Log in
+      url: "/sign-in"
+breadcrumb:
+- contentType: link
+  text: Space Agency UK
+  url: "/"
+content:
+- contentType: hero
+  modifiers: spacing-bottom--flush
+  title:
+    title: Create license
+- contentType: heading
+  type: h2
+  text: Add licence conditions
+  modifiers: heading-large spacing-top--flush
+- contentType: longform
+  text: Licence conditions have been added against the categories below.  Select the licence condition(s) you wish to insert.
+- contentType: longform
+  text: <a href='/generate-license/create-license-page-1/'>< Back</a>
+- contentType: accordion
+  list:
+  - heading: Technical
+    content:
+    className: heading-small
+  - heading: Insurance
+    content:
+    className: heading-small
+  - heading: Your mission
+    content:
+    className: heading-small
+  - heading: Your organisation & Finance
+    content:
+    className: heading-small
+  - heading: Frequency
+    content:
+    className: heading-small
