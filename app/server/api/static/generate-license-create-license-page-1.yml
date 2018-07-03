@@ -1,0 +1,152 @@
+---
+contentType: page
+slug: sign-in
+head:
+  contentType: head
+  title: Create your license | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Log in
+      url: "/sign-in"
+breadcrumb:
+- contentType: link
+  text: Space Agency UK
+  url: "/"
+content:
+- contentType: hero
+  modifiers: spacing-bottom--flush
+  title:
+    title: Create license
+- contentType: form
+  legend: Pick your launch
+  formAction: "/apply/page-1"
+  formItems:
+  - contentType: heading
+    type: h2
+    text: Space Industry Act 2018
+    modifiers: heading-large
+  - contentType: heading
+    type: p
+    text: The Secretary of State for Business, Energy and Industrial Strategy
+  - contentType: formGroup
+    type: text
+    name: Licencee
+    label: Licencee organisation name
+  - contentType: date
+    # legend: Date (DD MM YYYY)
+    items:
+    - label: Day
+      id: 3245
+      name: deadline-day
+      modifiers: form-group-day
+      type: number
+      attr:
+        key: pattern
+        value: '[0-9]*'
+    - label: Month
+      id: 43563456
+      name: deadline-month
+      modifiers: form-group-month
+      type: number
+      attr:
+        key: pattern
+        value: '[0-9]*'
+    - label: Year
+      id: 45674567
+      name: deadline-year
+      modifiers: form-group-year
+      type: number
+      attr:
+        key: pattern
+        value: '[0-9]*'
+  - contentType: longform
+    text: "Licence granted under the Outer Space Act 1986 by (1) The Secretary of State for Business, Energy & Industrial Strategy, whose principal office is at 1 Victoria Street, London, SW1H 0ET (“the Secretary of State”) <br/> to"
+  - contentType: formGroup
+    type: text
+    name: Licencee-name
+    label: "Licencee organisation name:"
+  - contentType: longform
+    text: a company incorporated in the UK under no.
+  - contentType: formGroup
+    type: text
+    name: Licencee-number
+    label: "Licencee organisation company number:"
+  - contentType: longform
+    text: "whose registered office is at:"
+  - contentType: textarea
+    name: answer-5
+    id: answer-5
+    label: "Licencee organisation registered address:"
+  - contentType: heading
+    type: p
+    text: RECITALS
+  - contentType: longform
+    text: "(1) The Licensee wishes to carry out activities which require the grant of a licence pursuant to sections 4 and 5 of the Outer Space Act 1986."
+  - contentType: longform
+    text: "(2) The Licensee, being a person to which the Outer Space Act 1986 applies, by virtue of section 10 indemnifies Her Majesty’s government in the United Kingdom against any claims brought against the government in respect of damage or loss arising out of activities carried on by the Licensee to which the Act applies, subject to the limit set out in Clause 7.2 in respect of the Licensed Activities."
+  - contentType: longform
+    text: "1. Grant of Licence<br/>1.1 In exercise of the powers conferred by the Act, the Secretary of State hereby GRANTS the Licensee a licence to carry out the Licensed Activities in relation to the Satellit e subject to the f1.3 The grant of this Licence shall not "
+  - contentType: longform
+    text: 2. Insurance
+    modifiers: spacing-top--single
+  - contentType: longform
+    text: 2.1 The Licensee shall continue to insure itself against all liabilities that may arise in respect of damage or loss suffered by third parties in the United Kingdom or elsewhere as a result of the Licensed Activities.
+  - contentType: longform
+    text: "2.2 Condition 3.1.5 and (subject to Condition 2.3) Condition 2.1 shall be satisfied by: The policy of insurance issued by: "
+  - contentType: formGroup
+    type: text
+    name: Insurance company
+    label: Insurance company
+  - contentType: formGroup
+    type: text
+    name: Policy number
+    label: Policy number
+  - contentType: longform
+    text: Under which
+  - contentType: formGroup
+    type: text
+    name: Licence organisation name
+    label: Licence organisation name
+
+  - contentType: longform
+    text: and its subsidiary companies are the Policyholders and the Licensee and Her Majesty’s government in the United Kingdom are Insured Parties as evidenced by the policy and signed copy of the original Insurance Certificate the Licensee supplied to the UK Space Agency.
+  - contentType: longform
+    text: 6.3 In the event that the Satellite does not reach its planned orbit as notified to the Secretary of State in accordance with Condition 3.1.2, the Secretary of State may require the Licensee to make additional insurance arrangements to comply with Condition 6.1.
+  - contentType: longform
+    text: 6.4 The Licensee shall provide evidence of the Insurance Policy to the Secretary of State upon demand together with evidence of payment of the premiums in respect of such policy. The Licensee shall not vary terms of the Insurance Policy relating to the Licensed Activities without the prior written consent of the Secretary of State.
+  - contentType: longform
+    text: 6.5 The Licensee shall immediately notify the Secretary of State of any event or other occurrence which is likely to give rise to a claim under the Insurance Policy. 
+  - contentType: longform
+    text: 6.6 The Licensee shall take all necessary action to ensure that the Insurance Policy continues in force and is valid and enforceable, and the Licensee shall do nothing that would enable the insurer to avoid any such policy.
+  - contentType: button
+    name: add
+    url: "#"
+    label: Add license condition
+    modifiers: spacing-bottom--single
+  - contentType: longform
+    text: 7. Additional Conditions including Indemnities
+  - contentType: longform
+    text: "7.1 It is a Condition that: <br/>7.1.1 the Licensee has full corporate power and has taken all necessary corporate action to enable it to perform its obligations under this Licence;"
+  - contentType: longform
+    text: 7.1.2 the Licensee’s application for a licence, its carrying on of the Licensed Activities and the performance of its obligations under this Licence and the Act will not to the best of its knowledge, information and belief constitute any breach or default under or in respect of any contractual, governmental or public obligation binding upon it at the date of this Licence;
+  - contentType: longform
+    text: 7.1.3 the Licensee is not engaged in any litigation or arbitration proceedings which might have a materially adverse effect upon its capacity
+
+
+
+
+
+
+
+  - contentType: boolean
+    name: where
+    type: checkbox
+    inputs:
+    - id: launch-dunno
+      value: I don't know
+  - contentType: button
+    name: submit
+    url: "/apply/page-1-b"
+    label: Continue

@@ -4,6 +4,7 @@ import Longform from '../Longform/component.jsx'
 import Heading from '../Heading/component.jsx'
 import Divider from '../Divider/component.jsx'
 import List from '../List/component.jsx'
+import Button from '../Button/component.jsx'
 import CommentModule from '../CommentModule/component.jsx'
 import TabPanel from '../TabPanel/component.jsx'
 import Tablist from '../Tablist/component.jsx'
@@ -28,7 +29,7 @@ const ContentRepeater = props => {
       {props.title && <Heading {...props.title}/>}
       <div className={props.transparent ? null : 'comment-answer'}>
         <Longform {...props}/>
-        {props.condition && <Textarea {...props.condition}/>}
+        {props.condition && <article><Textarea {...props.condition}/><Button /></article>}
         {props.supporting && <Longform {...props.supporting}/>}
         {props.textarea && <Textarea {...props.textarea}/>}
         {props.booleans && <RadioCheck {...props.booleans}/>}

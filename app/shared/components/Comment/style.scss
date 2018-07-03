@@ -36,6 +36,10 @@
     left: -30px;
     position: absolute;
   }
+
+  & + .box--flat {
+    margin-top: 30px;
+  }
 }
 
 .comments-header {

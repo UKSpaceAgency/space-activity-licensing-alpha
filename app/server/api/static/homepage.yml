@@ -20,7 +20,7 @@ content:
   title:
     title: Apply for a spaceflight activity licence
   synopsis:
-    text: "<p>Driven by the UK Government’s commitment to space industry growth, the UK will become a launching state by 2020. As part of this the UK Space Agency has developed a digital service for space operators to apply for space activity licences online.</p><p>Applications can be made by clicking the ‘Start now’ button below. Or continue to read more about licensing.</p>"
+    text: "<p>Driven by the UK Government’s commitment to space industry growth, the UK will become a launching state by 2020. As part of this the UK Space Agency has developed a digital service for space operators to apply for space activity licences online.</p><p>Already registered? <a href='#'>Log in</a></p>"
   heroLinks:
     modifiers: hero-links--light hero-links--top spacing-top--single
     heading:
@@ -35,17 +35,17 @@ content:
         text: Launch licence
       - text: Spaceport licence
       - text: Range control licence
-  cta:
-    name: submit
-    id: submit
-    url: "/apply/"
-    label: Start now
-    modifiers: button-start spacing-bottom--large
+  # cta:
+  #   name: submit
+  #   id: submit
+  #   url: "/apply/"
+  #   label: Start now
+  #   modifiers: button-start spacing-bottom--large
   progress:
     gridModifiers: column-three-quarters
     modifiers: align-left
     heading:
-      text: Satellite statistics
+      text: Spaceflight in numbers
       type: h3
       modifiers: heading-small
     content:
@@ -71,9 +71,6 @@ content:
   modifiers: heading-large spacing-bottom--single
 - contentType: longform
   text: Any UK national or UK company intending to launch or procure the launch of a space object, operate a space object or carry out any other activity in outer space.
-- contentType: heading
-  type: p
-  text: "Already registered? <a href='#'>Log in</a>"
 - contentType: listing
   columns: 2
   modifiers: spacing-top--single

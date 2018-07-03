@@ -10,15 +10,6 @@ masthead:
     links:
     - text: UKSA home
       url: "/"
-breadcrumb:
-- contentType: link
-  text: Space Agency UK
-  url: "/"
-- contentType: link
-  text: My applications
-  url: "/operator/"
-- contentType: link
-  text: Technical section
 content:
 - contentType: noticePanel
   modifiers: padding--single align-centre bg-green white spacing-bottom--large
