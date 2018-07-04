@@ -9,9 +9,9 @@ const FileUpload = props => {
   let data = props.shimmed ? {'data-file': true} : null
 
   return (
-    <div className='form-label' {...data}>
+    <div className={classes} {...data}>
       {props.shimmed && <span className='form-control__text' data-file-text></span>}
-      <label className={labelClasses} htmlFor={'file-' + props.id}>
+      <label className='form-label' htmlFor={'file-' + props.id}>
         {props.label}
       </label>
       <input className='form-control' type='file' id={'file-' + props.id}/>
