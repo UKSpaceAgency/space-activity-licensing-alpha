@@ -80,14 +80,14 @@ content:
       commentBlock:
         limit: 3
         modifiers: spacing-bottom--single
-        notice:
-          checkbox:
-            name: priority-level
-            type: checkbox
-            fieldModifiers: baseline d-inline-block
-            inputs:
-            - id: juu7gg4gf33fjjjfjfjfjfjfjfsdfgsdfgf
-              value: High priority
+        # notice:
+        #   checkbox:
+        #     name: priority-level
+        #     type: checkbox
+        #     fieldModifiers: baseline d-inline-block
+        #     inputs:
+        #     - id: juu7gg4gf33fjjjfjfjfjfjfjfsdfgsdfgf
+        #       value: High priority
         from: Jerry Engineer
         value: "Certainly - please find attached the additional documentation - hopefully it should all be in good order. \n\n Thank you"
         # source:
@@ -107,59 +107,59 @@ content:
         #       value: Email
         #     - id: 1234567
         #       value: Meeting
-        assignees:
-          label: Assign user and action
-          id: assignees-question-3sdfgsdgsdf
-          options:
-          - label: Please select
-            value: ''
-          - label: No action
-            value: no action
-          - label: Jerry Engineer
-            value: Jerry Engineer
-          - label: Clara CAA
-            value: Clara CAA
-          - label: Andy Assessor
-            value: Andy Assessor
-          - label: Laura Licensing
-            value: Laura Licensing
-          - label: Dave Stringer
-            value: Dave Stringer
-          - label: Aimee Brace
-            value: Aimee Brace
-          - label: Alex Hobbs
-            value: Alex Hobbs
-          - label: Tom Foster
-            value: Tom Foster
-        deadline:
-          legend: Set deadline
-          calendar: true
-          modifiers: mr-5
-          items:
-          - label: Day
-            id: 3245345sdfgsdfgsdgf
-            name: deadline-day
-            modifiers: form-group-day
-            type: number
-            attr:
-              key: pattern
-              value: '[0-9]*'
-          - label: Month
-            id: 43563456345345sdgsdfgsdfgs
-            name: deadline-month
-            modifiers: form-group-month
-            type: number
-            attr:
-              key: pattern
-              value: '[0-9]*'
-          - label: Year
-            id: 45674567345345345dsfgsdfgdgfs
-            name: deadline-year
-            modifiers: form-group-year
-            type: number
-            attr:
-              key: pattern
-              value: '[0-9]*'
+        # assignees:
+        #   label: Assign user and action
+        #   id: assignees-question-3sdfgsdgsdf
+        #   options:
+        #   - label: Please select
+        #     value: ''
+        #   - label: No action
+        #     value: no action
+        #   - label: Jerry Engineer
+        #     value: Jerry Engineer
+        #   - label: Clara CAA
+        #     value: Clara CAA
+        #   - label: Andy Assessor
+        #     value: Andy Assessor
+        #   - label: Laura Licensing
+        #     value: Laura Licensing
+        #   - label: Dave Stringer
+        #     value: Dave Stringer
+        #   - label: Aimee Brace
+        #     value: Aimee Brace
+        #   - label: Alex Hobbs
+        #     value: Alex Hobbs
+        #   - label: Tom Foster
+        #     value: Tom Foster
+        # deadline:
+        #   legend: Set deadline
+        #   calendar: true
+        #   modifiers: mr-5
+        #   items:
+        #   - label: Day
+        #     id: 3245345sdfgsdfgsdgf
+        #     name: deadline-day
+        #     modifiers: form-group-day
+        #     type: number
+        #     attr:
+        #       key: pattern
+        #       value: '[0-9]*'
+        #   - label: Month
+        #     id: 43563456345345sdgsdfgsdfgs
+        #     name: deadline-month
+        #     modifiers: form-group-month
+        #     type: number
+        #     attr:
+        #       key: pattern
+        #       value: '[0-9]*'
+        #   - label: Year
+        #     id: 45674567345345345dsfgsdfgdgfs
+        #     name: deadline-year
+        #     modifiers: form-group-year
+        #     type: number
+        #     attr:
+        #       key: pattern
+        #       value: '[0-9]*'
         button:
           label: Add comment
         fileupload:
