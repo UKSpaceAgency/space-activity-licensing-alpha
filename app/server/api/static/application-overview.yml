@@ -196,7 +196,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: file-upload-3
         comments:
@@ -335,7 +335,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: file-upload-23456
         comments:

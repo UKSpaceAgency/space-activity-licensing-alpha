@@ -163,7 +163,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: file-upload-3sdfgs
         comments:
@@ -286,7 +286,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: file-upload-23456dfbf
         comments: null
@@ -396,7 +396,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: file-upload-3
         comments: null
@@ -486,7 +486,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: file-upload-23456wer
         comments: null
@@ -570,7 +570,7 @@ content:
     button:
       label: Add comment
     fileupload:
-      label: Upload attachment
+      label: Attach document(s)
       # modifiers: file-upload
       id: file-upload-2
     comments: null
@@ -683,7 +683,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: file-upload-3
         comments:
@@ -805,7 +805,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: file-upload-23456tyuktyuk
         comments: null
@@ -889,7 +889,7 @@ content:
     button:
       label: Add comment
     fileupload:
-      label: Upload attachment
+      label: Attach document(s)
       # modifiers: file-upload
       id: file-upload-3
     comments: null
@@ -998,7 +998,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: file-upload-3dfghdfgh
         comments: null
@@ -1088,7 +1088,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: file-upload-23456asasdf
         comments: null
@@ -1198,7 +1198,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: file-upload-3dsfsdfgsdfgsdfgs
         comments: null
@@ -1289,7 +1289,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: filsdae-upload-3asfa
         comments: null
@@ -1401,7 +1401,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: asdfafile-upload-3
         comments: null
@@ -1491,7 +1491,7 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
+          label: Attach document(s)
           # modifiers: file-upload
           id: fwertwile-upload-23456
         comments: null
