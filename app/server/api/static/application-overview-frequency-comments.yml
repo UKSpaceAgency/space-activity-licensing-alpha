@@ -119,7 +119,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy Assessor
             value: Andy Assessor
           - label: Laura Licensing
@@ -165,7 +165,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: file-upload-3
         comments:
         - byline:
@@ -239,7 +239,7 @@ content:
           - label: Jerry Engineer
             value: Jerry Engineer
           - label: Clara CAA
-            value: Clara CAA      
+            value: Clara CAA
           - label: Andy Assessor
             value: Andy Assessor
           - label: Laura Licensing
@@ -285,7 +285,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: file-upload-23456
         comments: null
 progress:

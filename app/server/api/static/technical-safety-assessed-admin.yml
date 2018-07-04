@@ -161,7 +161,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: file-upload-3sdfgs
         comments:
         - byline:
@@ -353,7 +353,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: file-upload-23456dfbf
         comments: null
 - title:
@@ -463,7 +463,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: file-upload-3
         comments: null
     - label: Private notes
@@ -553,7 +553,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: file-upload-23456wer
         comments: null
     notice:
@@ -637,7 +637,7 @@ content:
       label: Add comment
     fileupload:
       label: Upload attachment
-      modifiers: file-upload
+      # modifiers: file-upload
       id: file-upload-2
     comments: null
 - title:
@@ -749,7 +749,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: file-upload-3
         comments:
         - byline:
@@ -934,7 +934,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: file-upload-23456tyuktyuk
         comments: null
     notice:
@@ -1018,7 +1018,7 @@ content:
       label: Add comment
     fileupload:
       label: Upload attachment
-      modifiers: file-upload
+      # modifiers: file-upload
       id: file-upload-3
     comments: null
 - title:
@@ -1126,7 +1126,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: file-upload-3dfghdfgh
         comments: null
     - label: Private notes
@@ -1216,7 +1216,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: file-upload-23456asasdf
         comments: null
 - title:
@@ -1326,7 +1326,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: file-upload-3dsfsdfgsdfgsdfgs
         comments: null
     - label: Private notes
@@ -1417,7 +1417,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: filsdae-upload-3asfa
         comments: null
 - title:
@@ -1528,7 +1528,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: asdfafile-upload-3
         comments: null
     - label: Private notes
@@ -1618,7 +1618,7 @@ content:
           label: Add comment
         fileupload:
           label: Upload attachment
-          modifiers: file-upload
+          # modifiers: file-upload
           id: fwertwile-upload-23456
         comments: null
 progress:
