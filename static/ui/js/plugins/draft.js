@@ -2,14 +2,7 @@
 
 var $ = window.$
 
-/**
- * Helper function to reveal commenting system and mock
- * comment flow on a per-question basis
- */
 function Draft(element) {
-
-  // Default options
-  var options = {}
 
   // Private variables
   var el = $(element)
@@ -60,9 +53,7 @@ function Draft(element) {
         textCounter()
       })
     }
-
   }
-
 
   function length(textarea) {
     if (textarea.val().length === 0) {
