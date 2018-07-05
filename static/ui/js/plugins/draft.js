@@ -18,7 +18,7 @@ function Draft(element) {
   var isInitiallyChecked = false
   var radios;
 
-  function debounce(func) {
+  function debounce(func, delay) {
     var timeout
     return function() {
       var context = this
@@ -27,7 +27,7 @@ function Draft(element) {
       timeout = setTimeout(function() {
         timeout = null
         func.apply(context, args)
-      }, 200)
+      }, delay)
     }
   }
 
