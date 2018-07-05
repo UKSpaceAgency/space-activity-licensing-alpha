@@ -256,7 +256,7 @@ content:
             icon:
               label: account
               modifiers: icon-account
-          # newComment: comments--new
+          newComment: comments--new
           text: "<p>Dear Jerry Engineer, thank you for that - the documentation looks to be in good order. I will forward this to the appropriate person and get their views too.</p>"
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
