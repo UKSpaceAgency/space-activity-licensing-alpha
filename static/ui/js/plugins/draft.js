@@ -18,6 +18,23 @@ function Draft(element) {
   var isInitiallyChecked = false
   var radios;
 
+  function debounce(func) {
+    var timeout
+    return function() {
+      var context = this
+      var args = arguments
+      clearTimeout(timeout)
+      timeout = setTimeout(function() {
+        timeout = null
+        func.apply(context, args)
+      }, 200)
+    }
+  }
+
+  var textCounter = debounce(function() {
+    debounce(length(textarea))
+  }, 250)
+
   // base setup
   function init() {
     if (!booleans.length) {
@@ -40,11 +57,12 @@ function Draft(element) {
       length(textarea)
 
       textarea.on('keyup', function() {
-        length(textarea)
+        textCounter()
       })
     }
 
   }
+
 
   function length(textarea) {
     if (textarea.val().length === 0) {
