@@ -1,10 +1,11 @@
 .form-group-file {
   position: relative;
   cursor: pointer;
-  display: block;
+  float: left;
 
   .form-control {
     border: 0;
+    width: 100%;
   }
 
   .form-control-file {

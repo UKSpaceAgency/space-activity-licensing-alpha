@@ -15,9 +15,9 @@ import RadioCheck from '../RadioCheck/component.jsx'
 
 const CommentModule = props => {
   let classes = classNames('comments', props.className, props.modifiers)
-  let blockClasses = classNames({
-    'comments--new': props.blockModifier
-  })
+  // let blockClasses = classNames({
+  //   'comments--new': props.blockModifier
+  // })
   let comments = props.comments !== null && props.comments.map((v, i) => {
     v['id'] = props.id + '_' + i
     return <Comment key={i} {...v}/>
@@ -25,9 +25,7 @@ const CommentModule = props => {
 
   return (
     <section className={classes} id={props.id} data-comment={props.id}>
-      <div className={blockClasses}>
       {comments}
-      </div>
       <div className='comment-add spacing-top--single' data-comment-add={props.from || 'Admin'}>
         <p className='font-xsmall d-block'>Only post comments that are relevant to the application - do not include personal opinions or information. <a href='#'>Read more in our privacy guidelines</a>.</p>
         <Textarea data='data-textarea' className='form-control-full' value={props.value || ''}/>

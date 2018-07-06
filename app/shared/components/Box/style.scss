@@ -36,6 +36,16 @@
       padding: 15px !important;
       background-color: lighten($light-blue-25, 5%) !important;
     }
+
+    &.comments--new {
+      margin-left: 0;
+
+      &:nth-child(even) {
+        &:before {
+          left: 0;
+        }
+      }
+    }
   }
 
   // naming things can be hard.

@@ -10,7 +10,7 @@ function Fileupload(element, config) {
   var options = {
     file: '[data-file-input]',
     text: '[data-file-text]',
-    class: 'form-control-file',
+    // class: 'form-control-file',
     textClass: 'form-control__text--full'
   };
 
@@ -25,8 +25,8 @@ function Fileupload(element, config) {
   function init() {
     input.on('change',function(){
       update(input.val())
-    })
-    .addClass(options.class); // @joel - removed to preserve form control appearance
+    });
+    //.addClass(options.class); // @joel - removed to preserve form control appearance
   }
 
   function update(val) {
