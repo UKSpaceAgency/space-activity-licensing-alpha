@@ -6,7 +6,7 @@ import Button from '../Button/component.jsx'
 const Textarea = props => {
   let data = props.data ? {[props.data]: true} : null
   let classes = classNames('form-group', props.modifiers)
-  let required = props.required ? {required : true} : null
+  let required = props.required ? {'required': true} : null
 
   return (
     <div className={classes}>
