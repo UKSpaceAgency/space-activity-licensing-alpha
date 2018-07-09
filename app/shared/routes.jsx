@@ -174,6 +174,7 @@ let getRoutes = store => {
         <Route path='create-license' component={withFallback(PageContainer)} onEnter={getPage} slug='generate-license-create-license' />
         <Route path='create-license-page-1' component={withFallback(PageContainer)} onEnter={getPage} slug='generate-license-create-license-page-1' />
         <Route path='add-conditions-multiple' component={withFallback(PageContainer)} onEnter={getPage} slug='generate-license-add-conditions-multiple' />
+        <Route path='create-license-page-incorporated' component={withFallback(PageContainer)} onEnter={getPage} slug='generate-license-create-license-page-2' />
       </Route>
       <Route path='*' component={withFallback(PageContainer)} onEnter={getPage} slug='no-match' />
     </Route>

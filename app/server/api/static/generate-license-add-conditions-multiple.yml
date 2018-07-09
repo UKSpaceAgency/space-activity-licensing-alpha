@@ -9,11 +9,11 @@ masthead:
   utility:
     links:
     - text: Log in
-      url: "/sign-in"
+      url: '/sign-in'
 breadcrumb:
 - contentType: link
   text: Space Agency UK
-  url: "/"
+  url: '/'
 content:
 - contentType: hero
   modifiers: spacing-bottom--flush
@@ -30,7 +30,7 @@ content:
 - contentType: accordion
   list:
   - heading: Technical
-    content:
+    content: "<div class='form-group'><div class='multiple-choice'><input type='checkbox' id='technical-1' name='where' value='I don't know'><label for='technical-1'><span>This is a licence condition that was input in the insurance section of the application.  This is a licence condition that was input in the Technical section of the application.  This is a licence condition that was input in the Technical section of the application. </span></label></div></div><div class='form-group'><div class='multiple-choice'><input type='checkbox' id='technical-2' name='where' value='I don't know'><label for='technical-2'><span>This is a licence condition that was input in the Technical section of the application.  This is a licence condition that was input in the Technical section of the application. </span></label></div></div><div class='button-group'><a href='/generate-license/create-license-page-incorporated' class='button' role='button'>Add licence conditions</a></div>"
     className: heading-small
   - heading: Insurance
     content:
@@ -44,3 +44,7 @@ content:
   - heading: Frequency
     content:
     className: heading-small
+
+
+
+
