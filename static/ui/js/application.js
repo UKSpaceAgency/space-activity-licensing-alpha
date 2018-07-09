@@ -6,6 +6,7 @@ $(document).ready(function () {
   var accordion = $('[data-accordion]');
   var commentTarget = $('[data-comment]');
   var redirect = $('[data-redirect]');
+  var draft = $('[data-comment-block]');
 
   if (redirect) {
     redirect.each(function(i, target) {
@@ -19,6 +20,13 @@ $(document).ready(function () {
     commentTarget.each(function(i, target) {
       var comment = new Comment(target, tabs);
       comment.init();
+    })
+  }
+
+  if (draft.length) {
+    draft.each(function(i, target) {
+      var draft = new Draft(target);
+      draft.init();
     })
   }
 

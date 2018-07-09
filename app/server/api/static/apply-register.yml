@@ -22,6 +22,9 @@ content:
   type: p
   text: To start an application we will need you to create an account and assign members of your organisation, who will assist you in answering questions.
   modifiers: lede
+- contentType: heading
+  type: p
+  text: <b>All questions are mandatory</b>
 - contentType: form
   # legend: WHat space activity are you wanting to undertake?
   formAction: "/apply/register"
@@ -71,6 +74,9 @@ content:
     text: Personal details
     type: h3
     modifiers: heading-medium
+  - contentType: heading
+    text: <b>You are the individual responsible for space licensing within the organisation.</b>
+    type: p
   - contentType: formGroup
     label: First name
     value: Arthur
@@ -91,8 +97,8 @@ content:
   - contentType: formGroup
     label: Password
     supporting: "Your password must have at least <strong>8 characters</strong>, at least <strong>one symbol</strong> (eg ?!£%) and at least one <strong>capital letter</strong>"
-    name: mobile-phone-number
-    id: mobile-phone-number
+    name: mobile
+    id: mobile
     input: password
   - contentType: formGroup
     label: Repeat password
@@ -104,6 +110,11 @@ content:
     supporting: This is a security measure, so we can create a two step authentication process for you.
     name: mobile-phone-number
     id: mobile-phone-number
+    input: tel
+  - contentType: formGroup
+    label: Contact phone number
+    name: contact-number
+    id: contact-number
     input: tel
   - contentType: boolean
     name: use-sms

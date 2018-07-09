@@ -80,14 +80,14 @@ content:
       commentBlock:
         limit: 3
         modifiers: spacing-bottom--single
-        notice:
-          checkbox:
-            name: priority-level
-            type: checkbox
-            fieldModifiers: baseline d-inline-block
-            inputs:
-            - id: juu7gg4gf33fjjjfjfjfjfjfjfsdfgsdfgf
-              value: High priority
+        # notice:
+        #   checkbox:
+        #     name: priority-level
+        #     type: checkbox
+        #     fieldModifiers: baseline d-inline-block
+        #     inputs:
+        #     - id: juu7gg4gf33fjjjfjfjfjfjfjfsdfgsdfgf
+        #       value: High priority
         from: Jerry Engineer
         value: "Certainly - please find attached the additional documentation - hopefully it should all be in good order. \n\n Thank you"
         # source:
@@ -107,64 +107,64 @@ content:
         #       value: Email
         #     - id: 1234567
         #       value: Meeting
-        assignees:
-          label: Assign user and action
-          id: assignees-question-3sdfgsdgsdf
-          options:
-          - label: Please select
-            value: ''
-          - label: No action
-            value: no action
-          - label: Jerry Engineer
-            value: Jerry Engineer
-          - label: Clara CAA
-            value: Clara CAA
-          - label: Andy Assessor
-            value: Andy Assessor
-          - label: Laura Licensing
-            value: Laura Licensing
-          - label: Dave Stringer
-            value: Dave Stringer
-          - label: Aimee Brace
-            value: Aimee Brace
-          - label: Alex Hobbs
-            value: Alex Hobbs
-          - label: Tom Foster
-            value: Tom Foster
-        deadline:
-          legend: Set deadline
-          calendar: true
-          modifiers: mr-5
-          items:
-          - label: Day
-            id: 3245345sdfgsdfgsdgf
-            name: deadline-day
-            modifiers: form-group-day
-            type: number
-            attr:
-              key: pattern
-              value: '[0-9]*'
-          - label: Month
-            id: 43563456345345sdgsdfgsdfgs
-            name: deadline-month
-            modifiers: form-group-month
-            type: number
-            attr:
-              key: pattern
-              value: '[0-9]*'
-          - label: Year
-            id: 45674567345345345dsfgsdfgdgfs
-            name: deadline-year
-            modifiers: form-group-year
-            type: number
-            attr:
-              key: pattern
-              value: '[0-9]*'
+        # assignees:
+        #   label: Assign user and action
+        #   id: assignees-question-3sdfgsdgsdf
+        #   options:
+        #   - label: Please select
+        #     value: ''
+        #   - label: No action
+        #     value: no action
+        #   - label: Jerry Engineer
+        #     value: Jerry Engineer
+        #   - label: Clara CAA
+        #     value: Clara CAA
+        #   - label: Andy Assessor
+        #     value: Andy Assessor
+        #   - label: Laura Licensing
+        #     value: Laura Licensing
+        #   - label: Dave Stringer
+        #     value: Dave Stringer
+        #   - label: Aimee Brace
+        #     value: Aimee Brace
+        #   - label: Alex Hobbs
+        #     value: Alex Hobbs
+        #   - label: Tom Foster
+        #     value: Tom Foster
+        # deadline:
+        #   legend: Set deadline
+        #   calendar: true
+        #   modifiers: mr-5
+        #   items:
+        #   - label: Day
+        #     id: 3245345sdfgsdfgsdgf
+        #     name: deadline-day
+        #     modifiers: form-group-day
+        #     type: number
+        #     attr:
+        #       key: pattern
+        #       value: '[0-9]*'
+        #   - label: Month
+        #     id: 43563456345345sdgsdfgsdfgs
+        #     name: deadline-month
+        #     modifiers: form-group-month
+        #     type: number
+        #     attr:
+        #       key: pattern
+        #       value: '[0-9]*'
+        #   - label: Year
+        #     id: 45674567345345345dsfgsdfgdgfs
+        #     name: deadline-year
+        #     modifiers: form-group-year
+        #     type: number
+        #     attr:
+        #       key: pattern
+        #       value: '[0-9]*'
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
-          modifiers: file-upload
+          label: Attach document(s)
+          # modifiers: file-upload
           id: file-upload-3sdfgs
         comments:
         - byline:
@@ -191,7 +191,7 @@ content:
             type: h3
             modifiers: heading-small spacing-bottom--tight
           text: "<p>Thank you for the information. The CAA would like to understand more about how the predicted hazard area was simulated. We are specifically interested in your solar radiation models and how changes to Earth’s atmosphere expected in the period due to high irradiation patterns could affect the drag calculations. We are concerned that this would create a larger delimited area which would encroach on Class C airspace and Terminal Control Areas around BRS.</p>"
-          # newComment: comments--new
+          newComment: comments--new
           deadline:
             text: "<span class='quiet'>Deadline</span><br/>4 June 2018"
             type: p
@@ -286,8 +286,8 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
-          modifiers: file-upload
+          label: Attach document(s)
+          # modifiers: file-upload
           id: file-upload-23456dfbf
         comments: null
 - title:
@@ -396,8 +396,8 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
-          modifiers: file-upload
+          label: Attach document(s)
+          # modifiers: file-upload
           id: file-upload-3
         comments: null
     - label: Private notes
@@ -486,8 +486,8 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
-          modifiers: file-upload
+          label: Attach document(s)
+          # modifiers: file-upload
           id: file-upload-23456wer
         comments: null
     notice:
@@ -570,8 +570,8 @@ content:
     button:
       label: Add comment
     fileupload:
-      label: Upload attachment
-      modifiers: file-upload
+      label: Attach document(s)
+      # modifiers: file-upload
       id: file-upload-2
     comments: null
 - title:
@@ -683,8 +683,8 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
-          modifiers: file-upload
+          label: Attach document(s)
+          # modifiers: file-upload
           id: file-upload-3
         comments:
         - byline:
@@ -805,8 +805,8 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
-          modifiers: file-upload
+          label: Attach document(s)
+          # modifiers: file-upload
           id: file-upload-23456tyuktyuk
         comments: null
     notice:
@@ -889,8 +889,8 @@ content:
     button:
       label: Add comment
     fileupload:
-      label: Upload attachment
-      modifiers: file-upload
+      label: Attach document(s)
+      # modifiers: file-upload
       id: file-upload-3
     comments: null
 - title:
@@ -998,8 +998,8 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
-          modifiers: file-upload
+          label: Attach document(s)
+          # modifiers: file-upload
           id: file-upload-3dfghdfgh
         comments: null
     - label: Private notes
@@ -1088,8 +1088,8 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
-          modifiers: file-upload
+          label: Attach document(s)
+          # modifiers: file-upload
           id: file-upload-23456asasdf
         comments: null
 - title:
@@ -1198,8 +1198,8 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
-          modifiers: file-upload
+          label: Attach document(s)
+          # modifiers: file-upload
           id: file-upload-3dsfsdfgsdfgsdfgs
         comments: null
     - label: Private notes
@@ -1289,8 +1289,8 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
-          modifiers: file-upload
+          label: Attach document(s)
+          # modifiers: file-upload
           id: filsdae-upload-3asfa
         comments: null
 - title:
@@ -1401,8 +1401,8 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
-          modifiers: file-upload
+          label: Attach document(s)
+          # modifiers: file-upload
           id: asdfafile-upload-3
         comments: null
     - label: Private notes
@@ -1491,8 +1491,8 @@ content:
         button:
           label: Add comment
         fileupload:
-          label: Upload attachment
-          modifiers: file-upload
+          label: Attach document(s)
+          # modifiers: file-upload
           id: fwertwile-upload-23456
         comments: null
 progress:

@@ -27,12 +27,12 @@ const ContentRepeater = props => {
   return (
     <section className={classes} id={props.permalink}>
       {props.title && <Heading {...props.title}/>}
-      <div className={props.transparent ? null : 'comment-answer'}>
+      <div className={props.transparent ? null : 'comment-answer'} data-comment-block>
         <Longform {...props}/>
         {props.condition && <article><Textarea {...props.condition}/><Button /></article>}
         {props.supporting && <Longform {...props.supporting}/>}
         {props.textarea && <Textarea {...props.textarea}/>}
-        {props.booleans && <RadioCheck {...props.booleans}/>}
+        {props.booleans && <div className='float-right' data-boolean><RadioCheck {...props.booleans}/></div>}
         {props.attachment && <FileUpload {...props.attachment}/>}
         <Grid>{props.documents && <GridCol className='column-half'>{props.heading && <Heading {...props.heading}/>}<List list={props.documents} /></GridCol>}{props.references && <GridCol className='column-half align-right'><Heading {...props.references.heading}/><Heading {...props.references.link}/>{props.references.tags && <Tags tags={props.references.tags}/>}</GridCol>}</Grid>
         {collapsible}
