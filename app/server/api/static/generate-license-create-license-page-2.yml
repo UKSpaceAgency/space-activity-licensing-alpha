@@ -121,7 +121,7 @@ content:
   - contentType: longform
     text: 2.6 The Licensee shall take all necessary action to ensure that the Insurance Policy continues in force and is valid and enforceable, and the Licensee shall do nothing that would enable the insurer to avoid any such policy.
   - contentType: panel
-    content: "<p><span class='close float-right'><a href='#'><b>&times;</b></a></span>This is a licence condition that was input in the insurance section of the application.  This is a licence condition that was input in the insurance section of the application.  This is a licence condition that was input in the insurance section of the application.</p><p><a href='#'>Create new version of licence condition ></a></p>"
+    content: "<p><span class='close float-right ml-5 heading-large spacing-top--flush'><b>&times;</b></span>This is a licence condition that was input in the insurance section of the application.  This is a licence condition that was input in the insurance section of the application.  This is a licence condition that was input in the insurance section of the application.</p><p><a href='#'>Create new version of licence condition ></a></p>"
     modifiers: spacing--single box
   - contentType: longform
     text: 3. Additional Conditions including Indemnities
