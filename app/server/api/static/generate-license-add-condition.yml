@@ -48,9 +48,10 @@ content:
     label: Licence condition
     required: true
     supporting: This response will be available for use in the license generation phase
+    value: This is a licence condition that was input in the insurance section of the application. This is a licence condition that was input in the Technical section of the application. This is a licence condition that was input in the Technical section of the application.
     modifiers: form-group--accent form-group--empty
     button:
-      url: '/homepage/launch-license'
+      url: '/generate-license/create-license'
       label: Add license condition
       modifiers: spacing-top--single
   divider: true
