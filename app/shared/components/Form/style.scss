@@ -37,3 +37,11 @@
     border: 1px solid $black;
   }
 }
+
+.form-group--empty {
+  textarea:invalid {
+    & + .button {
+      display: none;
+    }
+  }
+}
