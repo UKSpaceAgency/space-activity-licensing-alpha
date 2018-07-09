@@ -20,7 +20,7 @@ content:
   title:
     title: Apply for a spaceflight activity licence
   synopsis:
-    text: "<p>Driven by the UK Government’s commitment to space industry growth, the UK will become a launching state by 2020. As part of this the UK Space Agency has developed a digital service for space operators to apply for space activity licences online.</p><p>Already registered? <a href='#'>Log in</a></p>"
+    text: "<p>Driven by the UK Government’s commitment to space industry growth, the UK will become a launching state by 2020. As part of this the UK Space Agency has developed a digital service for space operators to apply for space activity licences online.</p><p>Already registered? <br/><a class='button button--secondary' href='#'>Log in</a></p>"
   heroLinks:
     modifiers: hero-links--light hero-links--top spacing-top--single
     heading:
@@ -71,6 +71,8 @@ content:
   modifiers: heading-large spacing-bottom--single
 - contentType: longform
   text: Any UK national or UK company intending to launch or procure the launch of a space object, operate a space object or carry out any other activity in outer space.
+- contentType: longform
+  text: <p>Already registered? <a href='#'>Log in</a></p>
 - contentType: listing
   columns: 2
   modifiers: spacing-top--single
@@ -147,27 +149,27 @@ content:
       modifiers: button--secondary disabled
       gridModifier: column-full
       disabled: true
-- contentType: heading
-  type: h2
-  text: Ready to apply?
-  modifiers: heading-large spacing-bottom--single
-- contentType: longform
-  text: If you feel like you already know which licence you need to apply for then click below to begin.
-- contentType: buttongroup
-  buttons:
-  - url: "/apply/"
-    label: Start now
-    modifiers: button-start mr-5
-  - url: "/sign-in/"
-    label: Log in
-    modifiers: button--secondary
-- contentType: heading
-  type: p
-  text: All information submitted will be stored on a government secure<br/> server and only accessible through multi-factored authentication.
-  modifiers: font-xsmall
-- contentType: heading
-  type: p
-  text: "<a href='#'>Still not sure if you need a licence? Take our suitability questionnaire </a>"
+# - contentType: heading
+#   type: h2
+#   text: Ready to apply?
+#   modifiers: heading-large spacing-bottom--single
+# - contentType: longform
+#   text: If you feel like you already know which licence you need to apply for then click below to begin.
+# - contentType: buttongroup
+#   buttons:
+#   - url: "/apply/"
+#     label: Start now
+#     modifiers: button-start mr-5
+#   - url: "/sign-in/"
+#     label: Log in
+#     modifiers: button--secondary
+# - contentType: heading
+#   type: p
+#   text: All information submitted will be stored on a government secure<br/> server and only accessible through multi-factored authentication.
+#   modifiers: font-xsmall
+# - contentType: heading
+#   type: p
+#   text: "<a href='#'>Still not sure if you need a licence? Take our suitability questionnaire </a>"
 - contentType: heading
   type: h2
   text: Need more information?
