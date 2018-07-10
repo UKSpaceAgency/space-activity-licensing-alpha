@@ -139,12 +139,9 @@ let getRoutes = store => {
         <Route path='machine-learning-2' component={withFallback(PageFlatImage)} onEnter={getPage} slug='ml-2' />
         <Route path='machine-learning-3' component={withFallback(PageFlatImage)} onEnter={getPage} slug='ml-3' />
       </Route>
-
       <Route path='caa'>
         <IndexRoute component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='operator-technical-questions' />
-
       </Route>
-
       <Route path='operator'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='operator-overview'/>
         <Route path='engineer-email' component={withFallback(PageFlatImage)} onEnter={getPage} slug='engineer-email-technical' />
@@ -173,6 +170,11 @@ let getRoutes = store => {
       </Route>
       <Route path='generate-license'>
         <IndexRoute component={withFallback(PageContainer)} onEnter={getPage} slug='generate-license' />
+        <Route path='add-condition' component={withFallback(PageGranularTwoColContainer)} onEnter={getPage} slug='generate-license-add-condition' />
+        <Route path='create-license' component={withFallback(PageContainer)} onEnter={getPage} slug='generate-license-create-license' />
+        <Route path='create-license-page-1' component={withFallback(PageContainer)} onEnter={getPage} slug='generate-license-create-license-page-1' />
+        <Route path='add-conditions-multiple' component={withFallback(PageContainer)} onEnter={getPage} slug='generate-license-add-conditions-multiple' />
+        <Route path='create-license-page-incorporated' component={withFallback(PageContainer)} onEnter={getPage} slug='generate-license-create-license-page-2' />
       </Route>
       <Route path='*' component={withFallback(PageContainer)} onEnter={getPage} slug='no-match' />
     </Route>

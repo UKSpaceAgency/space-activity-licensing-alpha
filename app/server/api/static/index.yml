@@ -210,6 +210,25 @@ content:
   - text: Application overview - all sections complete - create licence CTA at top of page
     url: /generate-license
 
+
+- contentType: heading
+  text: "Generate licence sequence:"
+  type: p
+  modifiers: spacing-top--large spacing-bottom--single heading-medium
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Add license condition to completed questions
+    url: /generate-license/add-condition
+  - text: Create license page
+    url: /generate-license/create-license
+  - text: License forms
+    url: /generate-license/create-license-page-1/
+  - text: Add licence conditions
+    url: /generate-license/add-conditions-multiple
+  - text: Incorporated license page
+    url: /generate-license/create-license-page-incorporated
+
 - divider: true
 - contentType: heading
   text: CAA testing loop

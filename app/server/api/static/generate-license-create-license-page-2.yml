@@ -120,11 +120,9 @@ content:
     text: 2.5 The Licensee shall immediately notify the Secretary of State of any event or other occurrence which is likely to give rise to a claim under the Insurance Policy. 
   - contentType: longform
     text: 2.6 The Licensee shall take all necessary action to ensure that the Insurance Policy continues in force and is valid and enforceable, and the Licensee shall do nothing that would enable the insurer to avoid any such policy.
-  - contentType: button
-    name: add
-    url: "/generate-license/add-conditions-multiple"
-    label: Add license condition
-    modifiers: spacing-bottom--single
+  - contentType: panel
+    content: "<p><span class='close float-right ml-5 heading-large spacing-top--flush'><b>&times;</b></span>This is a licence condition that was input in the insurance section of the application.  This is a licence condition that was input in the insurance section of the application.  This is a licence condition that was input in the insurance section of the application.</p><p><a href='#'>Create new version of licence condition ></a></p>"
+    modifiers: spacing--single box
   - contentType: longform
     text: 3. Additional Conditions including Indemnities
   - contentType: longform

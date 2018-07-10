@@ -49,4 +49,14 @@
       margin-top: 0;
     }
   }
+
+  &.is-sticky {
+    position: sticky;
+    border-top: 1px solid $grey-2;
+    bottom: 0;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    background-color: $white;
+  }
 }

@@ -29,3 +29,19 @@
     width: 5em;
   }
 }
+
+.form-group {
+  &.form-group--accent {
+    padding: 15px;
+    background-color: $white;
+    border: 1px solid $black;
+  }
+}
+
+.form-group--empty {
+  textarea:invalid {
+    & + .button {
+      display: none;
+    }
+  }
+}

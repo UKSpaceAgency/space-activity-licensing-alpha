@@ -1,0 +1,32 @@
+---
+contentType: page
+slug: sign-in
+head:
+  contentType: head
+  title: Create your license | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Log in
+      url: "/sign-in"
+breadcrumb:
+- contentType: link
+  text: Space Agency UK
+  url: "/"
+content:
+- contentType: hero
+  modifiers: spacing-bottom--flush
+  title:
+    title: Create license
+- contentType: heading
+  type: h2
+  text: Operations license
+  modifiers: heading-large spacing-top--flush
+- contentType: longform
+  text: This will be some copy explaining that by generating the licence the system will use an ‘Operations licence’ template and the user will be able to customise it by choosing and inserting licence conditions that have been input into the licence application.
+- contentType: buttongroup
+  buttons:
+  - url: "/generate-license/create-license-page-1/"
+    label: Generate licence
+    modifiers: button-start

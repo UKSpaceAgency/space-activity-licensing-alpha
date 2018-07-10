@@ -6,10 +6,10 @@ const Longform = props => {
   let classes = classNames('long-form', props.className, props.modifiers)
 
   return (
-    <article>
+    <React.Fragment>
       {intro && <p className={props.modifiers || 'lede'}>{intro}</p>}
       {text && <div className={classes} dangerouslySetInnerHTML={{__html: text}} />}
-    </article>
+    </React.Fragment>
   )
 }
 
