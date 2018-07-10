@@ -49,64 +49,40 @@ content:
   - text: Emergency operations, if you need to move your satellite to avoid collision
 - contentType: heading
   type: h2
-  text: Application form categories
+  text: Are you new to satellite licensing?
   modifiers: heading-large spacing-bottom--single
 - contentType: longform
-  text: These are the categories you will need to complete as part of the application process. Please find out more information below.
-- contentType: accordion
-  list:
-  - heading: Eligibility
-    content: These are a set of high level technical questions that will cover information regarding your mission and activities. You won’t be able to access the questions in the rest of the form until you have submitted them and we have provided you with our assessment.
-    className: heading-small
-  - heading: Technical
-    content: This is the largest part of the application form. The question sets will go into significant detail about your payload/s, platform, activities and mission, including launch. You should expect feedback on your answers and to submit more information as you go.
-    className: heading-small
-  - heading: Applicant details
-    content: This is information about you and the key members of your organisation involved in applying for a licence.
-    className: heading-small
-  - heading: Your mission
-    content: Provide information and an overview of the type of spaceflight mission you want to undertake and how you are going to conduct it.
-    className: heading-small
-  - heading: Your organisation & Finance
-    content: You need to provide your company’s annual report and any information that showcases your financial security to be able to cover the missions costs.
-    className: heading-small
-  - heading: Insurance
-    content: To be able to send a satellite to space you will need to pay a premium and gain third party liability cover for for your mission. We will ask for proof of your cover.
-    className: heading-small
-  - heading: Frequency
-    content: Include your ITU filings as part of your application to prove you have registered your frequency band/s. This could take a number of years to secure.
-    className: heading-small
+  text: Find out more about the application process, if you haven’t applied before or an infrequent applicant, it would be beneficial to learn and understand what is required.
+- contentType: button
+  url: "#"
+  label: Learn more
+  modifiers: button--secondary
 - contentType: heading
   type: h2
-  text: What you will need to secure during your application
-  modifiers: heading-large spacing-bottom--single spacing-top--large
+  text: Are you an experienced applicant?
+  modifiers: heading-large spacing-bottom--single
 - contentType: longform
-  text: These are some of the activities and processes you will need to be undertake for a licence to be granted. You can do this in parallel with your licence application.
-- contentType: list
-  modifiers: list-bullet
-  list:
-  - text: Launch state and provider
-  - text: Launch service agreement
-  - text: Export licences
-  - text: Insurance
-  - text: ITU filings - spectrum
-- contentType: longform
-  text: We want to make sure you are aware of these items and processes required as part of an application. So please complete these questions prior to registering.
+  text: To begin a new application you will need to register or login
 - contentType: buttongroup
   buttons:
-  - url: "/apply/"
-    label: Start now
+  - url: "/apply/register"
+    label: Register now
     modifiers: button-start mr-5
-  - url: "/sign-in/"
+  - url: "#"
     label: Log in
     modifiers: button--secondary
-- contentType: heading
-  type: p
+- contentType: longform
   text: All information submitted will be stored on a government secure server and only accessible through multi-factored authentication.
-  modifiers: font-xsmall
 - contentType: heading
-  type: p
-  text: "<a href='#'>Still not sure if you need a licence? Take our suitability questionnaire </a>"
+  type: h2
+  text: Application process
+  modifiers: heading-large spacing-bottom--single
+- contentType: longform
+  text: The application process for a space activity licence is unique to the industry due to the complexity of assessing the viability or an operator’s mission.
+- contentType: button
+  url: "#"
+  label: Learn more
+  modifiers: button--secondary
 - contentType: heading
   type: h2
   text: Need more information?
