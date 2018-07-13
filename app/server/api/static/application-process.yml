@@ -33,6 +33,8 @@ content:
       list:
       - url: /homepage/guidance-for-applicants
         text: Application guidance
+      - url: /homepage/new-to-licensing
+        text: New to satellite licensing?
       - url: /homepage/satellite-operator-license
         text: Register for a space  activity licence
 - contentType: progressList

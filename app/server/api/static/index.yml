@@ -32,6 +32,9 @@ content:
   - text: Guidance for applicants
     url: /homepage/guidance-for-applicants
     modifiers: indented
+  - text: New to satellite licensing?
+    url: /homepage/new-to-licensing
+    modifiers: indented
   - text: Pre-application - intelligent questions
     url: /apply/
   # - url: /apply/page-2

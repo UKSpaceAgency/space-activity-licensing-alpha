@@ -1,0 +1,133 @@
+---
+contentType: page
+slug: sign-in
+head:
+  contentType: head
+  title: Confirmation of your registration | UKSA
+masthead:
+  logo: Govuk pattern
+  utility:
+    links:
+    - text: Log in
+      url: "/sign-in"
+breadcrumb:
+- contentType: link
+  text: Space Agency UK
+  url: "/homepage"
+- contentType: link
+  text: Satellite operator licence
+content:
+- contentType: hero
+  modifiers: spacing-bottom--flush
+  title:
+    title: New to satellite licensing?
+  heroLinks:
+    modifiers: hero-links--light hero-links--top spacing-top--single
+    heading:
+      text: Spaceflight licensing
+      type: h3
+      modifiers: heading-small spacing--tight
+    links:
+      list:
+      - url: /homepage/application-process
+        text: Application process
+      - url: /homepage/guidance-for-applicants
+        text: Application guidance
+      - url: /homepage/satellite-operator-license
+        text: Register for a space  activity licence
+- contentType: heading
+  type: h2
+  text: First time applying for a licence?
+  modifiers: heading-large spacing-top--flush spacing-bottom--single
+- contentType: longform
+  text: The application process can be quite long and will require a high level of detail about your mission. The process is modular, therefore you will be working on multiple sections at one time.
+- contentType: longform
+  text: The sections are broken out below -
+- contentType: list
+  modifiers: list-bullet
+  list:
+  - text: Eligibility
+  - text: Applicant details
+  - text: Technical
+  - text: Your mission
+  - text: Your organisation & finance
+  - text: Insurance
+- contentType: heading
+  type: h2
+  text: Key processes to be aware of?
+  modifiers: heading-large spacing-bottom--single
+- contentType: longform
+  text: "During an application there are processes which are complex and require a lot of time to complete. Some of these are not part of the spaceflight activity application process and you will need to complete them in parallel. Listed below are the key points:"
+- contentType: infoGrid
+  grid:
+  - contentType: heading
+    text: <h3 class='heading-medium'>3rd Party liability insurance</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis odio, euismod vel semper et, lobortis at eros.</p><p><a href='#'>Read more</a></p>
+    type: p
+    modifiers: heading-small
+  - contentType: heading
+    text: <h3 class='heading-medium'>Export licence</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis odio, euismod vel semper et, lobortis at eros.</p><p><a href='#'>Read more</a></p>
+    type: p
+    modifiers: heading-small
+  - contentType: heading
+    text: <h3 class='heading-medium'>Procurement</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis odio, euismod vel semper et, lobortis at eros.</p><p><a href='#'>Read more</a></p>
+    type: p
+    modifiers: heading-small
+- contentType: infoGrid
+  grid:
+  - contentType: heading
+    text: <h3 class='heading-medium'>Launch services</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis odio, euismod vel semper et, lobortis at eros.</p><p><a href='#'>Read more</a></p>
+    type: p
+    modifiers: heading-small
+  - contentType: heading
+    text: <h3 class='heading-medium'>ITU filings</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis odio, euismod vel semper et, lobortis at eros.</p><p><a href='#'>Read more</a></p>
+    type: p
+    modifiers: heading-small
+  - contentType: heading
+    text: <h3 class='heading-medium'>Payment</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis odio, euismod vel semper et, lobortis at eros.</p><p><a href='#'>Read more</a></p>
+    type: p
+    modifiers: heading-small
+- contentType: heading
+  type: h2
+  text: Application process
+  modifiers: heading-large spacing-bottom--single
+- contentType: longform
+  text: The application process for a space activity licence is unique to the industry due to the complexity of assessing the viability or an operator’s mission.
+- contentType: buttongroup
+  buttons:
+  - url: /homepage/application-process
+    label: Learn more
+    modifiers: button--secondary
+- contentType: longform
+  text: We want to make sure you are aware of these items and processes required as part of an application. So please complete these questions prior to registering.
+- contentType: buttongroup
+  buttons:
+  - url: /apply/
+    label: Pre-registration checklist
+    modifiers: button-start
+- contentType: longform
+  text: All information submitted will be stored on a government secure server and only accessible through multi-factored authentication.
+- contentType: longform
+  text: <a href='#'>Still not sure if you need a licence? Take our suitability questionnaire</a>
+- contentType: heading
+  type: h2
+  text: Need more information?
+  modifiers: heading-large spacing-bottom--single
+- contentType: longform
+  text: You can get in contact with us if you want to learn more about space activity licensing or if you want to set up an initial conversation.
+- contentType: heading
+  text: UKSA Contact
+  type: h2
+  modifiers: heading-medium border bottom-border padding-bottom--single
+- contentType: heading
+  text: "phone: 0117 801735"
+  type: p
+- contentType: heading
+  text: "email: <a href='#'>regulation@uksa.gov.uk</a>"
+  type: p
+- contentType: heading
+  text: "address: UK Space Agency, Polaris House, Swindon, SW1 2BA"
+  type: p
+- contentType: heading
+  text: If the service goes offline then please get in touch with your case manager using the phone number or email and they will be able to progress with your application.
+  type: p
+  modifiers: font-xsmall
