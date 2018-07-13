@@ -33,6 +33,8 @@ content:
         text: Application process
       - url: /homepage/guidance-for-applicants
         text: Application guidance
+      - url: /homepage/satellite-operator-license
+        text: Register for a space  activity licence
 - contentType: heading
   type: h2
   text: First time applying for a licence?
