@@ -51,6 +51,9 @@ content:
     value: This is a licence condition that was input in the insurance section of the application. This is a licence condition that was input in the Technical section of the application. This is a licence condition that was input in the Technical section of the application.
     modifiers: form-group--accent form-group--empty
     button:
+      data:
+        key: data-edit-condition
+        value: true
       url: '/generate-license/create-license'
       label: Add license condition
       modifiers: spacing-top--single
